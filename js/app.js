@@ -345,6 +345,26 @@ const App = (function() {
 
     // --- Study Material ---
 
+    function getYouTubeEmbedUrl(url) {
+        try {
+            const u = new URL(url);
+            if (u.hostname.includes('youtube.com') || u.hostname.includes('youtu.be')) {
+                let videoId = null;
+                if (u.hostname.includes('youtu.be')) {
+                    videoId = u.pathname.slice(1).split('/')[0].split('?')[0];
+                } else {
+                    videoId = u.searchParams.get('v');
+                }
+                if (videoId) {
+                    return 'https://www.youtube.com/embed/' + videoId;
+                }
+            }
+        } catch (e) {
+            // Invalid URL, return original
+        }
+        return null;
+    }
+
     function loadStudyMaterial(unitId) {
         const unitNum = parseInt(unitId);
         const unitData = LENGUAJE_DATA.videos.find(v => parseInt(v.unit) === unitNum);
@@ -362,25 +382,41 @@ const App = (function() {
         let html = '<div class="study-info">';
         html += '<p>A continuación se presentan los videos de apoyo para el estudio de esta unidad. Se recomienda revisarlos antes de realizar el cuestionario.</p>';
         html += '<h4 class="study-section-title">Videos de Apoyo</h4>';
-        html += '<ul class="video-list">';
+        html += '<div class="video-grid">';
 
         for (const video of videos) {
-            html += `
-                <li class="video-item">
-                    <a href="${video.url}" target="_blank" rel="noopener noreferrer">
-                        <div class="video-icon">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            const embedUrl = getYouTubeEmbedUrl(video.url);
+            if (embedUrl) {
+                html += `
+                    <div class="video-card">
+                        <div class="video-embed-wrapper">
+                            <iframe src="${embedUrl}" 
+                                title="${video.topic}" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
                         </div>
-                        <div class="video-info">
-                            <div class="video-topic">${video.topic}</div>
-                            <div class="video-url">${video.url}</div>
+                        <div class="video-card-info">
+                            <div class="video-card-topic">${video.topic}</div>
                         </div>
-                    </a>
-                </li>
-            `;
+                    </div>
+                `;
+            } else {
+                // Fallback for non-YouTube URLs
+                html += `
+                    <div class="video-card">
+                        <div class="video-card-info">
+                            <a href="${video.url}" target="_blank" rel="noopener noreferrer" class="video-external-link">
+                                <span class="video-card-topic">${video.topic}</span>
+                            </a>
+                        </div>
+                    </div>
+                `;
+            }
         }
 
-        html += '</ul></div>';
+        html += '</div></div>';
         els.studyContent.innerHTML = html;
     }
 

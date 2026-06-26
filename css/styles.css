@@ -407,6 +407,74 @@ body {
     margin-top: 0;
 }
 
+/* --- Embedded Video Grid --- */
+.video-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-card {
+    background: var(--color-surface-alt);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.video-embed-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    background: #000;
+}
+
+.video-embed-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-card-info {
+    padding: 12px 16px;
+}
+
+.video-card-topic {
+    font-size: 0.88rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--color-text);
+}
+
+.video-external-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--color-primary);
+    padding: 4px 0;
+}
+
+.video-external-link:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+}
+
+@media (min-width: 900px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 /* --- Quiz --- */
 .quiz-start {
     text-align: center;
