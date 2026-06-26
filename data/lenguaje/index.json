@@ -1,0 +1,26 @@
+[
+  {
+    "unit": "1",
+    "name": "Comunicación"
+  },
+  {
+    "unit": "2",
+    "name": "Lenguaje y Signo Lingüístico"
+  },
+  {
+    "unit": "3",
+    "name": "Ortografía"
+  },
+  {
+    "unit": "4",
+    "name": "Gramática y Vocabulario"
+  },
+  {
+    "unit": "5",
+    "name": "Exposición Oral y Escrita"
+  },
+  {
+    "unit": "6",
+    "name": "Comprensión Lectora"
+  }
+]

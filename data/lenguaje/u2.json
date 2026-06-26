@@ -1,0 +1,446 @@
+{
+  "unit": "2",
+  "name": "Lenguaje y Signo Lingüístico",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cómo se define el \"lenguaje\"?",
+      "options": [
+        "Como el idioma oficial de un país.",
+        "Como la capacidad universal e innata del ser humano para comunicarse mediante sistemas de signos.",
+        "Como la forma individual en que una persona articula las palabras.",
+        "Como el conjunto de reglas gramaticales de una región."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "¿Qué es la \"lengua\" o \"idioma\"?",
+      "options": [
+        "El órgano físico utilizado para hablar.",
+        "El sistema de signos verbales y reglas creado por una comunidad humana para comunicarse.",
+        "La variación geográfica de un sonido.",
+        "El uso particular que cada individuo hace de las palabras."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "El término \"habla\" se refiere a:",
+      "options": [
+        "Un sistema abstracto de comunicación.",
+        "La realización concreta, física e individual que cada hablante hace de la lengua.",
+        "El conjunto de modismos de una región determinada.",
+        "El estudio científico de los sonidos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "¿Qué es un dialecto?",
+      "options": [
+        "Una lengua muerta que ya no se utiliza.",
+        "Un error gramatical grave cometido por personas sin educación.",
+        "La variante regional o geográfica de una misma lengua.",
+        "Un nivel de lenguaje utilizado exclusivamente por científicos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "question": "¿Quién propuso la teoría básica del \"signo lingüístico\"?",
+      "options": [
+        "Aristóteles",
+        "Ferdinand de Saussure",
+        "Gabriel García Márquez",
+        "Miguel de Cervantes"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "question": "El signo lingüístico está compuesto indisolublemente por dos caras o elementos:",
+      "options": [
+        "Emisor y receptor",
+        "Sintaxis y morfología",
+        "Significante y significado",
+        "Lengua y habla"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "question": "Dentro del signo lingüístico, el \"significante\" es:",
+      "options": [
+        "La idea o concepto mental que tenemos de algo.",
+        "La huella psíquica del sonido, la cadena de letras o fonemas que forman la palabra.",
+        "El objeto real al que se hace referencia en el mundo.",
+        "La intención del hablante."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "question": "En el signo lingüístico, el \"significado\" corresponde a:",
+      "options": [
+        "El conjunto de sonidos.",
+        "El concepto, la idea o imagen mental que asociamos al significante.",
+        "El objeto físico que se puede tocar.",
+        "La escritura en papel."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "question": "¿Qué es el \"referente\" en la teoría del signo?",
+      "options": [
+        "La persona que recibe el mensaje.",
+        "La regla ortográfica aplicada a la palabra.",
+        "La realidad material o extralingüística a la que remite el signo lingüístico.",
+        "La sílaba tónica de una palabra."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 10,
+      "question": "La característica del signo lingüístico llamada \"arbitrariedad\" significa que:",
+      "options": [
+        "No hay una relación natural ni lógica entre el significante y el significado; es un acuerdo social.",
+        "Las palabras cambian de forma todos los días de manera aleatoria.",
+        "Los signos lingüísticos deben escribirse en orden alfabético.",
+        "El emisor decide el significado oculto de cada palabra."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "La \"linealidad\" del signo lingüístico implica que:",
+      "options": [
+        "Se puede pronunciar una oración completa en un solo instante.",
+        "Los sonidos (fonemas) se emiten o se escriben uno detrás de otro, formando una cadena en el tiempo y el espacio.",
+        "Las palabras deben escribirse siempre en líneas rectas.",
+        "El significado nunca cambia con el tiempo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "question": "El concepto de \"inmutabilidad\" del signo lingüístico indica que:",
+      "options": [
+        "La lengua cambia constantemente de un día para otro.",
+        "Un individuo no puede cambiar el significante de una palabra a voluntad; el signo es impuesto por la comunidad.",
+        "Las lenguas mueren y desaparecen rápidamente.",
+        "Las reglas gramaticales nunca se actualizan en los diccionarios."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "question": "Por otro lado, la \"mutabilidad\" del signo lingüístico establece que:",
+      "options": [
+        "Un hablante puede inventar idiomas nuevos cuando quiera.",
+        "A largo plazo, el paso del tiempo y la evolución social provocan alteraciones en los signos de la lengua.",
+        "Los sonidos de la naturaleza pueden ser traducidos al español.",
+        "El significado es independiente de la historia."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "question": "La \"doble articulación\" del lenguaje humano consiste en que el mensaje puede dividirse en:",
+      "options": [
+        "Emisor y receptor.",
+        "Denotación y connotación.",
+        "Unidades con significado (morfemas/monemas) y unidades sin significado propio pero que distinguen significado (fonemas).",
+        "Letras mayúsculas y minúsculas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "question": "El lenguaje verbal es aquel que:",
+      "options": [
+        "Utiliza exclusivamente gestos y posturas corporales.",
+        "Se basa en el uso de palabras, ya sea de forma oral o escrita.",
+        "Emplea únicamente imágenes para transmitir mensajes.",
+        "Utiliza banderas y señales de humo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "question": "Un abrazo, una sonrisa o fruncir el ceño son ejemplos de lenguaje:",
+      "options": [
+        "Auditivo",
+        "Verbal",
+        "Metalingüístico",
+        "Gestual"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 17,
+      "question": "El lenguaje auditivo no verbal se manifiesta mediante:",
+      "options": [
+        "Fotografías y mapas.",
+        "Sonidos que no son palabras, como una sirena de ambulancia o un timbre escolar.",
+        "Libros impresos y revistas.",
+        "Mímica y lenguaje de señas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "¿Cuál de los siguientes es un ejemplo de lenguaje visual iconográfico?",
+      "options": [
+        "Una conversación telefónica.",
+        "El llanto de un bebé.",
+        "Los emojis en una aplicación de mensajería o los iconos del clima.",
+        "La lectura en voz alta de un poema."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "question": "En el estudio de los signos, un \"símbolo\" se caracteriza por:",
+      "options": [
+        "Ser una copia fotográfica exacta de la realidad.",
+        "Representar una idea abstracta mediante una convención social (por ejemplo, la paloma blanca para la paz).",
+        "Anticipar un evento natural, como las nubes oscuras antes de llover.",
+        "Ser idéntico para todos los seres humanos desde su nacimiento."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "Una \"señal\" tiene como principal función:",
+      "options": [
+        "Decorar un ambiente.",
+        "Relatar una historia.",
+        "Avisar, informar u ordenar para provocar una reacción inmediata en el receptor (ej. señal de \"Alto\").",
+        "Expresar los sentimientos del autor."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "question": "¿Qué es la denotación?",
+      "options": [
+        "El uso de groserías en una oración.",
+        "El significado figurado que se le da a una palabra.",
+        "El significado literal, exacto, universal y objetivo de una palabra, tal como aparece en el diccionario.",
+        "El acento prosódico de la palabra."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 22,
+      "question": "¿Qué es la connotación?",
+      "options": [
+        "El significado literal de la palabra.",
+        "El significado figurado, subjetivo o cultural que se añade a una palabra dependiendo del contexto y la intención.",
+        "Una regla especial de acentuación de palabras agudas.",
+        "Un error de pronunciación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "Si en un texto de zoología se lee: \"El zorro es un mamífero carnívoro de la familia de los cánidos\", se está utilizando un lenguaje:",
+      "options": [
+        "Connotativo",
+        "Denotativo",
+        "Coloquial",
+        "Poético"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "question": "Si alguien dice: \"Ese vendedor es un zorro, no te dejes engañar\", la palabra \"zorro\" tiene un significado:",
+      "options": [
+        "Científico",
+        "Literario",
+        "Connotativo (astuto)",
+        "Denotativo"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 25,
+      "question": "Los \"niveles de la lengua\" se refieren a:",
+      "options": [
+        "Los grados escolares donde se enseña gramática.",
+        "Las diferentes formas o registros en que se usa el idioma dependiendo de la situación, educación o contexto social del hablante.",
+        "Los niveles de volumen de la voz (alto, medio, bajo).",
+        "Las lenguas más habladas del mundo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "question": "El nivel \"estándar\" de la lengua se caracteriza por:",
+      "options": [
+        "Ser utilizado solo por pandillas.",
+        "Ser incomprensible para la mayoría.",
+        "Ser un lenguaje medio, comprensible por casi todos los hablantes del idioma y que sigue las normas básicas sin ser rebuscado.",
+        "Contener abundantes errores ortográficos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "question": "El nivel de lengua que utilizamos en la vida diaria, con la familia y amigos, que es espontáneo y expresivo, se denomina:",
+      "options": [
+        "Técnico-científico",
+        "Literario",
+        "Culto",
+        "Coloquial o familiar"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 28,
+      "question": "El nivel \"culto\" de la lengua destaca por:",
+      "options": [
+        "El uso excesivo de palabras mal pronunciadas.",
+        "La riqueza de vocabulario, precisión sintáctica, correcta pronunciación y rigor lógico.",
+        "Limitarse a frases cortas y gestos.",
+        "Ser exclusivo del ámbito de la medicina."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 29,
+      "question": "Un lenguaje con graves alteraciones gramaticales, fonéticas, pobreza léxica y que a menudo recurre a vulgarismos corresponde al nivel:",
+      "options": [
+        "Estándar",
+        "Vulgar o popular bajo",
+        "Coloquial",
+        "Técnico"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "question": "El lenguaje \"profesional\" o \"técnico-científico\" se distingue por el uso de:",
+      "options": [
+        "Figuras poéticas y rimas.",
+        "Refranes y dichos populares.",
+        "Tecnicismos, precisión absoluta y términos específicos de una ciencia, oficio o profesión.",
+        "Muletillas constantes (\"este...\", \"o sea...\")."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 31,
+      "question": "La \"jerga\" o \"argot\" se define como:",
+      "options": [
+        "El idioma universal de las computadoras.",
+        "Un vocabulario especial utilizado por los miembros de un grupo social o profesión específica que los distingue del resto.",
+        "El lenguaje utilizado en los cuentos infantiles.",
+        "El uso de extranjerismos innecesarios."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 32,
+      "question": "El nivel \"literario\" de la lengua tiene como objetivo:",
+      "options": [
+        "Explicar el funcionamiento de una máquina.",
+        "Resumir noticias en un periódico.",
+        "Crear belleza a través de la palabra, utilizando figuras retóricas y cuidando intensamente la forma del mensaje.",
+        "Dar órdenes estrictas a subordinados."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 33,
+      "question": "¿Qué disciplina lingüística estudia el significado de las palabras, sus cambios y combinaciones?",
+      "options": [
+        "La fonética",
+        "La semántica",
+        "La ortografía",
+        "La estilística"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "question": "La disciplina encargada de estudiar la estructura interna de las palabras, sus variaciones y la forma en que se construyen (raíces, prefijos, sufijos) es:",
+      "options": [
+        "La morfología",
+        "La fonología",
+        "La sintaxis",
+        "La lexicología"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 35,
+      "question": "La disciplina que estudia el orden, la relación y las funciones de las palabras o sintagmas dentro de una oración se llama:",
+      "options": [
+        "Gramática",
+        "Lexicología",
+        "Sintaxis",
+        "Semántica"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 36,
+      "question": "La \"fonética\" se encarga principalmente del estudio de:",
+      "options": [
+        "La escritura correcta de las letras.",
+        "Los significados ocultos de los poemas.",
+        "La naturaleza acústica y fisiológica de los sonidos del habla (cómo se producen físicamente).",
+        "La evolución histórica del español."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 37,
+      "question": "A diferencia de la fonética, la \"fonología\" estudia:",
+      "options": [
+        "Los fonemas como elementos del sistema lingüístico que tienen valor para diferenciar significados (abstracción del sonido).",
+        "Los errores al hablar en público.",
+        "Las partes de un texto argumentativo.",
+        "Las abreviaturas y acrónimos."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 38,
+      "question": "La \"lexicología\" es la rama de la lingüística que se centra en el estudio de:",
+      "options": [
+        "La pronunciación de vocales.",
+        "El vocabulario o léxico de un idioma desde el punto de vista general y de su origen.",
+        "Los signos de puntuación.",
+        "La formación de oraciones subordinadas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "La disciplina que estudia el conjunto de normas y reglas fundamentales que rigen el funcionamiento de una lengua es la:",
+      "options": [
+        "Semántica",
+        "Literatura",
+        "Gramática",
+        "Fonología"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 40,
+      "question": "¿Qué es la \"estilística\"?",
+      "options": [
+        "La disciplina que estudia las reglas de acentuación.",
+        "El estudio de los recursos expresivos, afectivos y estéticos que posee y utiliza el lenguaje, especialmente en la literatura.",
+        "La creación de diccionarios (lexicografía).",
+        "El análisis del ruido en la comunicación."
+      ],
+      "correct": 1
+    }
+  ]
+}

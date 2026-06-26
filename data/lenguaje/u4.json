@@ -1,0 +1,446 @@
+{
+  "unit": "4",
+  "name": "Gramática y Vocabulario",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuáles son los dos elementos fundamentales que constituyen una oración bimembre básica en español?",
+      "options": [
+        "Sustantivo y adjetivo.",
+        "Sujeto y predicado.",
+        "Sintagma y morfema.",
+        "Verbo y adverbio."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "¿Qué elemento de la oración se define como la persona, animal o cosa de quien se dice algo y que realiza o padece la acción del verbo?",
+      "options": [
+        "El predicado",
+        "El modificador directo",
+        "El sujeto",
+        "El núcleo verbal"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "El núcleo del predicado verbal siempre debe ser:",
+      "options": [
+        "Un verbo conjugado o en forma personal.",
+        "Un sustantivo propio.",
+        "Un pronombre personal.",
+        "Un verbo en infinitivo."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "¿Cómo se clasifica una oración que posee un solo verbo conjugado?",
+      "options": [
+        "Oración compuesta",
+        "Oración simple",
+        "Oración coordinada",
+        "Oración subordinada"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "Las oraciones que están formadas por dos o más verbos conjugados (o proposiciones) se denominan:",
+      "options": [
+        "Oraciones simples",
+        "Oraciones bimembres",
+        "Oraciones compuestas",
+        "Oraciones unimembres"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "question": "En el análisis sintáctico, ¿qué es un \"sintagma\"?",
+      "options": [
+        "Un error gramatical grave.",
+        "Una palabra inventada.",
+        "Una unidad lingüística formada por una palabra o grupo de palabras que cumple una función sintáctica determinada dentro de la oración.",
+        "El acento prosódico de la oración."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es la clase o categoría gramatical cuya función principal es nombrar personas, animales, objetos, ideas o sentimientos?",
+      "options": [
+        "El verbo",
+        "El adjetivo",
+        "El sustantivo",
+        "El adverbio"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "La categoría gramatical que acompaña al sustantivo para calificarlo, indicando una cualidad, rasgo o propiedad, se llama:",
+      "options": [
+        "Preposición",
+        "Adjetivo",
+        "Conjunción",
+        "Artículo"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "question": "¿Qué clase de palabra precede al sustantivo para determinarlo, precisando su género y número, e indicando si es conocido o desconocido (ej. el, la, un, unos)?",
+      "options": [
+        "Artículo",
+        "Verbo",
+        "Pronombre",
+        "Adverbio"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "La categoría gramatical que expresa una acción, un estado, una condición o un proceso en un tiempo determinado es:",
+      "options": [
+        "El verbo",
+        "El adverbio",
+        "La interjección",
+        "El sustantivo"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "Las palabras invariables cuya función principal es modificar a un verbo, a un adjetivo o a otro adverbio (indicando lugar, tiempo, modo, cantidad, etc.) son los:",
+      "options": [
+        "Pronombres",
+        "Artículos",
+        "Adverbios",
+        "Sustantivos"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "question": "\"Yo, tú, él, nosotros, ustedes, ellos\" pertenecen a la categoría gramatical de:",
+      "options": [
+        "Artículos definidos",
+        "Sustantivos propios",
+        "Pronombres personales",
+        "Preposiciones"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 13,
+      "question": "Las palabras invariables \"a, ante, bajo, cabe, con, contra, de, desde...\" funcionan como nexos subordinantes y se denominan:",
+      "options": [
+        "Conjunciones",
+        "Preposiciones",
+        "Adverbios",
+        "Interjecciones"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "question": "Las palabras que sirven para unir o enlazar palabras, sintagmas u oraciones de la misma o distinta jerarquía (ej. y, o, pero, porque) son:",
+      "options": [
+        "Las preposiciones",
+        "Las conjunciones",
+        "Los pronombres",
+        "Los verboides"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "¿Qué categoría gramatical se utiliza para expresar impresiones, sentimientos profundos, saludos o asombro, y suele escribirse entre signos de exclamación (ej. ¡Ay!, ¡Hola!)?",
+      "options": [
+        "Interjecciones",
+        "Preposiciones",
+        "Adverbios de modo",
+        "Verbos copulativos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "question": "Las formas no personales del verbo, que no tienen flexión de persona, tiempo ni modo (el infinitivo, el gerundio y el participio), se conocen como:",
+      "options": [
+        "Adjetivos verbales",
+        "Conjugaciones compuestas",
+        "Verboides",
+        "Modificadores indirectos"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "question": "En la oración \"El gato negro saltó\", ¿qué elementos funcionan como modificadores directos del núcleo del sujeto?",
+      "options": [
+        "\"El\" y \"negro\"",
+        "\"gato\" y \"saltó\"",
+        "Solo \"negro\"",
+        "Ninguno"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 18,
+      "question": "Las conjugaciones o flexiones verbales indican \"accidentes gramaticales\". ¿Cuáles son estos accidentes del verbo?",
+      "options": [
+        "Sustantivo, adjetivo, adverbio.",
+        "Persona, número, tiempo, modo, aspecto y voz.",
+        "Género y grado.",
+        "Derivación, composición y parasíntesis."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "El nivel de análisis gramatical \"morfológico\" se encarga de estudiar:",
+      "options": [
+        "La pronunciación de los sonidos.",
+        "El origen histórico de las palabras.",
+        "La estructura interna de las palabras, sus accidentes y cómo se forman.",
+        "La puntuación de un texto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 20,
+      "question": "El nivel de análisis \"sintáctico\" se enfoca en:",
+      "options": [
+        "El significado figurado de los refranes.",
+        "El orden de las palabras, las relaciones que establecen entre sí y su función dentro de la oración.",
+        "Las raíces latinas y griegas.",
+        "Las reglas de tildación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "question": "El nivel de análisis \"semántico\" estudia:",
+      "options": [
+        "El significado y la interpretación de las palabras, frases y oraciones.",
+        "La ortografía de las letras dudosas.",
+        "La conjugación de verbos irregulares.",
+        "La estructura de los párrafos en un ensayo."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 22,
+      "question": "¿Qué regla gramatical exige que exista igualdad de género y número entre el sustantivo y el adjetivo, y de número y persona entre el sujeto y el verbo?",
+      "options": [
+        "La cacofonía",
+        "La redundancia",
+        "La concordancia",
+        "La derivación"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 23,
+      "question": "El vicio gramatical conocido como \"dequeísmo\" consiste en:",
+      "options": [
+        "Eliminar la preposición \"de\" cuando es obligatoria.",
+        "Utilizar la preposición \"de\" junto a la conjunción \"que\" cuando el verbo no lo exige (ej. \"Pienso de que está bien\").",
+        "Usar demasiados diminutivos.",
+        "Utilizar muletillas al hablar."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "question": "Por el contrario, el \"queísmo\" se produce cuando:",
+      "options": [
+        "Se omite una preposición obligatoria, generalmente \"de\", delante de la conjunción \"que\" (ej. \"Me alegro que hayas venido\" en vez de \"Me alegro de que...\").",
+        "Se repite la palabra \"que\" muchas veces en un párrafo.",
+        "Se confunden los pronombres personales con los adjetivos.",
+        "Se usa \"que\" en lugar de \"quien\"."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 25,
+      "question": "En la gramática de usos, un error común es utilizar adverbios de lugar combinados con pronombres posesivos. ¿Cuál de las siguientes frases es incorrecta?",
+      "options": [
+        "Detrás de mí.",
+        "Cerca de nosotros.",
+        "Delante mío.",
+        "Al lado de ella."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 26,
+      "question": "Expresiones como \"lo que es\", \"o sea pues\" o \"ehhh\", que se utilizan para rellenar silencios en el discurso oral o por costumbre, se denominan:",
+      "options": [
+        "Sinónimos",
+        "Parónimos",
+        "Muletillas",
+        "Tecnicismos"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "question": "Según las normativas, las palabras \"adentro\" y \"afuera\" se diferencian de \"dentro\" y \"fuera\" en que las primeras (adentro/afuera) indican generalmente:",
+      "options": [
+        "Estado o situación estática.",
+        "Dirección o movimiento hacia un lugar.",
+        "Tiempo en el pasado.",
+        "Pluralidad."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "question": "\"Encima\" indica una posición superior respecto a algo. ¿Cuál es el término gramaticalmente correcto para indicar el contrario (posición inferior inmediata cubierta por algo)?",
+      "options": [
+        "Abajo",
+        "Adentro",
+        "Debajo",
+        "Atrás"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 29,
+      "question": "El proceso de formación de palabras que consiste en añadir un prefijo o un sufijo a una palabra primitiva o raíz (ej. árbol -> arboleda) se llama:",
+      "options": [
+        "Composición",
+        "Parasíntesis",
+        "Derivación",
+        "Homonimia"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 30,
+      "question": "El proceso de unir dos o más raíces o palabras para crear una nueva (ej. saca + puntas = sacapuntas) se conoce como:",
+      "options": [
+        "Derivación",
+        "Composición",
+        "Lexicografía",
+        "Sinonimia"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "question": "La \"parasíntesis\" es el procedimiento de formación de palabras que:",
+      "options": [
+        "Utiliza exclusivamente raíces latinas.",
+        "Combina simultáneamente la composición y la derivación (ej. auto-movil-ista), o añade simultáneamente un prefijo y un sufijo.",
+        "Suprime sílabas de una palabra larga.",
+        "Copia una palabra de otro idioma sin alterarla."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 32,
+      "question": "En las estrategias para ampliar el vocabulario, ¿qué se entiende por \"vocabulario activo\"?",
+      "options": [
+        "Las palabras que una persona comprende pero no usa.",
+        "Las palabras de origen deportivo.",
+        "El conjunto de palabras que una persona comprende y además utiliza habitualmente y de forma espontánea al hablar y escribir.",
+        "Las palabras técnicas exclusivas de la ciencia."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 33,
+      "question": "El \"vocabulario pasivo o de reserva\" se compone de:",
+      "options": [
+        "Palabras que la persona no conoce en absoluto.",
+        "Palabras que la persona entiende al leerlas o escucharlas, pero que no incorpora en su producción oral o escrita diaria.",
+        "Palabras que solo se usan en la poesía.",
+        "Neologismos inventados por los jóvenes."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "question": "Muchas palabras del español académico y científico se forman utilizando \"geo-\" (tierra), \"bio-\" (vida) o \"-logía\" (estudio). Estos morfemas provienen de raíces:",
+      "options": [
+        "Árabes y germánicas.",
+        "Indígenas americanas.",
+        "Griegas y latinas.",
+        "Anglosajonas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 35,
+      "question": "Las palabras que pertenecen a la misma categoría gramatical y comparten un significado idéntico o muy similar (ej. estudiante y alumno) son:",
+      "options": [
+        "Homófonas",
+        "Parónimas",
+        "Sinónimas",
+        "Antónimas"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 36,
+      "question": "Las palabras que expresan significados opuestos o contrarios entre sí (ej. luz y oscuridad) se denominan:",
+      "options": [
+        "Homónimas",
+        "Antónimas",
+        "Derivadas",
+        "Sinónimas"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "¿Qué son las palabras \"parónimas\"?",
+      "options": [
+        "Palabras que se escriben exactamente igual pero tienen distintos significados (ej. banco/banco).",
+        "Palabras que tienen forma y escritura parecida, pero distinto significado y suelen causar confusión (ej. aptitud / actitud).",
+        "Palabras que se leen igual al derecho y al revés.",
+        "Palabras extranjeras no adaptadas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 38,
+      "question": "Las palabras homónimas se dividen en dos grupos:",
+      "options": [
+        "Simples y compuestas.",
+        "Primitivas y derivadas.",
+        "Homógrafas y homófonas.",
+        "Activas y pasivas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 39,
+      "question": "La palabra \"hola\" (saludo) y \"ola\" (del mar) son un ejemplo de palabras:",
+      "options": [
+        "Homófonas (se pronuncian igual, pero se escriben distinto y tienen distinto significado).",
+        "Homógrafas (se escriben y pronuncian exactamente igual).",
+        "Parónimas.",
+        "Sinónimas."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 40,
+      "question": "Un \"campo semántico\" es:",
+      "options": [
+        "Una lista de palabras que riman entre sí.",
+        "Un conjunto de palabras de la misma categoría gramatical que comparten un núcleo de significación común o rasgo de significado (ej. rojo, verde, azul = campo semántico de los colores).",
+        "Un terreno utilizado para investigar lenguas antiguas.",
+        "El estudio del significado oculto de los textos."
+      ],
+      "correct": 1
+    }
+  ]
+}

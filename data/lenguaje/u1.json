@@ -1,0 +1,446 @@
+{
+  "unit": "1",
+  "name": "Comunicación",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cómo se define el proceso de la comunicación?",
+      "options": [
+        "Como la simple emisión de sonidos sin intención.",
+        "Como el proceso de transmisión e intercambio de mensajes entre un emisor y un receptor.",
+        "Como la codificación de un texto que nadie lee.",
+        "Como el uso exclusivo de tecnología para enviar datos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "En los elementos de la comunicación, ¿qué es el \"canal\"?",
+      "options": [
+        "La información que se transmite.",
+        "El sistema de signos empleado.",
+        "El medio físico por el cual se transmite el mensaje.",
+        "La situación en la que ocurre el acto comunicativo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "¿Qué elemento de la comunicación se refiere al sistema de signos o idioma que comparten el emisor y el receptor?",
+      "options": [
+        "El contexto",
+        "El código",
+        "El mensaje",
+        "El ruido"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "¿Qué es el \"ruido\" dentro del proceso de comunicación?",
+      "options": [
+        "El sonido de la voz del emisor.",
+        "Cualquier interferencia que impide o dificulta la transmisión exitosa del mensaje.",
+        "La respuesta que da el receptor.",
+        "El entorno físico donde ocurre la comunicación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "Si una persona lee una señal de tránsito en la carretera, ¿quién es el receptor?",
+      "options": [
+        "La señal de tránsito",
+        "El departamento de policía",
+        "La persona que lee la señal",
+        "La carretera"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "question": "¿Qué función del lenguaje se centra en transmitir información objetiva sobre la realidad?",
+      "options": [
+        "Función emotiva",
+        "Función poética",
+        "Función fática",
+        "Función informativa o referencial"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 7,
+      "question": "Cuando el emisor expresa sus sentimientos personales (ej. \"¡Qué feliz me siento hoy!\"), ¿qué función del lenguaje predomina?",
+      "options": [
+        "Función emotiva",
+        "Función metalingüística",
+        "Función apelativa",
+        "Función fática"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Cuál es la función del lenguaje que busca influir en el receptor o llamar su atención para que actúe de cierta manera?",
+      "options": [
+        "Poética",
+        "Informativa",
+        "Apelativa",
+        "Metalingüística"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "Si un profesor de idioma español explica las reglas de acentuación, ¿qué función del lenguaje está utilizando?",
+      "options": [
+        "Función emotiva",
+        "Función fática",
+        "Función poética",
+        "Función metalingüística"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "question": "Las frases como \"¿Me escuchas bien?\" o \"Hola, probando\", que sirven para comprobar si el canal funciona, son un ejemplo de la función:",
+      "options": [
+        "Apelativa",
+        "Fática",
+        "Poética",
+        "Emotiva"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "La función poética del lenguaje tiene como objetivo principal:",
+      "options": [
+        "Dar órdenes al receptor.",
+        "Explicar el código lingüístico.",
+        "Centrarse en la forma del mensaje para crear belleza o impacto estético.",
+        "Mantener el canal abierto."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "question": "En la relación entre los elementos y las funciones, la función apelativa está directamente relacionada con:",
+      "options": [
+        "El emisor",
+        "El receptor",
+        "El canal",
+        "El contexto"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "question": "La función metalingüística se relaciona estrechamente con el siguiente elemento de la comunicación:",
+      "options": [
+        "El ruido",
+        "El canal",
+        "El código",
+        "El receptor"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "question": "La función emotiva o expresiva se relaciona principalmente con:",
+      "options": [
+        "El emisor",
+        "El contexto",
+        "El código",
+        "El receptor"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "¿Qué elemento de la comunicación está ligado a la función fática?",
+      "options": [
+        "El código",
+        "El canal",
+        "El mensaje",
+        "El emisor"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "question": "¿Cómo se define el \"juicio\" en el ámbito del razonamiento lógico?",
+      "options": [
+        "Como una mentira disfrazada de verdad.",
+        "Como un acto mental mediante el cual se afirma o se niega algo de algo.",
+        "Como un debate entre dos personas.",
+        "Como una opinión sin fundamento."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "question": "El razonamiento se define como:",
+      "options": [
+        "El proceso de adquirir vocabulario.",
+        "La capacidad de gritar más fuerte en un debate.",
+        "El proceso de obtener una conclusión lógica a partir de premisas previas.",
+        "La estructura estética de un poema."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "question": "Según los elementos de la argumentación, ¿cuál es la fase inicial donde se presenta el tema o tesis?",
+      "options": [
+        "Cierre",
+        "Desarrollo",
+        "Apertura",
+        "Contexto"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "question": "En la argumentación, la fase de \"desarrollo\" tiene la función de:",
+      "options": [
+        "Saludar al público.",
+        "Exponer y desplegar los argumentos, pruebas y razones que sustentan la tesis.",
+        "Resumir todo lo hablado en una sola frase.",
+        "Cambiar de tema radicalmente."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "En la estructura de la argumentación, la fase donde se sintetizan los argumentos y se reafirma la tesis es:",
+      "options": [
+        "Apertura",
+        "Desarrollo",
+        "Cierre o conclusión",
+        "Introducción"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "question": "Un argumento estructurado de forma persuasiva tiene como finalidad principal:",
+      "options": [
+        "Explicar objetivamente un suceso meteorológico.",
+        "Convencer o influir en las creencias y actitudes del receptor.",
+        "Describir las partes de una planta.",
+        "Analizar el código del lenguaje humano."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "¿Qué es un silogismo?",
+      "options": [
+        "Una falacia intencional.",
+        "Un tipo de razonamiento deductivo compuesto por dos premisas y una conclusión.",
+        "Una figura literaria parecida a la metáfora.",
+        "Un vicio de dicción."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "En la estructura de un silogismo clásico, ¿cómo se llaman las proposiciones de las cuales se extrae la conclusión?",
+      "options": [
+        "Premisa mayor y premisa menor.",
+        "Tesis y antítesis.",
+        "Sujeto y predicado.",
+        "Apertura y desarrollo."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 24,
+      "question": "Una de las reglas de los silogismos establece que:",
+      "options": [
+        "La conclusión debe tener siempre más información que las premisas.",
+        "El término medio no debe aparecer nunca en la conclusión.",
+        "Se necesitan cuatro premisas obligatoriamente.",
+        "Las premisas no pueden ser negativas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "question": "¿Qué es una falacia?",
+      "options": [
+        "Un razonamiento válido y correcto.",
+        "Un razonamiento engañoso o inválido que tiene apariencia de verdad.",
+        "Una regla especial de acentuación ortográfica.",
+        "Una palabra de origen extranjero."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "question": "La falacia \"Ad hominem\" se caracteriza por:",
+      "options": [
+        "Apelar a la fuerza o el miedo.",
+        "Atacar a la persona que presenta el argumento en lugar de refutar el argumento en sí.",
+        "Justificar algo porque la mayoría de la gente lo cree.",
+        "Recurrir a la autoridad de alguien famoso."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "question": "Si alguien dice: \"Tienes que hacerlo como digo porque soy tu jefe y te puedo despedir\", está cometiendo una falacia:",
+      "options": [
+        "Ad populum",
+        "Ad hominem",
+        "Ad baculum (apelación a la fuerza)",
+        "Ignorantiam"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 28,
+      "question": "\"Esa película debe ser la mejor del año porque millones de personas han ido a verla.\" Este argumento es un ejemplo de falacia:",
+      "options": [
+        "Ad populum",
+        "Ad baculum",
+        "Ad hominem",
+        "Falsa equivalencia"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 29,
+      "question": "¿Qué son los vicios de dicción?",
+      "options": [
+        "Errores que se cometen al hablar o escribir, afectando la pureza y claridad del idioma.",
+        "Reglas gramaticales muy complejas.",
+        "Modismos regionales aceptados por la academia de la lengua.",
+        "Las conclusiones de un razonamiento lógico."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 30,
+      "question": "\"Subir arriba\" o \"entrar adentro\" son ejemplos de un vicio de dicción conocido como:",
+      "options": [
+        "Cacofonía",
+        "Pleonasmo o redundancia",
+        "Anfibología",
+        "Dequeísmo"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "question": "La anfibología es un vicio de dicción que consiste en:",
+      "options": [
+        "Escribir mal las palabras.",
+        "Repetir sonidos desagradables en una misma frase.",
+        "Construir frases con doble sentido o ambigüedad, lo que causa confusión.",
+        "Utilizar demasiados extranjerismos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 32,
+      "question": "Decir \"hubieron muchos problemas\" en lugar de \"hubo muchos problemas\" es un vicio de dicción categorizado como:",
+      "options": [
+        "Barbarismo",
+        "Solecismo",
+        "Cacofonía",
+        "Muletilla"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 33,
+      "question": "¿Cuál es la forma correcta de sustituir el vicio de dicción en la frase \"ojalá que haiga comida\"?",
+      "options": [
+        "Ojalá que haber comida.",
+        "Ojalá que halla comida.",
+        "Ojalá que haya comida.",
+        "Ojalá hubiese comida."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 34,
+      "question": "¿Qué es el discurso desde el punto de vista comunicativo?",
+      "options": [
+        "Un ruido que corta la comunicación.",
+        "Una exposición oral o escrita sobre un tema específico, estructurada para informar o persuadir.",
+        "Un documento exclusivo para la literatura lírica.",
+        "Un intercambio de palabras sin hilo conductor."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "question": "Las tres fases fundamentales del discurso son:",
+      "options": [
+        "Emisor, mensaje, receptor.",
+        "Premisa mayor, premisa menor, conclusión.",
+        "Introducción, desarrollo y conclusión.",
+        "Apertura, ruido, canal."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 36,
+      "question": "En la introducción de un discurso, el objetivo principal suele ser:",
+      "options": [
+        "Sintetizar la idea central y despedirse.",
+        "Captar la atención del público y presentar el tema.",
+        "Agotar todos los argumentos de forma profunda.",
+        "Presentar el resumen bibliográfico."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "Si un discurso se clasifica por \"su enfoque o tema\", podría tratarse de un discurso:",
+      "options": [
+        "Inductivo o deductivo.",
+        "Largo o corto.",
+        "Político, religioso, académico o científico.",
+        "Con o sin micrófono."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 38,
+      "question": "Al repetir sonidos muy cercanos dentro de un texto provocando un efecto sonoro desagradable (ej. \"Parece que aparece\"), se comete el vicio de dicción llamado:",
+      "options": [
+        "Extranjerismo",
+        "Cacofonía",
+        "Solecismo",
+        "Neologismo"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "Un discurso por \"su estructura\" puede ser descriptivo, narrativo, argumentativo o...",
+      "options": [
+        "Espacial",
+        "Expositivo",
+        "Tecnológico",
+        "Biológico"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 40,
+      "question": "\"Todos los hombres son mortales. Sócrates es un hombre. Por lo tanto, Sócrates es mortal.\" ¿A qué concepto lógico corresponde este ejemplo?",
+      "options": [
+        "Silogismo",
+        "Falacia Ad populum",
+        "Vicio de dicción",
+        "Función emotiva"
+      ],
+      "correct": 0
+    }
+  ]
+}

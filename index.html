@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Portal de Estudio - Pruebas de Conocimiento</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header id="app-header">
+            <div class="header-inner">
+                <button id="btn-back" class="btn-icon" aria-label="Regresar" onclick="App.goBack()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <h1 id="app-title">Portal de Estudio</h1>
+            </div>
+        </header>
+
+        <!-- Main content area -->
+        <main id="main-content">
+            <!-- View: Home -->
+            <section id="view-home" class="view active">
+                <div class="view-header">
+                    <h2>Pruebas de Conocimiento</h2>
+                    <p class="view-subtitle">Seleccione el tipo de prueba que desea estudiar</p>
+                </div>
+                <div class="card-grid">
+                    <button class="card card-primary" onclick="App.selectTestType('basica')">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+                        </div>
+                        <div class="card-content">
+                            <h3>Prueba Basica</h3>
+                            <p>Conocimientos generales por unidades y temas</p>
+                        </div>
+                        <span class="card-arrow">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                        </span>
+                    </button>
+                    <button class="card card-secondary" onclick="App.selectTestType('especifica')">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <div class="card-content">
+                            <h3>Prueba Especifica</h3>
+                            <p>Conocimientos especializados por materia</p>
+                        </div>
+                        <span class="card-arrow">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                        </span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- View: Subject Selection -->
+            <section id="view-subjects" class="view">
+                <div class="view-header">
+                    <h2 id="subjects-title">Seleccione la materia</h2>
+                    <p id="subjects-subtitle" class="view-subtitle">Elija la materia que desea estudiar</p>
+                </div>
+                <div id="subjects-grid" class="card-grid"></div>
+            </section>
+
+            <!-- View: Unit Selection -->
+            <section id="view-units" class="view">
+                <div class="view-header">
+                    <h2 id="units-title">Seleccione la unidad</h2>
+                    <p class="view-subtitle">Elija la unidad que desea estudiar</p>
+                </div>
+                <div id="units-grid" class="card-grid"></div>
+            </section>
+
+            <!-- View: Unit Detail (Study + Quiz) -->
+            <section id="view-unit-detail" class="view">
+                <div class="view-header">
+                    <h2 id="detail-title">Unidad</h2>
+                    <p id="detail-subtitle" class="view-subtitle">Seleccione una opcion</p>
+                </div>
+                
+                <div class="tab-bar">
+                    <button id="tab-study" class="tab active" onclick="App.showTab('study')">Material de Estudio</button>
+                    <button id="tab-quiz" class="tab" onclick="App.showTab('quiz')">Cuestionario</button>
+                </div>
+
+                <!-- Study Material Tab -->
+                <div id="tab-content-study" class="tab-content active">
+                    <div id="study-content">
+                        <div class="study-info">
+                            <p>Cargando material de estudio...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz Tab -->
+                <div id="tab-content-quiz" class="tab-content">
+                    <div id="quiz-start" class="quiz-start">
+                        <div class="study-info">
+                            <p>Ponga a prueba sus conocimientos con un cuestionario de 20 preguntas seleccionadas al azar.</p>
+                            <ul class="quiz-info-list">
+                                <li>20 preguntas aleatorias</li>
+                                <li>Se muestra una pregunta a la vez</li>
+                                <li>Recibira retroalimentacion inmediata</li>
+                                <li>Al final recibira su calificacion</li>
+                            </ul>
+                            <button class="btn btn-primary btn-large" id="btn-start-quiz" onclick="App.startQuiz()">Comenzar Cuestionario</button>
+                            <button class="btn btn-secondary btn-large" id="btn-start-quiz-all" onclick="App.startQuizAll()" style="margin-top:8px;">Comenzar Cuestionario Combinado</button>
+                        </div>
+                    </div>
+                    <div id="quiz-active" class="quiz-active" style="display:none;">
+                        <div class="quiz-progress-bar">
+                            <div id="quiz-progress-fill" class="quiz-progress-fill"></div>
+                        </div>
+                        <div class="quiz-question-counter" id="quiz-counter">Pregunta 1 de 20</div>
+                        <div class="quiz-question-text" id="quiz-question"></div>
+                        <div class="quiz-options" id="quiz-options"></div>
+                        <div class="quiz-feedback" id="quiz-feedback" style="display:none;"></div>
+                        <button class="btn btn-primary" id="btn-next-question" style="display:none;" onclick="App.nextQuestion()">Siguiente Pregunta</button>
+                    </div>
+                    <div id="quiz-results" class="quiz-results" style="display:none;">
+                        <div class="results-card">
+                            <div class="results-score" id="results-score">0/20</div>
+                            <div class="results-percentage" id="results-percentage">0%</div>
+                            <div class="results-grade" id="results-grade">-</div>
+                            <div class="results-detail" id="results-detail"></div>
+                            <div class="results-actions">
+                                <button class="btn btn-primary" onclick="App.retryQuiz()">Intentar de nuevo</button>
+                                <button class="btn btn-secondary" onclick="App.showUnitDetail(true)">Volver a la unidad</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer id="app-footer">
+            <p>Portal de Estudio &mdash; Pruebas de Conocimiento</p>
+        </footer>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

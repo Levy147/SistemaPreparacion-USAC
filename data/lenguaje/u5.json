@@ -1,0 +1,446 @@
+{
+  "unit": "5",
+  "name": "Exposición Oral y Escrita",
+  "questions": [
+    {
+      "id": 1,
+      "question": "En el ámbito de la comunicación escrita, ¿qué significa \"redactar\"?",
+      "options": [
+        "Leer un texto en voz alta.",
+        "Poner por escrito cosas sucedidas, acordadas o pensadas con orden y coherencia.",
+        "Dibujar esquemas de ideas.",
+        "Memorizar un discurso para decirlo en público."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Cuando un emisor ajusta su texto a la situación espacio-temporal, a la finalidad del mensaje y al nivel de la lengua del receptor, está aplicando el principio de:",
+      "options": [
+        "Concisión",
+        "Redundancia",
+        "Adecuación",
+        "Cacofonía"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "Las palabras que sirven como \"elementos de relación\" para unir lógicamente las oraciones dentro de un texto se denominan:",
+      "options": [
+        "Adjetivos calificativos",
+        "Nexos, conectores lógicos o ilativos",
+        "Sustantivos propios",
+        "Pronombres demostrativos"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "¿Cómo se define un \"párrafo\"?",
+      "options": [
+        "Un libro completo dividido en capítulos.",
+        "Un conjunto de oraciones articuladas entre sí que tratan sobre una misma idea o tema, separadas por un punto y aparte.",
+        "Una sola oración simple sin verbos.",
+        "La conclusión final de un ensayo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Qué tipo de texto tiene como propósito principal relatar las características de personas, animales, objetos o lugares?",
+      "options": [
+        "Texto expositivo",
+        "Texto narrativo",
+        "Texto argumentativo",
+        "Texto descriptivo"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 6,
+      "question": "La descripción detallada de un lugar o paisaje se conoce como:",
+      "options": [
+        "Prosopografía",
+        "Topografía",
+        "Etopeya",
+        "Cronografía"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "¿Qué figura descriptiva se utiliza cuando se relatan los rasgos físicos o la apariencia externa de una persona?",
+      "options": [
+        "Prosopografía",
+        "Etopeya",
+        "Retrato",
+        "Caricatura"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "Si se describen los rasgos morales, psicológicos, las virtudes y defectos de una persona, se está realizando una:",
+      "options": [
+        "Cronografía",
+        "Prosopografía",
+        "Etopeya",
+        "Topografía"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "Cuando en un texto se combinan simultáneamente la descripción de los rasgos físicos (prosopografía) y morales (etopeya) de una persona, se le llama:",
+      "options": [
+        "Caricatura",
+        "Retrato",
+        "Crónica",
+        "Anécdota"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "question": "Una descripción en la que se exageran o distorsionan los rasgos físicos o morales de una persona con fines humorísticos o satíricos se llama:",
+      "options": [
+        "Retrato",
+        "Fábula",
+        "Caricatura",
+        "Mito"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "question": "La descripción del tiempo, una época o un periodo histórico determinado recibe el nombre de:",
+      "options": [
+        "Cronografía",
+        "Topografía",
+        "Biografía",
+        "Diáspora"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Cuál es la finalidad principal de un \"texto narrativo\"?",
+      "options": [
+        "Dar instrucciones para armar un mueble.",
+        "Contar o relatar una sucesión de hechos, reales o ficticios, que les ocurren a unos personajes en un espacio y tiempo determinados.",
+        "Exponer argumentos para convencer sobre una idea política.",
+        "Describir las características físicas de un animal."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "question": "¿Cuáles son los elementos fundamentales que permiten construir un texto narrativo?",
+      "options": [
+        "Tesis, argumentos y conclusión.",
+        "Introducción, desarrollo, recomendaciones y bibliografía.",
+        "Tema, argumento, personajes, ámbito o ambiente y narrador.",
+        "Emisor, receptor, canal, código y ruido."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "question": "¿Qué tipo de texto narrativo relata una historia de ficción breve, con un argumento sencillo y pocos personajes?",
+      "options": [
+        "Novela",
+        "Crónica",
+        "Ensayo",
+        "Cuento"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 15,
+      "question": "Una narración breve, habitualmente protagonizada por animales personificados y que siempre deja una enseñanza moral (moraleja), se conoce como:",
+      "options": [
+        "Leyenda",
+        "Mito",
+        "Fábula",
+        "Biografía"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 16,
+      "question": "¿Qué es una autobiografía?",
+      "options": [
+        "La narración de la vida de una persona escrita por ella misma.",
+        "La narración de la vida de una persona escrita por un historiador.",
+        "Un cuento de ciencia ficción.",
+        "La descripción de un lugar histórico."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 17,
+      "question": "El tipo de texto que tiene como objetivo informar y explicar un tema de forma clara, objetiva y ordenada, sin incluir opiniones personales, es el:",
+      "options": [
+        "Texto argumentativo",
+        "Texto expositivo",
+        "Texto poético",
+        "Texto descriptivo"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "Los textos que buscan persuadir o convencer al lector sobre una idea, opinión o postura (tesis) mediante razones o pruebas, se denominan:",
+      "options": [
+        "Textos narrativos",
+        "Textos argumentativos",
+        "Textos expositivos",
+        "Textos descriptivos"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "En la redacción de un \"informe\", ¿qué sección se encarga de presentar la justificación, los objetivos y un panorama general del trabajo antes de entrar al contenido profundo?",
+      "options": [
+        "Las recomendaciones",
+        "La bibliografía",
+        "La introducción",
+        "Los anexos"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 20,
+      "question": "¿Cuál de los siguientes elementos forma parte de la estructura básica de un informe académico o profesional formal?",
+      "options": [
+        "Carátula, introducción, contenido, conclusiones, recomendaciones y bibliografía.",
+        "Tesis, antítesis y moraleja.",
+        "Titular, bajada, cuerpo de la noticia y fotografía.",
+        "Acto, escena y acotaciones."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 21,
+      "question": "¿Qué es un \"resumen\"?",
+      "options": [
+        "Una exposición de las opiniones personales del lector sobre un libro.",
+        "La reducción de un texto a sus ideas principales, manteniendo la estructura, las ideas originales y las palabras clave del autor.",
+        "La exageración cómica de una narración.",
+        "La transcripción completa de un texto palabra por palabra."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "A diferencia del resumen, ¿en qué consiste la \"síntesis\"?",
+      "options": [
+        "En reescribir un texto en otro idioma.",
+        "En exponer las ideas principales de un texto, pero utilizando las propias palabras del lector (parafraseo) y reorganizando la información.",
+        "En copiar exactamente el primer párrafo de un capítulo.",
+        "En inventar un final diferente para una novela."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "El \"ensayo\" es un género discursivo que se caracteriza por:",
+      "options": [
+        "Ser un documento estrictamente técnico y estadístico.",
+        "Ser un texto escrito en prosa donde el autor expone, analiza y reflexiona sobre un tema de manera libre y personal.",
+        "Ser una narración protagonizada por dioses de la antigüedad.",
+        "Ser un conjunto de normas y leyes para un país."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "question": "Una \"reseña\" se define comúnmente como:",
+      "options": [
+        "Un organizador gráfico con flechas y colores.",
+        "Un texto argumentativo exhaustivo de 50 páginas.",
+        "Un escrito breve que resume y describe las características más importantes de una obra (libro, película, evento) y generalmente incluye una valoración o crítica.",
+        "Una lista de referencias de diccionarios."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 25,
+      "question": "¿Qué tipo de ficha de documentación se utiliza para registrar los datos completos de un libro (autor, título, editorial, año, etc.)?",
+      "options": [
+        "Ficha hemerográfica",
+        "Ficha de resumen",
+        "Ficha bibliográfica",
+        "Ficha de cita textual"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 26,
+      "question": "Las fichas \"hemerográficas\" se utilizan para documentar la información extraída específicamente de:",
+      "options": [
+        "Libros enciclopédicos.",
+        "Entrevistas orales.",
+        "Revistas, periódicos y otras publicaciones periódicas.",
+        "Páginas de internet y blogs."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "question": "¿Qué es un organizador gráfico?",
+      "options": [
+        "Una persona encargada de moderar un debate.",
+        "Una representación visual que muestra la estructura, jerarquía y relaciones entre los conceptos de un tema.",
+        "Un documento escrito en verso.",
+        "Una técnica de oratoria."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "question": "El organizador gráfico que sirve para identificar de forma clara las semejanzas y diferencias entre dos o más elementos es el:",
+      "options": [
+        "Mapa mental",
+        "Cuadro sinóptico",
+        "Cuadro comparativo",
+        "Diagrama de flujo"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 29,
+      "question": "Para presentar una secuencia de eventos históricos ordenados cronológicamente, el organizador gráfico más adecuado es:",
+      "options": [
+        "La línea de tiempo",
+        "El mapa conceptual",
+        "La ficha bibliográfica",
+        "El esquema de llaves"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 30,
+      "question": "¿Qué técnica de intercambio de información se basa en un diálogo guiado donde una persona hace preguntas y otra responde para obtener información?",
+      "options": [
+        "El foro",
+        "La entrevista",
+        "El debate",
+        "El simposio"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "question": "El \"debate\" es una técnica de discusión oral que se caracteriza por:",
+      "options": [
+        "La participación libre y desordenada de todo el público.",
+        "Ser una exposición individual donde nadie puede opinar.",
+        "La discusión formal entre dos o más personas o grupos que defienden posturas contrarias sobre un mismo tema, frente a un público y un moderador.",
+        "Una charla amistosa sin reglas ni límite de tiempo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 32,
+      "question": "¿Cuál es la función principal del \"moderador\" en las técnicas de discusión como el debate o el panel?",
+      "options": [
+        "Defender fervientemente una de las posturas.",
+        "Presentar el tema, dar la palabra, controlar el tiempo y mantener el orden.",
+        "Obligar al público a salir del salón.",
+        "Escribir el resumen final para publicarlo."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 33,
+      "question": "¿Qué técnica de intercambio de información permite la participación libre de todo el público asistente para discutir un tema, generalmente después de una actividad o exposición?",
+      "options": [
+        "El foro",
+        "La entrevista",
+        "El simposio",
+        "El panel de expertos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 34,
+      "question": "En el \"panel\", la característica principal es que:",
+      "options": [
+        "Dos grupos se pelean por convencer al moderador.",
+        "Un grupo de expertos o especialistas conversa y dialoga sobre un tema frente a un público, como si estuvieran en una reunión.",
+        "Una sola persona expone un tema durante horas.",
+        "El público hace todo el trabajo de investigación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "question": "La \"mesa redonda\" se caracteriza porque:",
+      "options": [
+        "Se utiliza obligatoriamente una mesa circular de madera.",
+        "Un grupo de expertos expone puntos de vista divergentes sobre un tema, pero todos en igualdad de condiciones y jerarquía, sin posturas antagónicas extremas.",
+        "Es un interrogatorio cerrado por parte de un periodista.",
+        "Es exclusiva para discusiones políticas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 36,
+      "question": "El \"simposio\" es una técnica donde:",
+      "options": [
+        "Se actúa una obra de teatro improvisada.",
+        "Varios especialistas exponen sucesivamente diferentes enfoques o aspectos de un mismo tema central, de forma individual y detallada.",
+        "El público y los expositores se insultan mutuamente.",
+        "Se lee un libro completo en voz alta por turnos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "Cuando en un texto expositivo se presenta una situación inicial que provoca un resultado posterior, se dice que existe una relación de:",
+      "options": [
+        "Causa y efecto",
+        "Tesis y conclusión",
+        "Prosopografía y etopeya",
+        "Emisor y receptor"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 38,
+      "question": "La \"conferencia\" es una técnica que consiste en:",
+      "options": [
+        "Una charla informal entre amigos.",
+        "La exposición oral sobre un tema específico de interés general, dictada por una persona con autoridad en la materia frente a un auditorio.",
+        "Un juego de preguntas y respuestas rápidas.",
+        "La firma de libros por parte de un autor."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "Un texto que carece de contradicciones lógicas entre sus partes y que mantiene un sentido global claro posee:",
+      "options": [
+        "Cacofonía",
+        "Coherencia",
+        "Subjetividad",
+        "Metáforas"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 40,
+      "question": "Si debes organizar visualmente un tema partiendo de una idea central desde la cual se irradian ramas con palabras clave e imágenes, deberías usar:",
+      "options": [
+        "Un esquema numérico",
+        "Un cuadro sinóptico de llaves",
+        "Un mapa mental",
+        "Una ficha mixta"
+      ],
+      "correct": 2
+    }
+  ]
+}

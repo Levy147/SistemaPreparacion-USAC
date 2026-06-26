@@ -1,0 +1,446 @@
+{
+  "unit": "6",
+  "name": "Comprensión Lectora",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Al leer un texto, la información central que resume de qué trata el párrafo u obra en su totalidad se conoce como:",
+      "options": [
+        "Idea secundaria",
+        "Moraleja",
+        "Idea principal",
+        "Contexto"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "Las \"ideas secundarias\" en un párrafo tienen la función de:",
+      "options": [
+        "Contradecir la idea principal.",
+        "Ampliar, ejemplificar o demostrar la idea principal.",
+        "Cambiar el tema del texto.",
+        "Confundir al lector con datos irrelevantes."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Cuando identificamos el hilo conductor que ordena los eventos de una narración desde el principio hasta el fin, estamos analizando:",
+      "options": [
+        "El clímax",
+        "La secuencia cronológica o de eventos",
+        "La figura literaria",
+        "El nivel de lengua"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "Si desconoces el significado exacto de una palabra en un texto, pero logras entenderla gracias a las palabras y oraciones que la rodean, estás utilizando:",
+      "options": [
+        "Claves de contexto",
+        "El diccionario enciclopédico",
+        "La síntesis",
+        "Las reglas de ortografía"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Un texto donde se expone que la contaminación vehicular provoca enfermedades respiratorias está mostrando una relación de:",
+      "options": [
+        "Comparación y contraste",
+        "Causa y efecto",
+        "Deducción e inducción",
+        "Subjetividad y objetividad"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "question": "Leer un texto y encontrar las similitudes y diferencias entre dos conceptos o personajes es un ejercicio de:",
+      "options": [
+        "Hacer inferencias",
+        "Identificar figuras de sonido",
+        "Establecer comparaciones y contrastes",
+        "Analizar la gramática"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "question": "Elementos visuales como el subrayado, las negrillas, las viñetas o las cursivas en un texto funcionan como:",
+      "options": [
+        "Errores tipográficos",
+        "Apoyos gráficos para resaltar información importante",
+        "Figuras literarias visuales",
+        "Distractores de lectura"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "question": "Si el autor de un texto comienza exponiendo una regla general y luego presenta ejemplos específicos que la comprueban, está utilizando un método de análisis:",
+      "options": [
+        "Inductivo (de lo particular a lo general)",
+        "Deductivo (de lo general a lo particular)",
+        "Literario",
+        "Cronológico"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "question": "A diferencia de un \"hecho real\" (que es comprobable y objetivo), una \"opinión\" se caracteriza por ser:",
+      "options": [
+        "Siempre verdadera.",
+        "Incomprensible para el lector.",
+        "Subjetiva, ya que expresa el punto de vista personal del autor.",
+        "Una ley científica."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 10,
+      "question": "¿Qué significa \"hacer inferencias\" en la comprensión lectora?",
+      "options": [
+        "Copiar el texto palabra por palabra.",
+        "Leer únicamente el título de la obra.",
+        "Deducir información implícita o sacar conclusiones lógicas a partir de las pistas que da el texto, aunque no esté escrito explícitamente.",
+        "Traducir el texto a otro idioma."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "question": "Al identificar el \"propósito\" o la \"intención del autor\" en un texto argumentativo, lo más probable es que busque:",
+      "options": [
+        "Solo divertir al público infantil.",
+        "Describir el paisaje sin opinar.",
+        "Persuadir o convencer al lector sobre su punto de vista.",
+        "Enseñar ortografía."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "question": "Las figuras literarias se clasifican en tres grandes grupos. ¿Cuáles son?",
+      "options": [
+        "Positivas, negativas y neutras.",
+        "De relación, de énfasis y de sonido.",
+        "Agudas, graves y esdrújulas.",
+        "Principales, secundarias y terciarias."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "question": "La figura literaria de relación que establece una comparación directa entre dos elementos usando nexos como \"cual\", \"como\" o \"parece\" (ej. \"Tus ojos son como estrellas\") es:",
+      "options": [
+        "La metáfora",
+        "El símil",
+        "La hipérbole",
+        "La anáfora"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "question": "Si se identifica un elemento con otro con el cual guarda una relación de semejanza, pero sin usar nexos comparativos (ej. \"Las perlas de tu boca\"), se trata de una:",
+      "options": [
+        "Metáfora",
+        "Aliteración",
+        "Ironía",
+        "Paradoja"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "¿Qué figura literaria se utiliza al atribuir cualidades o acciones humanas a objetos inanimados o animales (ej. \"El viento susurraba\")?",
+      "options": [
+        "Eufemismo",
+        "Oxímoron",
+        "Personificación",
+        "Metonimia"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 16,
+      "question": "La figura que consiste en sustituir una palabra desagradable o tabú por otra más suave o decorosa (ej. \"Pasó a mejor vida\" en lugar de \"Murió\") es el:",
+      "options": [
+        "Paralelismo",
+        "Eufemismo",
+        "Símil",
+        "Hipérbaton"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "question": "La \"sinestesia\" es una figura literaria de relación que consiste en:",
+      "options": [
+        "Repetir la misma palabra al inicio de los versos.",
+        "Atribuir una sensación a un sentido que no le corresponde (ej. \"un color chillón\" o \"ásperas palabras\").",
+        "Alterar el orden lógico de la oración.",
+        "Exagerar la realidad."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "La \"metonimia\" y la \"sinécdoque\" son figuras de relación que consisten en:",
+      "options": [
+        "Designar una cosa con el nombre de otra con la que guarda una relación de contigüidad, causa-efecto o parte-todo (ej. \"Se comió tres platos\" o \"Tiene quince primaveras\").",
+        "Comparar dos cosas opuestas.",
+        "Imitar sonidos de la naturaleza.",
+        "Escribir en verso."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 19,
+      "question": "Dentro de las figuras de énfasis, ¿cuál consiste en una exageración desproporcionada de los hechos (ej. \"Te lo he dicho un millón de veces\")?",
+      "options": [
+        "Antítesis",
+        "Hipérbole",
+        "Metáfora",
+        "Anáfora"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "El \"hipérbaton\" es una figura de énfasis que se caracteriza por:",
+      "options": [
+        "Alterar el orden sintáctico lógico o habitual de las palabras en una oración (ej. \"Del salón en el ángulo oscuro\").",
+        "Expresar lo contrario de lo que se piensa con tono burlón.",
+        "Exagerar un sentimiento.",
+        "Mezclar sentidos visuales y auditivos."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 21,
+      "question": "¿Qué figura de énfasis contrapone dos palabras o ideas de significados opuestos para resaltar una idea (ej. \"Es tan corto el amor y tan largo el olvido\")?",
+      "options": [
+        "Paradoja",
+        "Ironía",
+        "Antítesis",
+        "Onomatopeya"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 22,
+      "question": "Un \"oxímoron\" se forma al unir dos conceptos de significado opuesto en una misma expresión, generando un nuevo sentido (ej. \"Un instante eterno\" o \"Luz oscura\"). Esta es una figura de:",
+      "options": [
+        "Sonido",
+        "Énfasis",
+        "Gramática",
+        "Puntuación"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "La figura de énfasis que da a entender lo contrario de lo que se dice literalmente, a menudo con un fin sarcástico o humorístico, es:",
+      "options": [
+        "La metáfora",
+        "El eufemismo",
+        "La ironía",
+        "La sinécdoque"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 24,
+      "question": "Entre las figuras de sonido, la \"aliteración\" consiste en:",
+      "options": [
+        "Repetir intencionadamente uno o varios sonidos (fonemas) dentro de una misma frase para lograr un efecto acústico (ej. \"El ruido con que rueda la ronca tempestad\").",
+        "Omitir las consonantes en un poema.",
+        "Imprimir palabras en negrita.",
+        "Inventar palabras nuevas."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 25,
+      "question": "La figura de sonido que imita o recrea el sonido de un animal, un objeto o un fenómeno natural (ej. \"Tic-tac\", \"Guau\", \"Pum\") se llama:",
+      "options": [
+        "Anáfora",
+        "Aliteración",
+        "Onomatopeya",
+        "Metonimia"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 26,
+      "question": "La \"anáfora\" es una figura de sonido (o de repetición) que se distingue por:",
+      "options": [
+        "Repetir la misma palabra o conjunto de palabras al final de cada párrafo.",
+        "Repetir una o más palabras al principio de varios versos u oraciones consecutivas.",
+        "Alternar entre mayúsculas y minúsculas.",
+        "Rimarlo todo de forma consonante."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "question": "¿Qué género literario se caracteriza por la expresión de sentimientos, emociones y estados de ánimo del autor, escrito habitualmente en verso?",
+      "options": [
+        "Género Narrativo",
+        "Género Dramático",
+        "Género Lírico",
+        "Género Epistolar"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 28,
+      "question": "El \"Género Narrativo\" se distingue principalmente por:",
+      "options": [
+        "Relatar historias y sucesos protagonizados por personajes en un espacio y tiempo, utilizando la figura de un narrador.",
+        "Estar escrito exclusivamente para ser cantado.",
+        "Contener diálogos sin ninguna intervención de narrador.",
+        "Ser un manual de instrucciones."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 29,
+      "question": "¿A qué género literario pertenecen las obras escritas específicamente para ser representadas ante un público en un escenario, estructuradas mediante diálogos y acotaciones?",
+      "options": [
+        "Género Lírico",
+        "Género Dramático",
+        "Género Expositivo",
+        "Género Narrativo"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "question": "El cuento, la novela, la fábula, la leyenda y el mito pertenecen a los subgéneros:",
+      "options": [
+        "Dramáticos",
+        "Líricos",
+        "Narrativos",
+        "Científicos"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 31,
+      "question": "La oda, la elegía, el soneto y el poema pertenecen a los subgéneros:",
+      "options": [
+        "Líricos",
+        "Narrativos",
+        "Dramáticos",
+        "Argumentativos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 32,
+      "question": "La tragedia, la comedia y el drama son los principales subgéneros del:",
+      "options": [
+        "Género Lírico",
+        "Género Épico",
+        "Género Narrativo",
+        "Género Dramático"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 33,
+      "question": "Si al leer una obra literaria, analizas la forma en que los personajes hablan para determinar su origen social o región, estás aplicando una estrategia de comprensión lectora enfocada en identificar:",
+      "options": [
+        "El tipo de papel usado en el libro.",
+        "Los niveles del lenguaje y el contexto.",
+        "Las figuras de sonido.",
+        "El diseño gráfico de la portada."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "question": "En el análisis de literatura maya contemporánea o hispanoamericana, el estudio del \"contexto\" incluye:",
+      "options": [
+        "Revisar la ortografía de la traducción.",
+        "Comprender la historia, cultura, época y cosmovisión del autor que influyen en su obra.",
+        "Contar el número de páginas.",
+        "Memorizar fechas de publicación."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "question": "Extraer la \"moraleja\" de una fábula requiere de una habilidad de comprensión lectora conocida como:",
+      "options": [
+        "Deducción de secuencias.",
+        "Identificación de personajes.",
+        "Identificación del mensaje de la lectura.",
+        "Lectura literal."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 36,
+      "question": "La \"interpretación de códigos iconográficos\" como parte de las estrategias de comprensión lectora se aplica a:",
+      "options": [
+        "Audios de entrevistas.",
+        "La descripción del significado de imágenes, ilustraciones, fotografías, signos y señales que acompañan o componen el texto.",
+        "Los errores gramaticales.",
+        "El diseño de la carátula."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "question": "Si durante la lectura de una crónica notas que el autor utiliza términos como \"tristemente\", \"horrible\" o \"injusto\" para describir un suceso, puedes identificar que el texto tiende a la:",
+      "options": [
+        "Objetividad",
+        "Subjetividad",
+        "Onomatopeya",
+        "Metonimia"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 38,
+      "question": "¿Cuál es la diferencia entre el \"tema\" y la \"idea principal\" de una lectura?",
+      "options": [
+        "El tema es el resumen de un solo párrafo; la idea principal abarca todo el libro.",
+        "El tema se expresa en una o dos palabras (de qué trata); la idea principal es una oración completa que afirma o niega lo más importante sobre ese tema.",
+        "Son exactamente lo mismo.",
+        "El tema es el título literario y la idea principal es el índice."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "La identificación de personajes, eventos, fechas y lugares en donde ocurren las acciones forma parte de:",
+      "options": [
+        "La comprensión de detalles importantes.",
+        "Las figuras literarias de relación.",
+        "La evaluación crítica del texto.",
+        "El análisis morfológico."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 40,
+      "question": "Correlacionar los conocimientos previos del lector con el contenido de un texto nuevo es una estrategia que sirve para:",
+      "options": [
+        "Encontrar faltas de ortografía más rápido.",
+        "Ignorar el contexto del autor.",
+        "Facilitar la comprensión lectora general al crear puentes entre lo que ya se sabe y la nueva información.",
+        "Redactar una obra teatral."
+      ],
+      "correct": 2
+    }
+  ]
+}

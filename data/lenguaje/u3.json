@@ -1,0 +1,446 @@
+{
+  "unit": "3",
+  "name": "Ortografía",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué estudia o define la ortografía literal?",
+      "options": [
+        "La correcta pronunciación de los sonidos.",
+        "El uso correcto de las letras (grafías) según las normativas del idioma.",
+        "La separación de las oraciones en párrafos.",
+        "El significado oculto de las palabras escritas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Según las reglas de la ortografía literal, los verbos terminados en \"-bir\" se escriben con \"b\", excepto:",
+      "options": [
+        "Recibir, prohibir, exhibir.",
+        "Hervir, servir, vivir.",
+        "Escribir, concebir, subir.",
+        "Percibir, sucumbir, describir."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Las palabras que terminan en \"-aje\" y \"-jería\" (como \"coraje\" o \"relojería\") se escriben normativamente con:",
+      "options": [
+        "G",
+        "J",
+        "X",
+        "H"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es la regla para el uso de la \"rr\" (doble erre)?",
+      "options": [
+        "Se usa siempre al inicio de una palabra que suena fuerte.",
+        "Se usa solo entre vocales cuando el sonido es fuerte.",
+        "Se usa después de la letra \"n\" (ej. enrredar).",
+        "Se usa al final de todas las palabras agudas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "Los signos de puntuación como la coma, el punto y los dos puntos sirven principalmente para:",
+      "options": [
+        "Decorar el texto y hacerlo visualmente atractivo.",
+        "Marcar las pausas y la entonación para organizar el discurso y evitar ambigüedades.",
+        "Indicar dónde debe respirar el lector de poesía.",
+        "Resaltar las palabras más importantes de una oración."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "question": "¿Qué signo de puntuación se utiliza para separar elementos de una enumeración, excepto antes de las conjunciones \"y\", \"e\", \"o\", \"u\"?",
+      "options": [
+        "Punto y coma",
+        "Dos puntos",
+        "Coma",
+        "Puntos suspensivos"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es la función principal del punto y coma (;)?",
+      "options": [
+        "Finalizar un texto por completo.",
+        "Hacer una pausa menor que la coma.",
+        "Separar oraciones independientes que tienen una estrecha relación de significado, o elementos de una enumeración compleja que ya incluyen comas.",
+        "Introducir una cita textual."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "¿Qué signos se consideran \"signos de entonación\"?",
+      "options": [
+        "Comillas y paréntesis.",
+        "Punto y coma, y dos puntos.",
+        "Signos de interrogación y de admiración (o exclamación).",
+        "Guiones y rayas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "En el idioma español, ¿cuál es la regla normativa respecto a los signos de interrogación y admiración?",
+      "options": [
+        "Solo se utiliza el signo de cierre, igual que en el inglés.",
+        "Son signos dobles; se debe usar obligatoriamente uno de apertura (¿ ¡) y uno de cierre (? !).",
+        "Solo se usan en textos literarios.",
+        "Reemplazan siempre a la coma en cualquier contexto."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "question": "Las comillas (« », \" \", ' ') son signos auxiliares que se utilizan comúnmente para:",
+      "options": [
+        "Indicar asombro o duda.",
+        "Encerrar citas textuales, palabras extranjeras o términos usados con ironía.",
+        "Separar las sílabas de una palabra.",
+        "Reemplazar al punto final."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "Los paréntesis ( ) tienen como función principal:",
+      "options": [
+        "Introducir un diálogo directo en un cuento.",
+        "Interrumpir el enunciado para insertar una aclaración, un dato o una información complementaria.",
+        "Indicar que una enumeración continúa indefinidamente.",
+        "Finalizar una oración exclamativa."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "question": "¿Cómo se define el \"acento prosódico\"?",
+      "options": [
+        "Es la tilde (´) que se dibuja sobre la vocal.",
+        "Es la mayor fuerza o intensidad de voz con la que se pronuncia una sílaba dentro de una palabra.",
+        "Es la ausencia total de entonación en una palabra.",
+        "Es el acento exclusivo de los extranjerismos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "question": "A diferencia del acento prosódico, el \"acento ortográfico\" es:",
+      "options": [
+        "La representación gráfica del acento mediante una tilde (´) sobre la vocal correspondiente.",
+        "La pronunciación de la letra \"h\" cuando va intercalada.",
+        "El uso de mayúsculas sostenidas.",
+        "La sílaba que no tiene fuerza de voz."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Qué es la sílaba tónica?",
+      "options": [
+        "La sílaba que se pronuncia con menor intensidad en una palabra.",
+        "Aquella sílaba sobre la que recae el acento (la mayor fuerza de voz).",
+        "La sílaba que siempre lleva tilde, sin importar las reglas.",
+        "La última sílaba de cualquier palabra."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "¿Qué son las sílabas átonas?",
+      "options": [
+        "Las que tienen tilde.",
+        "Las que inician con una consonante.",
+        "Todas las sílabas de una palabra que se pronuncian con menor intensidad que la sílaba tónica.",
+        "Las sílabas que contienen diptongos."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 16,
+      "question": "Según las reglas generales de acentuación, las palabras \"agudas\" son aquellas cuya sílaba tónica es la:",
+      "options": [
+        "Última",
+        "Penúltima",
+        "Antepenúltima",
+        "Anterior a la antepenúltima"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 17,
+      "question": "Las palabras agudas llevan tilde (acento ortográfico) cuando terminan en:",
+      "options": [
+        "Cualquier consonante.",
+        "\"n\", \"s\" o vocal.",
+        "Solamente en vocal.",
+        "Las consonantes \"z\" o \"d\"."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "La palabra \"canción\" lleva tilde porque es:",
+      "options": [
+        "Grave terminada en \"n\".",
+        "Aguda terminada en \"n\".",
+        "Esdrújula.",
+        "Aguda terminada en consonante distinta de \"n\" o \"s\"."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "Las palabras \"graves\" o \"llanas\" son aquellas que tienen la sílaba tónica en la:",
+      "options": [
+        "Última sílaba.",
+        "Penúltima sílaba.",
+        "Antepenúltima sílaba.",
+        "Primera sílaba."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "¿Cuándo llevan tilde las palabras graves o llanas?",
+      "options": [
+        "Siempre llevan tilde.",
+        "Cuando terminan en \"n\", \"s\" o vocal.",
+        "Cuando terminan en cualquier consonante que NO sea \"n\" ni \"s\".",
+        "Nunca llevan tilde."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "question": "La palabra \"árbol\" lleva tilde porque es una palabra:",
+      "options": [
+        "Esdrújula terminada en \"l\".",
+        "Grave que no termina en \"n\", \"s\" ni vocal.",
+        "Aguda terminada en consonante.",
+        "Sobresdrújula."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "Las palabras cuya sílaba tónica es la antepenúltima se denominan:",
+      "options": [
+        "Agudas",
+        "Graves",
+        "Esdrújulas",
+        "Sobresdrújulas"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 23,
+      "question": "¿Cuál es la regla de tildación para las palabras esdrújulas y sobresdrújulas?",
+      "options": [
+        "Solo se tildan si terminan en vocal.",
+        "Siempre llevan tilde sin excepción.",
+        "Nunca llevan tilde.",
+        "Se tildan si terminan en \"s\"."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "question": "¿Qué función cumple la \"tilde diacrítica\"?",
+      "options": [
+        "Separar los diptongos.",
+        "Diferenciar palabras que se escriben igual pero tienen significados y funciones gramaticales distintas (ej. él / el, té / te).",
+        "Adornar la escritura de nombres propios.",
+        "Indicar el inicio de una pregunta."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "question": "En la oración \"Él quiere que le sirvas el té\", las palabras con tilde (Él, té) funcionan, respectivamente, como:",
+      "options": [
+        "Artículo y pronombre.",
+        "Pronombre personal y sustantivo (infusión).",
+        "Adjetivo y verbo.",
+        "Preposición y conjunción."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "question": "La \"tilde enfática\" se utiliza para dar énfasis y diferenciar el uso interrogativo y exclamativo de palabras como:",
+      "options": [
+        "El, tu, mi, si.",
+        "Qué, quién, cómo, cuándo, dónde.",
+        "Aun, solo, mas, de.",
+        "Para, por, con, sin."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "question": "¿Qué es un diptongo?",
+      "options": [
+        "La separación de dos vocales fuertes en distintas sílabas.",
+        "La unión de dos vocales (una abierta y una cerrada átona, o dos cerradas) que se pronuncian en una misma sílaba.",
+        "La unión de tres vocales en una misma sílaba.",
+        "La eliminación de una vocal en la escritura."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "question": "¿Cuál de las siguientes palabras contiene un diptongo?",
+      "options": [
+        "Poeta",
+        "Caoba",
+        "Causa",
+        "Raíz"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 29,
+      "question": "Un \"hiato\" se produce cuando:",
+      "options": [
+        "Dos vocales se pronuncian en la misma sílaba.",
+        "Dos vocales seguidas se pronuncian en sílabas distintas.",
+        "Una palabra no tiene vocales.",
+        "Se utiliza la letra \"h\" intermedia."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "question": "En el caso de un hiato formado por una vocal abierta (a, e, o) y una vocal cerrada tónica (í, ú), la regla indica que:",
+      "options": [
+        "Nunca se pone tilde.",
+        "Se pone tilde en la vocal cerrada tónica, rompiendo las reglas generales de acentuación (ej. ma-íz, bú-ho).",
+        "Se pone tilde en la vocal abierta.",
+        "Se forma un diptongo obligatoriamente."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "question": "Respecto al uso de mayúsculas, es normativamente incorrecto:",
+      "options": [
+        "Escribir con mayúscula inicial los nombres propios de personas y ciudades.",
+        "Mantener la tilde en una vocal mayúscula si las reglas de acentuación lo exigen (ej. ÁFRICA).",
+        "Omitir la tilde en las letras mayúsculas argumentando que son mayúsculas.",
+        "Escribir la primera palabra después de un punto con inicial mayúscula."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 32,
+      "question": "Las estaciones del año, los meses y los días de la semana, normativamente en español, se escriben con:",
+      "options": [
+        "Inicial mayúscula siempre.",
+        "Inicial minúscula, salvo que estén al inicio de una oración o formen parte de un nombre propio.",
+        "Todas sus letras en mayúscula.",
+        "Tilde diacrítica en la primera sílaba."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 33,
+      "question": "¿Qué es una abreviatura?",
+      "options": [
+        "Una palabra inventada.",
+        "La representación gráfica reducida de una palabra mediante la supresión de letras finales o centrales, que usualmente termina en punto (ej. Sr., Dr.).",
+        "Una palabra formada por la unión de dos conceptos (ej. agridulce).",
+        "Un signo ortográfico para hacer pausas largas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "question": "¿Qué diferencia principal existe entre una sigla y un acrónimo?",
+      "options": [
+        "Ninguna, son exactamente lo mismo.",
+        "La sigla se lee deletreando (ONG) o por sílabas si es pronunciable, y el acrónimo es una sigla que puede leerse como una palabra y a veces se lexicaliza (Ovni, Unesco).",
+        "Las siglas llevan tilde obligatoriamente y los acrónimos no.",
+        "Las siglas se usan para nombres propios y los acrónimos para verbos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "question": "El número escrito \"quinto\" o \"décimo\" es un ejemplo de número:",
+      "options": [
+        "Cardinal",
+        "Romano",
+        "Ordinal",
+        "Fraccionario"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 36,
+      "question": "Los números \"uno, dos, tres, cincuenta\" se clasifican gramaticalmente como números:",
+      "options": [
+        "Ordinales",
+        "Partitivos",
+        "Cardinales",
+        "Múltiplos"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 37,
+      "question": "En la numeración romana, ¿qué regla se aplica si una letra de menor valor se coloca a la izquierda de una de mayor valor (ej. IX o IV)?",
+      "options": [
+        "Se suman sus valores.",
+        "Se multiplica su valor.",
+        "Se resta el valor de la menor a la mayor.",
+        "Se anula el valor de ambas."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 38,
+      "question": "La palabra \"examen\" al pasar a su forma plural \"exámenes\", ¿por qué debe llevar tilde?",
+      "options": [
+        "Porque es una regla especial para plurales.",
+        "Porque se convierte en una palabra esdrújula, y todas las esdrújulas llevan tilde.",
+        "Porque lleva tilde diacrítica.",
+        "Porque hay un hiato."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "question": "El uso de los dos puntos (:) es obligatorio antes de:",
+      "options": [
+        "El sujeto de la oración.",
+        "El punto y final.",
+        "Una cita textual encomillada.",
+        "Un signo de interrogación de cierre."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 40,
+      "question": "El guion corto (-) se utiliza correctamente para:",
+      "options": [
+        "Introducir los diálogos de los personajes en una novela.",
+        "Indicar el final definitivo de un texto.",
+        "Separar los elementos de una palabra compuesta (ej. teórico-práctico) o dividir una palabra a final de línea.",
+        "Enmarcar una aclaración larga dentro de una oración principal."
+      ],
+      "correct": 2
+    }
+  ]
+}
