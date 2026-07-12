@@ -158,10 +158,28 @@ const App = (function() {
         showUnitSelection();
     }
 
+    // --- Helper: get data for current subject ---
+    function getSubjectUnits() {
+        return LENGUAJE_DATA.units[state.subject] || [];
+    }
+
+    function getSubjectQuestions(unitKey) {
+        return (LENGUAJE_DATA.questions[state.subject] || {})[unitKey] || [];
+    }
+
+    function getSubjectExercises(unitKey) {
+        return (LENGUAJE_DATA.exercises[state.subject] || {})[unitKey] || [];
+    }
+
+    function getSubjectVideos(unitNum) {
+        const vids = LENGUAJE_DATA.videos[state.subject] || [];
+        return vids.find(v => parseInt(v.unit) === unitNum);
+    }
+
     // --- Unit Selection ---
 
     function showUnitSelection() {
-        const units = LENGUAJE_DATA.units;
+        const units = getSubjectUnits();
         
         els.unitsTitle.textContent = 'Seleccione la unidad';
         els.unitsGrid.innerHTML = '';
@@ -175,8 +193,8 @@ const App = (function() {
         let totalItems = 0;
         for (const unit of units) {
             const qKey = 'u' + unit.unit;
-            totalItems += (LENGUAJE_DATA.questions[qKey] || []).length;
-            totalItems += (LENGUAJE_DATA.exercises[qKey] || []).length;
+            totalItems += getSubjectQuestions(qKey).length;
+            totalItems += getSubjectExercises(qKey).length;
         }
         
         allCard.innerHTML = `
@@ -195,8 +213,8 @@ const App = (function() {
         for (const unit of units) {
             const num = parseInt(unit.unit);
             const qKey = 'u' + unit.unit;
-            const questionCount = (LENGUAJE_DATA.questions[qKey] || []).length;
-            const exerciseCount = (LENGUAJE_DATA.exercises[qKey] || []).length;
+            const questionCount = getSubjectQuestions(qKey).length;
+            const exerciseCount = getSubjectExercises(qKey).length;
             const totalItems = questionCount + exerciseCount;
 
             const card = document.createElement('button');
@@ -236,14 +254,15 @@ const App = (function() {
             }
             return;
         }
-        const unit = LENGUAJE_DATA.units.find(u => u.unit === state.unit);
+        const units = getSubjectUnits();
+        const unit = units.find(u => u.unit === state.unit);
         if (!unit) return;
 
         els.detailTitle.textContent = 'Unidad ' + unit.unit + ': ' + unit.name;
         
         const qKey = 'u' + unit.unit;
-        const questionCount = (LENGUAJE_DATA.questions[qKey] || []).length;
-        const exerciseCount = (LENGUAJE_DATA.exercises[qKey] || []).length;
+        const questionCount = getSubjectQuestions(qKey).length;
+        const exerciseCount = getSubjectExercises(qKey).length;
         els.detailSubtitle.textContent = (questionCount + exerciseCount) + ' preguntas y ejercicios disponibles';
 
         // Load study material
@@ -269,21 +288,22 @@ const App = (function() {
         
         els.detailTitle.textContent = 'Todas las unidades';
         
+        const units = getSubjectUnits();
         let totalItems = 0;
-        for (const unit of LENGUAJE_DATA.units) {
+        for (const unit of units) {
             const qKey = 'u' + unit.unit;
-            totalItems += (LENGUAJE_DATA.questions[qKey] || []).length;
-            totalItems += (LENGUAJE_DATA.exercises[qKey] || []).length;
+            totalItems += getSubjectQuestions(qKey).length;
+            totalItems += getSubjectExercises(qKey).length;
         }
         els.detailSubtitle.textContent = totalItems + ' preguntas y ejercicios disponibles en total';
 
         // Show combined study info
         els.studyContent.innerHTML = `
             <div class="study-info">
-                <p>Esta opcion permite estudiar todas las unidades en un solo cuestionario combinado. Se seleccionaran 20 preguntas al azar de entre las ${totalItems} preguntas y ejercicios disponibles en las 6 unidades.</p>
+                <p>Esta opcion permite estudiar todas las unidades en un solo cuestionario combinado. Se seleccionaran 20 preguntas al azar de entre las ${totalItems} preguntas y ejercicios disponibles en las ${units.length} unidades.</p>
                 <h4 class="study-section-title">Unidades incluidas</h4>
                 <ul class="video-list">
-                    ${LENGUAJE_DATA.units.map(u => `
+                    ${units.map(u => `
                         <li class="video-item" style="display:flex;align-items:center;gap:12px;padding:10px 0;">
                             <div class="card-icon" style="width:32px;height:32px;background:#eef2f5;color:#2c3e50;">
                                 <span style="font-weight:700;font-size:0.85rem;">${u.unit}</span>
@@ -308,11 +328,12 @@ const App = (function() {
 
     function startQuizAll() {
         // Combine questions and exercises from all units
+        const units = getSubjectUnits();
         let allItems = [];
-        for (const unit of LENGUAJE_DATA.units) {
+        for (const unit of units) {
             const qKey = 'u' + unit.unit;
-            const questions = LENGUAJE_DATA.questions[qKey] || [];
-            const exercises = LENGUAJE_DATA.exercises[qKey] || [];
+            const questions = getSubjectQuestions(qKey);
+            const exercises = getSubjectExercises(qKey);
             allItems = allItems.concat(questions).concat(exercises);
         }
 
@@ -373,7 +394,7 @@ const App = (function() {
 
     function loadStudyMaterial(unitId) {
         const unitNum = parseInt(unitId);
-        const unitData = LENGUAJE_DATA.videos.find(v => parseInt(v.unit) === unitNum);
+        const unitData = getSubjectVideos(unitNum);
         
         if (!unitData || !unitData.videos || unitData.videos.length === 0) {
             els.studyContent.innerHTML = `
@@ -453,8 +474,8 @@ const App = (function() {
 
     function startQuiz() {
         const qKey = 'u' + state.unit;
-        const questions = LENGUAJE_DATA.questions[qKey] || [];
-        const exercises = LENGUAJE_DATA.exercises[qKey] || [];
+        const questions = getSubjectQuestions(qKey);
+        const exercises = getSubjectExercises(qKey);
         const allItems = questions.concat(exercises);
         
         if (allItems.length === 0) {
@@ -498,7 +519,7 @@ const App = (function() {
 
         // Counter with type badge
         const type = question.type || 'mc';
-        const typeLabels = { mc: 'Opción múltiple', fill: 'Completar', tf: 'Verdadero / Falso', correct: 'Corregir', order: 'Ordenar', match: 'Emparejar', reading: 'Comprensión lectora' };
+        const typeLabels = { mc: 'Opción múltiple', fill: 'Completar', tf: 'Verdadero / Falso', correct: 'Corregir', order: 'Ordenar', match: 'Emparejar', reading: 'Comprensión lectora', problem: 'Problema' };
         els.quizCounter.innerHTML = 'Pregunta ' + (q.currentIndex + 1) + ' de ' + q.totalQuestions + ' <span class="quiz-type-badge">' + (typeLabels[type] || type) + '</span>';
 
         // Question text

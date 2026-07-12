@@ -90,8 +90,19 @@ function parseVideos(text) {
 }
 
 // Process each unit directory
-// Clean up old generated files first
+// First, preserve existing exercises from JSON files
+const existingExercises = {};
 if (fs.existsSync(outputDir)) {
+    const existingFiles = fs.readdirSync(outputDir).filter(f => f.startsWith('u') && f.endsWith('.json'));
+    for (const f of existingFiles) {
+        try {
+            const data = JSON.parse(fs.readFileSync(path.join(outputDir, f), 'utf-8'));
+            if (data.exercises && data.exercises.length > 0) {
+                existingExercises[data.unit] = data.exercises;
+            }
+        } catch (e) { /* ignore */ }
+    }
+    // Clean up old generated files
     const oldFiles = fs.readdirSync(outputDir);
     for (const f of oldFiles) {
         fs.unlinkSync(path.join(outputDir, f));
@@ -129,8 +140,9 @@ for (const dir of unitDirs) {
         
         if (questions.length > 0) {
             const outputPath = path.join(outputDir, `u${unitNum}.json`);
-            fs.writeFileSync(outputPath, JSON.stringify({ unit: unitNum, name: unitName, questions }, null, 2), 'utf-8');
-            console.log(`Unidad ${unitNum}: ${questions.length} preguntas escritas en ${outputPath}`);
+            const exercises = existingExercises[unitNum] || [];
+            fs.writeFileSync(outputPath, JSON.stringify({ unit: unitNum, name: unitName, questions, exercises }, null, 2), 'utf-8');
+            console.log(`Unidad ${unitNum}: ${questions.length} preguntas, ${exercises.length} ejercicios escritos en ${outputPath}`);
         }
     }
     
@@ -161,8 +173,38 @@ fs.writeFileSync(indexPath, JSON.stringify(unitsMeta, null, 2), 'utf-8');
 console.log(`\nTotal unidades procesadas: ${unitsMeta.length}`);
 console.log('Archivo de índice generado en', indexPath);
 
+// --- Also load Física data ---
+const fisicaDir = path.join(__dirname, '..', 'data', 'fisica');
+let fisicaUnitsMeta = [];
+let fisicaQuestions = {};
+let fisicaExercises = {};
+let fisicaVideos = [];
+
+if (fs.existsSync(fisicaDir)) {
+    const fisicaIndexPath = path.join(fisicaDir, 'index.json');
+    if (fs.existsSync(fisicaIndexPath)) {
+        fisicaUnitsMeta = JSON.parse(fs.readFileSync(fisicaIndexPath, 'utf-8'));
+    }
+
+    for (const unit of fisicaUnitsMeta) {
+        const qPath = path.join(fisicaDir, `u${unit.unit}.json`);
+        if (fs.existsSync(qPath)) {
+            const qData = JSON.parse(fs.readFileSync(qPath, 'utf-8'));
+            fisicaQuestions[`u${unit.unit}`] = qData.questions || [];
+            if (qData.exercises && qData.exercises.length > 0) {
+                fisicaExercises[`u${unit.unit}`] = qData.exercises;
+            }
+        }
+    }
+
+    const fisicaVideosPath = path.join(fisicaDir, 'videos.json');
+    if (fs.existsSync(fisicaVideosPath)) {
+        fisicaVideos = JSON.parse(fs.readFileSync(fisicaVideosPath, 'utf-8'));
+    }
+}
+
 // Now generate the data.js file for the web app
-let dataJsContent = `// Datos de preguntas - Lenguaje
+let dataJsContent = `// Datos de preguntas - Lenguaje y Física
 // Generado automaticamente - NO EDITAR MANUALMENTE
 
 const LENGUAJE_DATA = {
@@ -177,7 +219,7 @@ const LENGUAJE_DATA = {
         },
         "fisica": {
           "name": "Física",
-          "available": false,
+          "available": ${fisicaUnitsMeta.length > 0 ? 'true' : 'false'},
           "icon": "science"
         }
       }
@@ -198,39 +240,67 @@ const LENGUAJE_DATA = {
       }
     }
   },
-  units: ${JSON.stringify(unitsMeta, null, 2)},
-  questions: {`;
+  units: {
+    "lenguaje": ${JSON.stringify(unitsMeta, null, 2)},
+    "fisica": ${JSON.stringify(fisicaUnitsMeta, null, 2)}
+  },
+  questions: {
+    "lenguaje": {`;
 
 for (const unit of unitsMeta) {
     const qPath = path.join(outputDir, `u${unit.unit}.json`);
     if (fs.existsSync(qPath)) {
         const qData = JSON.parse(fs.readFileSync(qPath, 'utf-8'));
-        dataJsContent += `\n    "u${unit.unit}": ${JSON.stringify(qData.questions, null, 4)},`;
+        dataJsContent += `\n      "u${unit.unit}": ${JSON.stringify(qData.questions, null, 6)},`;
     }
 }
 
-dataJsContent += `\n  },
-  exercises: {`;
+dataJsContent += `\n    },
+    "fisica": {`;
+
+for (const unit of fisicaUnitsMeta) {
+    if (fisicaQuestions[`u${unit.unit}`]) {
+        dataJsContent += `\n      "u${unit.unit}": ${JSON.stringify(fisicaQuestions[`u${unit.unit}`], null, 6)},`;
+    }
+}
+
+dataJsContent += `\n    }
+  },
+  exercises: {
+    "lenguaje": {`;
 
 for (const unit of unitsMeta) {
     const qPath = path.join(outputDir, `u${unit.unit}.json`);
     if (fs.existsSync(qPath)) {
         const qData = JSON.parse(fs.readFileSync(qPath, 'utf-8'));
         if (qData.exercises && qData.exercises.length > 0) {
-            dataJsContent += `\n    "u${unit.unit}": ${JSON.stringify(qData.exercises, null, 4)},`;
+            dataJsContent += `\n      "u${unit.unit}": ${JSON.stringify(qData.exercises, null, 6)},`;
         }
     }
 }
 
-dataJsContent += `\n  },
-  videos: ${JSON.stringify((() => {
+dataJsContent += `\n    },
+    "fisica": {`;
+
+for (const unit of fisicaUnitsMeta) {
+    if (fisicaExercises[`u${unit.unit}`]) {
+        dataJsContent += `\n      "u${unit.unit}": ${JSON.stringify(fisicaExercises[`u${unit.unit}`], null, 6)},`;
+    }
+}
+
+dataJsContent += `\n    }
+  },
+  videos: {
+    "lenguaje": ${JSON.stringify((() => {
     const vPath = path.join(outputDir, 'videos.json');
     if (fs.existsSync(vPath)) {
         const vData = JSON.parse(fs.readFileSync(vPath, 'utf-8'));
         return vData;
     }
     return [];
-})(), null, 2)}
+})(), null, 4)},
+    "fisica": ${JSON.stringify(fisicaVideos, null, 4)}
+  }
 };`;
 
 const dataJsPath = path.join(__dirname, '..', 'js', 'data.js');

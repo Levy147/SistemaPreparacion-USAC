@@ -447,179 +447,170 @@
     {
       "id": 1,
       "type": "fill",
-      "question": "La _____ es un subgénero narrativo que relata hechos reales o imaginarios presentados como verdaderos, generalmente vinculados a un lugar y una comunidad.",
+      "question": "El _____ es una composición en prosa que presenta un análisis de una temática.",
       "options": [
-        "Crónica",
-        "Leyenda",
-        "Fábula",
-        "Reseña"
+        "cuento",
+        "ensayo",
+        "poema",
+        "noticia"
       ],
       "correct": 1
     },
     {
       "id": 2,
       "type": "fill",
-      "question": "La _____ es un relato que intenta explicar el origen de fenómenos naturales o culturales a través de personajes sobrenaturales, generalmente dioses o seres mitológicos.",
+      "question": "El _____ es una composición literaria que narra hechos reales o imaginarios.",
       "options": [
-        "Biografía",
-        "Leyenda",
-        "Mito",
-        "Fábula"
+        "ensayo",
+        "cuento",
+        "artículo",
+        "crónica"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "id": 3,
       "type": "fill",
-      "question": "La _____ es un subgénero narrativo que narra los acontecimientos relevantes de la vida de una persona escrita por un autor distinto a ella.",
+      "question": "La _____ es una composición que expresa sentimientos y emociones en verso.",
       "options": [
-        "Autobiografía",
-        "Reseña",
-        "Biografía",
-        "Crónica"
+        "narración",
+        "descripción",
+        "poesía",
+        "argumentación"
       ],
       "correct": 2
     },
     {
       "id": 4,
       "type": "fill",
-      "question": "La _____ es una relación cronológica de los hechos más importantes de un período o una época determinada, con fines de registro histórico.",
+      "question": "El _____ es un escrito breve que opina sobre un tema de actualidad.",
       "options": [
-        "Fábula",
-        "Crónica",
-        "Leyenda",
-        "Resumen"
+        "ensayo",
+        "artículo",
+        "cuento",
+        "poema"
       ],
       "correct": 1
     },
     {
       "id": 5,
       "type": "tf",
-      "question": "La cohesión se refiere a la relación lógica y el sentido global de un texto, mientras que la coherencia se refiere a los mecanismos lingüísticos que conectan las oraciones entre sí.",
-      "correct": false
+      "question": "El ensayo es una composición libre y subjetiva.",
+      "correct": true
     },
     {
       "id": 6,
       "type": "tf",
-      "question": "Un cuadro sinóptico organiza la información mediante un sistema de llaves que permite dividir un tema en subtemas y detalles, mostrando una relación de contención.",
+      "question": "El cuento tiene personajes, argumento, ambiente y tiempo.",
       "correct": true
     },
     {
       "id": 7,
       "type": "tf",
-      "question": "La adecuación en la redacción implica que el emisor debe mantener el mismo nivel de formalidad en un mensaje de texto con un amigo que en un ensayo académico.",
-      "correct": false
+      "question": "La crónica es un género informativo que narra hechos actuales.",
+      "correct": true
     },
     {
       "id": 8,
       "type": "tf",
-      "question": "En un debate, todos los participantes defienden la misma postura con el fin de convencer al público de una única verdad.",
+      "question": "El poema es una composición exclusivamente en prosa.",
       "correct": false
     },
     {
       "id": 9,
       "type": "correct",
-      "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "¿Cuál es la forma correcta de expresar una opinión?",
       "options": [
-        "Un resumen siempre utiliza las propias palabras del lector para expresar las ideas del autor.",
-        "La cohesión se logra mediante el uso adecuado de nexos, pronombres y sinónimos que enlazan las oraciones.",
-        "Un texto expositivo debe incluir obligatoriamente la opinión personal del autor para ser creíble.",
-        "Una ficha hemerográfica se utiliza para registrar datos de libros y enciclopedias."
+        "Yo pienso que es correcto",
+        "Es correcto porque tiene sentido",
+        "Todos piensan que es correcto",
+        "Es correcto absolutamente"
       ],
       "correct": 1
     },
     {
       "id": 10,
       "type": "correct",
-      "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "¿Cuál es la forma correcta de presentar un argumento?",
       "options": [
-        "La prosopografía describe los rasgos morales y psicológicos de una persona.",
-        "Un mapa mental se organiza jerárquicamente con un sistema de llaves de izquierda a derecha.",
-        "Una autobiografía es la narración de la vida de una persona escrita por ella misma.",
-        "El simposio permite que todo el público intervenga libremente para opinar sobre el tema."
+        "Creo que esto es importante",
+        "Es importante porque...",
+        "Todo el mundo sabe que es importante",
+        "Es importante y ya"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "id": 11,
       "type": "correct",
-      "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+      "question": "¿Cuál es la forma correcta de concluir un texto?",
       "options": [
-        "La etopeya describe únicamente la apariencia física de una persona.",
-        "En una mesa redonda, los participantes mantienen posturas antagónicas extremas y se confrontan directamente.",
-        "Un informe profesional debe incluir introducción, desarrollo, conclusiones, recomendaciones y bibliografía.",
-        "La caricatura es una descripción que combina rasgos físicos y morales sin exageración."
+        "En conclusión, se puede afirmar que...",
+        "Al final, creo yo que...",
+        "Todo mundo piensa que...",
+        "No sé qué pensar"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
       "id": 12,
-      "type": "order",
-      "question": "Ordena los pasos lógicos para la elaboración de un resumen escrito:",
-      "items": [
-        "Leer el texto completo para comprender su idea general.",
-        "Identificar las ideas principales y secundarias.",
-        "Eliminar información redundante y secundaria.",
-        "Redactar el resumen manteniendo las ideas originales del autor."
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de iniciar una exposición?",
+      "options": [
+        "Bueno, les voy a hablar de...",
+        "Hoy les voy a presentar...",
+        "A ver, escuchen...",
+        "Oigan, les voy a decir"
       ],
-      "correct": [
-        0,
-        1,
-        2,
-        3
-      ]
+      "correct": 1
     },
     {
       "id": 13,
       "type": "order",
-      "question": "Ordena los elementos de la estructura de un párrafo temático según su ubicación lógica:",
+      "question": "Ordena las partes de un ensayo:",
       "items": [
-        "Idea principal o tema que se va a desarrollar.",
-        "Oraciones de apoyo que desarrollan y explican la idea principal.",
-        "Cierre o transición que conecta con la siguiente idea."
+        "Conclusión",
+        "Introducción",
+        "Desarrollo",
+        "Tesis"
       ],
       "correct": [
-        0,
+        3,
         1,
-        2
+        2,
+        0
       ]
     },
     {
       "id": 14,
       "type": "order",
-      "question": "Ordena los pasos correctos para elaborar una síntesis:",
+      "question": "Ordena las etapas de la exposición oral:",
       "items": [
-        "Leer el texto con atención varias veces.",
-        "Comprender las ideas principales del autor.",
-        "Reorganizar la información y expresarla con las propias palabras.",
-        "Verificar que la síntesis mantenga la fidelidad al sentido original."
+        "Conclusión",
+        "Introducción",
+        "Desarrollo",
+        "Preparación"
       ],
       "correct": [
-        0,
+        3,
         1,
         2,
-        3
+        0
       ]
     },
     {
       "id": 15,
-      "type": "match",
-      "question": "Empareja cada tipo de texto con su propósito principal:",
-      "left": [
-        "Texto descriptivo",
-        "Texto narrativo",
-        "Texto expositivo",
-        "Texto argumentativo"
-      ],
-      "right": [
-        "Relatar una sucesión de hechos con personajes y tiempo determinado.",
-        "Caracterizar personas, lugares u objetos con detalle.",
-        "Informar o explicar un tema de forma objetiva.",
-        "Persuadir al lector mediante razones y pruebas."
+      "type": "order",
+      "question": "Ordena los géneros literarios de más antiguo a más moderno:",
+      "items": [
+        "Poesía épica",
+        "Novela",
+        "Cuento",
+        "Artículo"
       ],
       "correct": [
-        1,
         0,
+        1,
         2,
         3
       ]
@@ -627,86 +618,97 @@
     {
       "id": 16,
       "type": "match",
-      "question": "Empareja cada subgénero narrativo con su característica distintiva:",
+      "question": "Empareja cada género con su característica:",
       "left": [
-        "Biografía",
-        "Autobiografía",
-        "Leyenda",
-        "Mito"
+        "Ensayo",
+        "Cuento",
+        "Crónica",
+        "Poema"
       ],
       "right": [
-        "Relato de la vida de una persona escrito por un tercero.",
-        "Narración que mezcla hechos reales con elementos fantásticos, ligada a un lugar.",
-        "Narración de la propia vida escrita por el protagonista.",
-        "Relato que explica el origen de fenómenos naturales mediante seres sobrenaturales."
+        "Análisis libre",
+        "Narración breve",
+        "Informativo actual",
+        "Expresión en verso"
       ],
       "correct": [
         0,
-        2,
         1,
+        2,
         3
       ]
     },
     {
       "id": 17,
       "type": "match",
-      "question": "Empareja cada figura descriptiva con su objeto de descripción:",
+      "question": "Empareja cada parte del ensayo con su función:",
       "left": [
-        "Prosopografía",
-        "Etopeya",
-        "Cronografía",
-        "Caricatura"
+        "Introducción",
+        "Desarrollo",
+        "Conclusión",
+        "Tesis"
       ],
       "right": [
-        "Rasgos morales, psicológicos, virtudes y defectos de una persona.",
-        "Rasgos físicos o apariencia externa de una persona.",
-        "Descripción de una época o periodo histórico determinado.",
-        "Exageración o distorsión de rasgos con fines humorísticos o satíricos."
+        "Presentar el tema",
+        "Argumentar",
+        "Sintetizar",
+        "Idea central"
       ],
       "correct": [
-        1,
         0,
+        1,
         2,
         3
       ]
     },
     {
       "id": 18,
-      "type": "reading",
-      "passage": "El siguiente texto corresponde a un fragmento de un ensayo:\n\n\"La educación no se limita a la adquisición de conocimientos técnicos; también forma ciudadanos capaces de pensar críticamente y de participar activamente en la construcción de una sociedad más justa. Sin embargo, muchos sistemas educativos actuales priorizan la memorización sobre el pensamiento analítico, lo cual genera profesionales competentes pero pasivos ante las problemáticas sociales.\"",
-      "question": "Según el fragmento, ¿qué problema señala el autor sobre los sistemas educativos actuales?",
-      "options": [
-        "No enseñan conocimientos técnicos suficientes.",
-        "Priorizan la memorización sobre el pensamiento analítico.",
-        "Exigen demasiada participación ciudadana.",
-        "Forman ciudadanos demasiado activos."
+      "type": "match",
+      "question": "Empareja cada género textual con su propósito:",
+      "left": [
+        "Narrar",
+        "Describir",
+        "Argumentar",
+        "Exponer"
       ],
-      "correct": 1
+      "right": [
+        "Cuento",
+        "Paisaje",
+        "Ensayo",
+        "Noticia"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 19,
-      "type": "correct",
-      "question": "Un estudiante redactó el siguiente párrafo: \"El cambio climático es un problema grave. Muchos científicos lo advierten. Las temperaturas suben cada año. Los glaciares se derriten. La deforestación contribuye al problema. Los bosques son importantes para el planeta. Los animales viven en los bosques. Hay que proteger los bosques. El cambio climático afecta a todos. Cada persona debe actuar.\" ¿Cuál es el problema principal de cohesión y coherencia en este párrafo?",
+      "type": "reading",
+      "passage": "Juan preparó una exposición sobre cambio climático. Comenzó con datos impactantes, luego explicó las causas y finalmente propuso soluciones.",
+      "question": "¿Qué estructura siguió Juan?",
       "options": [
-        "No utiliza suficientes adjetivos calificativos para enriquecer el vocabulario.",
-        "El párrafo es demasiado corto para contener información relevante sobre el cambio climático.",
-        "Las oraciones no están conectadas adecuadamente con nexos, y las ideas no siguen un hilo lógico claro.",
-        "No incluye una cita bibliográfica de un científico reconocido."
+        "Introducción, desarrollo, conclusión",
+        "Solo introducción",
+        "Solo conclusión",
+        "No tuvo estructura"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
       "id": 20,
       "type": "reading",
-      "passage": "\"La entrevista es una técnica de intercambio que permite obtener información directa de una fuente. A diferencia del debate, donde dos posturas se confrontan, o del panel, donde varios expertos conversan entre sí, la entrevista se centra en la interacción entre un entrevistador que formula preguntas y un entrevistado que aporta sus conocimientos o experiencias sobre un tema específico.\"\n\nExtraído de un texto sobre técnicas de comunicación oral.",
-      "question": "Según el texto, ¿cuál es la diferencia principal entre una entrevista y un debate?",
+      "passage": "María escribió un ensayo sobre la importancia de la lectura. En la introducción presentó la tesis, en el desarrollo dio argumentos y en la conclusión reafirmó su posición.",
+      "question": "¿Qué tipo de texto escribió María?",
       "options": [
-        "En la entrevista participan más personas que en un debate.",
-        "La entrevista es escrita y el debate es oral.",
-        "En la entrevista un entrevistador hace preguntas a una fuente, mientras que en el debate se confrontan posturas contrarias.",
-        "No hay diferencia, ambas son lo mismo."
+        "Cuento",
+        "Ensayo",
+        "Crónica",
+        "Poema"
       ],
-      "correct": 2
+      "correct": 1
     }
   ]
 }

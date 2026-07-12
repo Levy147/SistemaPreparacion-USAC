@@ -1,0 +1,38 @@
+[
+  {
+    "unit": "1",
+    "name": "Cifras Significativas y Notación Científica"
+  },
+  {
+    "unit": "2",
+    "name": "Cantidades Escalares y Vectoriales"
+  },
+  {
+    "unit": "3",
+    "name": "Movimiento en una Dimensión"
+  },
+  {
+    "unit": "4",
+    "name": "Movimiento en dos Dimensiones"
+  },
+  {
+    "unit": "5",
+    "name": "Caída Libre"
+  },
+  {
+    "unit": "6",
+    "name": "Leyes de Newton"
+  },
+  {
+    "unit": "7",
+    "name": "Trabajo y Energía"
+  },
+  {
+    "unit": "8",
+    "name": "Cantidad de Movimiento e Impulso"
+  },
+  {
+    "unit": "9",
+    "name": "Choques Elásticos e Inelásticos"
+  }
+]

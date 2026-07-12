@@ -447,7 +447,7 @@
     {
       "id": 1,
       "type": "fill",
-      "question": "El _____ es el elemento de la comunicación que se refiere al lugar, momento y circunstancias en las que se produce el acto comunicativo. Sin él, el mensaje pierde sentido.",
+      "question": "El _____ es el elemento de la comunicación que se refiere al lugar, momento y circunstancias en las que se produce el acto comunicativo.",
       "options": [
         "mensaje",
         "contexto",
@@ -459,7 +459,7 @@
     {
       "id": 2,
       "type": "fill",
-      "question": "La función del lenguaje que se centra en la forma del mensaje para crear un efecto estético se denomina función _____. Un poema es un ejemplo clásico de esta función.",
+      "question": "La función del lenguaje que se centra en la forma del mensaje para crear un efecto estético se denomina función _____.",
       "options": [
         "fática",
         "emotiva",
@@ -471,7 +471,7 @@
     {
       "id": 3,
       "type": "fill",
-      "question": "En Guatemala es común escuchar expresiones como 'yo pensaba de que' o 'me di cuenta de que'. Estos errores, donde se añaden preposiciones innecesarias, se conocen como _____.",
+      "question": "En Guatemala es común escuchar expresiones como \"yo pensaba de que\". Estos errores se conocen como _____.",
       "options": [
         "anfibología",
         "dequeísmo",
@@ -483,7 +483,7 @@
     {
       "id": 4,
       "type": "fill",
-      "question": "Cuando un discurso tiene como propósito principal transmitir información objetiva sobre un tema, usando datos y hechos verificables, se clasifica como discurso _____.",
+      "question": "Cuando un discurso tiene como propósito principal transmitir información objetiva, se clasifica como discurso _____.",
       "options": [
         "narrativo",
         "descriptivo",
@@ -507,19 +507,19 @@
     {
       "id": 7,
       "type": "tf",
-      "question": "La función conativa y la función apelativa son la misma cosa; solo reciben nombres diferentes según el enfoque teórico del lingüista que las describe.",
+      "question": "La función conativa y la función apelativa son la misma cosa.",
       "correct": true
     },
     {
       "id": 8,
       "type": "tf",
-      "question": "La cacofonía se produce cuando se repiten sonidos o sílabas de forma intencional con el propósito de crear un efecto literario positivo en el texto.",
+      "question": "La cacofonía se produce cuando se repiten sonidos de forma intencional con el propósito de crear un efecto literario positivo.",
       "correct": false
     },
     {
       "id": 9,
       "type": "correct",
-      "question": "¿Cuál es la forma correcta de expresar la siguiente idea? «Le dije de que viniera a la reunión»",
+      "question": "¿Cuál es la forma correcta? «Le dije de que viniera a la reunión»",
       "options": [
         "Le dije de que viniera",
         "Le dije para que viniera",
@@ -531,7 +531,7 @@
     {
       "id": 10,
       "type": "correct",
-      "question": "¿Cuál es la forma correcta de expresar la siguiente idea? «Hubieron muchos problemas durante el proyecto»",
+      "question": "¿Cuál es la forma correcta? «Hubieron muchos problemas»",
       "options": [
         "Hubieron muchos problemas",
         "Han habido muchos problemas",
@@ -543,7 +543,7 @@
     {
       "id": 11,
       "type": "correct",
-      "question": "¿Cuál es la forma correcta de expresar la siguiente idea? «La película que la vi ayer fue muy buena»",
+      "question": "¿Cuál es la forma correcta? «La película que la vi ayer fue muy buena»",
       "options": [
         "La película que la vi ayer fue buena",
         "La película la vi ayer y fue buena",
@@ -555,7 +555,7 @@
     {
       "id": 12,
       "type": "correct",
-      "question": "¿Cuál es la forma correcta de expresar la siguiente idea? «Subir arriba del cerro es cansado»",
+      "question": "¿Cuál es la forma correcta? «Subir arriba del cerro es cansado»",
       "options": [
         "Subir arriba del cerro",
         "Subir pa arriba del cerro",
@@ -567,7 +567,7 @@
     {
       "id": 13,
       "type": "order",
-      "question": "Ordena los siguientes elementos del proceso comunicativo en el orden lógico en que ocurren:",
+      "question": "Ordena los elementos del proceso comunicativo en el orden lógico:",
       "items": [
         "Receptor",
         "Canal",
@@ -586,7 +586,7 @@
     {
       "id": 14,
       "type": "order",
-      "question": "Ordena las fases de la argumentación en su secuencia correcta:",
+      "question": "Ordena las fases de la argumentación:",
       "items": [
         "Cierre",
         "Desarrollo",
@@ -616,7 +616,7 @@
     {
       "id": 16,
       "type": "match",
-      "question": "Empareja cada función del lenguaje con su elemento predominante en el proceso comunicativo:",
+      "question": "Empareja cada función del lenguaje con su elemento:",
       "left": [
         "Función emotiva",
         "Función conativa",
@@ -645,16 +645,16 @@
     {
       "id": 17,
       "type": "match",
-      "question": "Empareja cada tipo de falacia con su descripción:",
+      "question": "Empareja cada falacia con su descripción:",
       "left": [
         "Ad hominem",
         "Ad populum",
         "Ad baculum"
       ],
       "right": [
-        "Apelación a la coacción o la fuerza para ganar un argumento",
-        "Ataque a las características personales del oponente en lugar de refutar su argumento",
-        "Apelación a la mayoría popular como si fuera prueba de verdad"
+        "Apelación a la coacción",
+        "Ataque a la persona",
+        "Apelación a la mayoría"
       ],
       "correct": [
         1,
@@ -665,7 +665,7 @@
     {
       "id": 18,
       "type": "match",
-      "question": "Empareja cada vicio de dicción con su ejemplo correspondiente:",
+      "question": "Empareja cada vicio con su ejemplo:",
       "left": [
         "Pleonasmo",
         "Anfibología",
@@ -675,7 +675,7 @@
       ],
       "right": [
         "Pienso de que debemos estudiar",
-        "La película la vi ayer y fue buena",
+        "La película la vi ayer",
         "Hubieron muchos problemas",
         "Subir arriba del cerro",
         "La tierra tiembla tiritando"
@@ -691,21 +691,21 @@
     {
       "id": 19,
       "type": "reading",
-      "passage": "Durante una llamada telefónica, Juan le dice a María: '¿Hola? ¿Me escuchas? ¿Hola, hola?'. María no responde porque la línea tiene muchas interferencias de señal. Juan cuelga frustrado y vuelve a llamar.",
-      "question": "Las preguntas que hace Juan tienen como función principal:",
+      "passage": "Juan le dice a María: \"¿Hola? ¿Me escuchas?\". María no responde porque la línea tiene interferencias.",
+      "question": "Las preguntas de Juan tienen como función:",
       "options": [
-        "Expresar sus sentimientos de frustración",
-        "Transmitir información sobre el estado del clima",
-        "Verificar que el canal de comunicación funciona correctamente",
-        "Influir en María para que cambie de opinión"
+        "Expresar frustración",
+        "Transmitir información climática",
+        "Verificar que el canal funciona",
+        "Influir en María"
       ],
       "correct": 2
     },
     {
       "id": 20,
       "type": "reading",
-      "passage": "En una clase, el profesor pide a los estudiantes que analicen la siguiente frase: 'Nosotros llegamos a nuestra casa, nos sentamos en nuestro sofá, y comimos nuestra cena preparada para nosotros'. Un estudiante señala: 'Hay mucha repetición innecesaria'. El profesor asiente y explica que podría simplificarse significativamente.",
-      "question": "¿Qué vicio de dicción predominaba en la frase analizada por el profesor?",
+      "passage": "En una clase, el profesor pide analizar: \"Nosotros llegamos a nuestra casa, nos sentamos en nuestro sofá, y comimos nuestra cena preparada para nosotros\". Un estudiante señala la repetición innecesaria.",
+      "question": "¿Qué vicio de dicción predominaba?",
       "options": [
         "Anfibología",
         "Solecismo",

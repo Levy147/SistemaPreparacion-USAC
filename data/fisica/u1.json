@@ -1,0 +1,395 @@
+{
+  "unit": "1",
+  "name": "Cifras Significativas y Notación Científica",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuántas cifras significativas tiene el número 0.00450?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "¿Cuántas cifras significativas tiene el número 3.00 x 10⁸?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "question": "¿Cuántas cifras significativas tiene el número 500?",
+      "options": ["1", "2", "3", "Depende del contexto"],
+      "correct": 3
+    },
+    {
+      "id": 4,
+      "question": "¿Cuántas cifras significativas tiene 2.500?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "question": "Al multiplicar 2.5 m × 3.42 m, ¿cuántas cifras significativas debe tener el resultado?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "¿Cuál es la notación científica de 0.000567?",
+      "options": ["5.67 × 10⁻³", "5.67 × 10⁻⁴", "56.7 × 10⁻⁵", "0.567 × 10⁻³"],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es la notación científica de 45,000?",
+      "options": ["4.5 × 10⁴", "45 × 10³", "4.50 × 10⁴", "4.500 × 10⁴"],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "Al sumar 12.3 + 4.567, ¿cuántas cifras significativas debe tener el resultado?",
+      "options": ["3", "4", "2", "5"],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "¿Cuántas cifras significativas tiene 1.0 × 10³?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "question": "¿Cuántas cifras significativas tiene 0.01010?",
+      "options": ["3", "4", "5", "2"],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál es el resultado de 3.2 × 2.5 con las cifras significativas correctas?",
+      "options": ["8", "8.0", "8.00", "8.000"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "question": "¿Cuántas cifras significativas tiene 100.0?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 3
+    },
+    {
+      "id": 13,
+      "question": "Al dividir 6.00 entre 2.0, ¿cuántas cifras significativas tiene el resultado?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "question": "¿Cuál es la notación científica correcta de 782,000?",
+      "options": ["7.82 × 10⁵", "78.2 × 10⁴", "7.820 × 10⁵", "0.782 × 10⁶"],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "Los ceros a la izquierda de un número decimal NO son significativos. Ejemplo:",
+      "options": ["0.005 (1 cifra significativa)", "0.500 (3 cifras significativas)", "500 (3 cifras significativas)", "0.050 (2 cifras significativas)"],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "question": "¿Cuántas cifras significativas tiene 9.80 m/s²?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "question": "Al restar 15.0 - 7.25, ¿cuántas cifras significativas debe tener el resultado?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "¿Cuál es la forma correcta de expresar 0.000340 en notación científica?",
+      "options": ["3.4 × 10⁻⁴", "3.40 × 10⁻⁴", "34.0 × 10⁻⁵", "0.34 × 10⁻³"],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "Un objeto mide 2.35 m. ¿Cuántas cifras significativas tiene esta medida?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "¿Cuántas cifras significativas tiene 0.0700?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "question": "Al multiplicar 5.00 × 2.0, ¿cuántas cifras significativas tiene el resultado?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "¿Cuál es la notación científica de 0.0000042?",
+      "options": ["4.2 × 10⁻⁵", "4.2 × 10⁻⁶", "42 × 10⁻⁷", "0.42 × 10⁻⁵"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "¿Cuántas cifras significativas tiene 1,000?",
+      "options": ["1", "2", "3", "Depende del contexto"],
+      "correct": 3
+    },
+    {
+      "id": 24,
+      "question": "Al sumar 0.025 + 0.003, ¿cuántas cifras significativas debe tener el resultado?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "question": "¿Cuántas cifras significativas tiene 6.022 × 10²³?",
+      "options": ["3", "4", "5", "23"],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "question": "¿Cuál es el resultado correcto con cifras significativas de 4.56 × 1.4?",
+      "options": ["6.384", "6.4", "6.38", "6.3"],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "question": "¿Cuántas cifras significativas tiene 3.14159?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 3
+    },
+    {
+      "id": 28,
+      "question": "Al dividir 12.0 entre 3.00, ¿cuántas cifras significativas tiene el resultado?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2
+    },
+    {
+      "id": 29,
+      "question": "¿Cuál es la notación científica de 82,500?",
+      "options": ["8.25 × 10⁴", "82.5 × 10³", "8.250 × 10⁴", "0.825 × 10⁵"],
+      "correct": 0
+    },
+    {
+      "id": 30,
+      "question": "¿Cuántas cifras significativas tiene 0.0080?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 1
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "El número de cifras significativas en 0.00560 es _____.",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "La notación científica de 0.000890 es 8.90 × 10^_____.",
+      "options": ["-3", "-4", "-5", "-6"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Al sumar 3.45 + 1.2, el resultado con cifras significativas correctas es _____.",
+      "options": ["4.65", "4.7", "4.6", "4.650"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "La notación científica de 73,000,000 es 7.3 × 10^_____.",
+      "options": ["6", "7", "8", "9"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "type": "tf",
+      "question": "El número 500 tiene exactamente 3 cifras significativas.",
+      "correct": false
+    },
+    {
+      "id": 6,
+      "type": "tf",
+      "question": "Los ceros a la derecha de un número decimal SÍ son significativos (ej: 2.50 tiene 3 cifras significativas).",
+      "correct": true
+    },
+    {
+      "id": 7,
+      "type": "tf",
+      "question": "Al sumar números, el resultado debe tener la misma cantidad de cifras significativas que el número con menos cifras significativas.",
+      "correct": false
+    },
+    {
+      "id": 8,
+      "type": "tf",
+      "question": "La notación científica siempre escribe el número con una sola cifra antes del punto decimal multiplicado por una potencia de 10.",
+      "correct": true
+    },
+    {
+      "id": 9,
+      "type": "order",
+      "question": "Ordena de menor a mayor número de cifras significativas:",
+      "items": ["0.005", "0.050", "50.0", "500."],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 10,
+      "type": "order",
+      "question": "Ordena estos números de menor a mayor cantidad de cifras significativas:",
+      "items": ["1.0", "1.00", "1.000", "1"],
+      "correct": [3, 0, 1, 2]
+    },
+    {
+      "id": 11,
+      "type": "match",
+      "question": "Empareja cada número con su cantidad de cifras significativas:",
+      "left": ["0.010", "100", "100.", "0.001"],
+      "right": ["2 cifras", "1 cifra", "3 cifras", "1 cifra"],
+      "correct": [0, 3, 2, 3]
+    },
+    {
+      "id": 12,
+      "type": "match",
+      "question": "Empareja cada número con su notación científica correcta:",
+      "left": ["0.0034", "34000", "0.000056", "560"],
+      "right": ["3.4 × 10⁻³", "3.4 × 10⁴", "5.6 × 10⁻⁵", "5.6 × 10²"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 13,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de expresar 2.567 con 3 cifras significativas?",
+      "options": ["2.56", "2.57", "2.560", "2.567"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de expresar 8.888 con 2 cifras significativas?",
+      "options": ["8.8", "8.9", "8.80", "8.88"],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "type": "tf",
+      "question": "Al multiplicar 2.5 × 3.42, el resultado debe expresarse con 2 cifras significativas.",
+      "correct": true
+    },
+    {
+      "id": 16,
+      "type": "fill",
+      "question": "Al multiplicar 4.0 × 2.5, el resultado es _____ (con cifras significativas correctas).",
+      "options": ["10", "10.0", "1.0 × 10¹", "1.00 × 10¹"],
+      "correct": 0
+    },
+    {
+      "id": 17,
+      "type": "order",
+      "question": "Ordena de menor a mayor número de cifras significativas:",
+      "items": ["0.0010", "10.", "0.1", "100"],
+      "correct": [2, 0, 1, 3]
+    },
+    {
+      "id": 18,
+      "type": "match",
+      "question": "Empareja cada operación con el número correcto de cifras significativas del resultado:",
+      "left": ["2.5 × 3.42", "12.3 + 4.567", "15.0 - 7.25", "6.00 ÷ 2.0"],
+      "right": ["2 cifras", "3 cifras", "3 cifras", "2 cifras"],
+      "correct": [0, 1, 1, 3]
+    },
+    {
+      "id": 19,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de expresar 3.456 con 3 cifras significativas?",
+      "options": ["3.45", "3.46", "3.450", "3.456"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "type": "tf",
+      "question": "El número 1.0 × 10³ tiene 1 cifra significativa.",
+      "correct": false
+    },
+    {
+      "id": 21,
+      "type": "fill",
+      "question": "La notación científica de 0.000420 es 4.20 × 10^_____.",
+      "options": ["-3", "-4", "-5", "-6"],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de expresar 9.999 con 2 cifras significativas?",
+      "options": ["9.9", "10", "10.", "1.0 × 10¹"],
+      "correct": 2
+    },
+    {
+      "id": 23,
+      "type": "order",
+      "question": "Ordena estos valores de menor a mayor:",
+      "items": ["3.0 × 10²", "3.00 × 10¹", "3.0 × 10³", "3 × 10¹"],
+      "correct": [3, 1, 0, 2]
+    },
+    {
+      "id": 24,
+      "type": "match",
+      "question": "Empareja cada número con su cantidad correcta de cifras significativas:",
+      "left": ["2.50", "0.0025", "2500", "2.500"],
+      "right": ["3 cifras", "2 cifras", "2 cifras", "4 cifras"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 25,
+      "type": "tf",
+      "question": "El número 100 tiene 3 cifras significativas.",
+      "correct": false
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "question": "Al sumar 5.67 + 0.8, el resultado correcto con cifras significativas es _____.",
+      "options": ["6.47", "6.5", "6.4", "6.470"],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de expresar 0.00789 con 2 cifras significativas?",
+      "options": ["0.0079", "0.0078", "0.008", "0.00780"],
+      "correct": 0
+    },
+    {
+      "id": 28,
+      "type": "order",
+      "question": "Ordena de menor a mayor cantidad de cifras significativas:",
+      "items": ["0.5", "0.50", "0.500", "5"],
+      "correct": [3, 0, 1, 2]
+    },
+    {
+      "id": 29,
+      "type": "match",
+      "question": "Empareja cada expresión con su valor correcto:",
+      "left": ["5.0 × 10²", "2.0 × 10⁻³", "3.00 × 10⁴", "1.0 × 10⁻¹"],
+      "right": ["500", "0.002", "30,000", "0.1"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 30,
+      "type": "tf",
+      "question": "Al multiplicar 2.0 × 3.00, el resultado debe tener 2 cifras significativas.",
+      "correct": true
+    }
+  ]
+}

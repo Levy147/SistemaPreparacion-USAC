@@ -447,151 +447,153 @@
     {
       "id": 1,
       "type": "fill",
-      "question": "Una oración bimembre está compuesta por dos elementos fundamentales: el _______ y el _______.",
+      "question": "Las _____ son palabras que acompañan al sustantivo y lo determinan o califican.",
       "options": [
-        "sujeto y predicado",
-        "sintagma y morfema",
-        "núcleo y modificador",
-        "verbo y complemento"
+        "preposiciones",
+        "artículos",
+        "conjunciones",
+        "adverbios"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
       "id": 2,
       "type": "fill",
-      "question": "El _______ es la categoría gramatical que se forma añadiendo un prefijo o sufijo a una palabra primitiva, como ocurre con árbol → arboleda.",
+      "question": "El _____ es la parte de la oración que expresa acción, estado o proceso.",
       "options": [
-        "composición",
-        "parasíntesis",
-        "derivación",
-        "flexión"
+        "sustantivo",
+        "adjetivo",
+        "verbo",
+        "adverbio"
       ],
       "correct": 2
     },
     {
       "id": 3,
       "type": "fill",
-      "question": "Cuando se omite la preposición \"de\" antes de la conjunción \"que\", como en \"Me alegro que hayas venido\", se comete el vicio gramatical conocido como _______.",
+      "question": "Los _____ son palabras que modifican al verbo, adjetivo u otro adverbio.",
       "options": [
-        "dequeísmo",
-        "queísmo",
-        "muletilla",
-        "cacofonía"
+        "preposiciones",
+        "conjunciones",
+        "adverbios",
+        "pronombres"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "id": 4,
       "type": "fill",
-      "question": "En el análisis _______, se estudia la estructura interna de las palabras, sus accidentes gramaticales y los procesos de formación.",
+      "question": "La _____ es la unión de un sujeto y un predicado.",
       "options": [
-        "sintáctico",
-        "semántico",
-        "morfológico",
-        "fonológico"
+        "palabra",
+        "frase",
+        "oración",
+        "período"
       ],
       "correct": 2
     },
     {
       "id": 5,
       "type": "tf",
-      "question": "Una oración compuesta está formada por dos o más verbos conjugados o proposiciones unidas entre sí.",
+      "question": "El sujeto simple tiene solo un núcleo.",
       "correct": true
     },
     {
       "id": 6,
       "type": "tf",
-      "question": "El dequeísmo consiste en eliminar la preposición \"de\" cuando es obligatoria antes de \"que\".",
-      "correct": false
+      "question": "El predicado nominal tiene como núcleo un adjetivo.",
+      "correct": true
     },
     {
       "id": 7,
       "type": "tf",
-      "question": "El infinitivo, el gerundio y el participio son formas personales del verbo porque pueden conjugarse en persona y tiempo.",
+      "question": "Los adjetivos siempre van después del sustantivo en español.",
       "correct": false
     },
     {
       "id": 8,
       "type": "tf",
-      "question": "Las palabras \"hola\" y \"ola\" son homófonas porque se pronuncian igual pero se escriben distinto.",
+      "question": "El verbo \"ser\" es un verbo copulativo.",
       "correct": true
     },
     {
       "id": 9,
       "type": "correct",
-      "question": "¿Cuál de las siguientes oraciones está correctamente redactada (sin dequeísmo ni queísmo)?",
+      "question": "¿Cuál es la forma correcta? «Los niños está jugando»",
       "options": [
-        "Pienso de que debemos estudiar más.",
-        "Pienso que debemos estudiar más.",
-        "Pienso que de debemos estudiar más.",
-        "Pienso de debemos estudiar que más."
+        "Los niños está jugando",
+        "Los niños están jugando",
+        "Los niños estan jugando",
+        "El niños están jugando"
       ],
       "correct": 1
     },
     {
       "id": 10,
       "type": "correct",
-      "question": "¿Qué frase está correctamente construida según las normas de la RAE?",
+      "question": "¿Cuál es la forma correcta? «Yo he comido ya»",
       "options": [
-        "Detrás de ti hay un libro.",
-        "Detrás tuyo hay un libro.",
-        "Detrás de tuyo hay un libro.",
-        "Detrás ti hay un libro."
+        "Yo he comido ya",
+        "Yo há comido ya",
+        "Yo ha comido ya",
+        "Yo he comido yo"
       ],
       "correct": 0
     },
     {
       "id": 11,
       "type": "correct",
-      "question": "¿Cuál de estas oraciones tiene correctamente aplicada la concordancia entre sujeto y verbo?",
+      "question": "¿Cuál es la forma correcta? «Nosotros vamos al mercado»",
       "options": [
-        "Los niño jugaban en el parque.",
-        "La grupo de estudiantes entregaron la tarea.",
-        "El equipo de fútbol ganó el campeonato.",
-        "Las gente corrieron hacia la salida."
+        "Nosotros vamos al mercado",
+        "Nosotros vamos a el mercado",
+        "Nosotros vamos al mercado",
+        "Nosotros vamos al mercadó"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
       "id": 12,
       "type": "correct",
-      "question": "Identifica la oración donde se usa correctamente \"encima de\" y no se comete dequeísmo.",
+      "question": "¿Cuál es la forma correcta? «Ellas no han llegado»",
       "options": [
-        "Puse el libro de encima de la mesa.",
-        "Puse el libro encima de la mesa.",
-        "Puse el libro en encima la mesa.",
-        "Puse el libro encima de que la mesa."
+        "Ellas no han llegado",
+        "Ellas no a llegado",
+        "Ellas no ha llegado",
+        "Ellas no han llegadó"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "id": 13,
       "type": "order",
-      "question": "Ordena los niveles de análisis gramatical de lo más elemental a lo más complejo:",
+      "question": "Ordena las categorías gramaticales variables de mayor a menor:",
       "items": [
-        "Nivel morfológico (estructura de la palabra)",
-        "Nivel sintáctico (relación entre palabras)",
-        "Nivel semántico (significado de las palabras y oraciones)"
+        "Verbo",
+        "Sustantivo",
+        "Adjetivo",
+        "Artículo"
       ],
       "correct": [
         0,
         1,
-        2
+        2,
+        3
       ]
     },
     {
       "id": 14,
       "type": "order",
-      "question": "Ordena los pasos para formar la palabra \"desafortunadamente\":",
+      "question": "Ordena las partes de la oración según función:",
       "items": [
-        "Parte de la palabra primitiva: \"fortuna\"",
-        "Se añade el sufijo \"-ado\" (afortunado)",
-        "Se añade el prefijo \"des-\" (desafortunado)",
-        "Se añade el sufijo \"-mente\" (desafortunadamente)"
+        "Predicado",
+        "Sujeto",
+        "Complemento directo",
+        "Complemento indirecto"
       ],
       "correct": [
-        0,
         1,
+        0,
         2,
         3
       ]
@@ -599,35 +601,35 @@
     {
       "id": 15,
       "type": "order",
-      "question": "Ordena las categorías gramaticales según su función principal: nombrar → calificar → express action → modificar:",
+      "question": "Ordena los tiempos verbales de presente a futuro:",
       "items": [
-        "Sustantivo (nombra personas, cosas, ideas)",
-        "Adjetivo (califica o describe cualidades del sustantivo)",
-        "Verbo (expresa acción, estado o proceso)",
-        "Adverbio (modifica al verbo, adjetivo u otro adverbio)"
+        "Presente",
+        "Pretérito imperfecto",
+        "Futuro simple",
+        "Condicional"
       ],
       "correct": [
         0,
         1,
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": 16,
       "type": "match",
-      "question": "Empareja cada categoría gramatical con su ejemplo correcto:",
+      "question": "Empareja cada categoría con su ejemplo:",
       "left": [
-        "Preposición",
-        "Conjunción",
-        "Pronombre",
-        "Interjección"
+        "Sustantivo",
+        "Adjetivo",
+        "Verbo",
+        "Adverbio"
       ],
       "right": [
-        "Conecta una palabra a otra indicando relación de dependencia (ej. \"de\", \"para\")",
-        "Une palabras, sintagmas u oraciones (ej. \"y\", \"pero\", \"porque\")",
-        "Sustituye al sustantivo o lo reemplaza (ej. \"yo\", \"ella\", \"nosotros\")",
-        "Expresa una emoción o reacción espontánea (ej. \"¡Ay!\", \"¡Ojalá!\")"
+        "Casa",
+        "Bonito",
+        "Correr",
+        "Rápidamente"
       ],
       "correct": [
         0,
@@ -639,18 +641,18 @@
     {
       "id": 17,
       "type": "match",
-      "question": "Empareja cada tipo de relación semántica con su ejemplo correcto:",
+      "question": "Empareja cada tipo de sujeto:",
       "left": [
-        "Sinónimos",
-        "Antónimos",
-        "Parónimos",
-        "Homófonos"
+        "Sujeto simple",
+        "Sujeto compuesto",
+        "Sujeto tácito",
+        "Sujeto nominal"
       ],
       "right": [
-        "Comparten significado idéntico o muy similar (ej. feliz / contento)",
-        "Expresan significados opuestos (ej. frío / caliente)",
-        "Tienen forma parecida pero significado distinto (ej. aptitud / actitud)",
-        "Se pronuncian igual pero se escriben distinto (ej. haya / aya)"
+        "Un núcleo",
+        "Más de un núcleo",
+        "No aparece en la oración",
+        "Está formado por sustantivo"
       ],
       "correct": [
         0,
@@ -662,18 +664,18 @@
     {
       "id": 18,
       "type": "match",
-      "question": "Empareja cada proceso de formación de palabras con su definición:",
+      "question": "Empareja cada verbo con su tipo:",
       "left": [
-        "Derivación",
-        "Composición",
-        "Parasíntesis",
-        "Prefijo negativo"
+        "Ser",
+        "Tener",
+        "Ir",
+        "Hablar"
       ],
       "right": [
-        "Añadir sufijos o prefijos a una raíz para crear una nueva palabra (ej. claro → claramente)",
-        "Unir dos o más palabras o raíces (ej. sacapuntas, cortaplumas)",
-        "Añadir simultáneamente un prefijo y un sufijo a una raíz (ej. en-marc-ar)",
-        "Morema que antecede a la raíz y niega o invierte su significado (ej. in-legal)"
+        "Copulativo",
+        "Auxiliar",
+        "Auxiliar",
+        "Semántico"
       ],
       "correct": [
         0,
@@ -685,28 +687,28 @@
     {
       "id": 19,
       "type": "reading",
-      "passage": "El vocabulario se divide en activo y pasivo. El vocabulario activo está compuesto por todas las palabras que una persona utiliza de forma espontánea al hablar o escribir. En cambio, el vocabulario pasivo o de reserva incluye las palabras que reconocemos y comprendemos cuando las leemos o escuchamos, pero que no usamos en nuestra producción lingüística diaria. Ampliar el vocabulario pasivo implica incorporar nuevas palabras al vocabulario activo, transformándolas en parte de nuestro uso cotidiano.",
-      "question": "Según el texto, ¿qué implica ampliar el vocabulario pasivo?",
+      "passage": "El profesor explicó que \"Los estudiantes estudian mucho\" es una oración con sujeto compuesto.",
+      "question": "¿Cuál es el sujeto?",
       "options": [
-        "Omitir palabras complicadas al hablar.",
-        "Incorporar nuevas palabras al vocabulario activo para usarlas en el día a día.",
-        "Eliminar palabras del vocabulario activo que no se usan frecuentemente.",
-        "Aprender únicamente palabras técnicas o científicas."
+        "Los",
+        "Estudiantes",
+        "Los estudiantes",
+        "Mucho"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "id": 20,
       "type": "reading",
-      "passage": "La formación de palabras en español se realiza principalmente mediante tres procedimientos. El primero es la derivación, que consiste en añadir afijos (prefijos o sufijos) a una palabra existente para crear una nueva; por ejemplo, \"trabajo\" se transforma en \"trabajador\" con el sufijo \"-ador\". El segundo es la composición, que une dos o más palabras para formar un lexema nuevo; así, \"saca\" y \"puntas\" dan lugar a \"sacapuntas\". El tercero es la parasíntesis, que añade simultáneamente un prefijo y un sufijo a una raíz, generando una palabra nueva como \"enmarcar\" (en- + raíz + -ar).",
-      "question": "¿Qué proceso de formación de palabras añade un prefijo y un sufijo simultáneamente a una raíz?",
+      "passage": "María escribió: \"Los niños juegan en el parque\". El profesor pidió identificar el predicado verbal.",
+      "question": "¿Cuál es el predicado verbal?",
       "options": [
-        "Derivación",
-        "Composición",
-        "Parasíntesis",
-        "Flexión verbal"
+        "Los niños",
+        "Juegan",
+        "En el parque",
+        "Juegan en el parque"
       ],
-      "correct": 2
+      "correct": 3
     }
   ]
 }

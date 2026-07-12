@@ -1,0 +1,460 @@
+{
+  "unit": "3",
+  "name": "Movimiento en una Dimensión",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué tipo de movimiento realiza un objeto que se desplaza a velocidad constante en línea recta?",
+      "options": ["Movimiento Uniformemente Acelerado", "Movimiento Rectilíneo Uniforme", "Movimiento Circular", "Movimiento Parabólico"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "En el Movimiento Uniformemente Acelerado (MUA), ¿cómo es la aceleración?",
+      "options": ["Cero", "Constante y distinta de cero", "Variable", "Siempre negativa"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Un auto viaja a 60 km/h durante 2 horas. ¿Cuántos kilómetros recorre?",
+      "options": ["30 km", "60 km", "120 km", "300 km"],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "¿Qué representa la pendiente de una gráfica posición-tiempo?",
+      "options": ["Aceleración", "Velocidad", "Distancia", "Tiempo"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "Un objeto parte del reposito y acelera a 2 m/s² durante 5 segundos. ¿Cuál es su velocidad final?",
+      "options": ["2 m/s", "5 m/s", "7 m/s", "10 m/s"],
+      "correct": 3
+    },
+    {
+      "id": 6,
+      "question": "¿Cuál es la fórmula de la velocidad media?",
+      "options": ["v = d × t", "v = d / t", "v = d + t", "v = d - t"],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "Un objeto se mueve con aceleración constante de 3 m/s². Si parte del reposo, ¿cuánto tarda en alcanzar 12 m/s?",
+      "options": ["2 s", "3 s", "4 s", "6 s"],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "¿Qué tipo de gráfica velocidad-tiempo tiene un objeto en MUA?",
+      "options": ["Una curva", "Una línea horizontal", "Una línea recta con pendiente", "Una línea vertical"],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "Un auto frena uniformemente de 20 m/s a 0 m/s en 4 segundos. ¿Cuál es su aceleración?",
+      "options": ["-5 m/s²", "5 m/s²", "-4 m/s²", "80 m/s²"],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "La distancia y el desplazamiento son iguales cuando:",
+      "options": ["El objeto se mueve en zigzag", "El objeto se mueve en línea recta sin cambiar de dirección", "El objeto está en reposo", "Nunca son iguales"],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "Un objeto cae desde una altura. Si g = 10 m/s², ¿cuál es su velocidad después de 3 segundos?",
+      "options": ["10 m/s", "20 m/s", "30 m/s", "40 m/s"],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "question": "¿Qué representa el área bajo una gráfica velocidad-tiempo?",
+      "options": ["Velocidad", "Aceleración", "Distancia o desplazamiento", "Tiempo"],
+      "correct": 2
+    },
+    {
+      "id": 13,
+      "question": "Un objeto se mueve con v = 5t + 3 (en m/s). ¿Cuál es su aceleración?",
+      "options": ["3 m/s²", "5 m/s²", "8 m/s²", "5t m/s²"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "question": "En el MRU, si un objeto recorre 100 m en 20 s, ¿cuál es su velocidad?",
+      "options": ["5 m/s", "20 m/s", "100 m/s", "2000 m/s"],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "¿Cuál de las siguientes fórmulas es válida para el MUA?",
+      "options": ["d = v × t", "v = v₀ + at", "d = v × a", "v = d × a"],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "question": "Un objeto parte del reposo y cae libremente. ¿Cuánto tarda en recorrer los primeros 20 m? (g = 10 m/s²)",
+      "options": ["1 s", "2 s", "3 s", "4 s"],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "question": "¿Qué representa la pendiente de una gráfica velocidad-tiempo?",
+      "options": ["Posición", "Velocidad", "Aceleración", "Distancia"],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "question": "Un auto viaja a 90 km/h. ¿Cuántos metros por segundo equivale?",
+      "options": ["15 m/s", "25 m/s", "35 m/s", "90 m/s"],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "En un MUA, si un objeto tiene v₀ = 10 m/s y a = -2 m/s², ¿cuándo se detiene?",
+      "options": ["2 s", "4 s", "5 s", "10 s"],
+      "correct": 2
+    },
+    {
+      "id": 20,
+      "question": "La rapidez media se define como:",
+      "options": [
+        "La suma de todas las velocidades dividido entre el número de mediciones",
+        "La distancia total dividido entre el tiempo total",
+        "La velocidad máxima menos la mínima",
+        "La mitad de la velocidad máxima"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "question": "Un objeto se mueve con aceleración constante. Si v₀ = 0, a = 4 m/s² y t = 3 s, ¿cuál es la distancia recorrida?",
+      "options": ["6 m", "12 m", "18 m", "36 m"],
+      "correct": 2
+    },
+    {
+      "id": 22,
+      "question": "¿Qué tipo de movimiento representa una gráfica posición-tiempo lineal con pendiente positiva?",
+      "options": ["Reposo", "MRU", "MUA", "Movimiento circular"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "Un objeto se mueve a 20 m/s y frena a 4 m/s². ¿Cuánto tarda en detenerse?",
+      "options": ["2 s", "4 s", "5 s", "80 s"],
+      "correct": 2
+    },
+    {
+      "id": 24,
+      "question": "En el MUA, la posición se describe con una ecuación de:",
+      "options": ["Grado 0 (constante)", "Grado 1 (lineal)", "Grado 2 (cuadrática)", "Grado 3 (cúbica)"],
+      "correct": 2
+    },
+    {
+      "id": 25,
+      "question": "Un objeto recorre 60 m en los primeros 3 segundos y 100 m en los primeros 5 segundos. ¿Cuál es la distancia entre el segundo 3 y el segundo 5?",
+      "options": ["40 m", "60 m", "100 m", "160 m"],
+      "correct": 0
+    },
+    {
+      "id": 26,
+      "question": "¿Qué sucede con la velocidad de un objeto en caída libre si no hay resistencia del aire?",
+      "options": ["Permanece constante", "Aumenta uniformemente", "Disminuye uniformemente", "Oscila"],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "question": "Un auto parte del reposo y acelera a 3 m/s². ¿Cuánto tarda en alcanzar 30 m/s?",
+      "options": ["3 s", "6 s", "9 s", "10 s"],
+      "correct": 3
+    },
+    {
+      "id": 28,
+      "question": "¿Qué representa una gráfica velocidad-tiempo con pendiente negativa?",
+      "options": ["Aceleración positiva", "Desaceleración", "Movimiento uniforme", "Reposo"],
+      "correct": 1
+    },
+    {
+      "id": 29,
+      "question": "Un objeto se mueve con v = 2t² + 3t. ¿Cuál es su velocidad instantánea en t = 2 s?",
+      "options": ["10 m/s", "13 m/s", "14 m/s", "22 m/s"],
+      "correct": 2
+    },
+    {
+      "id": 30,
+      "question": "En el MRU, si un objeto recorre 200 m en 25 s, ¿cuál es su velocidad?",
+      "options": ["4 m/s", "8 m/s", "25 m/s", "5000 m/s"],
+      "correct": 1
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "Un auto viaja a 72 km/h. Su velocidad en m/s es _____.",
+      "options": ["12 m/s", "20 m/s", "25 m/s", "72 m/s"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Un objeto parte del reposo y acelera a 5 m/s². Su velocidad después de 4 s es _____.",
+      "options": ["9 m/s", "15 m/s", "20 m/s", "25 m/s"],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Un objeto se mueve con v₀ = 0 y a = 2 m/s². La distancia en 6 s es _____.",
+      "options": ["12 m", "24 m", "36 m", "72 m"],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Un auto frena de 30 m/s a 0 en 6 s. Su aceleración es _____.",
+      "options": ["-5 m/s²", "5 m/s²", "-6 m/s²", "30 m/s²"],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "type": "tf",
+      "question": "En el MRU, la aceleración es cero.",
+      "correct": true
+    },
+    {
+      "id": 6,
+      "type": "tf",
+      "question": "En el MUA, la velocidad puede ser negativa si el objeto se mueve en sentido contrario al eje positivo.",
+      "correct": true
+    },
+    {
+      "id": 7,
+      "type": "tf",
+      "question": "La distancia total recorrida por un objeto siempre es igual a la magnitud de su desplazamiento.",
+      "correct": false
+    },
+    {
+      "id": 8,
+      "type": "tf",
+      "question": "Si un objeto tiene aceleración negativa, significa que se está deteniendo.",
+      "correct": false
+    },
+    {
+      "id": 9,
+      "type": "order",
+      "question": "Ordena las fórmulas del MUA de la más básica a la más derivada:",
+      "items": [
+        "v = v₀ + at",
+        "d = v₀t + ½at²",
+        "v² = v₀² + 2ad",
+        "d = (v₀ + v)t / 2"
+      ],
+      "correct": [0, 1, 3, 2]
+    },
+    {
+      "id": 10,
+      "type": "order",
+      "question": "Ordena los pasos para resolver un problema de MUA:",
+      "items": [
+        "Identificar los datos conocidos",
+        "Seleccionar la fórmula adecuada",
+        "Sustituir y resolver",
+        "Verificar unidades y coherencia"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 11,
+      "type": "match",
+      "question": "Empareja cada tipo de gráfica con su significado en posición-tiempo:",
+      "left": [
+        "Línea horizontal",
+        "Línea recta con pendiente positiva",
+        "Parábola hacia arriba",
+        "Parábola hacia abajo"
+      ],
+      "right": [
+        "Reposo",
+        "MRU",
+        "MUA con aceleración positiva",
+        "MUA con aceleración negativa"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 12,
+      "type": "match",
+      "question": "Empareja cada fórmula con su uso principal:",
+      "left": [
+        "v = d / t",
+        "v = v₀ + at",
+        "d = v₀t + ½at²",
+        "v² = v₀² + 2ad"
+      ],
+      "right": [
+        "Velocidad media",
+        "Velocidad final en MUA",
+        "Distancia en MUA",
+        "Relación sin tiempo en MUA"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 13,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para calcular la distancia en un MUA cuando se conoce v₀, a y t?",
+      "options": ["d = v₀ × t", "d = v₀t + ½at²", "d = v₀ + at", "d = ½at²"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para hallar la velocidad final sin conocer el tiempo?",
+      "options": ["v = v₀ + at", "v = d / t", "v² = v₀² + 2ad", "v = ½at²"],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "type": "tf",
+      "question": "Un objeto en reposo tiene aceleración cero.",
+      "correct": true
+    },
+    {
+      "id": 16,
+      "type": "fill",
+      "question": "Un objeto cae desde una altura. En 3 segundos recorre d = ½(10)(3²) = _____.",
+      "options": ["15 m", "30 m", "45 m", "90 m"],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "type": "order",
+      "question": "Ordena de menor a mayor velocidad:",
+      "items": ["36 km/h", "10 m/s", "20 m/s", "72 km/h"],
+      "correct": [0, 1, 3, 2]
+    },
+    {
+      "id": 18,
+      "type": "match",
+      "question": "Empareja cada situación con el tipo de movimiento:",
+      "left": [
+        "Auto en autopista a velocidad constante",
+        "Objeto en caída libre",
+        "Auto frenando",
+        "Objeto en reposo"
+      ],
+      "right": [
+        "MRU",
+        "MUA",
+        "MUA",
+        "Reposo"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 19,
+      "type": "correct",
+      "question": "¿Qué fórmula se usa cuando NO se conoce el tiempo en un problema de MUA?",
+      "options": ["v = v₀ + at", "d = v₀t + ½at²", "v² = v₀² + 2ad", "d = v × t"],
+      "correct": 2
+    },
+    {
+      "id": 20,
+      "type": "tf",
+      "question": "En el MUA, si la aceleración es negativa y la velocidad es positiva, el objeto se está deteniendo.",
+      "correct": true
+    },
+    {
+      "id": 21,
+      "type": "fill",
+      "question": "Un auto parte del reposo y alcanza 20 m/s en 5 s. Su aceleración es _____.",
+      "options": ["2 m/s²", "4 m/s²", "5 m/s²", "25 m/s²"],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para calcular la distancia recorrida en un MUA cuando se conoce la velocidad media?",
+      "options": ["d = v₀t + ½at²", "d = (v₀ + v)t / 2", "d = v² / 2a", "d = v × a"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "type": "order",
+      "question": "Ordena de mayor a menor velocidad:",
+      "items": ["30 m/s", "100 km/h", "20 m/s", "50 km/h"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 24,
+      "type": "match",
+      "question": "Empareja cada gráfica velocidad-tiempo con su interpretación:",
+      "left": [
+        "Línea horizontal",
+        "Línea recta con pendiente positiva",
+        "Línea recta con pendiente negativa",
+        "Línea que pasa por el origen"
+      ],
+      "right": [
+        "MRU",
+        "MUA con aceleración positiva",
+        "MUA con aceleración negativa",
+        "MUA partiendo del reposo"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 25,
+      "type": "tf",
+      "question": "Un objeto que se mueve con aceleración constante de -5 m/s² se está acelerando.",
+      "correct": false
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "question": "Un objeto se mueve con v = 10 + 2t. En t = 5 s, su velocidad es _____.",
+      "options": ["10 m/s", "15 m/s", "20 m/s", "60 m/s"],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para la distancia en un MUA partiendo del reposo?",
+      "options": ["d = v₀t + ½at²", "d = ½at²", "d = v × t", "d = at²"],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "type": "order",
+      "question": "Ordena de menor a mayor distancia recorrida en 2 s (partiendo del reposo):",
+      "items": ["a = 2 m/s²", "a = 5 m/s²", "a = 10 m/s²"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 29,
+      "type": "match",
+      "question": "Empareja cada dato con la fórmula que lo relaciona:",
+      "left": [
+        "Velocidad final",
+        "Distancia",
+        "Aceleración",
+        "Velocidad media"
+      ],
+      "right": [
+        "v = v₀ + at",
+        "d = v₀t + ½at²",
+        "a = (v - v₀) / t",
+        "v_media = (v₀ + v) / 2"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 30,
+      "type": "tf",
+      "question": "Un objeto que se mueve en línea recta a velocidad variable realiza un MUA.",
+      "correct": false
+    }
+  ]
+}

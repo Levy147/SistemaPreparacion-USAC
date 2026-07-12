@@ -1,0 +1,445 @@
+{
+  "unit": "2",
+  "name": "Cantidades Escalares y Vectoriales",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuál de las siguientes magnitudes es una cantidad escalar?",
+      "options": ["Velocidad", "Fuerza", "Temperatura", "Aceleración"],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál de las siguientes es una cantidad vectorial?",
+      "options": ["Masa", "Tiempo", "Distancia", "Desplazamiento"],
+      "correct": 3
+    },
+    {
+      "id": 3,
+      "question": "Un vector tiene magnitud 5 N y dirección 30° al norte del este. ¿Cuál es su componente en el eje x?",
+      "options": ["2.5 N", "4.33 N", "5 N", "10 N"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es la diferencia entre distancia y desplazamiento?",
+      "options": [
+        "La distancia es una magnitud escalar y el desplazamiento es un vectorial",
+        "Son exactamente lo mismo",
+        "La distancia es mayor siempre",
+        "El desplazamiento es siempre positivo"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "La rapidez es una magnitud:",
+      "options": ["Vectorial", "Escalar", "Bidimensional", "Ninguna de las anteriores"],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "question": "¿Cuál es la magnitud del vector resultante de sumar un vector de 3 N hacia el norte y un vector de 4 N hacia el este?",
+      "options": ["1 N", "5 N", "7 N", "12 N"],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "Si un objeto se mueve 10 m al norte y luego 10 m al sur, ¿cuál es su desplazamiento total?",
+      "options": ["20 m", "10 m", "0 m", "20 m hacia el norte"],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "¿Cómo se representa gráficamente un vector?",
+      "options": ["Con un punto", "Con una línea recta con flecha", "Con un círculo", "Con un cuadrado"],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "question": "La masa es una magnitud:",
+      "options": ["Vectorial", "Escalar", "Bidimensional", "Ninguna de las anteriores"],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "question": "Dos vectores son perpendiculares. Sus magnitudes son 3 y 4. ¿Cuál es la magnitud del vector resultante?",
+      "options": ["1", "5", "7", "12"],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "El producto punto (escalar) de dos vectores perpendiculares es:",
+      "options": ["Máximo", "Mínimo", "Igual a 1", "Indefinido"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "question": "¿Cuál de las siguientes magnitudes es un escalar?",
+      "options": ["Peso", "Energía", "Impulso", "Momento"],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "question": "Un avión viaja 200 km hacia el este y luego 150 km hacia el norte. ¿Cuál es la distancia total recorrida?",
+      "options": ["50 km", "250 km", "350 km", "250 km en línea recta"],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "question": "¿Cuántos componentes tiene un vector en el plano cartesiano?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "question": "Si un vector tiene componentes Vx = 3 y Vy = 4, ¿cuál es su magnitud?",
+      "options": ["1", "5", "7", "12"],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "question": "La aceleración es una magnitud:",
+      "options": ["Escalr", "Vectorial", "Ambas", "Ninguna"],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "question": "Un objeto se desplaza 5 m al este, 3 m al norte y 4 m al oeste. ¿Cuál es su desplazamiento resultante?",
+      "options": ["12 m", "3 m al norte", "5 m al este", "3 m al norte y 1 m al este"],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "question": "¿Cuál es la magnitud de un vector con componentes Vx = 6 y Vy = 8?",
+      "options": ["2", "10", "14", "48"],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "question": "El tiempo es una magnitud:",
+      "options": ["Vectorial", "Escalr", "Bidimensional", "Ninguna"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "Todos los vectores tienen la misma dirección",
+        "Dos vectores pueden sumarse aunque tengan distintas magnitudes",
+        "Los vectores siempre apuntan hacia arriba",
+        "Los escalares tienen dirección"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "question": "Un vector de 10 N forma un ángulo de 45° con el eje horizontal. ¿Cuál es su componente vertical?",
+      "options": ["5 N", "7.07 N", "10 N", "14.14 N"],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "La fuerza es una magnitud:",
+      "options": ["Escalr", "Vectorial", "Ambas", "Ninguna"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "question": "¿Qué tipo de cantidad es la velocidad instantánea?",
+      "options": ["Escalr", "Vectorial", "Ambas", "Ninguna"],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "question": "Un objeto recorre 100 m en línea recta. ¿Qué diferencia hay entre la distancia y el desplazamiento?",
+      "options": [
+        "Son iguales en magnitud pero la distancia es escalar y el desplazamiento es vector",
+        "La distancia es mayor",
+        "El desplazamiento es mayor",
+        "No hay diferencia"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 25,
+      "question": "Si un vector tiene magnitud 10 y forma un ángulo de 30° con el eje x, ¿cuál es su componente en x?",
+      "options": ["5", "8.66", "10", "20"],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "question": "¿Cuál es la diferencia entre rapidez y velocidad?",
+      "options": [
+        "La rapidez es escalar y la velocidad es vectorial",
+        "Son lo mismo",
+        "La rapidez es vectorial y la velocidad es escalar",
+        "No tienen diferencia"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 27,
+      "question": "La presión es una magnitud:",
+      "options": ["Vectorial", "Escalr", "Bidimensional", "Ninguna"],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "question": "Un vector de magnitud 13 tiene componentes Vx = 5 y Vy = 12. ¿Es correcto?",
+      "options": ["Sí, porque 5² + 12² = 13²", "No, porque 5 + 12 ≠ 13", "Sí, porque 5 × 12 = 13", "No, porque los vectores no se suman así"],
+      "correct": 0
+    },
+    {
+      "id": 29,
+      "question": "El volumen es una magnitud:",
+      "options": ["Vectorial", "Escalr", "Bidimensional", "Ninguna"],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "question": "¿Cuál de las siguientes es una operación válida entre vectores?",
+      "options": ["Suma de vectores", "División de vectores", "Raíz cuadrada de un vector", "Potencia de un vector"],
+      "correct": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "La magnitud de un vector con componentes Vx = 3 y Vy = 4 es _____.",
+      "options": ["5", "7", "12", "1"],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Si un vector tiene magnitud 10 y ángulo 30° con el eje x, su componente en x es 10 × cos(30°) = _____.",
+      "options": ["5", "8.66", "10", "17.32"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "El desplazamiento de un objeto que recorre 5 m al norte y 5 m al sur es _____.",
+      "options": ["10 m", "5 m", "0 m", "25 m"],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "La distancia total de un objeto que recorre 3 m al este y 4 m al norte es _____.",
+      "options": ["1 m", "5 m", "7 m", "12 m"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "type": "tf",
+      "question": "La velocidad es una magnitud escalar.",
+      "correct": false
+    },
+    {
+      "id": 6,
+      "type": "tf",
+      "question": "El desplazamiento puede ser cero aunque el objeto se haya movido.",
+      "correct": true
+    },
+    {
+      "id": 7,
+      "type": "tf",
+      "question": "Los vectores que apuntan en direcciones opuestas se restan.",
+      "correct": true
+    },
+    {
+      "id": 8,
+      "type": "tf",
+      "question": "La masa es una magnitud vectorial.",
+      "correct": false
+    },
+    {
+      "id": 9,
+      "type": "order",
+      "question": "Ordena los pasos para encontrar la magnitud de un vector conocidas sus componentes:",
+      "items": [
+        "Elevar al cuadrado cada componente",
+        "Sumar los cuadrados",
+        "Extraer la raíz cuadrada del resultado",
+        "Identificar las componentes del vector"
+      ],
+      "correct": [3, 0, 1, 2]
+    },
+    {
+      "id": 10,
+      "type": "order",
+      "question": "Ordena los pasos para sumar dos vectores por el método gráfico:",
+      "items": [
+        "Dibujar el segundo vector desde la punta del primero",
+        "Dibujar el primer vector con su magnitud y dirección",
+        "Dibujar el vector resultante desde el inicio del primero hasta la punta del segundo",
+        "Medir la magnitud y dirección del resultante"
+      ],
+      "correct": [1, 0, 2, 3]
+    },
+    {
+      "id": 11,
+      "type": "match",
+      "question": "Empareja cada magnitud con su tipo (escalar/vectorial):",
+      "left": ["Masa", "Fuerza", "Tiempo", "Velocidad", "Energía"],
+      "right": ["Vectorial", "Vectorial", "Escalr", "Escalr", "Escalr"],
+      "correct": [3, 0, 2, 1, 4]
+    },
+    {
+      "id": 12,
+      "type": "match",
+      "question": "Empareja cada par de vectores con la operación correspondiente:",
+      "left": ["Mismo sentido y dirección", "Sentidos opuestos", "Perpendiculares", "Formando 60°"],
+      "right": ["Se suman directamente", "Se restan magnitudes", "Se usa Pitágoras", "Se usa la ley de cosenos"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 13,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de calcular la magnitud de un vector con componentes 6 y 8?",
+      "options": ["6 + 8 = 14", "√(6² + 8²) = 10", "6 × 8 = 48", "√(6 + 8) = 3.74"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de calcular la componente x de un vector de 10 N a 60° del eje x?",
+      "options": ["10 × sin(60°)", "10 × cos(60°)", "10 × tan(60°)", "10 / cos(60°)"],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "type": "tf",
+      "question": "La distancia recorrida siempre es mayor o igual que la magnitud del desplazamiento.",
+      "correct": true
+    },
+    {
+      "id": 16,
+      "type": "fill",
+      "question": "Un objeto recorre 8 m al este y 6 m al norte. La magnitud de su desplazamiento es _____.",
+      "options": ["2 m", "10 m", "14 m", "48 m"],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "type": "order",
+      "question": "Ordena de menor a mayor número de componentes:",
+      "items": ["Vector en una dimensión", "Vector en dos dimensiones", "Vector en tres dimensiones"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 18,
+      "type": "match",
+      "question": "Empareja cada concepto con su descripción:",
+      "left": ["Magnitud escalar", "Magnitud vectorial", "Desplazamiento", "Distancia"],
+      "right": [
+        "Solo tiene valor numérico",
+        "Tiene magnitud y dirección",
+        "Longitud del camino más corto",
+        "Longitud total del recorrido"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 19,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de hallar el ángulo de un vector con componentes Vx = 3 y Vy = 4?",
+      "options": ["tan⁻¹(4/3)", "tan⁻¹(3/4)", "sin⁻¹(4/3)", "cos⁻¹(3/4)"],
+      "correct": 0
+    },
+    {
+      "id": 20,
+      "type": "tf",
+      "question": "El producto punto de dos vectores paralelos es igual al producto de sus magnitudes.",
+      "correct": true
+    },
+    {
+      "id": 21,
+      "type": "fill",
+      "question": "La componente y de un vector de 5 N a 53° del eje x es 5 × sen(53°) = _____.",
+      "options": ["3 N", "4 N", "5 N", "6 N"],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de restar dos vectores en línea recta con sentidos opuestos?",
+      "options": ["Sumar sus magnitudes", "Restar sus magnitudes y dar el sentido del mayor", "Multiplicar sus magnitudes", "Dividir sus magnitudes"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "type": "order",
+      "question": "Ordena los pasos para descomponer un vector en sus componentes:",
+      "items": [
+        "Identificar la magnitud y el ángulo del vector",
+        "Calcular Vy = V × sen(θ)",
+        "Calcular Vx = V × cos(θ)",
+        "Verificar con Pitágoras"
+      ],
+      "correct": [0, 2, 1, 3]
+    },
+    {
+      "id": 24,
+      "type": "match",
+      "question": "Empareja cada vector con su componente en x (aproximadamente):",
+      "left": ["10 N a 0°", "10 N a 30°", "10 N a 45°", "10 N a 60°"],
+      "right": ["10 N", "8.66 N", "7.07 N", "5 N"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 25,
+      "type": "tf",
+      "question": "Si un vector tiene componentes Vx = 0, entonces el vector es vertical.",
+      "correct": true
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "question": "El desplazamiento resultante de sumar 5 m al este y 3 m al oeste es _____.",
+      "options": ["8 m al este", "2 m al este", "2 m al oeste", "8 m al oeste"],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de calcular la magnitud del vector resultante de dos vectores perpendiculares de 3 N y 4 N?",
+      "options": ["3 + 4 = 7 N", "√(3² + 4²) = 5 N", "3 × 4 = 12 N", "√(3 × 4) = 3.46 N"],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "type": "order",
+      "question": "Ordena de menor a mayor magnitud:",
+      "items": ["Vector de 3 N", "Vector de 5 N", "Vector de 10 N"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 29,
+      "type": "match",
+      "question": "Empareja cada operación vectorial con su resultado:",
+      "left": [
+        "Suma de vectores paralelos",
+        "Suma de vectores en sentidos opuestos",
+        "Suma de vectores perpendiculares",
+        "Producto punto de vectores perpendiculares"
+      ],
+      "right": [
+        "Suma de magnitudes",
+        "Resta de magnitudes",
+        "Raíz cuadrada de la suma de cuadrados",
+        "Cero"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 30,
+      "type": "tf",
+      "question": "Un vector de magnitud 0 es el vector nulo y no tiene dirección definida.",
+      "correct": true
+    }
+  ]
+}

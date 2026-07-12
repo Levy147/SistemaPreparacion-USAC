@@ -1,0 +1,415 @@
+{
+  "unit": "5",
+  "name": "Caída Libre",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué es la caída libre?",
+      "options": [
+        "El movimiento de un objeto lanzado horizontalmente",
+        "El movimiento de un objeto bajo la acción exclusiva de la gravedad",
+        "El movimiento circular de un objeto",
+        "El movimiento de un objeto en una superficie sin fricción"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "question": "Según la guía PCB, ¿cuál es el valor aproximado de g que se debe usar?",
+      "options": ["9.8 m/s²", "10 m/s²", "8 m/s²", "12 m/s²"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "Un objeto se deja caer desde una altura. ¿Cuál es su velocidad después de 3 segundos? (g = 10 m/s²)",
+      "options": ["10 m/s", "20 m/s", "30 m/s", "40 m/s"],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 20 m/s. ¿Cuánto tarda en alcanzar su punto más alto?",
+      "options": ["1 s", "2 s", "3 s", "4 s"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál es la velocidad de un objeto en caída libre después de 5 segundos? (g = 10 m/s²)",
+      "options": ["10 m/s", "25 m/s", "50 m/s", "100 m/s"],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 30 m/s. ¿Cuál es su velocidad en el punto más alto?",
+      "options": ["30 m/s", "15 m/s", "10 m/s", "0 m/s"],
+      "correct": 3
+    },
+    {
+      "id": 7,
+      "question": "¿Cuánto tarda un objeto en caer desde 80 m de altura? (g = 10 m/s²)",
+      "options": ["2 s", "3 s", "4 s", "8 s"],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 40 m/s. ¿Cuál es su altura máxima?",
+      "options": ["40 m", "60 m", "80 m", "160 m"],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "question": "¿Qué sucede con la velocidad de un objeto en caída libre?",
+      "options": ["Permanece constante", "Aumenta uniformemente", "Disminuye uniformemente", "Oscila"],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "question": "Un objeto se deja caer desde una altura. ¿Cuánto tarda en recorrer los primeros 5 m? (g = 10 m/s²)",
+      "options": ["0.5 s", "1 s", "1.5 s", "2 s"],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "La distancia recorrida en caída libre se calcula con la fórmula:",
+      "options": ["d = v × t", "d = ½gt²", "d = gt", "d = v² / 2g"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 25 m/s. ¿Cuál es su velocidad a los 2 segundos? (g = 10 m/s²)",
+      "options": ["5 m/s", "15 m/s", "25 m/s", "45 m/s"],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "¿Cuál es la aceleración de un objeto en caída libre?",
+      "options": ["0 m/s²", "5 m/s²", "10 m/s²", "Variable"],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 50 m/s. ¿Cuál es su altura máxima?",
+      "options": ["50 m", "100 m", "125 m", "250 m"],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "question": "¿Cuánto tarda un objeto en caer desde 20 m de altura? (g = 10 m/s²)",
+      "options": ["1 s", "2 s", "3 s", "4 s"],
+      "correct": 1
+    },
+    {
+      "id": 16,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 15 m/s. ¿Cuál es su velocidad a los 2 segundos? (g = 10 m/s²)",
+      "options": ["-5 m/s", "5 m/s", "15 m/s", "35 m/s"],
+      "correct": 0
+    },
+    {
+      "id": 17,
+      "question": "En la caída libre, la velocidad de un objeto que parte del reposo después de t segundos es:",
+      "options": ["v = gt", "v = ½gt²", "v = g/t", "v = g + t"],
+      "correct": 0
+    },
+    {
+      "id": 18,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 20 m/s. ¿Cuál es su velocidad a los 3 segundos? (g = 10 m/s²)",
+      "options": ["-10 m/s", "10 m/s", "20 m/s", "50 m/s"],
+      "correct": 0
+    },
+    {
+      "id": 19,
+      "question": "¿Cuánto tarda un objeto en caer desde 45 m de altura? (g = 10 m/s²)",
+      "options": ["2 s", "3 s", "4.5 s", "9 s"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 30 m/s. ¿Cuál es su altura a los 2 segundos? (g = 10 m/s²)",
+      "options": ["20 m", "40 m", "60 m", "80 m"],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "question": "¿Cuál es la distancia recorrida en el primer segundo de caída libre desde el reposo? (g = 10 m/s²)",
+      "options": ["5 m", "10 m", "15 m", "20 m"],
+      "correct": 0
+    },
+    {
+      "id": 22,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 40 m/s. ¿Cuánto tarda en alcanzar el punto más alto?",
+      "options": ["2 s", "3 s", "4 s", "8 s"],
+      "correct": 2
+    },
+    {
+      "id": 23,
+      "question": "La fórmula v² = v₀² + 2gd en caída libre se usa para hallar:",
+      "options": ["Tiempo", "Velocidad final conociendo la distancia", "Aceleración", "Masa del objeto"],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 10 m/s. ¿Cuál es su altura máxima?",
+      "options": ["2.5 m", "5 m", "10 m", "20 m"],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "question": "¿Cuánto tarda un objeto en caer desde 5 m de altura? (g = 10 m/s²)",
+      "options": ["0.5 s", "1 s", "1.5 s", "2 s"],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 35 m/s. ¿Cuál es su velocidad a los 3 segundos? (g = 10 m/s²)",
+      "options": ["5 m/s", "10 m/s", "35 m/s", "65 m/s"],
+      "correct": 0
+    },
+    {
+      "id": 27,
+      "question": "¿Cuál es la distancia recorrida en 3 segundos de caída libre desde el reposo? (g = 10 m/s²)",
+      "options": ["15 m", "30 m", "45 m", "90 m"],
+      "correct": 2
+    },
+    {
+      "id": 28,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 20 m/s. ¿Cuál es su velocidad cuando regresa al punto de lanzamiento?",
+      "options": ["0 m/s", "10 m/s", "20 m/s", "40 m/s"],
+      "correct": 2
+    },
+    {
+      "id": 29,
+      "question": "¿Cuánto tarda un objeto en caer desde 125 m de altura? (g = 10 m/s²)",
+      "options": ["3 s", "4 s", "5 s", "12.5 s"],
+      "correct": 2
+    },
+    {
+      "id": 30,
+      "question": "Un objeto se lanza verticalmente hacia arriba con 60 m/s. ¿Cuál es su altura máxima?",
+      "options": ["60 m", "120 m", "180 m", "360 m"],
+      "correct": 2
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "Un objeto cae desde el reposo. Después de 4 s, su velocidad es v = 10 × 4 = _____.",
+      "options": ["10 m/s", "20 m/s", "40 m/s", "80 m/s"],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Un objeto cae desde 45 m. El tiempo de caída es t = √(2 × 45 / 10) = _____.",
+      "options": ["2 s", "3 s", "4.5 s", "9 s"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Un objeto se lanza hacia arriba con 30 m/s. Su altura máxima es h = 30² / (2 × 10) = _____.",
+      "options": ["30 m", "45 m", "90 m", "300 m"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Un objeto cae desde el reposo. En 3 s recorre d = ½ × 10 × 3² = _____.",
+      "options": ["15 m", "30 m", "45 m", "90 m"],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "type": "tf",
+      "question": "Un objeto en caída libre tiene aceleración constante de 10 m/s² hacia abajo.",
+      "correct": true
+    },
+    {
+      "id": 6,
+      "type": "tf",
+      "question": "Un objeto lanzado verticalmente hacia arriba tiene aceleración cero en su punto más alto.",
+      "correct": false
+    },
+    {
+      "id": 7,
+      "type": "tf",
+      "question": "El tiempo de subida es igual al tiempo de bajada en un tiro vertical.",
+      "correct": true
+    },
+    {
+      "id": 8,
+      "type": "tf",
+      "question": "Un objeto lanzado hacia arriba con 20 m/s tarda 2 segundos en alcanzar su punto más alto.",
+      "correct": true
+    },
+    {
+      "id": 9,
+      "type": "order",
+      "question": "Ordena los pasos para resolver un problema de caída libre:",
+      "items": [
+        "Identificar si es caída o tiro vertical",
+        "Establecer el sistema de referencia",
+        "Seleccionar las fórmulas adecuadas",
+        "Sustituir y resolver"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 10,
+      "type": "order",
+      "question": "Ordena de menor a mayor tiempo de caída desde el reposo:",
+      "items": ["h = 5 m", "h = 20 m", "h = 45 m", "h = 80 m"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 11,
+      "type": "match",
+      "question": "Empareja cada fórmula con su uso en caída libre:",
+      "left": [
+        "v = gt",
+        "d = ½gt²",
+        "v² = 2gd",
+        "h = v₀² / 2g"
+      ],
+      "right": [
+        "Velocidad en caída libre",
+        "Distancia en caída libre",
+        "Velocidad conociendo distancia",
+        "Altura máxima en tiro vertical"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 12,
+      "type": "match",
+      "question": "Empareja cada situación con el tiempo de caída (g = 10 m/s²):",
+      "left": ["h = 5 m", "h = 20 m", "h = 45 m", "h = 80 m"],
+      "right": ["1 s", "2 s", "3 s", "4 s"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 13,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para hallar la altura máxima en un tiro vertical?",
+      "options": ["h = v₀ × t", "h = v₀² / 2g", "h = ½gt²", "h = v₀ × g"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para hallar el tiempo de caída desde una altura h?",
+      "options": ["t = h / g", "t = √(2h/g)", "t = 2h/g", "t = √(h/g)"],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "type": "tf",
+      "question": "Un objeto lanzado hacia arriba con 40 m/s alcanza una altura máxima de 80 m.",
+      "correct": true
+    },
+    {
+      "id": 16,
+      "type": "fill",
+      "question": "Un objeto cae desde 125 m. El tiempo de caída es t = √(2 × 125 / 10) = _____.",
+      "options": ["3 s", "4 s", "5 s", "12.5 s"],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "type": "order",
+      "question": "Ordena de menor a mayor altura máxima (tiro vertical):",
+      "items": ["v₀ = 10 m/s", "v₀ = 20 m/s", "v₀ = 30 m/s"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 18,
+      "type": "match",
+      "question": "Empareja cada velocidad inicial con su altura máxima en tiro vertical:",
+      "left": ["10 m/s", "20 m/s", "30 m/s", "40 m/s"],
+      "right": ["5 m", "20 m", "45 m", "80 m"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 19,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para la velocidad en caída libre después de t segundos?",
+      "options": ["v = ½gt²", "v = gt", "v = g/t", "v = g + t"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "type": "tf",
+      "question": "Un objeto que cae desde 20 m tarda 2 segundos en llegar al suelo.",
+      "correct": true
+    },
+    {
+      "id": 21,
+      "type": "fill",
+      "question": "Un objeto se lanza hacia arriba con 25 m/s. Su altura máxima es h = 25² / 20 = _____.",
+      "options": ["25 m", "31.25 m", "50 m", "62.5 m"],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para hallar el tiempo que tarda un objeto lanzado hacia arriba en volver al punto de lanzamiento?",
+      "options": ["t = v₀ / g", "t = 2v₀ / g", "t = v₀² / 2g", "t = 2v₀² / g"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "type": "order",
+      "question": "Ordena de menor a mayor tiempo para alcanzar el punto más alto:",
+      "items": ["v₀ = 10 m/s", "v₀ = 20 m/s", "v₀ = 30 m/s"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 24,
+      "type": "match",
+      "question": "Empareja cada distancia con el tiempo de caída (desde el reposo):",
+      "left": ["5 m", "20 m", "45 m", "80 m"],
+      "right": ["1 s", "2 s", "3 s", "4 s"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 25,
+      "type": "tf",
+      "question": "Un objeto lanzado hacia arriba con 15 m/s alcanza una altura máxima de 11.25 m.",
+      "correct": true
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "question": "Un objeto cae desde el reposo. En 5 s recorre d = ½ × 10 × 5² = _____.",
+      "options": ["25 m", "50 m", "125 m", "250 m"],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "type": "correct",
+      "question": "¿Cuál es la fórmula correcta para hallar la velocidad de impacto al caer desde una altura h?",
+      "options": ["v = h / g", "v = √(2gh)", "v = 2gh", "v = √(gh)"],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "type": "order",
+      "question": "Ordena de menor a mayor velocidad de impacto (caída desde el reposo):",
+      "items": ["h = 5 m", "h = 20 m", "h = 45 m", "h = 80 m"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 29,
+      "type": "match",
+      "question": "Empareja cada velocidad de lanzamiento con su tiempo para alcanzar el punto más alto:",
+      "left": ["10 m/s", "20 m/s", "30 m/s", "40 m/s"],
+      "right": ["1 s", "2 s", "3 s", "4 s"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 30,
+      "type": "tf",
+      "question": "La caída libre es un caso especial del Movimiento Uniformemente Acelerado.",
+      "correct": true
+    }
+  ]
+}

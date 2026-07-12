@@ -1,0 +1,168 @@
+[
+  {
+    "unit": "1",
+    "name": "Cifras Significativas y Notación Científica",
+    "videos": [
+      {
+        "topic": "Cifras Significativas - Conceptos y Reglas",
+        "url": "https://www.youtube.com/watch?v=VwMMSR4SfgQ"
+      },
+      {
+        "topic": "Notación Científica - Expresión de números",
+        "url": "https://www.youtube.com/watch?v=koxXZbPfDek"
+      },
+      {
+        "topic": "Ejercicios de Cifras Significativas",
+        "url": "https://www.youtube.com/watch?v=6gCNDYPCvLw"
+      }
+    ]
+  },
+  {
+    "unit": "2",
+    "name": "Cantidades Escalares y Vectoriales",
+    "videos": [
+      {
+        "topic": "Magnitudes Escalares y Vectoriales",
+        "url": "https://www.youtube.com/watch?v=RlP78dN9b0Y"
+      },
+      {
+        "topic": "Operaciones con Vectores - Suma y Resta",
+        "url": "https://www.youtube.com/watch?v=pKd0Rpw7O48"
+      },
+      {
+        "topic": "Componentes de un Vector",
+        "url": "https://www.youtube.com/watch?v=QyubQYJpODk"
+      }
+    ]
+  },
+  {
+    "unit": "3",
+    "name": "Movimiento en una Dimensión",
+    "videos": [
+      {
+        "topic": "Movimiento Rectilíneo Uniforme (MRU)",
+        "url": "https://www.youtube.com/watch?v=GJhCfxjLmNo"
+      },
+      {
+        "topic": "Movimiento Uniformemente Acelerado (MUA)",
+        "url": "https://www.youtube.com/watch?v=Ou2KmI1s0Ow"
+      },
+      {
+        "topic": "Gráficas de Movimiento - Posición, Velocidad, Aceleración",
+        "url": "https://www.youtube.com/watch?v=sJfnDsuqXbY"
+      }
+    ]
+  },
+  {
+    "unit": "4",
+    "name": "Movimiento en dos Dimensiones",
+    "videos": [
+      {
+        "topic": "Movimiento Parabólico",
+        "url": "https://www.youtube.com/watch?v=wGxjYvPvWBk"
+      },
+      {
+        "topic": "Movimiento Circular Uniforme",
+        "url": "https://www.youtube.com/watch?v=Cm0h_Fbqq4Y"
+      },
+      {
+        "topic": "Proyectiles - Ángulo y Alcance",
+        "url": "https://www.youtube.com/watch?v=RlP78dN9b0Y"
+      }
+    ]
+  },
+  {
+    "unit": "5",
+    "name": "Caída Libre",
+    "videos": [
+      {
+        "topic": "Caída Libre - Conceptos Básicos",
+        "url": "https://www.youtube.com/watch?v=Z9-KGr5dNAo"
+      },
+      {
+        "topic": "Problemas de Caída Libre con g = 10 m/s²",
+        "url": "https://www.youtube.com/watch?v=Ou2KmI1s0Ow"
+      },
+      {
+        "topic": "Tiro Vertical - Subida y Bajada",
+        "url": "https://www.youtube.com/watch?v=GJhCfxjLmNo"
+      }
+    ]
+  },
+  {
+    "unit": "6",
+    "name": "Leyes de Newton",
+    "videos": [
+      {
+        "topic": "Primera Ley de Newton - Inercia",
+        "url": "https://www.youtube.com/watch?v=WKa3ZnMjSyE"
+      },
+      {
+        "topic": "Segunda Ley de Newton - F = ma",
+        "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds"
+      },
+      {
+        "topic": "Tercera Ley de Newton - Acción y Reacción",
+        "url": "https://www.youtube.com/watch?v=7HFfPbBqcgw"
+      },
+      {
+        "topic": "Peso y Masa - Diferencias",
+        "url": "https://www.youtube.com/watch?v=WKa3ZnMjSyE"
+      }
+    ]
+  },
+  {
+    "unit": "7",
+    "name": "Trabajo y Energía",
+    "videos": [
+      {
+        "topic": "Trabajo Físico - Concepto y Fórmula",
+        "url": "https://www.youtube.com/watch?v=w4KRRBJKdKQ"
+      },
+      {
+        "topic": "Energía Cinética y Potencial",
+        "url": "https://www.youtube.com/watch?v=YyDpHFbJxKs"
+      },
+      {
+        "topic": "Conservación de la Energía Mecánica",
+        "url": "https://www.youtube.com/watch?v=PoL0aTcx6e8"
+      }
+    ]
+  },
+  {
+    "unit": "8",
+    "name": "Cantidad de Movimiento e Impulso",
+    "videos": [
+      {
+        "topic": "Cantidad de Movimiento - Momento Lineal",
+        "url": "https://www.youtube.com/watch?v=I9J1Vc1GpRk"
+      },
+      {
+        "topic": "Impulso y Teorema del Impulso",
+        "url": "https://www.youtube.com/watch?v=JnUxYMBp3HQ"
+      },
+      {
+        "topic": "Conservación del Momento Lineal",
+        "url": "https://www.youtube.com/watch?v=PoL0aTcx6e8"
+      }
+    ]
+  },
+  {
+    "unit": "9",
+    "name": "Choques Elásticos e Inelásticos",
+    "videos": [
+      {
+        "topic": "Choques Elásticos - Definición y Ejemplos",
+        "url": "https://www.youtube.com/watch?v=JnUxYMBp3HQ"
+      },
+      {
+        "topic": "Choques Inelásticos y Perfectamente Inelásticos",
+        "url": "https://www.youtube.com/watch?v=I9J1Vc1GpRk"
+      },
+      {
+        "topic": "Problemas de Choques - Resolución",
+        "url": "https://www.youtube.com/watch?v=PoL0aTcx6e8"
+      }
+    ]
+  }
+]

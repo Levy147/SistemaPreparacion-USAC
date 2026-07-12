@@ -447,163 +447,169 @@
     {
       "id": 1,
       "type": "fill",
-      "question": "Cuando un hablante emite un mensaje, realiza tres acciones simultáneas: la _____ (emitir el mensaje), la ilocución (la intención) y la perlocución (el efecto en el receptor). ¿Cuál es la palabra que completa el concepto?",
+      "question": "El _____ es la unidad mínima significativa de la lengua que tiene forma y contenido.",
       "options": [
-        "perlocución",
-        "locución",
-        "elocución",
-        "prolocución"
+        "fonema",
+        "signo",
+        "morfema",
+        "sintagma"
       ],
       "correct": 1
     },
     {
       "id": 2,
       "type": "fill",
-      "question": "El texto que narra una historia con personajes, tiempo y lugar se clasifica como texto de tipo _____. Este tipo de texto presenta un conflicto y su resolución.",
+      "question": "La _____ es el significado que una palabra tiene por uso establecido en la comunidad lingüística.",
       "options": [
-        "descriptivo",
-        "expositivo",
-        "narrativo",
-        "argumentativo"
+        "connotación",
+        "denotación",
+        "polisemia",
+        "sinonimia"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "id": 3,
       "type": "fill",
-      "question": "Cuando un texto utiliza conectores como \"sin embargo\", \"por lo tanto\" o \"además\" para enlazar las ideas entre sí, está logrando _____ textual.",
+      "question": "Las _____ son palabras que tienen la misma forma pero diferente significado.",
       "options": [
-        "coherencia",
-        "tema",
-        "párrafo",
-        "cohesión"
+        "polisemia",
+        "homografía",
+        "paronimia",
+        "antonomasia"
       ],
-      "correct": 3
+      "correct": 1
     },
     {
       "id": 4,
       "type": "fill",
-      "question": "Un párrafo se compone generalmente de una idea principal denominada _____ y varias ideas que la desarrollan llamadas ideas secundarias.",
+      "question": "La _____ es el uso de una palabra para designar un concepto que se parece al que normalmente designa.",
       "options": [
-        "argumento",
-        "conclusión",
-        "oración",
-        "tema"
+        "metáfora",
+        "metonimia",
+        "sinécdoque",
+        "hipérbole"
       ],
-      "correct": 3
+      "correct": 1
     },
     {
       "id": 5,
       "type": "tf",
-      "question": "La perlocución se refiere a la acción que el hablante realiza al hablar, como informar, pedir o prometer.",
+      "question": "El significado denotativo es el significado subjetivo y emocional de una palabra.",
       "correct": false
     },
     {
       "id": 6,
       "type": "tf",
-      "question": "El texto expositivo tiene como objetivo presentar información de forma objetiva para explicar o informar sobre un tema.",
+      "question": "La polisemia se refiere a una palabra con múltiples significados.",
       "correct": true
     },
     {
       "id": 7,
       "type": "tf",
-      "question": "La cohesión se refiere a la conexión lógica entre las ideas de un texto, mientras que la cohesión se refiere al uso de mecanismos lingüísticos como conectores y pronombres para enlazar las oraciones.",
+      "question": "Los sinónimos son palabras que suenan igual pero tienen diferente significado.",
       "correct": false
     },
     {
       "id": 8,
       "type": "tf",
-      "question": "En el acto de habla, la ilocución corresponde al efecto real que el mensaje produce en el receptor, como persuadirlo o emocionarlo.",
-      "correct": false
+      "question": "La antonimia es la relación entre palabras con significados opuestos.",
+      "correct": true
     },
     {
       "id": 9,
       "type": "correct",
-      "question": "¿Cuál de estas afirmaciones sobre los actos de habla es INCORRECTA?",
+      "question": "¿Cuál es la forma correcta? «Le presté el libro a mi hermano y me lo devolvió»",
       "options": [
-        "La locución es el acto de emitir un mensaje con sentido.",
-        "La ilocución es la intención o fuerza que el hablante da al mensaje.",
-        "La perlocución es el efecto que el mensaje causa en el receptor.",
-        "La locución es el efecto que el mensaje causa en el receptor."
+        "Le presté el libro a mi hermano",
+        "Le presté el libro a el hermano",
+        "Le presté el libro a él hermano",
+        "Presté el libro al hermano"
       ],
-      "correct": 3
+      "correct": 0
     },
     {
       "id": 10,
       "type": "correct",
-      "question": "¿Cuál de las siguientes afirmaciones sobre la tipología textual es CORRECTA?",
+      "question": "¿Cuál es la forma correcta? «Hay mucha gente que piensa diferente»",
       "options": [
-        "El texto narrativo se centra en explicar causas y consecuencias de forma objetiva.",
-        "El texto argumentativo presenta una secuencia de hechos con personajes y un conflicto.",
-        "El texto descriptivo utiliza procedimientos didácticos para dar instrucciones paso a paso.",
-        "El texto instruccional utiliza procedimientos didácticos para dar instrucciones paso a paso."
+        "Hay mucha gente que piensa diferente",
+        "Hay mucha gente que piensa distinto",
+        "Hay mucha gente que piensa de diferente",
+        "Hay mucha gente que piensa diferentemente"
       ],
-      "correct": 3
+      "correct": 0
     },
     {
       "id": 11,
       "type": "correct",
-      "question": "En la siguiente oración: \"María es una víbora en los negocios\", la palabra \"víbora\" se usa en sentido connotativo. ¿Cuál es la forma correcta de explicar por qué?",
+      "question": "¿Cuál es la forma correcta? «Es un problema grave que nos afecta a todos»",
       "options": [
-        "Porque \"víbora\" significa literalmente una serpiente venenosa, y aquí se usa para describir una serpiente en una oficina.",
-        "Porque \"víbora\" denota una cualidad positiva de honestidad en los negocios.",
-        "Porque \"víbora\" en sentido connotativo alude a la astucia y peligrosidad, atributos figurados que se asignan a la persona.",
-        "Porque la oración carece de sentido porque los humanos no pueden ser serpientes."
+        "Es un problema grave que nos afecta a todos",
+        "Es un problema grave que nos afecta a todxs",
+        "Es un problema grave que nos afecta a todes",
+        "Es un problema grave que nos afecta a cada uno"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
       "id": 12,
       "type": "correct",
-      "question": "¿Cuál de las siguientes definiciones es la CORRECTA sobre cohesión y coherencia textual?",
+      "question": "¿Cuál es la forma correcta? «La actitud de los estudiantes fue positiva»",
       "options": [
-        "La coherencia es el uso de conectores para enlazar oraciones, y la cohesión es la unidad lógica de las ideas.",
-        "La cohesión es el uso de mecanismos lingüísticos (conectores, pronombres, sinónimos) para enlazar elementos del texto, y la coherencia es la unidad lógica y el sentido claro de las ideas.",
-        "La cohesión y la coherencia son exactamente lo mismo.",
-        "La cohesión solo se aplica en textos literarios, mientras que la coherencia se aplica en textos científicos."
+        "La actitud de los estudiantes fue positiva",
+        "La actitud de los estudiantes fue positivo",
+        "La actitud de los estudiantes positiva fue",
+        "La actitud positiva de los estudiantes fue"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "id": 13,
       "type": "order",
-      "question": "Ordena los elementos de la estructura básica de un párrafo de inicio a cierre:",
+      "question": "Ordena los niveles del lenguaje de más formal a menos formal:",
       "items": [
-        "Oración con la idea principal (tema)",
-        "Oraciones con ideas secundarias que desarrollan la idea principal",
-        "Oración de cierre o conclusión del párrafo"
+        "Culto",
+        "Estándar",
+        "Populachero",
+        "Vulgar"
       ],
       "correct": [
         0,
         1,
-        2
+        2,
+        3
       ]
     },
     {
       "id": 14,
       "type": "order",
-      "question": "Ordena los tres actos de habla según el proceso comunicativo en el que ocurren, de primero a último:",
+      "question": "Ordena las categorías gramaticales de mayor a menor capacidad de combinación:",
       "items": [
-        "Locución (emitir el mensaje con sentido)",
-        "ilocución (la intención o fuerza del mensaje)",
-        "Perlocución (el efecto en el receptor)"
+        "Verbo",
+        "Sustantivo",
+        "Adjetivo",
+        "Artículo"
       ],
       "correct": [
         0,
         1,
-        2
+        2,
+        3
       ]
     },
     {
       "id": 15,
       "type": "order",
-      "question": "Ordena los siguientes tipos textuales según su nivel de subjetividad, desde el más objetivo hasta el más subjetivo:",
+      "question": "Ordena las partes de la oración según su función:",
       "items": [
-        "Texto expositivo",
-        "Texto argumentativo",
-        "Texto narrativo"
+        "Predicado",
+        "Complemento directo",
+        "Complemento indirecto",
+        "Sujeto"
       ],
       "correct": [
+        3,
         0,
         1,
         2
@@ -612,38 +618,41 @@
     {
       "id": 16,
       "type": "match",
-      "question": "Empareja cada acto de habla con su descripción correcta:",
+      "question": "Empareja cada tipo de palabra con su ejemplo:",
       "left": [
-        "Locución",
-        "ilocución",
-        "Perlocución"
+        "Sustantivo",
+        "Adjetivo",
+        "Verbo",
+        "Adverbio"
       ],
       "right": [
-        "El efecto que el mensaje produce en el receptor (persuadir, emocionar, convencer).",
-        "El acto de emitir un mensaje con sentido gramatical y referencial.",
-        "La intención o fuerza comunicativa que el hablante impregna al mensaje (pedir, prometer, ordenar)."
+        "Mesa",
+        "Bonito",
+        "Correr",
+        "Rápidamente"
       ],
       "correct": [
+        0,
         1,
         2,
-        0
+        3
       ]
     },
     {
       "id": 17,
       "type": "match",
-      "question": "Empareja cada tipo textual con su característica principal:",
+      "question": "Empareja cada concepto con su definición:",
       "left": [
-        "Narrativo",
-        "Descriptivo",
-        "Expositivo",
-        "Argumentativo"
+        "Denotación",
+        "Connotación",
+        "Polisemia",
+        "Homonimia"
       ],
       "right": [
-        "Presenta una secuencia de hechos con personajes, tiempo y lugar.",
-        "Retrata personas, lugares, objetos o situaciones con detalle.",
-        "Presenta información de forma objetiva para explicar o informar.",
-        "Defiende una postura o idea con razones para convencer al receptor."
+        "Significado literal",
+        "Significado emocional",
+        "Muchos significados",
+        "Igual forma, diferente significado"
       ],
       "correct": [
         0,
@@ -655,18 +664,18 @@
     {
       "id": 18,
       "type": "match",
-      "question": "Empareja cada mecanismo de cohesión con su ejemplo:",
+      "question": "Empareja cada relación de significado:",
       "left": [
-        "Conectores",
-        "Pronombres",
-        "Sinónimos y paráfrasis",
-        "Referencia léxica"
+        "Sinónimos",
+        "Antónimos",
+        "Homónimos",
+        "Parónimos"
       ],
       "right": [
-        "\"Sin embargo\", \"por lo tanto\", \"además\".",
-        "\"Juan llegó. Él trajo las medicinas.\"",
-        "\"El doctor\" y \"el médico\" en el mismo párrafo.",
-        "Repetición de palabras clave o uso de hipónimos para mantener el tema."
+        "Mismo significado",
+        "Significado opuesto",
+        "Igual forma",
+        "Parecido en forma"
       ],
       "correct": [
         0,
@@ -678,26 +687,26 @@
     {
       "id": 19,
       "type": "reading",
-      "passage": "En la región occidental de Guatemala, muchos hablantes mezclan palabras del español con términos del kakchiquel en sus conversaciones cotidianas. Esta práctica, aunque considerada coloquial, refleja la riqueza cultural de la zona y demuestra cómo el habla puede variar según el contexto social y geográfico de los hablantes.",
-      "question": "Según el texto, la mezcla de español con kakchiquel es un ejemplo de:",
+      "passage": "El profesor explicó que el signo lingüístico tiene dos inseparables: la expresión (significante) y el contenido (significado).",
+      "question": "¿Qué relación existe entre significante y significado?",
       "options": [
-        "Un error gramatical que debe corregirse en la educación formal.",
-        "Una variación del habla que refleja el contexto social y geográfico.",
-        "Una nueva lengua oficial de Guatemala.",
-        "Un nivel de lengua culto y técnico-científico."
+        "Son independientes",
+        "Son inseparables",
+        "El significado es mayor",
+        "El significante es más importante"
       ],
       "correct": 1
     },
     {
       "id": 20,
       "type": "reading",
-      "passage": "La instrucción en la receta dice: \"Primero, precalienta el horno a 180 grados. Luego, mezcla los ingredientes secos en un tazón grande. A continuación, incorpora los líquidos y bate hasta obtener una masa homogénea. Finalmente, vierte la mezcla en un molde engrasado y hornea por 30 minutos.\"",
-      "question": "El tipo textual dominante en el pasaje anterior es:",
+      "passage": "María dijo: \"Mi hermano es muy alto\". El profesor señaló que \"alto\" es un adjetivo que modifica al sustantivo \"hermano\".",
+      "question": "¿Qué función cumple \"alto\" en la oración?",
       "options": [
-        "Narrativo, porque cuenta una historia con personajes.",
-        "Descriptivo, porque retrata las características físicas de los ingredientes.",
-        "Instruccional, porque presenta pasos secuenciales para realizar una acción.",
-        "Argumentativo, porque intenta convencer al lector de la importancia de cocinar."
+        "Sujeto",
+        "Predicado",
+        "Complemento del nombre",
+        "Complemento verbal"
       ],
       "correct": 2
     }

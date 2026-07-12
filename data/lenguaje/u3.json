@@ -447,172 +447,172 @@
     {
       "id": 1,
       "type": "fill",
-      "question": "El instrumento musical de cuerdas se escribe: 'la _____'. ¿Cuál es la grafía correcta?",
+      "question": "Las palabras _____ terminan en vocal y llevan tilde en la última sílaba.",
       "options": [
-        "juitarra",
-        "guitarra",
-        "guítarra",
-        "ghuitarra"
+        "agudas",
+        "graves",
+        "esdrújulas",
+        "sobresdrújulas"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "id": 2,
       "type": "fill",
-      "question": "El verbo que significa 'hacer una celebración' requiere completar con la letra adecuada: '_____brar'. ¿Qué letra va?",
+      "question": "Las palabras _____ terminan en consonante (excepto n, s) y llevan tilde en la penúltima sílaba.",
       "options": [
-        "s",
-        "c",
-        "z",
-        "x"
+        "agudas",
+        "graves",
+        "esdrújulas",
+        "sobresdrújulas"
       ],
       "correct": 1
     },
     {
       "id": 3,
       "type": "fill",
-      "question": "Cuando se enumeran elementos que ya contienen comas internas, el signo de puntuación más adecuado para separarlos es el: _____",
+      "question": "Las palabras _____ llevan tilde en la antepenúltima sílaba.",
       "options": [
-        "punto (.)",
-        "coma (,)",
-        "punto y coma (;)",
-        "dos puntos (:)"
+        "agudas",
+        "graves",
+        "esdrújulas",
+        "sobresdrújulas"
       ],
       "correct": 2
     },
     {
       "id": 4,
       "type": "fill",
-      "question": "La palabra 'ruido' tiene un diptongo 'ui'. Al dividirla correctamente en sílabas queda: _____",
+      "question": "La _____ es la marca gráfica que separa la sílaba tónica de las átonas.",
       "options": [
-        "ru-i-do",
-        "rui-do",
-        "ruid-o",
-        "ruido"
+        "coma",
+        "tilde",
+        "punto",
+        "dos puntos"
       ],
       "correct": 1
     },
     {
       "id": 5,
       "type": "tf",
-      "question": "El punto y coma ( ; ) indica una pausa de intensidad intermedia entre la coma y el punto.",
-      "correct": true
+      "question": "Las palabras monosílabas nunca llevan tilde.",
+      "correct": false
     },
     {
       "id": 6,
       "type": "tf",
-      "question": "En numeración romana, XL representa el número 60.",
-      "correct": false
+      "question": "Las palabras agudas llevan tilde en la última sílaba.",
+      "correct": true
     },
     {
       "id": 7,
       "type": "tf",
-      "question": "La palabra 'exámenes' es grave porque su sílaba tónica es la penúltima sílaba.",
-      "correct": false
+      "question": "Las palabras esdrújulas siempre llevan tilde.",
+      "correct": true
     },
     {
       "id": 8,
       "type": "tf",
-      "question": "El punto (.) indica una pausa más breve que la coma (,).",
-      "correct": false
+      "question": "Las palabras graves llevan tilde en la penúltima sílaba.",
+      "correct": true
     },
     {
       "id": 9,
       "type": "correct",
-      "question": "¿Cuál es la forma correcta de esta oración?",
+      "question": "¿Cuál es la forma correcta? «El cafe esta bueno»",
       "options": [
-        "¿Quien eres tú?",
-        "¿Quién eres tú?",
-        "¿Quiénez eres tú?",
-        "¿Quien sos tú?"
+        "El cafe esta bueno",
+        "El café está bueno",
+        "El café esta bueno",
+        "El cafe está bueno"
       ],
       "correct": 1
     },
     {
       "id": 10,
       "type": "correct",
-      "question": "¿Cuál es la grafía correcta de esta palabra?",
+      "question": "¿Cuál es la forma correcta? «La musica es hermosa»",
       "options": [
-        "azucar",
-        "azúcar",
-        "azùcar",
-        "azûcar"
+        "La musica es hermosa",
+        "La música es hermosa",
+        "La musica es hermosa",
+        "La música es hermoso"
       ],
       "correct": 1
     },
     {
       "id": 11,
       "type": "correct",
-      "question": "¿Cuál es la forma correcta de expresar el número 4 en numeración romana?",
+      "question": "¿Cuál es la forma correcta? «Yo tambien quiero ir»",
       "options": [
-        "IIII",
-        "IV",
-        "VV",
-        "VI"
+        "Yo tambien quiero ir",
+        "Yo también quiero ir",
+        "Yo tambien quero ir",
+        "Yo también quiero ir"
       ],
       "correct": 1
     },
     {
       "id": 12,
       "type": "correct",
-      "question": "¿Cuál es la forma correcta de esta oración?",
+      "question": "¿Cuál es la forma correcta? «Tu eres mi amigo»",
       "options": [
-        "Tuvé que ir a la tienda.",
-        "Tuve que ir a la tienda.",
-        "Tubé que ir a la tienda.",
-        "Tuvi que ir a la tienda."
+        "Tu eres mi amigo",
+        "Tú eres mi amigo",
+        "Tu eres mi amigo",
+        "Tú eres mi amiguo"
       ],
       "correct": 1
     },
     {
       "id": 13,
       "type": "order",
-      "question": "Ordena los siguientes signos de puntuación de menor a mayor fuerza de pausa:",
+      "question": "Ordena las reglas de acentuación de más simple a más compleja:",
       "items": [
-        "Punto (.)",
-        "Coma (,)",
-        "Punto y coma (;)",
-        "Dos puntos (:)"
+        "Esdrújulas siempre tilde",
+        "Sobresdrújulas siempre tilde",
+        "Agudas: tilde si terminan en vocal, n, s",
+        "Graves: tilde si terminan en consonante"
       ],
       "correct": [
+        0,
         1,
         2,
-        3,
-        0
+        3
       ]
     },
     {
       "id": 14,
       "type": "order",
-      "question": "Ordena las siguientes palabras según la posición de su sílaba tónica, de aguda a sobresdrújula:",
+      "question": "Ordena las palabras por número de sílabas:",
       "items": [
-        "jardín",
-        "ventana",
-        "música",
-        "fácilmente"
+        "casa",
+        "casita",
+        "casita bonita",
+        "casita"
       ],
       "correct": [
         0,
         1,
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": 15,
       "type": "order",
-      "question": "Ordena las siguientes palabras de menor a mayor cantidad de sílabas:",
+      "question": "Ordena de más a menos sílabas:",
       "items": [
-        "café",
-        "ventana",
-        "mariposa",
-        "incomprensible"
+        "murciélago",
+        "gato",
+        "computadora",
+        "casa"
       ],
       "correct": [
         0,
-        1,
         2,
-        3
+        3,
+        1
       ]
     },
     {
@@ -620,95 +620,95 @@
       "type": "match",
       "question": "Empareja cada palabra con su tipo de acentuación:",
       "left": [
-        "jardín",
-        "ventana",
-        "música",
-        "fácilmente"
+        "Mesa",
+        "Árbol",
+        "Música",
+        "Fácilmente"
       ],
       "right": [
-        "Esdrújula",
-        "Aguda",
         "Grave",
+        "Aguda",
+        "Esdrújula",
         "Sobresdrújula"
       ],
       "correct": [
+        0,
         1,
         2,
-        0,
         3
       ]
     },
     {
       "id": 17,
       "type": "match",
-      "question": "Empareja cada abreviatura con su significado completo:",
+      "question": "Empareja cada regla con su tilde:",
       "left": [
-        "Dr.",
-        "Prof.",
-        "etc.",
-        "Ing."
+        "Termina en vocal",
+        "Termina en n o s",
+        "Termina en consonante",
+        "Es esdrújula"
       ],
       "right": [
-        "etcétera",
-        "Doctor",
-        "Ingeniero",
-        "Profesor"
+        "Aguda: tilde",
+        "Aguda: tilde",
+        "Grave: tilde",
+        "Siempre tilde"
       ],
       "correct": [
-        1,
-        3,
         0,
-        2
+        1,
+        2,
+        3
       ]
     },
     {
       "id": 18,
       "type": "match",
-      "question": "Empareja cada numeral romano con su número arábigo:",
+      "question": "Empareja cada palabra con su sílaba tónica:",
       "left": [
-        "IX",
-        "XL",
-        "XC",
-        "CD"
+        "Casa",
+        "Música",
+        "Árbol",
+        "Corriendo"
       ],
       "right": [
-        90,
-        40,
-        9,
-        400
+        "Sa",
+        "Si",
+        "Bal",
+        "Rien"
       ],
       "correct": [
-        2,
-        1,
         0,
+        1,
+        2,
         3
       ]
     },
     {
       "id": 19,
       "type": "reading",
-      "passage": "Los números ordinales en español indican la posición de un elemento en una serie. Se escriben siempre con inicial minúscula, excepto cuando inician una oración o forman parte de un nombre propio, como en 'Primera Guerra Mundial'.",
-      "question": "Según el texto, ¿cuándo se escribe un ordinal con mayúscula inicial?",
+      "passage": "El profesor explicó que \"café\" es una palabra aguda que termina en e, por lo tanto lleva tilde.",
+      "question": "¿Por qué lleva tilde \"café\"?",
       "options": [
-        "Siempre se escribe con mayúscula.",
-        "Solo al inicio de una oración o cuando forma parte de un nombre propio.",
-        "Nunca se escribe con mayúscula.",
-        "Solo cuando tiene más de tres sílabas."
+        "Porque es esdrújula",
+        "Porque es grave",
+        "Porque es aguda y termina en vocal",
+        "Porque es sobresdrújula"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "id": 20,
       "type": "reading",
-      "passage": "En la antigua Roma se utilizaba un sistema de numeración basado en letras. Cuando una letra de menor valor precede a una de mayor, se resta (como IV = 4); cuando una letra de mayor valor precede a una de menor, se suma (como VI = 6). Las letras principales son: I = 1, V = 5, X = 10, L = 50, C = 100.",
-      "question": "¿Cuánto representa el numeral romano 'XIV'?",
+      "passage": "Una estudiante escribió: \"Yo tambien quiero ir al parque\". El profesor marcó un error.",
+      "question": "¿Qué error cometió la estudiante?",
       "options": [
-        "16",
-        "14",
-        "24",
-        "6"
+        "Error de tilde",
+        "Error de ortografía",
+        "Error de gramática",
+        "Error de puntuación"
       ],
-      "correct": 1
+      "correct": 0
     }
   ]
 }
