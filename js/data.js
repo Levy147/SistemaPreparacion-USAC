@@ -11022,16 +11022,16 @@ const LENGUAJE_DATA = {
         "name": "Cifras Significativas y Notación Científica",
         "videos": [
             {
-                "topic": "Cifras Significativas - Conceptos y Reglas",
-                "url": "https://www.youtube.com/watch?v=VwMMSR4SfgQ"
+                "topic": "CIFRAS SIGNIFICATIVAS - Conceptos y Reglas",
+                "url": "https://www.youtube.com/watch?v=Ina-E8NEF6U"
             },
             {
-                "topic": "Notación Científica - Expresión de números",
-                "url": "https://www.youtube.com/watch?v=koxXZbPfDek"
+                "topic": "Tutorial de Cifras Significativas",
+                "url": "https://www.youtube.com/watch?v=4isIrgKIOCU"
             },
             {
-                "topic": "Ejercicios de Cifras Significativas",
-                "url": "https://www.youtube.com/watch?v=6gCNDYPCvLw"
+                "topic": "Notación Científica y Cifras Significativas",
+                "url": "https://www.youtube.com/watch?v=9T96j6qWDaE"
             }
         ]
     },
@@ -11040,16 +11040,16 @@ const LENGUAJE_DATA = {
         "name": "Cantidades Escalares y Vectoriales",
         "videos": [
             {
+                "topic": "Vectores en Física desde Cero",
+                "url": "https://www.youtube.com/watch?v=TtoFDLWqIg0"
+            },
+            {
                 "topic": "Magnitudes Escalares y Vectoriales",
-                "url": "https://www.youtube.com/watch?v=RlP78dN9b0Y"
+                "url": "https://www.youtube.com/watch?v=C7cORnM76yI"
             },
             {
                 "topic": "Operaciones con Vectores - Suma y Resta",
                 "url": "https://www.youtube.com/watch?v=pKd0Rpw7O48"
-            },
-            {
-                "topic": "Componentes de un Vector",
-                "url": "https://www.youtube.com/watch?v=QyubQYJpODk"
             }
         ]
     },
@@ -11058,16 +11058,16 @@ const LENGUAJE_DATA = {
         "name": "Movimiento en una Dimensión",
         "videos": [
             {
-                "topic": "Movimiento Rectilíneo Uniforme (MRU)",
-                "url": "https://www.youtube.com/watch?v=GJhCfxjLmNo"
+                "topic": "MRU y MRUA - Movimiento Rectilíneo",
+                "url": "https://www.youtube.com/watch?v=SVlQHM-Q-DY"
             },
             {
-                "topic": "Movimiento Uniformemente Acelerado (MUA)",
-                "url": "https://www.youtube.com/watch?v=Ou2KmI1s0Ow"
+                "topic": "MRUA - Movimiento Rectilíneo Uniformemente Acelerado",
+                "url": "https://www.youtube.com/watch?v=Kz7_3wp5Wmc"
             },
             {
-                "topic": "Gráficas de Movimiento - Posición, Velocidad, Aceleración",
-                "url": "https://www.youtube.com/watch?v=sJfnDsuqXbY"
+                "topic": "MRUA: Ejercicios Resueltos",
+                "url": "https://www.youtube.com/watch?v=lK75vheVwPs"
             }
         ]
     },
@@ -11076,16 +11076,16 @@ const LENGUAJE_DATA = {
         "name": "Movimiento en dos Dimensiones",
         "videos": [
             {
-                "topic": "Movimiento Parabólico",
-                "url": "https://www.youtube.com/watch?v=wGxjYvPvWBk"
+                "topic": "Tiro Parabólico - Teoría y Fórmulas",
+                "url": "https://www.youtube.com/watch?v=GKJHQ5eD1bI"
             },
             {
-                "topic": "Movimiento Circular Uniforme",
-                "url": "https://www.youtube.com/watch?v=Cm0h_Fbqq4Y"
+                "topic": "Trigonometría en Física - Movimiento Parabólico",
+                "url": "https://www.youtube.com/watch?v=5kSv46Arq6k"
             },
             {
-                "topic": "Proyectiles - Ángulo y Alcance",
-                "url": "https://www.youtube.com/watch?v=RlP78dN9b0Y"
+                "topic": "Lanzamiento Parabólico - Ejercicio Resuelto",
+                "url": "https://www.youtube.com/watch?v=UMn_M9Gap9U"
             }
         ]
     },
@@ -11094,16 +11094,16 @@ const LENGUAJE_DATA = {
         "name": "Caída Libre",
         "videos": [
             {
-                "topic": "Caída Libre - Conceptos Básicos",
-                "url": "https://www.youtube.com/watch?v=Z9-KGr5dNAo"
+                "topic": "Caída Libre - Calcular Tiempo con Solución Cuadrática",
+                "url": "https://www.youtube.com/watch?v=s_mNeTVVjuA"
             },
             {
-                "topic": "Problemas de Caída Libre con g = 10 m/s²",
-                "url": "https://www.youtube.com/watch?v=Ou2KmI1s0Ow"
+                "topic": "Caída Libre - Ejemplo 1: Piedra desde Edificio",
+                "url": "https://www.youtube.com/watch?v=yvz40RrLrkM"
             },
             {
-                "topic": "Tiro Vertical - Subida y Bajada",
-                "url": "https://www.youtube.com/watch?v=GJhCfxjLmNo"
+                "topic": "Caída Libre - Ejemplo 3: Lanzamiento Vertical",
+                "url": "https://www.youtube.com/watch?v=2apQ3bQT6Ew"
             }
         ]
     },
@@ -11112,20 +11112,16 @@ const LENGUAJE_DATA = {
         "name": "Leyes de Newton",
         "videos": [
             {
-                "topic": "Primera Ley de Newton - Inercia",
-                "url": "https://www.youtube.com/watch?v=WKa3ZnMjSyE"
+                "topic": "Leyes de Newton - Explicación Completa con Ejemplos",
+                "url": "https://www.youtube.com/watch?v=iLt6C1oxmlc"
+            },
+            {
+                "topic": "Las Leyes de Newton en 2 Minutos",
+                "url": "https://www.youtube.com/watch?v=_X-BTbwj3xU"
             },
             {
                 "topic": "Segunda Ley de Newton - F = ma",
                 "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds"
-            },
-            {
-                "topic": "Tercera Ley de Newton - Acción y Reacción",
-                "url": "https://www.youtube.com/watch?v=7HFfPbBqcgw"
-            },
-            {
-                "topic": "Peso y Masa - Diferencias",
-                "url": "https://www.youtube.com/watch?v=WKa3ZnMjSyE"
             }
         ]
     },
@@ -11134,16 +11130,16 @@ const LENGUAJE_DATA = {
         "name": "Trabajo y Energía",
         "videos": [
             {
-                "topic": "Trabajo Físico - Concepto y Fórmula",
-                "url": "https://www.youtube.com/watch?v=w4KRRBJKdKQ"
+                "topic": "Energía Mecánica y Conservación de la Energía",
+                "url": "https://www.youtube.com/watch?v=f4IWnif1wjs"
             },
             {
-                "topic": "Energía Cinética y Potencial",
-                "url": "https://www.youtube.com/watch?v=YyDpHFbJxKs"
+                "topic": "Conservación de la Energía - Problema Esfera y Resorte",
+                "url": "https://www.youtube.com/watch?v=Mw5uyGT93UQ"
             },
             {
-                "topic": "Conservación de la Energía Mecánica",
-                "url": "https://www.youtube.com/watch?v=PoL0aTcx6e8"
+                "topic": "Trabajo y Energía - Teoría Completa",
+                "url": "https://www.youtube.com/watch?v=0hCCtS7T9LM"
             }
         ]
     },
@@ -11152,16 +11148,16 @@ const LENGUAJE_DATA = {
         "name": "Cantidad de Movimiento e Impulso",
         "videos": [
             {
-                "topic": "Cantidad de Movimiento - Momento Lineal",
-                "url": "https://www.youtube.com/watch?v=I9J1Vc1GpRk"
+                "topic": "Los Accidentes de Tráfico y el Momento Lineal",
+                "url": "https://www.youtube.com/watch?v=V44hpwIX8vk"
             },
             {
                 "topic": "Impulso y Teorema del Impulso",
-                "url": "https://www.youtube.com/watch?v=JnUxYMBp3HQ"
+                "url": "https://www.youtube.com/watch?v=ECH2gLh9040"
             },
             {
-                "topic": "Conservación del Momento Lineal",
-                "url": "https://www.youtube.com/watch?v=PoL0aTcx6e8"
+                "topic": "Impulso y Cantidad de Movimiento - Explicación con Ejemplos",
+                "url": "https://www.youtube.com/watch?v=YhKtpoMaQdw"
             }
         ]
     },
@@ -11170,16 +11166,16 @@ const LENGUAJE_DATA = {
         "name": "Choques Elásticos e Inelásticos",
         "videos": [
             {
-                "topic": "Choques Elásticos - Definición y Ejemplos",
-                "url": "https://www.youtube.com/watch?v=JnUxYMBp3HQ"
+                "topic": "Choques: Elásticos vs Inelásticos",
+                "url": "https://www.youtube.com/watch?v=i7r57npsPgI"
             },
             {
-                "topic": "Choques Inelásticos y Perfectamente Inelásticos",
-                "url": "https://www.youtube.com/watch?v=I9J1Vc1GpRk"
+                "topic": "Choques Elásticos e Inelásticos - Explicación",
+                "url": "https://www.youtube.com/watch?v=M2xnGcaaAi4"
             },
             {
-                "topic": "Problemas de Choques - Resolución",
-                "url": "https://www.youtube.com/watch?v=PoL0aTcx6e8"
+                "topic": "Problemas de Choques Elásticos Resueltos",
+                "url": "https://www.youtube.com/watch?v=Si9TVC6YxKc"
             }
         ]
     }
