@@ -442,5 +442,271 @@
       ],
       "correct": 1
     }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "Una oración bimembre está compuesta por dos elementos fundamentales: el _______ y el _______.",
+      "options": [
+        "sujeto y predicado",
+        "sintagma y morfema",
+        "núcleo y modificador",
+        "verbo y complemento"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "El _______ es la categoría gramatical que se forma añadiendo un prefijo o sufijo a una palabra primitiva, como ocurre con árbol → arboleda.",
+      "options": [
+        "composición",
+        "parasíntesis",
+        "derivación",
+        "flexión"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Cuando se omite la preposición \"de\" antes de la conjunción \"que\", como en \"Me alegro que hayas venido\", se comete el vicio gramatical conocido como _______.",
+      "options": [
+        "dequeísmo",
+        "queísmo",
+        "muletilla",
+        "cacofonía"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "En el análisis _______, se estudia la estructura interna de las palabras, sus accidentes gramaticales y los procesos de formación.",
+      "options": [
+        "sintáctico",
+        "semántico",
+        "morfológico",
+        "fonológico"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "type": "tf",
+      "question": "Una oración compuesta está formada por dos o más verbos conjugados o proposiciones unidas entre sí.",
+      "correct": true
+    },
+    {
+      "id": 6,
+      "type": "tf",
+      "question": "El dequeísmo consiste en eliminar la preposición \"de\" cuando es obligatoria antes de \"que\".",
+      "correct": false
+    },
+    {
+      "id": 7,
+      "type": "tf",
+      "question": "El infinitivo, el gerundio y el participio son formas personales del verbo porque pueden conjugarse en persona y tiempo.",
+      "correct": false
+    },
+    {
+      "id": 8,
+      "type": "tf",
+      "question": "Las palabras \"hola\" y \"ola\" son homófonas porque se pronuncian igual pero se escriben distinto.",
+      "correct": true
+    },
+    {
+      "id": 9,
+      "type": "correct",
+      "question": "¿Cuál de las siguientes oraciones está correctamente redactada (sin dequeísmo ni queísmo)?",
+      "options": [
+        "Pienso de que debemos estudiar más.",
+        "Pienso que debemos estudiar más.",
+        "Pienso que de debemos estudiar más.",
+        "Pienso de debemos estudiar que más."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "type": "correct",
+      "question": "¿Qué frase está correctamente construida según las normas de la RAE?",
+      "options": [
+        "Detrás de ti hay un libro.",
+        "Detrás tuyo hay un libro.",
+        "Detrás de tuyo hay un libro.",
+        "Detrás ti hay un libro."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "type": "correct",
+      "question": "¿Cuál de estas oraciones tiene correctamente aplicada la concordancia entre sujeto y verbo?",
+      "options": [
+        "Los niño jugaban en el parque.",
+        "La grupo de estudiantes entregaron la tarea.",
+        "El equipo de fútbol ganó el campeonato.",
+        "Las gente corrieron hacia la salida."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "type": "correct",
+      "question": "Identifica la oración donde se usa correctamente \"encima de\" y no se comete dequeísmo.",
+      "options": [
+        "Puse el libro de encima de la mesa.",
+        "Puse el libro encima de la mesa.",
+        "Puse el libro en encima la mesa.",
+        "Puse el libro encima de que la mesa."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "type": "order",
+      "question": "Ordena los niveles de análisis gramatical de lo más elemental a lo más complejo:",
+      "items": [
+        "Nivel morfológico (estructura de la palabra)",
+        "Nivel sintáctico (relación entre palabras)",
+        "Nivel semántico (significado de las palabras y oraciones)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "type": "order",
+      "question": "Ordena los pasos para formar la palabra \"desafortunadamente\":",
+      "items": [
+        "Parte de la palabra primitiva: \"fortuna\"",
+        "Se añade el sufijo \"-ado\" (afortunado)",
+        "Se añade el prefijo \"des-\" (desafortunado)",
+        "Se añade el sufijo \"-mente\" (desafortunadamente)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 15,
+      "type": "order",
+      "question": "Ordena las categorías gramaticales según su función principal: nombrar → calificar → express action → modificar:",
+      "items": [
+        "Sustantivo (nombra personas, cosas, ideas)",
+        "Adjetivo (califica o describe cualidades del sustantivo)",
+        "Verbo (expresa acción, estado o proceso)",
+        "Adverbio (modifica al verbo, adjetivo u otro adverbio)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 16,
+      "type": "match",
+      "question": "Empareja cada categoría gramatical con su ejemplo correcto:",
+      "left": [
+        "Preposición",
+        "Conjunción",
+        "Pronombre",
+        "Interjección"
+      ],
+      "right": [
+        "Conecta una palabra a otra indicando relación de dependencia (ej. \"de\", \"para\")",
+        "Une palabras, sintagmas u oraciones (ej. \"y\", \"pero\", \"porque\")",
+        "Sustituye al sustantivo o lo reemplaza (ej. \"yo\", \"ella\", \"nosotros\")",
+        "Expresa una emoción o reacción espontánea (ej. \"¡Ay!\", \"¡Ojalá!\")"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 17,
+      "type": "match",
+      "question": "Empareja cada tipo de relación semántica con su ejemplo correcto:",
+      "left": [
+        "Sinónimos",
+        "Antónimos",
+        "Parónimos",
+        "Homófonos"
+      ],
+      "right": [
+        "Comparten significado idéntico o muy similar (ej. feliz / contento)",
+        "Expresan significados opuestos (ej. frío / caliente)",
+        "Tienen forma parecida pero significado distinto (ej. aptitud / actitud)",
+        "Se pronuncian igual pero se escriben distinto (ej. haya / aya)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 18,
+      "type": "match",
+      "question": "Empareja cada proceso de formación de palabras con su definición:",
+      "left": [
+        "Derivación",
+        "Composición",
+        "Parasíntesis",
+        "Prefijo negativo"
+      ],
+      "right": [
+        "Añadir sufijos o prefijos a una raíz para crear una nueva palabra (ej. claro → claramente)",
+        "Unir dos o más palabras o raíces (ej. sacapuntas, cortaplumas)",
+        "Añadir simultáneamente un prefijo y un sufijo a una raíz (ej. en-marc-ar)",
+        "Morema que antecede a la raíz y niega o invierte su significado (ej. in-legal)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 19,
+      "type": "reading",
+      "passage": "El vocabulario se divide en activo y pasivo. El vocabulario activo está compuesto por todas las palabras que una persona utiliza de forma espontánea al hablar o escribir. En cambio, el vocabulario pasivo o de reserva incluye las palabras que reconocemos y comprendemos cuando las leemos o escuchamos, pero que no usamos en nuestra producción lingüística diaria. Ampliar el vocabulario pasivo implica incorporar nuevas palabras al vocabulario activo, transformándolas en parte de nuestro uso cotidiano.",
+      "question": "Según el texto, ¿qué implica ampliar el vocabulario pasivo?",
+      "options": [
+        "Omitir palabras complicadas al hablar.",
+        "Incorporar nuevas palabras al vocabulario activo para usarlas en el día a día.",
+        "Eliminar palabras del vocabulario activo que no se usan frecuentemente.",
+        "Aprender únicamente palabras técnicas o científicas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "type": "reading",
+      "passage": "La formación de palabras en español se realiza principalmente mediante tres procedimientos. El primero es la derivación, que consiste en añadir afijos (prefijos o sufijos) a una palabra existente para crear una nueva; por ejemplo, \"trabajo\" se transforma en \"trabajador\" con el sufijo \"-ador\". El segundo es la composición, que une dos o más palabras para formar un lexema nuevo; así, \"saca\" y \"puntas\" dan lugar a \"sacapuntas\". El tercero es la parasíntesis, que añade simultáneamente un prefijo y un sufijo a una raíz, generando una palabra nueva como \"enmarcar\" (en- + raíz + -ar).",
+      "question": "¿Qué proceso de formación de palabras añade un prefijo y un sufijo simultáneamente a una raíz?",
+      "options": [
+        "Derivación",
+        "Composición",
+        "Parasíntesis",
+        "Flexión verbal"
+      ],
+      "correct": 2
+    }
   ]
 }

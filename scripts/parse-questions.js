@@ -210,6 +210,19 @@ for (const unit of unitsMeta) {
 }
 
 dataJsContent += `\n  },
+  exercises: {`;
+
+for (const unit of unitsMeta) {
+    const qPath = path.join(outputDir, `u${unit.unit}.json`);
+    if (fs.existsSync(qPath)) {
+        const qData = JSON.parse(fs.readFileSync(qPath, 'utf-8'));
+        if (qData.exercises && qData.exercises.length > 0) {
+            dataJsContent += `\n    "u${unit.unit}": ${JSON.stringify(qData.exercises, null, 4)},`;
+        }
+    }
+}
+
+dataJsContent += `\n  },
   videos: ${JSON.stringify((() => {
     const vPath = path.join(outputDir, 'videos.json');
     if (fs.existsSync(vPath)) {

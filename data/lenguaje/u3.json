@@ -442,5 +442,273 @@
       ],
       "correct": 2
     }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "El instrumento musical de cuerdas se escribe: 'la _____'. ¿Cuál es la grafía correcta?",
+      "options": [
+        "juitarra",
+        "guitarra",
+        "guítarra",
+        "ghuitarra"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "El verbo que significa 'hacer una celebración' requiere completar con la letra adecuada: '_____brar'. ¿Qué letra va?",
+      "options": [
+        "s",
+        "c",
+        "z",
+        "x"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Cuando se enumeran elementos que ya contienen comas internas, el signo de puntuación más adecuado para separarlos es el: _____",
+      "options": [
+        "punto (.)",
+        "coma (,)",
+        "punto y coma (;)",
+        "dos puntos (:)"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "La palabra 'ruido' tiene un diptongo 'ui'. Al dividirla correctamente en sílabas queda: _____",
+      "options": [
+        "ru-i-do",
+        "rui-do",
+        "ruid-o",
+        "ruido"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "type": "tf",
+      "question": "El punto y coma ( ; ) indica una pausa de intensidad intermedia entre la coma y el punto.",
+      "correct": true
+    },
+    {
+      "id": 6,
+      "type": "tf",
+      "question": "En numeración romana, XL representa el número 60.",
+      "correct": false
+    },
+    {
+      "id": 7,
+      "type": "tf",
+      "question": "La palabra 'exámenes' es grave porque su sílaba tónica es la penúltima sílaba.",
+      "correct": false
+    },
+    {
+      "id": 8,
+      "type": "tf",
+      "question": "El punto (.) indica una pausa más breve que la coma (,).",
+      "correct": false
+    },
+    {
+      "id": 9,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de esta oración?",
+      "options": [
+        "¿Quien eres tú?",
+        "¿Quién eres tú?",
+        "¿Quiénez eres tú?",
+        "¿Quien sos tú?"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "type": "correct",
+      "question": "¿Cuál es la grafía correcta de esta palabra?",
+      "options": [
+        "azucar",
+        "azúcar",
+        "azùcar",
+        "azûcar"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de expresar el número 4 en numeración romana?",
+      "options": [
+        "IIII",
+        "IV",
+        "VV",
+        "VI"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "type": "correct",
+      "question": "¿Cuál es la forma correcta de esta oración?",
+      "options": [
+        "Tuvé que ir a la tienda.",
+        "Tuve que ir a la tienda.",
+        "Tubé que ir a la tienda.",
+        "Tuvi que ir a la tienda."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "type": "order",
+      "question": "Ordena los siguientes signos de puntuación de menor a mayor fuerza de pausa:",
+      "items": [
+        "Punto (.)",
+        "Coma (,)",
+        "Punto y coma (;)",
+        "Dos puntos (:)"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "id": 14,
+      "type": "order",
+      "question": "Ordena las siguientes palabras según la posición de su sílaba tónica, de aguda a sobresdrújula:",
+      "items": [
+        "jardín",
+        "ventana",
+        "música",
+        "fácilmente"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 15,
+      "type": "order",
+      "question": "Ordena las siguientes palabras de menor a mayor cantidad de sílabas:",
+      "items": [
+        "café",
+        "ventana",
+        "mariposa",
+        "incomprensible"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 16,
+      "type": "match",
+      "question": "Empareja cada palabra con su tipo de acentuación:",
+      "left": [
+        "jardín",
+        "ventana",
+        "música",
+        "fácilmente"
+      ],
+      "right": [
+        "Esdrújula",
+        "Aguda",
+        "Grave",
+        "Sobresdrújula"
+      ],
+      "correct": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "id": 17,
+      "type": "match",
+      "question": "Empareja cada abreviatura con su significado completo:",
+      "left": [
+        "Dr.",
+        "Prof.",
+        "etc.",
+        "Ing."
+      ],
+      "right": [
+        "etcétera",
+        "Doctor",
+        "Ingeniero",
+        "Profesor"
+      ],
+      "correct": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 18,
+      "type": "match",
+      "question": "Empareja cada numeral romano con su número arábigo:",
+      "left": [
+        "IX",
+        "XL",
+        "XC",
+        "CD"
+      ],
+      "right": [
+        90,
+        40,
+        9,
+        400
+      ],
+      "correct": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "id": 19,
+      "type": "reading",
+      "passage": "Los números ordinales en español indican la posición de un elemento en una serie. Se escriben siempre con inicial minúscula, excepto cuando inician una oración o forman parte de un nombre propio, como en 'Primera Guerra Mundial'.",
+      "question": "Según el texto, ¿cuándo se escribe un ordinal con mayúscula inicial?",
+      "options": [
+        "Siempre se escribe con mayúscula.",
+        "Solo al inicio de una oración o cuando forma parte de un nombre propio.",
+        "Nunca se escribe con mayúscula.",
+        "Solo cuando tiene más de tres sílabas."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "type": "reading",
+      "passage": "En la antigua Roma se utilizaba un sistema de numeración basado en letras. Cuando una letra de menor valor precede a una de mayor, se resta (como IV = 4); cuando una letra de mayor valor precede a una de menor, se suma (como VI = 6). Las letras principales son: I = 1, V = 5, X = 10, L = 50, C = 100.",
+      "question": "¿Cuánto representa el numeral romano 'XIV'?",
+      "options": [
+        "16",
+        "14",
+        "24",
+        "6"
+      ],
+      "correct": 1
+    }
   ]
 }

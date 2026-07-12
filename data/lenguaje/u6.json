@@ -442,5 +442,273 @@
       ],
       "correct": 2
     }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "El científico observó que cada vez que aumentaba la temperatura del agua, esta hervía. Luego concluyó que toda agua hierve a 100°C. Este razonamiento va de lo particular a lo general, por lo que es un método _____.",
+      "options": [
+        "deductivo",
+        "INDUCTIVO",
+        "cronológico",
+        "literario"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Cuando una palabra se usa en su sentido literal y objetivo, sin implicaciones emocionales, se dice que se emplea en su _____.",
+      "options": [
+        "connotación",
+        "DENOTACIÓN",
+        "hipérbole",
+        "metáfora"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Una breve narración ficticia con personajes que suelen ser animales o seres inanimados, cuyo propósito es enseñar un _____.",
+      "options": [
+        "énfasis",
+        "símil",
+        "MORALEJA",
+        "hipérbaton"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Para comprender una obra escrita en la época colonial, el lector debe investigar las _____ y costumbres de ese período histórico.",
+      "options": [
+        "rimas",
+        "acotaciones",
+        "CONDICIONES SOCIALES",
+        "aliteraciones"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "type": "tf",
+      "question": "La sátira utiliza el humor y la burla para criticar defectos sociales o individuales, y pertenece al género narrativo.",
+      "correct": true
+    },
+    {
+      "id": 6,
+      "type": "tf",
+      "question": "Un texto en prosa se organiza necesariamente en estrofas y versos.",
+      "correct": false
+    },
+    {
+      "id": 7,
+      "type": "tf",
+      "question": "La denotación y la connotación significan exactamente lo mismo.",
+      "correct": false
+    },
+    {
+      "id": 8,
+      "type": "tf",
+      "question": "La narración en primera persona permite al lector conocer los pensamientos íntimos del narrador-personaje.",
+      "correct": true
+    },
+    {
+      "id": 9,
+      "type": "correct",
+      "question": "¿Cuál de las siguientes afirmaciones sobre las figuras literarias es correcta?",
+      "options": [
+        "La sinécdoque usa una parte para referirse al todo, como decir 'buenas cabezas' por 'personas inteligentes'.",
+        "La aliteración es una figura de énfasis que exagera la realidad.",
+        "La ironía siempre se identifica por el uso de comillas.",
+        "El símil compara dos elementos sin usar nexos comparativos."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "type": "correct",
+      "question": "¿Cuál de las siguientes afirmaciones sobre los géneros literarios es correcta?",
+      "options": [
+        "La comedia y la tragedia son subgéneros del género lírico.",
+        "El género epistolar, representado por cartas, pertenece al género dramático.",
+        "La oda es un subgénero del género dramático.",
+        "La novela epistolar pertenece al género narrativo."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 11,
+      "type": "correct",
+      "question": "¿Cuál de las siguientes afirmaciones sobre las estrategias de comprensión lectora es correcta?",
+      "options": [
+        "Hacer inferencias significa leer solamente lo que está escrito literalmente en el texto.",
+        "La lectura literal es suficiente para comprender textos argumentativos complejos.",
+        "Para hacer un resumen efectivo, basta con copiar las oraciones más largas del párrafo.",
+        "Identificar la secuencia cronológica ayuda a reconstruir el orden de los eventos en una narración."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 12,
+      "type": "correct",
+      "question": "¿Cuál de las siguientes afirmaciones sobre el contexto en la literatura es correcta?",
+      "options": [
+        "El contexto de una obra incluye únicamente el año de publicación.",
+        "Un mismo texto puede interpretarse de manera diferente según el contexto histórico y cultural del lector.",
+        "El contexto nunca influye en el significado de una obra literaria.",
+        "Para analizar el contexto basta con leer el título de la obra."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "type": "order",
+      "question": "Ordena los pasos de la comprensión lectora crítica de manera lógica:",
+      "items": [
+        "Identificar la idea principal y las secundarias.",
+        "Leer el texto de forma literal para entender el contenido explícito.",
+        "Hacer inferencias a partir de las pistas del texto.",
+        "Evaluar críticamente el propósito y la intención del autor."
+      ],
+      "correct": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 14,
+      "type": "order",
+      "question": "Ordena cronológicamente los siguientes eventos de una narración:",
+      "items": [
+        "El protagonista toma una decisión importante que cambia su vida.",
+        "Se presentan los personajes y el lugar donde ocurre la historia.",
+        "Se describe el problema o conflicto que enfrentan los personajes.",
+        "La historia llega a su desenlace."
+      ],
+      "correct": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "id": 15,
+      "type": "order",
+      "question": "Ordena los siguientes conceptos de lo más general a lo más específico:",
+      "items": [
+        "Subgénero literario (ej. novela, soneto).",
+        "Género literario (ej. narrativo, lírico, dramático).",
+        "Obra literaria concreta (ej. Don Quijote).",
+        "Tipo de literatura (ej. ficción, no ficción)."
+      ],
+      "correct": [
+        3,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 16,
+      "type": "match",
+      "question": "Empareja cada figura literaria con su ejemplo correcto:",
+      "left": [
+        "Hipérbole",
+        "Oxímoron",
+        "Onomatopeya",
+        "Sinestesia"
+      ],
+      "right": [
+        "Tengo un hambre que me muero",
+        "Un silencio atronador",
+        "Las abejas zumbaban felizmente",
+        "Tus palabras son una melodía amarga"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 17,
+      "type": "match",
+      "question": "Empareja cada género o subgénero literario con su característica principal:",
+      "left": [
+        "Tragedia",
+        "Oda",
+        "Fábula",
+        "Cuento"
+      ],
+      "right": [
+        "Presenta un desenlace funesto y personajes nobles que caen en desgracia.",
+        "Poema que expresa sentimientos de alabanza o exaltación.",
+        "Breve narración con personajes animales que enseña una moraleja.",
+        "Narración breve de un solo argumento con pocos personajes."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 18,
+      "type": "match",
+      "question": "Empareja cada concepto de comprensión lectora con su definición:",
+      "left": [
+        "Explícito",
+        "Implícito",
+        "Tono del autor",
+        "Subjetividad"
+      ],
+      "right": [
+        "Información que se encuentra directamente en el texto, sin necesidad de deducirla.",
+        "Información que el lector debe deducir o inferir a partir de las pistas del texto.",
+        "La actitud o postura que el escritor manifiesta frente al tema que trata.",
+        "El texto refleja sentimientos, juicios o valores personales del autor."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 19,
+      "type": "reading",
+      "passage": "La ciudad de Guatemala fue trasladada siete veces debido a los terremotos que la azotaron durante la época colonial. El terremoto de 1773 fue el más devastador, pues destruyó casi por completo la antigua capital. Ante esta tragedia, las autoridades españolas decidieron mudar la ciudad al valle que hoy conocemos. Esta decisión no solo cambió la geografía política del reino, sino que también transformó la vida social y económica de miles de personas que tuvieron que abandonar sus hogares y reconstruir sus vidas desde cero.",
+      "question": "Según el texto, ¿cuál fue la consecuencia directa del terremoto de 1773?",
+      "options": [
+        "La creación de un nuevo volcán en la región.",
+        "La decisión de mudar la capital a un nuevo valle.",
+        "La construcción de iglesias más resistentes en la antigua ciudad.",
+        "El aumento de la población indígena en la zona."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "type": "reading",
+      "passage": "Doña Marta, maestra de escuela rural, solía decir que la educación era la única llave que podía abrir las puertas del futuro para sus alumnos. Cada mañana caminaba tres horas desde su casa hasta la escuela, cruzando ríos y caminos de tierra. Nunca se quejaba. Cuando le preguntaban por qué hacía ese esfuerzo, sonreía y respondía: 'Porque ellos merecen soñar con algo más grande que lo que ven desde su ventana.' Los vecinos del pueblo la llamaban 'la mujer que no se rinde'.",
+      "question": "A partir de la lectura, ¿qué se puede inferir sobre Doña Marta?",
+      "options": [
+        "Era una mujer que trabajaba únicamente por el salario que recibía.",
+        "No le importaba el bienestar de sus alumnos.",
+        "Era una persona comprometida con la educación de los niños a pesar de las dificultades.",
+        "Prefería vivir en la ciudad pero no tenía recursos para mudarse."
+      ],
+      "correct": 2
+    }
   ]
 }

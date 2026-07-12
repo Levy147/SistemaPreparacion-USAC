@@ -442,5 +442,271 @@
       ],
       "correct": 2
     }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "La _____ es un subgénero narrativo que relata hechos reales o imaginarios presentados como verdaderos, generalmente vinculados a un lugar y una comunidad.",
+      "options": [
+        "Crónica",
+        "Leyenda",
+        "Fábula",
+        "Reseña"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "La _____ es un relato que intenta explicar el origen de fenómenos naturales o culturales a través de personajes sobrenaturales, generalmente dioses o seres mitológicos.",
+      "options": [
+        "Biografía",
+        "Leyenda",
+        "Mito",
+        "Fábula"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "La _____ es un subgénero narrativo que narra los acontecimientos relevantes de la vida de una persona escrita por un autor distinto a ella.",
+      "options": [
+        "Autobiografía",
+        "Reseña",
+        "Biografía",
+        "Crónica"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "La _____ es una relación cronológica de los hechos más importantes de un período o una época determinada, con fines de registro histórico.",
+      "options": [
+        "Fábula",
+        "Crónica",
+        "Leyenda",
+        "Resumen"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "type": "tf",
+      "question": "La cohesión se refiere a la relación lógica y el sentido global de un texto, mientras que la coherencia se refiere a los mecanismos lingüísticos que conectan las oraciones entre sí.",
+      "correct": false
+    },
+    {
+      "id": 6,
+      "type": "tf",
+      "question": "Un cuadro sinóptico organiza la información mediante un sistema de llaves que permite dividir un tema en subtemas y detalles, mostrando una relación de contención.",
+      "correct": true
+    },
+    {
+      "id": 7,
+      "type": "tf",
+      "question": "La adecuación en la redacción implica que el emisor debe mantener el mismo nivel de formalidad en un mensaje de texto con un amigo que en un ensayo académico.",
+      "correct": false
+    },
+    {
+      "id": 8,
+      "type": "tf",
+      "question": "En un debate, todos los participantes defienden la misma postura con el fin de convencer al público de una única verdad.",
+      "correct": false
+    },
+    {
+      "id": 9,
+      "type": "correct",
+      "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "Un resumen siempre utiliza las propias palabras del lector para expresar las ideas del autor.",
+        "La cohesión se logra mediante el uso adecuado de nexos, pronombres y sinónimos que enlazan las oraciones.",
+        "Un texto expositivo debe incluir obligatoriamente la opinión personal del autor para ser creíble.",
+        "Una ficha hemerográfica se utiliza para registrar datos de libros y enciclopedias."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "type": "correct",
+      "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "La prosopografía describe los rasgos morales y psicológicos de una persona.",
+        "Un mapa mental se organiza jerárquicamente con un sistema de llaves de izquierda a derecha.",
+        "Una autobiografía es la narración de la vida de una persona escrita por ella misma.",
+        "El simposio permite que todo el público intervenga libremente para opinar sobre el tema."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "type": "correct",
+      "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": [
+        "La etopeya describe únicamente la apariencia física de una persona.",
+        "En una mesa redonda, los participantes mantienen posturas antagónicas extremas y se confrontan directamente.",
+        "Un informe profesional debe incluir introducción, desarrollo, conclusiones, recomendaciones y bibliografía.",
+        "La caricatura es una descripción que combina rasgos físicos y morales sin exageración."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "type": "order",
+      "question": "Ordena los pasos lógicos para la elaboración de un resumen escrito:",
+      "items": [
+        "Leer el texto completo para comprender su idea general.",
+        "Identificar las ideas principales y secundarias.",
+        "Eliminar información redundante y secundaria.",
+        "Redactar el resumen manteniendo las ideas originales del autor."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 13,
+      "type": "order",
+      "question": "Ordena los elementos de la estructura de un párrafo temático según su ubicación lógica:",
+      "items": [
+        "Idea principal o tema que se va a desarrollar.",
+        "Oraciones de apoyo que desarrollan y explican la idea principal.",
+        "Cierre o transición que conecta con la siguiente idea."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "type": "order",
+      "question": "Ordena los pasos correctos para elaborar una síntesis:",
+      "items": [
+        "Leer el texto con atención varias veces.",
+        "Comprender las ideas principales del autor.",
+        "Reorganizar la información y expresarla con las propias palabras.",
+        "Verificar que la síntesis mantenga la fidelidad al sentido original."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 15,
+      "type": "match",
+      "question": "Empareja cada tipo de texto con su propósito principal:",
+      "left": [
+        "Texto descriptivo",
+        "Texto narrativo",
+        "Texto expositivo",
+        "Texto argumentativo"
+      ],
+      "right": [
+        "Relatar una sucesión de hechos con personajes y tiempo determinado.",
+        "Caracterizar personas, lugares u objetos con detalle.",
+        "Informar o explicar un tema de forma objetiva.",
+        "Persuadir al lector mediante razones y pruebas."
+      ],
+      "correct": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 16,
+      "type": "match",
+      "question": "Empareja cada subgénero narrativo con su característica distintiva:",
+      "left": [
+        "Biografía",
+        "Autobiografía",
+        "Leyenda",
+        "Mito"
+      ],
+      "right": [
+        "Relato de la vida de una persona escrito por un tercero.",
+        "Narración que mezcla hechos reales con elementos fantásticos, ligada a un lugar.",
+        "Narración de la propia vida escrita por el protagonista.",
+        "Relato que explica el origen de fenómenos naturales mediante seres sobrenaturales."
+      ],
+      "correct": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "id": 17,
+      "type": "match",
+      "question": "Empareja cada figura descriptiva con su objeto de descripción:",
+      "left": [
+        "Prosopografía",
+        "Etopeya",
+        "Cronografía",
+        "Caricatura"
+      ],
+      "right": [
+        "Rasgos morales, psicológicos, virtudes y defectos de una persona.",
+        "Rasgos físicos o apariencia externa de una persona.",
+        "Descripción de una época o periodo histórico determinado.",
+        "Exageración o distorsión de rasgos con fines humorísticos o satíricos."
+      ],
+      "correct": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 18,
+      "type": "reading",
+      "passage": "El siguiente texto corresponde a un fragmento de un ensayo:\n\n\"La educación no se limita a la adquisición de conocimientos técnicos; también forma ciudadanos capaces de pensar críticamente y de participar activamente en la construcción de una sociedad más justa. Sin embargo, muchos sistemas educativos actuales priorizan la memorización sobre el pensamiento analítico, lo cual genera profesionales competentes pero pasivos ante las problemáticas sociales.\"",
+      "question": "Según el fragmento, ¿qué problema señala el autor sobre los sistemas educativos actuales?",
+      "options": [
+        "No enseñan conocimientos técnicos suficientes.",
+        "Priorizan la memorización sobre el pensamiento analítico.",
+        "Exigen demasiada participación ciudadana.",
+        "Forman ciudadanos demasiado activos."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "type": "correct",
+      "question": "Un estudiante redactó el siguiente párrafo: \"El cambio climático es un problema grave. Muchos científicos lo advierten. Las temperaturas suben cada año. Los glaciares se derriten. La deforestación contribuye al problema. Los bosques son importantes para el planeta. Los animales viven en los bosques. Hay que proteger los bosques. El cambio climático afecta a todos. Cada persona debe actuar.\" ¿Cuál es el problema principal de cohesión y coherencia en este párrafo?",
+      "options": [
+        "No utiliza suficientes adjetivos calificativos para enriquecer el vocabulario.",
+        "El párrafo es demasiado corto para contener información relevante sobre el cambio climático.",
+        "Las oraciones no están conectadas adecuadamente con nexos, y las ideas no siguen un hilo lógico claro.",
+        "No incluye una cita bibliográfica de un científico reconocido."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 20,
+      "type": "reading",
+      "passage": "\"La entrevista es una técnica de intercambio que permite obtener información directa de una fuente. A diferencia del debate, donde dos posturas se confrontan, o del panel, donde varios expertos conversan entre sí, la entrevista se centra en la interacción entre un entrevistador que formula preguntas y un entrevistado que aporta sus conocimientos o experiencias sobre un tema específico.\"\n\nExtraído de un texto sobre técnicas de comunicación oral.",
+      "question": "Según el texto, ¿cuál es la diferencia principal entre una entrevista y un debate?",
+      "options": [
+        "En la entrevista participan más personas que en un debate.",
+        "La entrevista es escrita y el debate es oral.",
+        "En la entrevista un entrevistador hace preguntas a una fuente, mientras que en el debate se confrontan posturas contrarias.",
+        "No hay diferencia, ambas son lo mismo."
+      ],
+      "correct": 2
+    }
   ]
 }

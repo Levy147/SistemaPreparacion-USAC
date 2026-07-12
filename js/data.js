@@ -2714,6 +2714,1607 @@ const LENGUAJE_DATA = {
     }
 ],
   },
+  exercises: {
+    "u1": [
+    {
+        "id": 1,
+        "type": "fill",
+        "question": "El _____ es el elemento de la comunicación que se refiere al lugar, momento y circunstancias en las que se produce el acto comunicativo. Sin él, el mensaje pierde sentido.",
+        "options": [
+            "mensaje",
+            "contexto",
+            "código",
+            "ruido"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 2,
+        "type": "fill",
+        "question": "La función del lenguaje que se centra en la forma del mensaje para crear un efecto estético se denomina función _____. Un poema es un ejemplo clásico de esta función.",
+        "options": [
+            "fática",
+            "emotiva",
+            "poética",
+            "conativa"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 3,
+        "type": "fill",
+        "question": "En Guatemala es común escuchar expresiones como 'yo pensaba de que' o 'me di cuenta de que'. Estos errores, donde se añaden preposiciones innecesarias, se conocen como _____.",
+        "options": [
+            "anfibología",
+            "dequeísmo",
+            "solecismo",
+            "cacofonía"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 4,
+        "type": "fill",
+        "question": "Cuando un discurso tiene como propósito principal transmitir información objetiva sobre un tema, usando datos y hechos verificables, se clasifica como discurso _____.",
+        "options": [
+            "narrativo",
+            "descriptivo",
+            "expositivo",
+            "argumentativo"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 5,
+        "type": "tf",
+        "question": "El contexto es el elemento de la comunicación que representa al emisor del mensaje.",
+        "correct": false
+    },
+    {
+        "id": 6,
+        "type": "tf",
+        "question": "En un silogismo válido, si ambas premisas son negativas, la conclusión puede ser una proposición afirmativa.",
+        "correct": false
+    },
+    {
+        "id": 7,
+        "type": "tf",
+        "question": "La función conativa y la función apelativa son la misma cosa; solo reciben nombres diferentes según el enfoque teórico del lingüista que las describe.",
+        "correct": true
+    },
+    {
+        "id": 8,
+        "type": "tf",
+        "question": "La cacofonía se produce cuando se repiten sonidos o sílabas de forma intencional con el propósito de crear un efecto literario positivo en el texto.",
+        "correct": false
+    },
+    {
+        "id": 9,
+        "type": "correct",
+        "question": "¿Cuál es la forma correcta de expresar la siguiente idea? «Le dije de que viniera a la reunión»",
+        "options": [
+            "Le dije de que viniera",
+            "Le dije para que viniera",
+            "Le dije que viniera",
+            "Le dije de que venga"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 10,
+        "type": "correct",
+        "question": "¿Cuál es la forma correcta de expresar la siguiente idea? «Hubieron muchos problemas durante el proyecto»",
+        "options": [
+            "Hubieron muchos problemas",
+            "Han habido muchos problemas",
+            "Hubo muchos problemas",
+            "Ha de haber muchos problemas"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 11,
+        "type": "correct",
+        "question": "¿Cuál es la forma correcta de expresar la siguiente idea? «La película que la vi ayer fue muy buena»",
+        "options": [
+            "La película que la vi ayer fue buena",
+            "La película la vi ayer y fue buena",
+            "Ayer vi la película y fue buena",
+            "La película fue buena que la vi ayer"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 12,
+        "type": "correct",
+        "question": "¿Cuál es la forma correcta de expresar la siguiente idea? «Subir arriba del cerro es cansado»",
+        "options": [
+            "Subir arriba del cerro",
+            "Subir pa arriba del cerro",
+            "Subir al cerro",
+            "Subir hacia arriba del cerro"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 13,
+        "type": "order",
+        "question": "Ordena los siguientes elementos del proceso comunicativo en el orden lógico en que ocurren:",
+        "items": [
+            "Receptor",
+            "Canal",
+            "Código",
+            "Emisor",
+            "Mensaje"
+        ],
+        "correct": [
+            3,
+            2,
+            4,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 14,
+        "type": "order",
+        "question": "Ordena las fases de la argumentación en su secuencia correcta:",
+        "items": [
+            "Cierre",
+            "Desarrollo",
+            "Apertura"
+        ],
+        "correct": [
+            2,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 15,
+        "type": "order",
+        "question": "Ordena las partes de un silogismo clásico:",
+        "items": [
+            "Conclusión",
+            "Premisa menor",
+            "Premisa mayor"
+        ],
+        "correct": [
+            2,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 16,
+        "type": "match",
+        "question": "Empareja cada función del lenguaje con su elemento predominante en el proceso comunicativo:",
+        "left": [
+            "Función emotiva",
+            "Función conativa",
+            "Función referencial",
+            "Función fática",
+            "Función metalingüística",
+            "Función poética"
+        ],
+        "right": [
+            "Canal",
+            "Receptor",
+            "Código",
+            "Contexto",
+            "Emisor",
+            "Mensaje"
+        ],
+        "correct": [
+            4,
+            1,
+            3,
+            0,
+            2,
+            5
+        ]
+    },
+    {
+        "id": 17,
+        "type": "match",
+        "question": "Empareja cada tipo de falacia con su descripción:",
+        "left": [
+            "Ad hominem",
+            "Ad populum",
+            "Ad baculum"
+        ],
+        "right": [
+            "Apelación a la coacción o la fuerza para ganar un argumento",
+            "Ataque a las características personales del oponente en lugar de refutar su argumento",
+            "Apelación a la mayoría popular como si fuera prueba de verdad"
+        ],
+        "correct": [
+            1,
+            2,
+            0
+        ]
+    },
+    {
+        "id": 18,
+        "type": "match",
+        "question": "Empareja cada vicio de dicción con su ejemplo correspondiente:",
+        "left": [
+            "Pleonasmo",
+            "Anfibología",
+            "Solecismo",
+            "Cacofonía",
+            "Dequeísmo"
+        ],
+        "right": [
+            "Pienso de que debemos estudiar",
+            "La película la vi ayer y fue buena",
+            "Hubieron muchos problemas",
+            "Subir arriba del cerro",
+            "La tierra tiembla tiritando"
+        ],
+        "correct": [
+            3,
+            1,
+            2,
+            4,
+            0
+        ]
+    },
+    {
+        "id": 19,
+        "type": "reading",
+        "passage": "Durante una llamada telefónica, Juan le dice a María: '¿Hola? ¿Me escuchas? ¿Hola, hola?'. María no responde porque la línea tiene muchas interferencias de señal. Juan cuelga frustrado y vuelve a llamar.",
+        "question": "Las preguntas que hace Juan tienen como función principal:",
+        "options": [
+            "Expresar sus sentimientos de frustración",
+            "Transmitir información sobre el estado del clima",
+            "Verificar que el canal de comunicación funciona correctamente",
+            "Influir en María para que cambie de opinión"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 20,
+        "type": "reading",
+        "passage": "En una clase, el profesor pide a los estudiantes que analicen la siguiente frase: 'Nosotros llegamos a nuestra casa, nos sentamos en nuestro sofá, y comimos nuestra cena preparada para nosotros'. Un estudiante señala: 'Hay mucha repetición innecesaria'. El profesor asiente y explica que podría simplificarse significativamente.",
+        "question": "¿Qué vicio de dicción predominaba en la frase analizada por el profesor?",
+        "options": [
+            "Anfibología",
+            "Solecismo",
+            "Pleonasmo",
+            "Cacofonía"
+        ],
+        "correct": 2
+    }
+],
+    "u2": [
+    {
+        "id": 1,
+        "type": "fill",
+        "question": "Cuando un hablante emite un mensaje, realiza tres acciones simultáneas: la _____ (emitir el mensaje), la ilocución (la intención) y la perlocución (el efecto en el receptor). ¿Cuál es la palabra que completa el concepto?",
+        "options": [
+            "perlocución",
+            "locución",
+            "elocución",
+            "prolocución"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 2,
+        "type": "fill",
+        "question": "El texto que narra una historia con personajes, tiempo y lugar se clasifica como texto de tipo _____. Este tipo de texto presenta un conflicto y su resolución.",
+        "options": [
+            "descriptivo",
+            "expositivo",
+            "narrativo",
+            "argumentativo"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 3,
+        "type": "fill",
+        "question": "Cuando un texto utiliza conectores como \"sin embargo\", \"por lo tanto\" o \"además\" para enlazar las ideas entre sí, está logrando _____ textual.",
+        "options": [
+            "coherencia",
+            "tema",
+            "párrafo",
+            "cohesión"
+        ],
+        "correct": 3
+    },
+    {
+        "id": 4,
+        "type": "fill",
+        "question": "Un párrafo se compone generalmente de una idea principal denominada _____ y varias ideas que la desarrollan llamadas ideas secundarias.",
+        "options": [
+            "argumento",
+            "conclusión",
+            "oración",
+            "tema"
+        ],
+        "correct": 3
+    },
+    {
+        "id": 5,
+        "type": "tf",
+        "question": "La perlocución se refiere a la acción que el hablante realiza al hablar, como informar, pedir o prometer.",
+        "correct": false
+    },
+    {
+        "id": 6,
+        "type": "tf",
+        "question": "El texto expositivo tiene como objetivo presentar información de forma objetiva para explicar o informar sobre un tema.",
+        "correct": true
+    },
+    {
+        "id": 7,
+        "type": "tf",
+        "question": "La cohesión se refiere a la conexión lógica entre las ideas de un texto, mientras que la cohesión se refiere al uso de mecanismos lingüísticos como conectores y pronombres para enlazar las oraciones.",
+        "correct": false
+    },
+    {
+        "id": 8,
+        "type": "tf",
+        "question": "En el acto de habla, la ilocución corresponde al efecto real que el mensaje produce en el receptor, como persuadirlo o emocionarlo.",
+        "correct": false
+    },
+    {
+        "id": 9,
+        "type": "correct",
+        "question": "¿Cuál de estas afirmaciones sobre los actos de habla es INCORRECTA?",
+        "options": [
+            "La locución es el acto de emitir un mensaje con sentido.",
+            "La ilocución es la intención o fuerza que el hablante da al mensaje.",
+            "La perlocución es el efecto que el mensaje causa en el receptor.",
+            "La locución es el efecto que el mensaje causa en el receptor."
+        ],
+        "correct": 3
+    },
+    {
+        "id": 10,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes afirmaciones sobre la tipología textual es CORRECTA?",
+        "options": [
+            "El texto narrativo se centra en explicar causas y consecuencias de forma objetiva.",
+            "El texto argumentativo presenta una secuencia de hechos con personajes y un conflicto.",
+            "El texto descriptivo utiliza procedimientos didácticos para dar instrucciones paso a paso.",
+            "El texto instruccional utiliza procedimientos didácticos para dar instrucciones paso a paso."
+        ],
+        "correct": 3
+    },
+    {
+        "id": 11,
+        "type": "correct",
+        "question": "En la siguiente oración: \"María es una víbora en los negocios\", la palabra \"víbora\" se usa en sentido connotativo. ¿Cuál es la forma correcta de explicar por qué?",
+        "options": [
+            "Porque \"víbora\" significa literalmente una serpiente venenosa, y aquí se usa para describir una serpiente en una oficina.",
+            "Porque \"víbora\" denota una cualidad positiva de honestidad en los negocios.",
+            "Porque \"víbora\" en sentido connotativo alude a la astucia y peligrosidad, atributos figurados que se asignan a la persona.",
+            "Porque la oración carece de sentido porque los humanos no pueden ser serpientes."
+        ],
+        "correct": 2
+    },
+    {
+        "id": 12,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes definiciones es la CORRECTA sobre cohesión y coherencia textual?",
+        "options": [
+            "La coherencia es el uso de conectores para enlazar oraciones, y la cohesión es la unidad lógica de las ideas.",
+            "La cohesión es el uso de mecanismos lingüísticos (conectores, pronombres, sinónimos) para enlazar elementos del texto, y la coherencia es la unidad lógica y el sentido claro de las ideas.",
+            "La cohesión y la coherencia son exactamente lo mismo.",
+            "La cohesión solo se aplica en textos literarios, mientras que la coherencia se aplica en textos científicos."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 13,
+        "type": "order",
+        "question": "Ordena los elementos de la estructura básica de un párrafo de inicio a cierre:",
+        "items": [
+            "Oración con la idea principal (tema)",
+            "Oraciones con ideas secundarias que desarrollan la idea principal",
+            "Oración de cierre o conclusión del párrafo"
+        ],
+        "correct": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 14,
+        "type": "order",
+        "question": "Ordena los tres actos de habla según el proceso comunicativo en el que ocurren, de primero a último:",
+        "items": [
+            "Locución (emitir el mensaje con sentido)",
+            "ilocución (la intención o fuerza del mensaje)",
+            "Perlocución (el efecto en el receptor)"
+        ],
+        "correct": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 15,
+        "type": "order",
+        "question": "Ordena los siguientes tipos textuales según su nivel de subjetividad, desde el más objetivo hasta el más subjetivo:",
+        "items": [
+            "Texto expositivo",
+            "Texto argumentativo",
+            "Texto narrativo"
+        ],
+        "correct": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 16,
+        "type": "match",
+        "question": "Empareja cada acto de habla con su descripción correcta:",
+        "left": [
+            "Locución",
+            "ilocución",
+            "Perlocución"
+        ],
+        "right": [
+            "El efecto que el mensaje produce en el receptor (persuadir, emocionar, convencer).",
+            "El acto de emitir un mensaje con sentido gramatical y referencial.",
+            "La intención o fuerza comunicativa que el hablante impregna al mensaje (pedir, prometer, ordenar)."
+        ],
+        "correct": [
+            1,
+            2,
+            0
+        ]
+    },
+    {
+        "id": 17,
+        "type": "match",
+        "question": "Empareja cada tipo textual con su característica principal:",
+        "left": [
+            "Narrativo",
+            "Descriptivo",
+            "Expositivo",
+            "Argumentativo"
+        ],
+        "right": [
+            "Presenta una secuencia de hechos con personajes, tiempo y lugar.",
+            "Retrata personas, lugares, objetos o situaciones con detalle.",
+            "Presenta información de forma objetiva para explicar o informar.",
+            "Defiende una postura o idea con razones para convencer al receptor."
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 18,
+        "type": "match",
+        "question": "Empareja cada mecanismo de cohesión con su ejemplo:",
+        "left": [
+            "Conectores",
+            "Pronombres",
+            "Sinónimos y paráfrasis",
+            "Referencia léxica"
+        ],
+        "right": [
+            "\"Sin embargo\", \"por lo tanto\", \"además\".",
+            "\"Juan llegó. Él trajo las medicinas.\"",
+            "\"El doctor\" y \"el médico\" en el mismo párrafo.",
+            "Repetición de palabras clave o uso de hipónimos para mantener el tema."
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 19,
+        "type": "reading",
+        "passage": "En la región occidental de Guatemala, muchos hablantes mezclan palabras del español con términos del kakchiquel en sus conversaciones cotidianas. Esta práctica, aunque considerada coloquial, refleja la riqueza cultural de la zona y demuestra cómo el habla puede variar según el contexto social y geográfico de los hablantes.",
+        "question": "Según el texto, la mezcla de español con kakchiquel es un ejemplo de:",
+        "options": [
+            "Un error gramatical que debe corregirse en la educación formal.",
+            "Una variación del habla que refleja el contexto social y geográfico.",
+            "Una nueva lengua oficial de Guatemala.",
+            "Un nivel de lengua culto y técnico-científico."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 20,
+        "type": "reading",
+        "passage": "La instrucción en la receta dice: \"Primero, precalienta el horno a 180 grados. Luego, mezcla los ingredientes secos en un tazón grande. A continuación, incorpora los líquidos y bate hasta obtener una masa homogénea. Finalmente, vierte la mezcla en un molde engrasado y hornea por 30 minutos.\"",
+        "question": "El tipo textual dominante en el pasaje anterior es:",
+        "options": [
+            "Narrativo, porque cuenta una historia con personajes.",
+            "Descriptivo, porque retrata las características físicas de los ingredientes.",
+            "Instruccional, porque presenta pasos secuenciales para realizar una acción.",
+            "Argumentativo, porque intenta convencer al lector de la importancia de cocinar."
+        ],
+        "correct": 2
+    }
+],
+    "u3": [
+    {
+        "id": 1,
+        "type": "fill",
+        "question": "El instrumento musical de cuerdas se escribe: 'la _____'. ¿Cuál es la grafía correcta?",
+        "options": [
+            "juitarra",
+            "guitarra",
+            "guítarra",
+            "ghuitarra"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 2,
+        "type": "fill",
+        "question": "El verbo que significa 'hacer una celebración' requiere completar con la letra adecuada: '_____brar'. ¿Qué letra va?",
+        "options": [
+            "s",
+            "c",
+            "z",
+            "x"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 3,
+        "type": "fill",
+        "question": "Cuando se enumeran elementos que ya contienen comas internas, el signo de puntuación más adecuado para separarlos es el: _____",
+        "options": [
+            "punto (.)",
+            "coma (,)",
+            "punto y coma (;)",
+            "dos puntos (:)"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 4,
+        "type": "fill",
+        "question": "La palabra 'ruido' tiene un diptongo 'ui'. Al dividirla correctamente en sílabas queda: _____",
+        "options": [
+            "ru-i-do",
+            "rui-do",
+            "ruid-o",
+            "ruido"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 5,
+        "type": "tf",
+        "question": "El punto y coma ( ; ) indica una pausa de intensidad intermedia entre la coma y el punto.",
+        "correct": true
+    },
+    {
+        "id": 6,
+        "type": "tf",
+        "question": "En numeración romana, XL representa el número 60.",
+        "correct": false
+    },
+    {
+        "id": 7,
+        "type": "tf",
+        "question": "La palabra 'exámenes' es grave porque su sílaba tónica es la penúltima sílaba.",
+        "correct": false
+    },
+    {
+        "id": 8,
+        "type": "tf",
+        "question": "El punto (.) indica una pausa más breve que la coma (,).",
+        "correct": false
+    },
+    {
+        "id": 9,
+        "type": "correct",
+        "question": "¿Cuál es la forma correcta de esta oración?",
+        "options": [
+            "¿Quien eres tú?",
+            "¿Quién eres tú?",
+            "¿Quiénez eres tú?",
+            "¿Quien sos tú?"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 10,
+        "type": "correct",
+        "question": "¿Cuál es la grafía correcta de esta palabra?",
+        "options": [
+            "azucar",
+            "azúcar",
+            "azùcar",
+            "azûcar"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 11,
+        "type": "correct",
+        "question": "¿Cuál es la forma correcta de expresar el número 4 en numeración romana?",
+        "options": [
+            "IIII",
+            "IV",
+            "VV",
+            "VI"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 12,
+        "type": "correct",
+        "question": "¿Cuál es la forma correcta de esta oración?",
+        "options": [
+            "Tuvé que ir a la tienda.",
+            "Tuve que ir a la tienda.",
+            "Tubé que ir a la tienda.",
+            "Tuvi que ir a la tienda."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 13,
+        "type": "order",
+        "question": "Ordena los siguientes signos de puntuación de menor a mayor fuerza de pausa:",
+        "items": [
+            "Punto (.)",
+            "Coma (,)",
+            "Punto y coma (;)",
+            "Dos puntos (:)"
+        ],
+        "correct": [
+            1,
+            2,
+            3,
+            0
+        ]
+    },
+    {
+        "id": 14,
+        "type": "order",
+        "question": "Ordena las siguientes palabras según la posición de su sílaba tónica, de aguda a sobresdrújula:",
+        "items": [
+            "jardín",
+            "ventana",
+            "música",
+            "fácilmente"
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 15,
+        "type": "order",
+        "question": "Ordena las siguientes palabras de menor a mayor cantidad de sílabas:",
+        "items": [
+            "café",
+            "ventana",
+            "mariposa",
+            "incomprensible"
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 16,
+        "type": "match",
+        "question": "Empareja cada palabra con su tipo de acentuación:",
+        "left": [
+            "jardín",
+            "ventana",
+            "música",
+            "fácilmente"
+        ],
+        "right": [
+            "Esdrújula",
+            "Aguda",
+            "Grave",
+            "Sobresdrújula"
+        ],
+        "correct": [
+            1,
+            2,
+            0,
+            3
+        ]
+    },
+    {
+        "id": 17,
+        "type": "match",
+        "question": "Empareja cada abreviatura con su significado completo:",
+        "left": [
+            "Dr.",
+            "Prof.",
+            "etc.",
+            "Ing."
+        ],
+        "right": [
+            "etcétera",
+            "Doctor",
+            "Ingeniero",
+            "Profesor"
+        ],
+        "correct": [
+            1,
+            3,
+            0,
+            2
+        ]
+    },
+    {
+        "id": 18,
+        "type": "match",
+        "question": "Empareja cada numeral romano con su número arábigo:",
+        "left": [
+            "IX",
+            "XL",
+            "XC",
+            "CD"
+        ],
+        "right": [
+            90,
+            40,
+            9,
+            400
+        ],
+        "correct": [
+            2,
+            1,
+            0,
+            3
+        ]
+    },
+    {
+        "id": 19,
+        "type": "reading",
+        "passage": "Los números ordinales en español indican la posición de un elemento en una serie. Se escriben siempre con inicial minúscula, excepto cuando inician una oración o forman parte de un nombre propio, como en 'Primera Guerra Mundial'.",
+        "question": "Según el texto, ¿cuándo se escribe un ordinal con mayúscula inicial?",
+        "options": [
+            "Siempre se escribe con mayúscula.",
+            "Solo al inicio de una oración o cuando forma parte de un nombre propio.",
+            "Nunca se escribe con mayúscula.",
+            "Solo cuando tiene más de tres sílabas."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 20,
+        "type": "reading",
+        "passage": "En la antigua Roma se utilizaba un sistema de numeración basado en letras. Cuando una letra de menor valor precede a una de mayor, se resta (como IV = 4); cuando una letra de mayor valor precede a una de menor, se suma (como VI = 6). Las letras principales son: I = 1, V = 5, X = 10, L = 50, C = 100.",
+        "question": "¿Cuánto representa el numeral romano 'XIV'?",
+        "options": [
+            "16",
+            "14",
+            "24",
+            "6"
+        ],
+        "correct": 1
+    }
+],
+    "u4": [
+    {
+        "id": 1,
+        "type": "fill",
+        "question": "Una oración bimembre está compuesta por dos elementos fundamentales: el _______ y el _______.",
+        "options": [
+            "sujeto y predicado",
+            "sintagma y morfema",
+            "núcleo y modificador",
+            "verbo y complemento"
+        ],
+        "correct": 0
+    },
+    {
+        "id": 2,
+        "type": "fill",
+        "question": "El _______ es la categoría gramatical que se forma añadiendo un prefijo o sufijo a una palabra primitiva, como ocurre con árbol → arboleda.",
+        "options": [
+            "composición",
+            "parasíntesis",
+            "derivación",
+            "flexión"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 3,
+        "type": "fill",
+        "question": "Cuando se omite la preposición \"de\" antes de la conjunción \"que\", como en \"Me alegro que hayas venido\", se comete el vicio gramatical conocido como _______.",
+        "options": [
+            "dequeísmo",
+            "queísmo",
+            "muletilla",
+            "cacofonía"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 4,
+        "type": "fill",
+        "question": "En el análisis _______, se estudia la estructura interna de las palabras, sus accidentes gramaticales y los procesos de formación.",
+        "options": [
+            "sintáctico",
+            "semántico",
+            "morfológico",
+            "fonológico"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 5,
+        "type": "tf",
+        "question": "Una oración compuesta está formada por dos o más verbos conjugados o proposiciones unidas entre sí.",
+        "correct": true
+    },
+    {
+        "id": 6,
+        "type": "tf",
+        "question": "El dequeísmo consiste en eliminar la preposición \"de\" cuando es obligatoria antes de \"que\".",
+        "correct": false
+    },
+    {
+        "id": 7,
+        "type": "tf",
+        "question": "El infinitivo, el gerundio y el participio son formas personales del verbo porque pueden conjugarse en persona y tiempo.",
+        "correct": false
+    },
+    {
+        "id": 8,
+        "type": "tf",
+        "question": "Las palabras \"hola\" y \"ola\" son homófonas porque se pronuncian igual pero se escriben distinto.",
+        "correct": true
+    },
+    {
+        "id": 9,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes oraciones está correctamente redactada (sin dequeísmo ni queísmo)?",
+        "options": [
+            "Pienso de que debemos estudiar más.",
+            "Pienso que debemos estudiar más.",
+            "Pienso que de debemos estudiar más.",
+            "Pienso de debemos estudiar que más."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 10,
+        "type": "correct",
+        "question": "¿Qué frase está correctamente construida según las normas de la RAE?",
+        "options": [
+            "Detrás de ti hay un libro.",
+            "Detrás tuyo hay un libro.",
+            "Detrás de tuyo hay un libro.",
+            "Detrás ti hay un libro."
+        ],
+        "correct": 0
+    },
+    {
+        "id": 11,
+        "type": "correct",
+        "question": "¿Cuál de estas oraciones tiene correctamente aplicada la concordancia entre sujeto y verbo?",
+        "options": [
+            "Los niño jugaban en el parque.",
+            "La grupo de estudiantes entregaron la tarea.",
+            "El equipo de fútbol ganó el campeonato.",
+            "Las gente corrieron hacia la salida."
+        ],
+        "correct": 2
+    },
+    {
+        "id": 12,
+        "type": "correct",
+        "question": "Identifica la oración donde se usa correctamente \"encima de\" y no se comete dequeísmo.",
+        "options": [
+            "Puse el libro de encima de la mesa.",
+            "Puse el libro encima de la mesa.",
+            "Puse el libro en encima la mesa.",
+            "Puse el libro encima de que la mesa."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 13,
+        "type": "order",
+        "question": "Ordena los niveles de análisis gramatical de lo más elemental a lo más complejo:",
+        "items": [
+            "Nivel morfológico (estructura de la palabra)",
+            "Nivel sintáctico (relación entre palabras)",
+            "Nivel semántico (significado de las palabras y oraciones)"
+        ],
+        "correct": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 14,
+        "type": "order",
+        "question": "Ordena los pasos para formar la palabra \"desafortunadamente\":",
+        "items": [
+            "Parte de la palabra primitiva: \"fortuna\"",
+            "Se añade el sufijo \"-ado\" (afortunado)",
+            "Se añade el prefijo \"des-\" (desafortunado)",
+            "Se añade el sufijo \"-mente\" (desafortunadamente)"
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 15,
+        "type": "order",
+        "question": "Ordena las categorías gramaticales según su función principal: nombrar → calificar → express action → modificar:",
+        "items": [
+            "Sustantivo (nombra personas, cosas, ideas)",
+            "Adjetivo (califica o describe cualidades del sustantivo)",
+            "Verbo (expresa acción, estado o proceso)",
+            "Adverbio (modifica al verbo, adjetivo u otro adverbio)"
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 16,
+        "type": "match",
+        "question": "Empareja cada categoría gramatical con su ejemplo correcto:",
+        "left": [
+            "Preposición",
+            "Conjunción",
+            "Pronombre",
+            "Interjección"
+        ],
+        "right": [
+            "Conecta una palabra a otra indicando relación de dependencia (ej. \"de\", \"para\")",
+            "Une palabras, sintagmas u oraciones (ej. \"y\", \"pero\", \"porque\")",
+            "Sustituye al sustantivo o lo reemplaza (ej. \"yo\", \"ella\", \"nosotros\")",
+            "Expresa una emoción o reacción espontánea (ej. \"¡Ay!\", \"¡Ojalá!\")"
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 17,
+        "type": "match",
+        "question": "Empareja cada tipo de relación semántica con su ejemplo correcto:",
+        "left": [
+            "Sinónimos",
+            "Antónimos",
+            "Parónimos",
+            "Homófonos"
+        ],
+        "right": [
+            "Comparten significado idéntico o muy similar (ej. feliz / contento)",
+            "Expresan significados opuestos (ej. frío / caliente)",
+            "Tienen forma parecida pero significado distinto (ej. aptitud / actitud)",
+            "Se pronuncian igual pero se escriben distinto (ej. haya / aya)"
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 18,
+        "type": "match",
+        "question": "Empareja cada proceso de formación de palabras con su definición:",
+        "left": [
+            "Derivación",
+            "Composición",
+            "Parasíntesis",
+            "Prefijo negativo"
+        ],
+        "right": [
+            "Añadir sufijos o prefijos a una raíz para crear una nueva palabra (ej. claro → claramente)",
+            "Unir dos o más palabras o raíces (ej. sacapuntas, cortaplumas)",
+            "Añadir simultáneamente un prefijo y un sufijo a una raíz (ej. en-marc-ar)",
+            "Morema que antecede a la raíz y niega o invierte su significado (ej. in-legal)"
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 19,
+        "type": "reading",
+        "passage": "El vocabulario se divide en activo y pasivo. El vocabulario activo está compuesto por todas las palabras que una persona utiliza de forma espontánea al hablar o escribir. En cambio, el vocabulario pasivo o de reserva incluye las palabras que reconocemos y comprendemos cuando las leemos o escuchamos, pero que no usamos en nuestra producción lingüística diaria. Ampliar el vocabulario pasivo implica incorporar nuevas palabras al vocabulario activo, transformándolas en parte de nuestro uso cotidiano.",
+        "question": "Según el texto, ¿qué implica ampliar el vocabulario pasivo?",
+        "options": [
+            "Omitir palabras complicadas al hablar.",
+            "Incorporar nuevas palabras al vocabulario activo para usarlas en el día a día.",
+            "Eliminar palabras del vocabulario activo que no se usan frecuentemente.",
+            "Aprender únicamente palabras técnicas o científicas."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 20,
+        "type": "reading",
+        "passage": "La formación de palabras en español se realiza principalmente mediante tres procedimientos. El primero es la derivación, que consiste en añadir afijos (prefijos o sufijos) a una palabra existente para crear una nueva; por ejemplo, \"trabajo\" se transforma en \"trabajador\" con el sufijo \"-ador\". El segundo es la composición, que une dos o más palabras para formar un lexema nuevo; así, \"saca\" y \"puntas\" dan lugar a \"sacapuntas\". El tercero es la parasíntesis, que añade simultáneamente un prefijo y un sufijo a una raíz, generando una palabra nueva como \"enmarcar\" (en- + raíz + -ar).",
+        "question": "¿Qué proceso de formación de palabras añade un prefijo y un sufijo simultáneamente a una raíz?",
+        "options": [
+            "Derivación",
+            "Composición",
+            "Parasíntesis",
+            "Flexión verbal"
+        ],
+        "correct": 2
+    }
+],
+    "u5": [
+    {
+        "id": 1,
+        "type": "fill",
+        "question": "La _____ es un subgénero narrativo que relata hechos reales o imaginarios presentados como verdaderos, generalmente vinculados a un lugar y una comunidad.",
+        "options": [
+            "Crónica",
+            "Leyenda",
+            "Fábula",
+            "Reseña"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 2,
+        "type": "fill",
+        "question": "La _____ es un relato que intenta explicar el origen de fenómenos naturales o culturales a través de personajes sobrenaturales, generalmente dioses o seres mitológicos.",
+        "options": [
+            "Biografía",
+            "Leyenda",
+            "Mito",
+            "Fábula"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 3,
+        "type": "fill",
+        "question": "La _____ es un subgénero narrativo que narra los acontecimientos relevantes de la vida de una persona escrita por un autor distinto a ella.",
+        "options": [
+            "Autobiografía",
+            "Reseña",
+            "Biografía",
+            "Crónica"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 4,
+        "type": "fill",
+        "question": "La _____ es una relación cronológica de los hechos más importantes de un período o una época determinada, con fines de registro histórico.",
+        "options": [
+            "Fábula",
+            "Crónica",
+            "Leyenda",
+            "Resumen"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 5,
+        "type": "tf",
+        "question": "La cohesión se refiere a la relación lógica y el sentido global de un texto, mientras que la coherencia se refiere a los mecanismos lingüísticos que conectan las oraciones entre sí.",
+        "correct": false
+    },
+    {
+        "id": 6,
+        "type": "tf",
+        "question": "Un cuadro sinóptico organiza la información mediante un sistema de llaves que permite dividir un tema en subtemas y detalles, mostrando una relación de contención.",
+        "correct": true
+    },
+    {
+        "id": 7,
+        "type": "tf",
+        "question": "La adecuación en la redacción implica que el emisor debe mantener el mismo nivel de formalidad en un mensaje de texto con un amigo que en un ensayo académico.",
+        "correct": false
+    },
+    {
+        "id": 8,
+        "type": "tf",
+        "question": "En un debate, todos los participantes defienden la misma postura con el fin de convencer al público de una única verdad.",
+        "correct": false
+    },
+    {
+        "id": 9,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+        "options": [
+            "Un resumen siempre utiliza las propias palabras del lector para expresar las ideas del autor.",
+            "La cohesión se logra mediante el uso adecuado de nexos, pronombres y sinónimos que enlazan las oraciones.",
+            "Un texto expositivo debe incluir obligatoriamente la opinión personal del autor para ser creíble.",
+            "Una ficha hemerográfica se utiliza para registrar datos de libros y enciclopedias."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 10,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+        "options": [
+            "La prosopografía describe los rasgos morales y psicológicos de una persona.",
+            "Un mapa mental se organiza jerárquicamente con un sistema de llaves de izquierda a derecha.",
+            "Una autobiografía es la narración de la vida de una persona escrita por ella misma.",
+            "El simposio permite que todo el público intervenga libremente para opinar sobre el tema."
+        ],
+        "correct": 2
+    },
+    {
+        "id": 11,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
+        "options": [
+            "La etopeya describe únicamente la apariencia física de una persona.",
+            "En una mesa redonda, los participantes mantienen posturas antagónicas extremas y se confrontan directamente.",
+            "Un informe profesional debe incluir introducción, desarrollo, conclusiones, recomendaciones y bibliografía.",
+            "La caricatura es una descripción que combina rasgos físicos y morales sin exageración."
+        ],
+        "correct": 2
+    },
+    {
+        "id": 12,
+        "type": "order",
+        "question": "Ordena los pasos lógicos para la elaboración de un resumen escrito:",
+        "items": [
+            "Leer el texto completo para comprender su idea general.",
+            "Identificar las ideas principales y secundarias.",
+            "Eliminar información redundante y secundaria.",
+            "Redactar el resumen manteniendo las ideas originales del autor."
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 13,
+        "type": "order",
+        "question": "Ordena los elementos de la estructura de un párrafo temático según su ubicación lógica:",
+        "items": [
+            "Idea principal o tema que se va a desarrollar.",
+            "Oraciones de apoyo que desarrollan y explican la idea principal.",
+            "Cierre o transición que conecta con la siguiente idea."
+        ],
+        "correct": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 14,
+        "type": "order",
+        "question": "Ordena los pasos correctos para elaborar una síntesis:",
+        "items": [
+            "Leer el texto con atención varias veces.",
+            "Comprender las ideas principales del autor.",
+            "Reorganizar la información y expresarla con las propias palabras.",
+            "Verificar que la síntesis mantenga la fidelidad al sentido original."
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 15,
+        "type": "match",
+        "question": "Empareja cada tipo de texto con su propósito principal:",
+        "left": [
+            "Texto descriptivo",
+            "Texto narrativo",
+            "Texto expositivo",
+            "Texto argumentativo"
+        ],
+        "right": [
+            "Relatar una sucesión de hechos con personajes y tiempo determinado.",
+            "Caracterizar personas, lugares u objetos con detalle.",
+            "Informar o explicar un tema de forma objetiva.",
+            "Persuadir al lector mediante razones y pruebas."
+        ],
+        "correct": [
+            1,
+            0,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 16,
+        "type": "match",
+        "question": "Empareja cada subgénero narrativo con su característica distintiva:",
+        "left": [
+            "Biografía",
+            "Autobiografía",
+            "Leyenda",
+            "Mito"
+        ],
+        "right": [
+            "Relato de la vida de una persona escrito por un tercero.",
+            "Narración que mezcla hechos reales con elementos fantásticos, ligada a un lugar.",
+            "Narración de la propia vida escrita por el protagonista.",
+            "Relato que explica el origen de fenómenos naturales mediante seres sobrenaturales."
+        ],
+        "correct": [
+            0,
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "id": 17,
+        "type": "match",
+        "question": "Empareja cada figura descriptiva con su objeto de descripción:",
+        "left": [
+            "Prosopografía",
+            "Etopeya",
+            "Cronografía",
+            "Caricatura"
+        ],
+        "right": [
+            "Rasgos morales, psicológicos, virtudes y defectos de una persona.",
+            "Rasgos físicos o apariencia externa de una persona.",
+            "Descripción de una época o periodo histórico determinado.",
+            "Exageración o distorsión de rasgos con fines humorísticos o satíricos."
+        ],
+        "correct": [
+            1,
+            0,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 18,
+        "type": "reading",
+        "passage": "El siguiente texto corresponde a un fragmento de un ensayo:\n\n\"La educación no se limita a la adquisición de conocimientos técnicos; también forma ciudadanos capaces de pensar críticamente y de participar activamente en la construcción de una sociedad más justa. Sin embargo, muchos sistemas educativos actuales priorizan la memorización sobre el pensamiento analítico, lo cual genera profesionales competentes pero pasivos ante las problemáticas sociales.\"",
+        "question": "Según el fragmento, ¿qué problema señala el autor sobre los sistemas educativos actuales?",
+        "options": [
+            "No enseñan conocimientos técnicos suficientes.",
+            "Priorizan la memorización sobre el pensamiento analítico.",
+            "Exigen demasiada participación ciudadana.",
+            "Forman ciudadanos demasiado activos."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 19,
+        "type": "correct",
+        "question": "Un estudiante redactó el siguiente párrafo: \"El cambio climático es un problema grave. Muchos científicos lo advierten. Las temperaturas suben cada año. Los glaciares se derriten. La deforestación contribuye al problema. Los bosques son importantes para el planeta. Los animales viven en los bosques. Hay que proteger los bosques. El cambio climático afecta a todos. Cada persona debe actuar.\" ¿Cuál es el problema principal de cohesión y coherencia en este párrafo?",
+        "options": [
+            "No utiliza suficientes adjetivos calificativos para enriquecer el vocabulario.",
+            "El párrafo es demasiado corto para contener información relevante sobre el cambio climático.",
+            "Las oraciones no están conectadas adecuadamente con nexos, y las ideas no siguen un hilo lógico claro.",
+            "No incluye una cita bibliográfica de un científico reconocido."
+        ],
+        "correct": 2
+    },
+    {
+        "id": 20,
+        "type": "reading",
+        "passage": "\"La entrevista es una técnica de intercambio que permite obtener información directa de una fuente. A diferencia del debate, donde dos posturas se confrontan, o del panel, donde varios expertos conversan entre sí, la entrevista se centra en la interacción entre un entrevistador que formula preguntas y un entrevistado que aporta sus conocimientos o experiencias sobre un tema específico.\"\n\nExtraído de un texto sobre técnicas de comunicación oral.",
+        "question": "Según el texto, ¿cuál es la diferencia principal entre una entrevista y un debate?",
+        "options": [
+            "En la entrevista participan más personas que en un debate.",
+            "La entrevista es escrita y el debate es oral.",
+            "En la entrevista un entrevistador hace preguntas a una fuente, mientras que en el debate se confrontan posturas contrarias.",
+            "No hay diferencia, ambas son lo mismo."
+        ],
+        "correct": 2
+    }
+],
+    "u6": [
+    {
+        "id": 1,
+        "type": "fill",
+        "question": "El científico observó que cada vez que aumentaba la temperatura del agua, esta hervía. Luego concluyó que toda agua hierve a 100°C. Este razonamiento va de lo particular a lo general, por lo que es un método _____.",
+        "options": [
+            "deductivo",
+            "INDUCTIVO",
+            "cronológico",
+            "literario"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 2,
+        "type": "fill",
+        "question": "Cuando una palabra se usa en su sentido literal y objetivo, sin implicaciones emocionales, se dice que se emplea en su _____.",
+        "options": [
+            "connotación",
+            "DENOTACIÓN",
+            "hipérbole",
+            "metáfora"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 3,
+        "type": "fill",
+        "question": "Una breve narración ficticia con personajes que suelen ser animales o seres inanimados, cuyo propósito es enseñar un _____.",
+        "options": [
+            "énfasis",
+            "símil",
+            "MORALEJA",
+            "hipérbaton"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 4,
+        "type": "fill",
+        "question": "Para comprender una obra escrita en la época colonial, el lector debe investigar las _____ y costumbres de ese período histórico.",
+        "options": [
+            "rimas",
+            "acotaciones",
+            "CONDICIONES SOCIALES",
+            "aliteraciones"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 5,
+        "type": "tf",
+        "question": "La sátira utiliza el humor y la burla para criticar defectos sociales o individuales, y pertenece al género narrativo.",
+        "correct": true
+    },
+    {
+        "id": 6,
+        "type": "tf",
+        "question": "Un texto en prosa se organiza necesariamente en estrofas y versos.",
+        "correct": false
+    },
+    {
+        "id": 7,
+        "type": "tf",
+        "question": "La denotación y la connotación significan exactamente lo mismo.",
+        "correct": false
+    },
+    {
+        "id": 8,
+        "type": "tf",
+        "question": "La narración en primera persona permite al lector conocer los pensamientos íntimos del narrador-personaje.",
+        "correct": true
+    },
+    {
+        "id": 9,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes afirmaciones sobre las figuras literarias es correcta?",
+        "options": [
+            "La sinécdoque usa una parte para referirse al todo, como decir 'buenas cabezas' por 'personas inteligentes'.",
+            "La aliteración es una figura de énfasis que exagera la realidad.",
+            "La ironía siempre se identifica por el uso de comillas.",
+            "El símil compara dos elementos sin usar nexos comparativos."
+        ],
+        "correct": 0
+    },
+    {
+        "id": 10,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes afirmaciones sobre los géneros literarios es correcta?",
+        "options": [
+            "La comedia y la tragedia son subgéneros del género lírico.",
+            "El género epistolar, representado por cartas, pertenece al género dramático.",
+            "La oda es un subgénero del género dramático.",
+            "La novela epistolar pertenece al género narrativo."
+        ],
+        "correct": 3
+    },
+    {
+        "id": 11,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes afirmaciones sobre las estrategias de comprensión lectora es correcta?",
+        "options": [
+            "Hacer inferencias significa leer solamente lo que está escrito literalmente en el texto.",
+            "La lectura literal es suficiente para comprender textos argumentativos complejos.",
+            "Para hacer un resumen efectivo, basta con copiar las oraciones más largas del párrafo.",
+            "Identificar la secuencia cronológica ayuda a reconstruir el orden de los eventos en una narración."
+        ],
+        "correct": 3
+    },
+    {
+        "id": 12,
+        "type": "correct",
+        "question": "¿Cuál de las siguientes afirmaciones sobre el contexto en la literatura es correcta?",
+        "options": [
+            "El contexto de una obra incluye únicamente el año de publicación.",
+            "Un mismo texto puede interpretarse de manera diferente según el contexto histórico y cultural del lector.",
+            "El contexto nunca influye en el significado de una obra literaria.",
+            "Para analizar el contexto basta con leer el título de la obra."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 13,
+        "type": "order",
+        "question": "Ordena los pasos de la comprensión lectora crítica de manera lógica:",
+        "items": [
+            "Identificar la idea principal y las secundarias.",
+            "Leer el texto de forma literal para entender el contenido explícito.",
+            "Hacer inferencias a partir de las pistas del texto.",
+            "Evaluar críticamente el propósito y la intención del autor."
+        ],
+        "correct": [
+            1,
+            0,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 14,
+        "type": "order",
+        "question": "Ordena cronológicamente los siguientes eventos de una narración:",
+        "items": [
+            "El protagonista toma una decisión importante que cambia su vida.",
+            "Se presentan los personajes y el lugar donde ocurre la historia.",
+            "Se describe el problema o conflicto que enfrentan los personajes.",
+            "La historia llega a su desenlace."
+        ],
+        "correct": [
+            1,
+            2,
+            0,
+            3
+        ]
+    },
+    {
+        "id": 15,
+        "type": "order",
+        "question": "Ordena los siguientes conceptos de lo más general a lo más específico:",
+        "items": [
+            "Subgénero literario (ej. novela, soneto).",
+            "Género literario (ej. narrativo, lírico, dramático).",
+            "Obra literaria concreta (ej. Don Quijote).",
+            "Tipo de literatura (ej. ficción, no ficción)."
+        ],
+        "correct": [
+            3,
+            1,
+            0,
+            2
+        ]
+    },
+    {
+        "id": 16,
+        "type": "match",
+        "question": "Empareja cada figura literaria con su ejemplo correcto:",
+        "left": [
+            "Hipérbole",
+            "Oxímoron",
+            "Onomatopeya",
+            "Sinestesia"
+        ],
+        "right": [
+            "Tengo un hambre que me muero",
+            "Un silencio atronador",
+            "Las abejas zumbaban felizmente",
+            "Tus palabras son una melodía amarga"
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 17,
+        "type": "match",
+        "question": "Empareja cada género o subgénero literario con su característica principal:",
+        "left": [
+            "Tragedia",
+            "Oda",
+            "Fábula",
+            "Cuento"
+        ],
+        "right": [
+            "Presenta un desenlace funesto y personajes nobles que caen en desgracia.",
+            "Poema que expresa sentimientos de alabanza o exaltación.",
+            "Breve narración con personajes animales que enseña una moraleja.",
+            "Narración breve de un solo argumento con pocos personajes."
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 18,
+        "type": "match",
+        "question": "Empareja cada concepto de comprensión lectora con su definición:",
+        "left": [
+            "Explícito",
+            "Implícito",
+            "Tono del autor",
+            "Subjetividad"
+        ],
+        "right": [
+            "Información que se encuentra directamente en el texto, sin necesidad de deducirla.",
+            "Información que el lector debe deducir o inferir a partir de las pistas del texto.",
+            "La actitud o postura que el escritor manifiesta frente al tema que trata.",
+            "El texto refleja sentimientos, juicios o valores personales del autor."
+        ],
+        "correct": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 19,
+        "type": "reading",
+        "passage": "La ciudad de Guatemala fue trasladada siete veces debido a los terremotos que la azotaron durante la época colonial. El terremoto de 1773 fue el más devastador, pues destruyó casi por completo la antigua capital. Ante esta tragedia, las autoridades españolas decidieron mudar la ciudad al valle que hoy conocemos. Esta decisión no solo cambió la geografía política del reino, sino que también transformó la vida social y económica de miles de personas que tuvieron que abandonar sus hogares y reconstruir sus vidas desde cero.",
+        "question": "Según el texto, ¿cuál fue la consecuencia directa del terremoto de 1773?",
+        "options": [
+            "La creación de un nuevo volcán en la región.",
+            "La decisión de mudar la capital a un nuevo valle.",
+            "La construcción de iglesias más resistentes en la antigua ciudad.",
+            "El aumento de la población indígena en la zona."
+        ],
+        "correct": 1
+    },
+    {
+        "id": 20,
+        "type": "reading",
+        "passage": "Doña Marta, maestra de escuela rural, solía decir que la educación era la única llave que podía abrir las puertas del futuro para sus alumnos. Cada mañana caminaba tres horas desde su casa hasta la escuela, cruzando ríos y caminos de tierra. Nunca se quejaba. Cuando le preguntaban por qué hacía ese esfuerzo, sonreía y respondía: 'Porque ellos merecen soñar con algo más grande que lo que ven desde su ventana.' Los vecinos del pueblo la llamaban 'la mujer que no se rinde'.",
+        "question": "A partir de la lectura, ¿qué se puede inferir sobre Doña Marta?",
+        "options": [
+            "Era una mujer que trabajaba únicamente por el salario que recibía.",
+            "No le importaba el bienestar de sus alumnos.",
+            "Era una persona comprometida con la educación de los niños a pesar de las dificultades.",
+            "Prefería vivir en la ciudad pero no tenía recursos para mudarse."
+        ],
+        "correct": 2
+    }
+],
+  },
   videos: [
   {
     "unit": "1",

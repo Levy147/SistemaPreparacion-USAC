@@ -172,10 +172,11 @@ const App = (function() {
         allCard.style.borderColor = '#2c3e50';
         allCard.style.borderStyle = 'dashed';
         
-        let totalQuestions = 0;
+        let totalItems = 0;
         for (const unit of units) {
             const qKey = 'u' + unit.unit;
-            totalQuestions += (LENGUAJE_DATA.questions[qKey] || []).length;
+            totalItems += (LENGUAJE_DATA.questions[qKey] || []).length;
+            totalItems += (LENGUAJE_DATA.exercises[qKey] || []).length;
         }
         
         allCard.innerHTML = `
@@ -184,7 +185,7 @@ const App = (function() {
             </div>
             <div class="card-content">
                 <h3>Todas las unidades</h3>
-                <p>Cuestionario combinado de todas las unidades (${totalQuestions} preguntas disponibles)</p>
+                <p>Cuestionario combinado de todas las unidades (${totalItems} preguntas y ejercicios disponibles)</p>
             </div>
             <span class="card-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
         `;
@@ -195,6 +196,8 @@ const App = (function() {
             const num = parseInt(unit.unit);
             const qKey = 'u' + unit.unit;
             const questionCount = (LENGUAJE_DATA.questions[qKey] || []).length;
+            const exerciseCount = (LENGUAJE_DATA.exercises[qKey] || []).length;
+            const totalItems = questionCount + exerciseCount;
 
             const card = document.createElement('button');
             card.className = 'card';
@@ -204,7 +207,7 @@ const App = (function() {
                 </div>
                 <div class="card-content">
                     <h3>Unidad ${unit.unit}: ${unit.name}</h3>
-                    <p>${questionCount} preguntas disponibles</p>
+                    <p>${totalItems} preguntas y ejercicios disponibles</p>
                 </div>
                 <span class="card-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
             `;
@@ -240,7 +243,8 @@ const App = (function() {
         
         const qKey = 'u' + unit.unit;
         const questionCount = (LENGUAJE_DATA.questions[qKey] || []).length;
-        els.detailSubtitle.textContent = questionCount + ' preguntas disponibles';
+        const exerciseCount = (LENGUAJE_DATA.exercises[qKey] || []).length;
+        els.detailSubtitle.textContent = (questionCount + exerciseCount) + ' preguntas y ejercicios disponibles';
 
         // Load study material
         loadStudyMaterial(unit.unit);
@@ -265,17 +269,18 @@ const App = (function() {
         
         els.detailTitle.textContent = 'Todas las unidades';
         
-        let totalQuestions = 0;
+        let totalItems = 0;
         for (const unit of LENGUAJE_DATA.units) {
             const qKey = 'u' + unit.unit;
-            totalQuestions += (LENGUAJE_DATA.questions[qKey] || []).length;
+            totalItems += (LENGUAJE_DATA.questions[qKey] || []).length;
+            totalItems += (LENGUAJE_DATA.exercises[qKey] || []).length;
         }
-        els.detailSubtitle.textContent = totalQuestions + ' preguntas disponibles en total';
+        els.detailSubtitle.textContent = totalItems + ' preguntas y ejercicios disponibles en total';
 
         // Show combined study info
         els.studyContent.innerHTML = `
             <div class="study-info">
-                <p>Esta opcion permite estudiar todas las unidades en un solo cuestionario combinado. Se seleccionaran 20 preguntas al azar de entre las ${totalQuestions} preguntas disponibles en las 6 unidades.</p>
+                <p>Esta opcion permite estudiar todas las unidades en un solo cuestionario combinado. Se seleccionaran 20 preguntas al azar de entre las ${totalItems} preguntas y ejercicios disponibles en las 6 unidades.</p>
                 <h4 class="study-section-title">Unidades incluidas</h4>
                 <ul class="video-list">
                     ${LENGUAJE_DATA.units.map(u => `
@@ -302,19 +307,20 @@ const App = (function() {
     }
 
     function startQuizAll() {
-        // Combine questions from all units
-        let allQuestions = [];
+        // Combine questions and exercises from all units
+        let allItems = [];
         for (const unit of LENGUAJE_DATA.units) {
             const qKey = 'u' + unit.unit;
             const questions = LENGUAJE_DATA.questions[qKey] || [];
-            allQuestions = allQuestions.concat(questions);
+            const exercises = LENGUAJE_DATA.exercises[qKey] || [];
+            allItems = allItems.concat(questions).concat(exercises);
         }
 
-        if (allQuestions.length === 0) return;
+        if (allItems.length === 0) return;
 
-        // Select 20 random questions
-        const count = Math.min(20, allQuestions.length);
-        const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+        // Select 20 random items
+        const count = Math.min(20, allItems.length);
+        const shuffled = [...allItems].sort(() => Math.random() - 0.5);
         const selected = shuffled.slice(0, count);
 
         state.quiz.questions = selected;
@@ -447,15 +453,17 @@ const App = (function() {
 
     function startQuiz() {
         const qKey = 'u' + state.unit;
-        const allQuestions = LENGUAJE_DATA.questions[qKey];
+        const questions = LENGUAJE_DATA.questions[qKey] || [];
+        const exercises = LENGUAJE_DATA.exercises[qKey] || [];
+        const allItems = questions.concat(exercises);
         
-        if (!allQuestions || allQuestions.length === 0) {
+        if (allItems.length === 0) {
             return;
         }
 
-        // Select 20 random questions (or less if pool is smaller)
-        const count = Math.min(20, allQuestions.length);
-        const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+        // Select 20 random items (or less if pool is smaller)
+        const count = Math.min(20, allItems.length);
+        const shuffled = [...allItems].sort(() => Math.random() - 0.5);
         const selected = shuffled.slice(0, count);
 
         state.quiz.questions = selected;
@@ -488,16 +496,35 @@ const App = (function() {
         const progress = ((q.currentIndex) / q.totalQuestions) * 100;
         els.quizProgress.style.width = progress + '%';
 
-        // Counter
-        els.quizCounter.textContent = 'Pregunta ' + (q.currentIndex + 1) + ' de ' + q.totalQuestions;
+        // Counter with type badge
+        const type = question.type || 'mc';
+        const typeLabels = { mc: 'Opción múltiple', fill: 'Completar', tf: 'Verdadero / Falso', correct: 'Corregir', order: 'Ordenar', match: 'Emparejar', reading: 'Comprensión lectora' };
+        els.quizCounter.innerHTML = 'Pregunta ' + (q.currentIndex + 1) + ' de ' + q.totalQuestions + ' <span class="quiz-type-badge">' + (typeLabels[type] || type) + '</span>';
 
         // Question text
-        els.quizQuestion.textContent = question.question;
+        if (question.passage) {
+            els.quizQuestion.innerHTML = '<div class="reading-passage">' + question.passage + '</div><div class="reading-question-label">Pregunta:</div>' + question.question;
+        } else {
+            els.quizQuestion.textContent = question.question;
+        }
 
-        // Options
-        const letters = ['A', 'B', 'C', 'D'];
+        // Route to appropriate renderer
         els.quizOptions.innerHTML = '';
 
+        if (type === 'tf') {
+            renderTfQuestion(question);
+        } else if (type === 'order') {
+            renderOrderQuestion(question);
+        } else if (type === 'match') {
+            renderMatchQuestion(question);
+        } else {
+            // fill, correct, reading, mc — all use option buttons
+            renderOptionsQuestion(question);
+        }
+    }
+
+    function renderOptionsQuestion(question) {
+        const letters = ['A', 'B', 'C', 'D'];
         question.options.forEach((option, index) => {
             const btn = document.createElement('button');
             btn.className = 'quiz-option';
@@ -510,52 +537,307 @@ const App = (function() {
         });
     }
 
+    function renderTfQuestion(question) {
+        const wrap = document.createElement('div');
+        wrap.className = 'tf-options';
+
+        const btnTrue = document.createElement('button');
+        btnTrue.className = 'quiz-option tf-btn';
+        btnTrue.innerHTML = '<span class="option-letter" style="background:#3a7d44;color:#fff;">V</span><span>Verdadero</span>';
+        btnTrue.addEventListener('click', () => selectOption(true));
+
+        const btnFalse = document.createElement('button');
+        btnFalse.className = 'quiz-option tf-btn';
+        btnFalse.innerHTML = '<span class="option-letter" style="background:#b34a4a;color:#fff;">F</span><span>Falso</span>';
+        btnFalse.addEventListener('click', () => selectOption(false));
+
+        wrap.appendChild(btnTrue);
+        wrap.appendChild(btnFalse);
+        els.quizOptions.appendChild(wrap);
+    }
+
+    function renderOrderQuestion(question) {
+        // Shuffle items for display
+        const indices = question.items.map((_, i) => i);
+        const shuffled = [...indices].sort(() => Math.random() - 0.5);
+        state.quiz.orderCurrent = [...shuffled];
+
+        const wrap = document.createElement('div');
+        wrap.className = 'order-options';
+
+        shuffled.forEach((origIndex, displayIndex) => {
+            const btn = document.createElement('button');
+            btn.className = 'quiz-option order-btn';
+            btn.dataset.origIndex = origIndex;
+            btn.innerHTML = `
+                <span class="option-letter order-num">${displayIndex + 1}</span>
+                <span>${question.items[origIndex]}</span>
+            `;
+            btn.addEventListener('click', () => moveOrderItem(displayIndex));
+            wrap.appendChild(btn);
+        });
+
+        const hint = document.createElement('div');
+        hint.className = 'order-hint';
+        hint.textContent = 'Haz clic en un elemento para moverlo al siguiente posición.';
+
+        els.quizOptions.appendChild(wrap);
+        els.quizOptions.appendChild(hint);
+    }
+
+    function moveOrderItem(displayIndex) {
+        if (state.quiz.answered) return;
+        const current = state.quiz.orderCurrent;
+        const nextIndex = (displayIndex + 1) % current.length;
+        // Swap
+        const temp = current[displayIndex];
+        current[displayIndex] = current[nextIndex];
+        current[nextIndex] = temp;
+
+        // Re-render order buttons
+        const question = state.quiz.questions[state.quiz.currentIndex];
+        const wrap = els.quizOptions.querySelector('.order-options');
+        wrap.innerHTML = '';
+        current.forEach((origIndex, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'quiz-option order-btn';
+            btn.dataset.origIndex = origIndex;
+            btn.innerHTML = `
+                <span class="option-letter order-num">${i + 1}</span>
+                <span>${question.items[origIndex]}</span>
+            `;
+            btn.addEventListener('click', () => moveOrderItem(i));
+            wrap.appendChild(btn);
+        });
+    }
+
+    function submitOrder() {
+        const q = state.quiz;
+        if (q.answered) return;
+        q.answered = true;
+        const question = q.questions[q.currentIndex];
+        const userOrder = q.orderCurrent;
+        const isCorrect = JSON.stringify(userOrder) === JSON.stringify(question.correct);
+
+        if (isCorrect) q.correctCount++;
+
+        // Highlight correct/incorrect
+        const orderBtns = els.quizOptions.querySelectorAll('.order-btn');
+        orderBtns.forEach((btn, i) => {
+            btn.classList.add('disabled');
+            if (userOrder[i] === question.correct[i]) {
+                btn.classList.add('correct');
+            } else {
+                btn.classList.add('incorrect');
+            }
+        });
+
+        showFeedback(isCorrect, 'El orden correcto es: ' + question.correct.map((idx, i) => (i + 1) + '. ' + question.items[idx]).join(' → '));
+    }
+
+    function renderMatchQuestion(question) {
+        // Shuffle right column
+        const rightIndices = question.right.map((_, i) => i);
+        const shuffledRight = [...rightIndices].sort(() => Math.random() - 0.5);
+        state.quiz.matchCurrent = new Array(question.left.length).fill(-1);
+        state.quiz.matchAvailable = [...shuffledRight];
+        state.quiz.matchSelected = -1;
+
+        const wrap = document.createElement('div');
+        wrap.className = 'match-options';
+
+        // Left column
+        const leftCol = document.createElement('div');
+        leftCol.className = 'match-col match-left';
+        question.left.forEach((item, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'quiz-option match-left-btn';
+            btn.dataset.index = i;
+            btn.innerHTML = '<span>' + item + '</span>';
+            btn.addEventListener('click', () => selectMatchLeft(i));
+            leftCol.appendChild(btn);
+        });
+
+        // Right column
+        const rightCol = document.createElement('div');
+        rightCol.className = 'match-col match-right';
+        const rightWrap = document.createElement('div');
+        rightWrap.className = 'match-right-items';
+        rightWrap.id = 'match-right-items';
+        shuffledRight.forEach((origIndex) => {
+            const btn = document.createElement('button');
+            btn.className = 'quiz-option match-right-btn';
+            btn.dataset.origIndex = origIndex;
+            btn.innerHTML = '<span>' + question.right[origIndex] + '</span>';
+            btn.addEventListener('click', () => selectMatchRight(origIndex));
+            rightWrap.appendChild(btn);
+        });
+        rightCol.appendChild(rightWrap);
+
+        wrap.appendChild(leftCol);
+        wrap.appendChild(rightCol);
+        els.quizOptions.appendChild(wrap);
+
+        const hint = document.createElement('div');
+        hint.className = 'order-hint';
+        hint.textContent = 'Selecciona un elemento de la izquierda y luego su par de la derecha.';
+        els.quizOptions.appendChild(hint);
+
+        // Submit button
+        const submitBtn = document.createElement('button');
+        submitBtn.className = 'btn btn-primary btn-large';
+        submitBtn.textContent = 'Verificar respuestas';
+        submitBtn.id = 'btn-submit-match';
+        submitBtn.style.marginTop = '12px';
+        submitBtn.addEventListener('click', submitMatch);
+        els.quizOptions.appendChild(submitBtn);
+    }
+
+    function selectMatchLeft(index) {
+        if (state.quiz.answered) return;
+        state.quiz.matchSelected = index;
+        const leftBtns = els.quizOptions.querySelectorAll('.match-left-btn');
+        leftBtns.forEach((btn, i) => {
+            btn.classList.toggle('selected', i === index);
+        });
+    }
+
+    function selectMatchRight(origIndex) {
+        const q = state.quiz;
+        if (q.answered || q.matchSelected === -1) return;
+
+        // Assign this right item to the selected left item
+        q.matchCurrent[q.matchSelected] = origIndex;
+
+        // Update left button text to show match
+        const leftBtns = els.quizOptions.querySelectorAll('.match-left-btn');
+        const question = q.questions[q.currentIndex];
+        leftBtns[q.matchSelected].innerHTML = '<span>' + question.left[q.matchSelected] + ' → ' + question.right[origIndex] + '</span>';
+        leftBtns[q.matchSelected].classList.remove('selected');
+
+        // Mark right button as used
+        const rightBtns = els.quizOptions.querySelectorAll('.match-right-btn');
+        rightBtns.forEach(btn => {
+            if (parseInt(btn.dataset.origIndex) === origIndex) {
+                btn.classList.add('disabled');
+            }
+        });
+
+        q.matchSelected = -1;
+    }
+
+    function submitMatch() {
+        const q = state.quiz;
+        if (q.answered) return;
+        if (q.matchCurrent.includes(-1)) {
+            // Not all matched yet
+            els.quizFeedback.className = 'quiz-feedback incorrect';
+            els.quizFeedback.innerHTML = '<div class="feedback-label">Incomplete</div><div>Debe emparejar todos los elementos antes de verificar.</div>';
+            els.quizFeedback.style.display = '';
+            return;
+        }
+
+        q.answered = true;
+        const question = q.questions[q.currentIndex];
+        let correctCount = 0;
+        q.matchCurrent.forEach((userMatch, i) => {
+            if (userMatch === question.correct[i]) correctCount++;
+        });
+        const isCorrect = correctCount === question.left.length;
+        if (isCorrect) q.correctCount++;
+
+        // Highlight
+        const leftBtns = els.quizOptions.querySelectorAll('.match-left-btn');
+        leftBtns.forEach((btn, i) => {
+            btn.classList.add('disabled');
+            if (q.matchCurrent[i] === question.correct[i]) {
+                btn.classList.add('correct');
+            } else {
+                btn.classList.add('incorrect');
+            }
+        });
+
+        const submitBtn = document.getElementById('btn-submit-match');
+        if (submitBtn) submitBtn.style.display = 'none';
+
+        const correctPairs = question.left.map((l, i) => l + ' → ' + question.right[question.correct[i]]).join('; ');
+        showFeedback(isCorrect, (isCorrect ? '' : 'Emparejaste ' + correctCount + ' de ' + question.left.length + ' correctamente. ') + 'Pares correctos: ' + correctPairs);
+    }
+
+    function showFeedback(isCorrect, extraText) {
+        els.quizFeedback.className = 'quiz-feedback ' + (isCorrect ? 'correct' : 'incorrect');
+        els.quizFeedback.innerHTML = '<div class="feedback-label">' + (isCorrect ? 'Correcto' : 'Incorrecto') + '</div><div>' + (extraText || (isCorrect ? 'La respuesta es correcta.' : '')) + '</div>';
+        els.quizFeedback.style.display = '';
+
+        const isLast = state.quiz.currentIndex >= state.quiz.totalQuestions - 1;
+        els.nextBtn.textContent = isLast ? 'Ver Resultados' : 'Siguiente Pregunta';
+        els.nextBtn.style.display = '';
+
+        const progress = ((state.quiz.currentIndex + 1) / state.quiz.totalQuestions) * 100;
+        els.quizProgress.style.width = progress + '%';
+    }
+
     function selectOption(index) {
         const q = state.quiz;
         if (q.answered) return;
 
-        q.answered = true;
         const question = q.questions[q.currentIndex];
+        const type = question.type || 'mc';
+
+        if (type === 'order') {
+            submitOrder();
+            return;
+        }
+
+        q.answered = true;
         const isCorrect = index === question.correct;
 
         if (isCorrect) {
             q.correctCount++;
         }
 
-        // Mark options
-        const optionBtns = els.quizOptions.querySelectorAll('.quiz-option');
-        optionBtns.forEach((btn, i) => {
-            btn.classList.add('disabled');
-            if (i === question.correct) {
-                btn.classList.add('correct');
-            } else if (i === index && !isCorrect) {
-                btn.classList.add('incorrect');
-            }
-            if (i === index) {
-                btn.classList.add('selected');
-            }
-        });
-
-        // Show feedback
-        els.quizFeedback.className = 'quiz-feedback ' + (isCorrect ? 'correct' : 'incorrect');
-        els.quizFeedback.innerHTML = '';
-        
-        if (isCorrect) {
-            els.quizFeedback.innerHTML = '<div class="feedback-label">Correcto</div><div>La respuesta es correcta.</div>';
+        if (type === 'tf') {
+            // Mark tf buttons
+            const tfBtns = els.quizOptions.querySelectorAll('.tf-btn');
+            tfBtns.forEach((btn) => {
+                btn.classList.add('disabled');
+                const val = btn.textContent.includes('Verdadero');
+                if (val === question.correct) {
+                    btn.classList.add('correct');
+                }
+                if (val === index) {
+                    btn.classList.add('selected');
+                    if (!isCorrect) btn.classList.add('incorrect');
+                }
+            });
         } else {
-            const correctLetter = String.fromCharCode(65 + question.correct);
-            els.quizFeedback.innerHTML = '<div class="feedback-label">Incorrecto</div><div>La respuesta correcta es la opcion ' + correctLetter + '.</div>';
+            // Mark option buttons (mc, fill, correct, reading)
+            const optionBtns = els.quizOptions.querySelectorAll('.quiz-option');
+            optionBtns.forEach((btn, i) => {
+                btn.classList.add('disabled');
+                if (i === question.correct) {
+                    btn.classList.add('correct');
+                } else if (i === index && !isCorrect) {
+                    btn.classList.add('incorrect');
+                }
+                if (i === index) {
+                    btn.classList.add('selected');
+                }
+            });
         }
-        els.quizFeedback.style.display = '';
 
-        // Show next button
-        const isLast = q.currentIndex >= q.totalQuestions - 1;
-        els.nextBtn.textContent = isLast ? 'Ver Resultados' : 'Siguiente Pregunta';
-        els.nextBtn.style.display = '';
+        let extraText = '';
+        if (!isCorrect) {
+            if (type === 'tf') {
+                extraText = 'La respuesta correcta es: ' + (question.correct ? 'Verdadero' : 'Falso') + '.';
+            } else if (type === 'fill' || type === 'correct' || type === 'reading') {
+                extraText = 'La respuesta correcta es la opción ' + String.fromCharCode(65 + question.correct) + '.';
+            } else {
+                extraText = 'La respuesta correcta es la opción ' + String.fromCharCode(65 + question.correct) + '.';
+            }
+        }
 
-        // Update progress to reflect answer
-        const progress = ((q.currentIndex + 1) / q.totalQuestions) * 100;
-        els.quizProgress.style.width = progress + '%';
+        showFeedback(isCorrect, extraText);
     }
 
     function nextQuestion() {
