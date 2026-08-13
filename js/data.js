@@ -11,6 +11,11 @@ const LENGUAJE_DATA = {
           "available": true,
           "icon": "language"
         },
+        "matematicas": {
+          "name": "Matemáticas",
+          "available": true,
+          "icon": "calculate"
+        },
         "fisica": {
           "name": "Física",
           "available": true,
@@ -23,7 +28,7 @@ const LENGUAJE_DATA = {
       "areas": {
         "matematicas": {
           "name": "Matemáticas",
-          "available": true,
+          "available": false,
           "icon": "calculate"
         },
         "computacion": {
@@ -63,48 +68,6 @@ const LENGUAJE_DATA = {
   {
     "unit": "7",
     "name": "Examen Final (Simulación)"
-  }
-],
-    "fisica": [
-  {
-    "unit": "1",
-    "name": "Cifras Significativas y Notación Científica"
-  },
-  {
-    "unit": "2",
-    "name": "Cantidades Escalares y Vectoriales"
-  },
-  {
-    "unit": "3",
-    "name": "Movimiento en una Dimensión"
-  },
-  {
-    "unit": "4",
-    "name": "Movimiento en dos Dimensiones"
-  },
-  {
-    "unit": "5",
-    "name": "Caída Libre"
-  },
-  {
-    "unit": "6",
-    "name": "Leyes de Newton"
-  },
-  {
-    "unit": "7",
-    "name": "Trabajo y Energía"
-  },
-  {
-    "unit": "8",
-    "name": "Cantidad de Movimiento e Impulso"
-  },
-  {
-    "unit": "9",
-    "name": "Choques Elásticos e Inelásticos"
-  },
-  {
-    "unit": "10",
-    "name": "Conceptos Generales"
   }
 ],
     "matematica": [
@@ -151,6 +114,48 @@ const LENGUAJE_DATA = {
   {
     "unit": "11",
     "name": "Estadística"
+  }
+],
+    "fisica": [
+  {
+    "unit": "1",
+    "name": "Cifras Significativas y Notación Científica"
+  },
+  {
+    "unit": "2",
+    "name": "Cantidades Escalares y Vectoriales"
+  },
+  {
+    "unit": "3",
+    "name": "Movimiento en una Dimensión"
+  },
+  {
+    "unit": "4",
+    "name": "Movimiento en dos Dimensiones"
+  },
+  {
+    "unit": "5",
+    "name": "Caída Libre"
+  },
+  {
+    "unit": "6",
+    "name": "Leyes de Newton"
+  },
+  {
+    "unit": "7",
+    "name": "Trabajo y Energía"
+  },
+  {
+    "unit": "8",
+    "name": "Cantidad de Movimiento e Impulso"
+  },
+  {
+    "unit": "9",
+    "name": "Choques Elásticos e Inelásticos"
+  },
+  {
+    "unit": "10",
+    "name": "Conceptos Generales"
   }
 ]
   },
@@ -3116,6 +3121,1845 @@ const LENGUAJE_DATA = {
                   "por ejemplo"
               ],
               "correct": 1
+          }
+      ]
+  },
+    "matematica":   {
+      "u1": [
+          {
+              "id": 1,
+              "question": "¿En qué base numérica se basa el sistema de numeración maya?",
+              "options": [
+                  "Base 20 (vigesimal)",
+                  "Base 10 (decimal)",
+                  "Base 60 (sexagesimal)",
+                  "Base 5 (quinario)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "¿Qué símbolos utilizaban los mayas para representar los números?",
+              "options": [
+                  "Puntos, rayas y concha",
+                  "Círculos y cruces",
+                  "Dígitos arábigos",
+                  "Letras y palos"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "¿Qué valor tiene un punto en la numeración maya?",
+              "options": [
+                  "1",
+                  "5",
+                  "10",
+                  "20"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "¿Qué valor tiene una raya en la numeración maya?",
+              "options": [
+                  "5",
+                  "1",
+                  "10",
+                  "20"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "¿Qué símbolo representaba el cero en la numeración maya?",
+              "options": [
+                  "La concha",
+                  "Un punto",
+                  "Una raya",
+                  "Una cruz"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "En la escritura maya, los números se acomodan de manera:",
+              "options": [
+                  "Vertical, de abajo hacia arriba",
+                  "Horizontal, de izquierda a derecha",
+                  "Vertical, de arriba hacia abajo",
+                  "En forma circular"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "En el sistema vigesimal maya, cada posición superior vale:",
+              "options": [
+                  "20 veces la posición anterior",
+                  "10 veces la posición anterior",
+                  "100 veces la posición anterior",
+                  "Lo mismo que la anterior"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "¿Cómo se representa el número 7 en numeración maya?",
+              "options": [
+                  "Una raya y dos puntos",
+                  "Dos rayas y un punto",
+                  "Siete puntos",
+                  "Una concha y dos puntos"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "¿Cómo se representa el número 13 en numeración maya?",
+              "options": [
+                  "Dos rayas y tres puntos",
+                  "Una raya y ocho puntos",
+                  "Tres rayas y un punto",
+                  "Una concha y tres puntos"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "¿Cuántos días tenía el año civil maya (Haab)?",
+              "options": [
+                  "365",
+                  "360",
+                  "260",
+                  "400"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "¿Qué ciclo del calendario maya duraba 260 días?",
+              "options": [
+                  "Tzolk'in (calendario sagrado)",
+                  "Haab (año civil)",
+                  "Tun",
+                  "Katún"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "¿Cuántos kines (días) equivalen a un tun?",
+              "options": [
+                  "360",
+                  "365",
+                  "20",
+                  "400"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "¿Cuántos tuns equivalen a un katún?",
+              "options": [
+                  "20",
+                  "10",
+                  "100",
+                  "5"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "Un número maya con 2 puntos en el primer nivel y 1 punto en el segundo nivel (sin concha de cero) equivale a:",
+              "options": [
+                  "22",
+                  "21",
+                  "3",
+                  "40"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "Si un número maya tiene 3 rayas en el primer nivel, su valor es:",
+              "options": [
+                  "15",
+                  "3",
+                  "30",
+                  "20"
+              ],
+              "correct": 0
+          }
+      ],
+      "u2": [
+          {
+              "id": 1,
+              "question": "¿Qué es una proposición en lógica matemática?",
+              "options": [
+                  "Un enunciado que puede ser verdadero o falso",
+                  "Una pregunta sin respuesta",
+                  "Una expresión con variables",
+                  "Un pensamiento subjetivo"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "¿Cuál de las siguientes es una proposición simple?",
+              "options": [
+                  "Guatemala está en Centroamérica.",
+                  "Si llueve, entonces hace frío.",
+                  "Estudia y aprobarás.",
+                  "¿Qué hora es?"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "¿Cuál de las siguientes NO es una proposición?",
+              "options": [
+                  "¿Qué hora es?",
+                  "El agua hierve a 100 °C.",
+                  "2 + 2 = 4.",
+                  "Hoy es lunes."
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "¿Cuál es el símbolo del conectivo lógico 'y' (conjunción)?",
+              "options": [
+                  "∧",
+                  "∨",
+                  "→",
+                  "¬"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "¿Cuál es el símbolo del conectivo lógico 'o' (disyunción)?",
+              "options": [
+                  "∨",
+                  "∧",
+                  "→",
+                  "↔"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "La conjunción p ∧ q es verdadera únicamente cuando:",
+              "options": [
+                  "Ambas proposiciones son verdaderas",
+                  "Al menos una es verdadera",
+                  "Ambas son falsas",
+                  "Solo p es verdadera"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "La disyunción p ∨ q es falsa únicamente cuando:",
+              "options": [
+                  "Ambas proposiciones son falsas",
+                  "Ambas son verdaderas",
+                  "Solo p es verdadera",
+                  "Solo q es verdadera"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "El condicional p → q es falso únicamente cuando:",
+              "options": [
+                  "p es verdadera y q es falsa",
+                  "p es falsa y q es verdadera",
+                  "Ambas son verdaderas",
+                  "Ambas son falsas"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "El bicondicional p ↔ q es verdadero cuando:",
+              "options": [
+                  "Ambas tienen el mismo valor de verdad",
+                  "Una es verdadera y la otra falsa",
+                  "p es verdadera",
+                  "q es falsa"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "Si p es verdadera, la negación ¬p es:",
+              "options": [
+                  "Falsa",
+                  "Verdadera",
+                  "Indefinida",
+                  "Depende de otra variable"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "Con p = verdadera y q = verdadera, el valor de p ∧ q es:",
+              "options": [
+                  "Verdadero",
+                  "Falso",
+                  "Indefinido",
+                  "No se puede determinar"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "¿Qué es una tautología?",
+              "options": [
+                  "Una proposición compuesta que siempre es verdadera",
+                  "Una proposición que siempre es falsa",
+                  "Una proposición sin conectivos",
+                  "Una proposición con variables libres"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "¿Qué es una contradicción?",
+              "options": [
+                  "Una proposición que siempre es falsa",
+                  "Una proposición que siempre es verdadera",
+                  "Una proposición con dos negaciones",
+                  "Un enunciado sin valor de verdad"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "¿Qué es una contingencia?",
+              "options": [
+                  "Una proposición que es verdadera o falsa según los valores de las variables",
+                  "Una proposición siempre verdadera",
+                  "Una proposición siempre falsa",
+                  "Una proposición sin conectivos lógicos"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "Según la Ley de De Morgan, ¬(p ∧ q) es equivalente a:",
+              "options": [
+                  "¬p ∨ ¬q",
+                  "¬p ∧ ¬q",
+                  "p ∨ q",
+                  "¬(p ∨ q)"
+              ],
+              "correct": 0
+          }
+      ],
+      "u3": [
+          {
+              "id": 1,
+              "question": "¿Cuáles son los números naturales (N)?",
+              "options": [
+                  "{1, 2, 3, 4, ...}",
+                  "{0, 1, 2, 3, ...}",
+                  "{... -2, -1, 0, 1, 2, ...}",
+                  "{0, 1, 2, 3, ...} incluyendo fracciones"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "Los números enteros (Z) incluyen:",
+              "options": [
+                  "Negativos, cero y positivos",
+                  "Solo positivos",
+                  "Solo naturales",
+                  "Fracciones y decimales"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "¿Cuál de los siguientes es un número racional?",
+              "options": [
+                  "1/2",
+                  "√2",
+                  "π",
+                  "√3"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "¿Cuál de los siguientes es un número irracional?",
+              "options": [
+                  "√2",
+                  "0.75",
+                  "1/3",
+                  "-4"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "¿Cuál de los siguientes NO es un número real?",
+              "options": [
+                  "√(-4)",
+                  "-4",
+                  "0.5",
+                  "√2"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "Jerarquía de operaciones: el resultado de 2 + 3 × 4 es:",
+              "options": [
+                  "14",
+                  "20",
+                  "24",
+                  "9"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "El resultado de 12 ÷ 4 × 3 es:",
+              "options": [
+                  "9",
+                  "1",
+                  "3",
+                  "12"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "El resultado de 2³ + 1 es:",
+              "options": [
+                  "9",
+                  "7",
+                  "8",
+                  "6"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "El resultado de (2 + 3) × 4 es:",
+              "options": [
+                  "20",
+                  "14",
+                  "24",
+                  "16"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "El número decimal 0.5 expresado como fracción es:",
+              "options": [
+                  "1/2",
+                  "5/10",
+                  "2/5",
+                  "1/5"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "El número decimal 0.75 expresado como fracción irreductible es:",
+              "options": [
+                  "3/4",
+                  "7/5",
+                  "75/100",
+                  "4/3"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "En la sucesión aritmética 2, 5, 8, 11, ... el siguiente término es:",
+              "options": [
+                  "14",
+                  "12",
+                  "15",
+                  "13"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "En la sucesión aritmética 3, 7, 11, 15, ... el 5.º término es:",
+              "options": [
+                  "19",
+                  "18",
+                  "23",
+                  "21"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "En la sucesión geométrica 2, 6, 18, 54, ... el siguiente término es:",
+              "options": [
+                  "162",
+                  "108",
+                  "72",
+                  "60"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "Jerarquía de operaciones: el resultado de 3 × 2² + 1 es:",
+              "options": [
+                  "13",
+                  "37",
+                  "25",
+                  "15"
+              ],
+              "correct": 0
+          }
+      ],
+      "u4": [
+          {
+              "id": 1,
+              "question": "¿Qué es una razón?",
+              "options": [
+                  "La comparación entre dos cantidades mediante un cociente",
+                  "El resultado de una suma",
+                  "La diferencia entre dos números",
+                  "Un porcentaje siempre mayor a 100"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "Si 3 cajas cuestan Q18, ¿cuánto cuestan 5 cajas?",
+              "options": [
+                  "Q30",
+                  "Q25",
+                  "Q27",
+                  "Q33"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "¿Cuánto es el 25% de 200?",
+              "options": [
+                  "50",
+                  "25",
+                  "75",
+                  "40"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "Una camisa cuesta Q150 y tiene un descuento del 20%. ¿Cuál es el precio final?",
+              "options": [
+                  "Q120",
+                  "Q130",
+                  "Q110",
+                  "Q100"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "¿Cuál es el interés simple de Q1000 a 5% anual durante 2 años?",
+              "options": [
+                  "Q100",
+                  "Q50",
+                  "Q200",
+                  "Q25"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "En una variación directa, si y = 6 cuando x = 2 (y = kx), ¿cuánto vale y cuando x = 5?",
+              "options": [
+                  "15",
+                  "12",
+                  "10",
+                  "20"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "En una variación inversa, si y = 6 cuando x = 2 (y = k/x), ¿cuánto vale y cuando x = 4?",
+              "options": [
+                  "3",
+                  "12",
+                  "6",
+                  "24"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "¿Cuántos metros son 2.5 kilómetros?",
+              "options": [
+                  "2500 m",
+                  "250 m",
+                  "25 m",
+                  "25000 m"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "Si 1 pulgada equivale a 2.54 cm, ¿cuántos centímetros son 10 pulgadas?",
+              "options": [
+                  "25.4 cm",
+                  "10 cm",
+                  "254 cm",
+                  "2.54 cm"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "En la proporción 2/5 = x/20, el valor de x es:",
+              "options": [
+                  "8",
+                  "10",
+                  "5",
+                  "50"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "¿Qué porcentaje representa 30 de 120?",
+              "options": [
+                  "25%",
+                  "30%",
+                  "20%",
+                  "40%"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "Un producto cuesta Q80 y le aplican un aumento del 15%. ¿Cuál es el nuevo precio?",
+              "options": [
+                  "Q92",
+                  "Q95",
+                  "Q96",
+                  "Q90"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "Si 4 trabajadores tardan 6 días en una obra, ¿cuántos días tardarán 8 trabajadores (variación inversa)?",
+              "options": [
+                  "3 días",
+                  "12 días",
+                  "2 días",
+                  "6 días"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "¿Cuántos mililitros hay en 1 litro?",
+              "options": [
+                  "1000 ml",
+                  "100 ml",
+                  "10 ml",
+                  "10000 ml"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "Aproximadamente, ¿cuántas libras equivalen a 1 kilogramo?",
+              "options": [
+                  "2.2 lb",
+                  "1.5 lb",
+                  "3.5 lb",
+                  "5 lb"
+              ],
+              "correct": 0
+          }
+      ],
+      "u5": [
+          {
+              "id": 1,
+              "question": "¿Qué es un polinomio?",
+              "options": [
+                  "La suma de términos con variables y exponentes enteros no negativos",
+                  "Un número con decimales",
+                  "Cualquier expresión con raíces",
+                  "Una igualdad entre expresiones"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "¿Cuál es el grado del polinomio 3x² + 5x - 7?",
+              "options": [
+                  "2",
+                  "1",
+                  "3",
+                  "0"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "¿Cuál de los siguientes términos es semejante a 5x²?",
+              "options": [
+                  "-3x²",
+                  "5x",
+                  "5x³",
+                  "2x²y"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "El resultado de (2x + 3) + (4x + 5) es:",
+              "options": [
+                  "6x + 8",
+                  "6x + 15",
+                  "8x + 8",
+                  "6x² + 8"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "El resultado de (5x² + 2x) - (2x² + x) es:",
+              "options": [
+                  "3x² + x",
+                  "3x² + 3x",
+                  "7x² + x",
+                  "3x² - x"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "El resultado de 2x · 3x² es:",
+              "options": [
+                  "6x³",
+                  "6x²",
+                  "5x³",
+                  "6x"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "El producto notable (a + b)² es igual a:",
+              "options": [
+                  "a² + 2ab + b²",
+                  "a² + b²",
+                  "a² - 2ab + b²",
+                  "a² + ab + b²"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "El producto notable (a - b)² es igual a:",
+              "options": [
+                  "a² - 2ab + b²",
+                  "a² - b²",
+                  "a² + 2ab + b²",
+                  "a² - ab + b²"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "El producto notable (a + b)(a - b) es igual a:",
+              "options": [
+                  "a² - b²",
+                  "a² + b²",
+                  "a² - 2ab + b²",
+                  "a² + 2ab + b²"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "¿Qué es un monomio?",
+              "options": [
+                  "Una expresión algebraica de un solo término",
+                  "Una expresión de dos términos",
+                  "Un polinomio de grado dos",
+                  "Un número irracional"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "El desarrollo del Binomio de Newton (x + y)² es:",
+              "options": [
+                  "x² + 2xy + y²",
+                  "x² + y²",
+                  "x² - 2xy + y²",
+                  "x³ + 3x²y + 3xy² + y³"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "En el Triángulo de Pascal, la fila del desarrollo de (a + b)² es:",
+              "options": [
+                  "1 2 1",
+                  "1 1",
+                  "1 3 3 1",
+                  "1 2 3 1"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "En el Triángulo de Pascal, la fila de coeficientes de (a + b)³ es:",
+              "options": [
+                  "1 3 3 1",
+                  "1 2 1",
+                  "1 4 6 4 1",
+                  "1 1 1"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "El valor numérico de 2x² + 1 cuando x = 3 es:",
+              "options": [
+                  "19",
+                  "13",
+                  "37",
+                  "17"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "¿Cuál es el grado del monomio 4x⁵?",
+              "options": [
+                  "5",
+                  "4",
+                  "1",
+                  "20"
+              ],
+              "correct": 0
+          }
+      ],
+      "u6": [
+          {
+              "id": 1,
+              "question": "La solución de 2x + 3 = 11 es:",
+              "options": [
+                  "x = 4",
+                  "x = 7",
+                  "x = 3",
+                  "x = 5"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "La solución de 5x = 20 es:",
+              "options": [
+                  "x = 4",
+                  "x = 15",
+                  "x = 25",
+                  "x = 100"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "La solución de 3x - 6 = 9 es:",
+              "options": [
+                  "x = 5",
+                  "x = 1",
+                  "x = 9",
+                  "x = 3"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "Las soluciones de x² - 9 = 0 son:",
+              "options": [
+                  "x = 3 y x = -3",
+                  "x = 3 solamente",
+                  "x = 9 y x = -9",
+                  "x = 0 y x = 9"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "Las soluciones de x² - 5x + 6 = 0 son:",
+              "options": [
+                  "x = 2 y x = 3",
+                  "x = 1 y x = 6",
+                  "x = -2 y x = -3",
+                  "x = 5 y x = 6"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "Despejando r en la fórmula I = C·r·t se obtiene:",
+              "options": [
+                  "r = I/(C·t)",
+                  "r = C·I·t",
+                  "r = I·C·t",
+                  "r = (C·t)/I"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "La solución de la inecuación 2x > 6 es:",
+              "options": [
+                  "x > 3",
+                  "x < 3",
+                  "x ≥ 3",
+                  "x = 3"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "La solución de la inecuación x - 4 ≤ 1 es:",
+              "options": [
+                  "x ≤ 5",
+                  "x < 5",
+                  "x ≥ 5",
+                  "x = 5"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "En la recta numérica, la inecuación x > 2 se representa con:",
+              "options": [
+                  "Semirrecta abierta hacia la derecha",
+                  "Semirrecta cerrada hacia la derecha",
+                  "Semirrecta abierta hacia la izquierda",
+                  "Un punto en el 2"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "El intervalo [1, 5] incluye:",
+              "options": [
+                  "Los números del 1 al 5, incluidos 1 y 5",
+                  "Los números del 1 al 5, sin incluir 1 ni 5",
+                  "Solo el 1 y el 5",
+                  "Los números mayores a 5"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "El intervalo (2, 7) representa:",
+              "options": [
+                  "Los números entre 2 y 7 sin incluirlos",
+                  "Los números entre 2 y 7 incluidos",
+                  "Solo 2 y 7",
+                  "Los números menores a 2"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "Las soluciones de x² - 4 = 0 son:",
+              "options": [
+                  "x = 2 y x = -2",
+                  "x = 2 solamente",
+                  "x = 4 y x = -4",
+                  "x = 0 y x = 2"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "Las soluciones de x² + 2x - 8 = 0 son:",
+              "options": [
+                  "x = 2 y x = -4",
+                  "x = -2 y x = 4",
+                  "x = 8 y x = -1",
+                  "x = 1 y x = -8"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "¿Es x = 3 solución de la ecuación 2x + 1 = 7?",
+              "options": [
+                  "Sí",
+                  "No",
+                  "Solo si x es positivo",
+                  "No se puede determinar"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "El planteamiento 'el doble de un número más 5 es 13' se expresa y resuelve como:",
+              "options": [
+                  "2x + 5 = 13; x = 4",
+                  "x + 5 = 13; x = 8",
+                  "2x = 13; x = 6.5",
+                  "2(x + 5) = 13; x = 1.5"
+              ],
+              "correct": 0
+          }
+      ],
+      "u7": [
+          {
+              "id": 1,
+              "question": "La factorización de 6x + 12 por factor común es:",
+              "options": [
+                  "6(x + 2)",
+                  "2(3x + 6)",
+                  "6(x + 12)",
+                  "3(2x + 4)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "La factorización de 4x² + 8x por factor común es:",
+              "options": [
+                  "4x(x + 2)",
+                  "4x(x + 8)",
+                  "2x(2x + 4)",
+                  "4(x² + 2x)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "El factor común de 15x² y 20x es:",
+              "options": [
+                  "5x",
+                  "5x²",
+                  "15x",
+                  "3x"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "La factorización de x² - 9 es:",
+              "options": [
+                  "(x + 3)(x - 3)",
+                  "(x - 3)²",
+                  "(x + 3)²",
+                  "(x - 9)(x + 1)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "La factorización de 4x² - 25 es:",
+              "options": [
+                  "(2x + 5)(2x - 5)",
+                  "(4x + 5)(x - 5)",
+                  "(2x - 5)²",
+                  "(2x + 5)²"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "La factorización de x² - 16 es:",
+              "options": [
+                  "(x + 4)(x - 4)",
+                  "(x - 4)²",
+                  "(x + 4)²",
+                  "(x + 2)(x - 8)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "La factorización de x² + 6x + 9 es:",
+              "options": [
+                  "(x + 3)²",
+                  "(x - 3)²",
+                  "(x + 6)(x + 1)",
+                  "(x + 3)(x - 3)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "La factorización de x² + 5x + 6 es:",
+              "options": [
+                  "(x + 2)(x + 3)",
+                  "(x + 1)(x + 6)",
+                  "(x + 5)(x + 1)",
+                  "(x - 2)(x - 3)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "La factorización de x² - 4x - 12 es:",
+              "options": [
+                  "(x - 6)(x + 2)",
+                  "(x - 4)(x + 3)",
+                  "(x + 6)(x - 2)",
+                  "(x - 3)(x + 4)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "La factorización de 2x² + 5x + 2 es:",
+              "options": [
+                  "(2x + 1)(x + 2)",
+                  "(2x + 2)(x + 1)",
+                  "(x + 1)(2x + 3)",
+                  "(2x - 1)(x - 2)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "La factorización de x³ + 8 es:",
+              "options": [
+                  "(x + 2)(x² - 2x + 4)",
+                  "(x + 2)³",
+                  "(x + 2)(x² + 2x + 4)",
+                  "(x - 2)(x² + 2x + 4)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "La factorización de x³ - 27 es:",
+              "options": [
+                  "(x - 3)(x² + 3x + 9)",
+                  "(x - 3)³",
+                  "(x + 3)(x² - 3x + 9)",
+                  "(x - 27)(x + 1)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "La factorización por agrupación de ax + ay + bx + by es:",
+              "options": [
+                  "(a + b)(x + y)",
+                  "(a + x)(b + y)",
+                  "(a + b)(x - y)",
+                  "x(a + b) + y(a - b)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "Al simplificar la fracción algebraica (x² - 4)/(x - 2) se obtiene:",
+              "options": [
+                  "x + 2",
+                  "x - 2",
+                  "x² + 4",
+                  "x + 4"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "Al simplificar la fracción algebraica (x² + 5x + 6)/(x + 2) se obtiene:",
+              "options": [
+                  "x + 3",
+                  "x + 2",
+                  "x + 6",
+                  "x² + 3"
+              ],
+              "correct": 0
+          }
+      ],
+      "u8": [
+          {
+              "id": 1,
+              "question": "¿Qué es el dominio de una función?",
+              "options": [
+                  "El conjunto de valores de entrada (x) para los que está definida",
+                  "El conjunto de valores de salida (y)",
+                  "La gráfica de la función",
+                  "La pendiente de la recta"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "¿Qué es el rango de una función?",
+              "options": [
+                  "El conjunto de valores de salida (y) que toma la función",
+                  "El conjunto de valores de entrada",
+                  "El punto de corte con el eje x",
+                  "La variable independiente"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "En la función y = 2x + 1, la variable independiente es:",
+              "options": [
+                  "x",
+                  "y",
+                  "2",
+                  "1"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "En la función y = 2x + 1, la variable dependiente es:",
+              "options": [
+                  "y",
+                  "x",
+                  "2",
+                  "1"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "La gráfica de la función lineal y = 2x + 1 es:",
+              "options": [
+                  "Una línea recta",
+                  "Una parábola",
+                  "Una circunferencia",
+                  "Una hipérbola"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "La gráfica de la función cuadrática y = x² es:",
+              "options": [
+                  "Una parábola",
+                  "Una línea recta",
+                  "Un círculo",
+                  "Una línea quebrada"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "Si f(x) = 3x - 2, el valor de f(2) es:",
+              "options": [
+                  "4",
+                  "6",
+                  "3",
+                  "8"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "Si f(x) = x², el valor de f(-3) es:",
+              "options": [
+                  "9",
+                  "-9",
+                  "6",
+                  "-6"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "El dominio de f(x) = 1/x es:",
+              "options": [
+                  "Todos los reales excepto 0",
+                  "Todos los reales",
+                  "Solo los positivos",
+                  "Solo los negativos"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "La pendiente de la recta y = 3x + 5 es:",
+              "options": [
+                  "3",
+                  "5",
+                  "-3",
+                  "1"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "La intersección con el eje y de y = 3x + 5 es:",
+              "options": [
+                  "(0, 5)",
+                  "(5, 0)",
+                  "(0, 3)",
+                  "(3, 0)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "¿Es y = x² una función?",
+              "options": [
+                  "Sí, para cada x hay un solo valor de y",
+                  "No, porque es una parábola",
+                  "Solo si x es positiva",
+                  "No, porque la variable está al cuadrado"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "El vértice de la parábola y = x² es:",
+              "options": [
+                  "(0, 0)",
+                  "(1, 1)",
+                  "(0, 1)",
+                  "(1, 0)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "El vértice de la parábola y = x² + 3 es:",
+              "options": [
+                  "(0, 3)",
+                  "(3, 0)",
+                  "(0, 0)",
+                  "(3, 3)"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "La función constante y = 4 tiene por gráfica:",
+              "options": [
+                  "Una recta horizontal en y = 4",
+                  "Una recta vertical en x = 4",
+                  "Una parábola",
+                  "Una recta con pendiente 4"
+              ],
+              "correct": 0
+          }
+      ],
+      "u9": [
+          {
+              "id": 1,
+              "question": "¿Qué es un punto en geometría?",
+              "options": [
+                  "Tiene posición pero no dimensión",
+                  "Tiene largo y ancho",
+                  "Es una sucesión infinita de puntos",
+                  "Es una superficie plana"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "¿Qué es una recta?",
+              "options": [
+                  "Una sucesión infinita de puntos en una sola dirección",
+                  "Un segmento con dos extremos",
+                  "Un conjunto de puntos con ancho",
+                  "Una figura cerrada"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "¿Qué es un ángulo?",
+              "options": [
+                  "La figura formada por dos rayos con un origen común",
+                  "La distancia entre dos puntos",
+                  "La unión de tres segmentos",
+                  "Un arco de circunferencia"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "Un ángulo de 90° se clasifica como:",
+              "options": [
+                  "Recto",
+                  "Agudo",
+                  "Obtuso",
+                  "Llano"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "Un ángulo de 45° se clasifica como:",
+              "options": [
+                  "Agudo",
+                  "Recto",
+                  "Obtuso",
+                  "Llano"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "Un ángulo de 120° se clasifica como:",
+              "options": [
+                  "Obtuso",
+                  "Agudo",
+                  "Recto",
+                  "Llano"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "Un ángulo de 180° se clasifica como:",
+              "options": [
+                  "Llano",
+                  "Recto",
+                  "Agudo",
+                  "Obtuso"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "El perímetro de un cuadrado de lado 5 es:",
+              "options": [
+                  "20",
+                  "25",
+                  "10",
+                  "15"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "El área de un cuadrado de lado 5 es:",
+              "options": [
+                  "25",
+                  "20",
+                  "10",
+                  "50"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "El área de un rectángulo de 4 × 7 es:",
+              "options": [
+                  "28",
+                  "22",
+                  "14",
+                  "32"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "El perímetro de un rectángulo de 4 × 7 es:",
+              "options": [
+                  "22",
+                  "28",
+                  "14",
+                  "11"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "El área de un triángulo de base 6 y altura 4 es:",
+              "options": [
+                  "12",
+                  "24",
+                  "10",
+                  "48"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "El área de un círculo de radio 2 es:",
+              "options": [
+                  "4π",
+                  "2π",
+                  "8π",
+                  "π²"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "El volumen de un cubo de arista 3 es:",
+              "options": [
+                  "27",
+                  "9",
+                  "18",
+                  "6"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "La suma de los ángulos internos de un triángulo es:",
+              "options": [
+                  "180°",
+                  "90°",
+                  "360°",
+                  "270°"
+              ],
+              "correct": 0
+          }
+      ],
+      "u10": [
+          {
+              "id": 1,
+              "question": "El Teorema de Pitágoras establece que:",
+              "options": [
+                  "c² = a² + b² (con c la hipotenusa)",
+                  "a² = b² + c²",
+                  "c = a + b",
+                  "c² = a² - b²"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "En un triángulo rectángulo con catetos 3 y 4, la hipotenusa mide:",
+              "options": [
+                  "5",
+                  "7",
+                  "12",
+                  "25"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "En un triángulo rectángulo con catetos 6 y 8, la hipotenusa mide:",
+              "options": [
+                  "10",
+                  "14",
+                  "48",
+                  "2"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "Si la hipotenusa mide 13 y un cateto 5, el otro cateto mide:",
+              "options": [
+                  "12",
+                  "8",
+                  "18",
+                  "24"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "Dos triángulos son congruentes cuando:",
+              "options": [
+                  "Tienen la misma forma y el mismo tamaño",
+                  "Solo tienen los mismos ángulos",
+                  "Solo tienen los mismos lados proporcionales",
+                  "Sus ángulos suman 180°"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "Dos triángulos son semejantes cuando:",
+              "options": [
+                  "Tienen los mismos ángulos y sus lados son proporcionales",
+                  "Tienen exactamente el mismo tamaño",
+                  "Están dibujados en el mismo plano",
+                  "Sus lados son iguales"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "La razón trigonométrica seno de un ángulo se define como:",
+              "options": [
+                  "Cateto opuesto entre hipotenusa",
+                  "Cateto adyacente entre hipotenusa",
+                  "Cateto opuesto entre adyacente",
+                  "Hipotenusa entre cateto opuesto"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "La razón trigonométrica coseno de un ángulo se define como:",
+              "options": [
+                  "Cateto adyacente entre hipotenusa",
+                  "Cateto opuesto entre hipotenusa",
+                  "Cateto opuesto entre adyacente",
+                  "Hipotenusa entre cateto adyacente"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "La razón trigonométrica tangente de un ángulo se define como:",
+              "options": [
+                  "Cateto opuesto entre cateto adyacente",
+                  "Cateto adyacente entre hipotenusa",
+                  "Cateto opuesto entre hipotenusa",
+                  "Hipotenusa entre cateto adyacente"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "El valor de sen 30° es:",
+              "options": [
+                  "1/2",
+                  "√3/2",
+                  "1",
+                  "0"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "El valor de cos 60° es:",
+              "options": [
+                  "1/2",
+                  "√3/2",
+                  "1",
+                  "√2/2"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "El valor de tan 45° es:",
+              "options": [
+                  "1",
+                  "1/2",
+                  "√3",
+                  "0"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "La Ley de Senos se expresa como:",
+              "options": [
+                  "a/sen A = b/sen B = c/sen C",
+                  "a² = b² + c²",
+                  "a/sen B = b/sen A",
+                  "sen A/a = sen B/b + c"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "La Ley de Cosenos establece que c² es igual a:",
+              "options": [
+                  "a² + b² - 2ab·cos C",
+                  "a² + b² + 2ab·cos C",
+                  "a² - b²",
+                  "a² + b²"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "En un triángulo rectángulo, el valor de sen 90° es:",
+              "options": [
+                  "1",
+                  "0",
+                  "1/2",
+                  "√2/2"
+              ],
+              "correct": 0
+          }
+      ],
+      "u11": [
+          {
+              "id": 1,
+              "question": "¿Qué es la media aritmética?",
+              "options": [
+                  "La suma de los datos dividida entre el número de datos",
+                  "El dato que más se repite",
+                  "El valor central de los datos ordenados",
+                  "La diferencia entre el mayor y el menor"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 2,
+              "question": "La media de los datos {2, 4, 6, 8} es:",
+              "options": [
+                  "5",
+                  "6",
+                  "4",
+                  "20"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 3,
+              "question": "La media de los datos {5, 5, 5, 5} es:",
+              "options": [
+                  "5",
+                  "20",
+                  "4",
+                  "1"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 4,
+              "question": "La mediana de los datos {3, 5, 9, 12, 15} es:",
+              "options": [
+                  "9",
+                  "5",
+                  "12",
+                  "8"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 5,
+              "question": "La mediana de los datos {4, 8, 10, 14} es:",
+              "options": [
+                  "9",
+                  "10",
+                  "8",
+                  "11"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 6,
+              "question": "La moda de los datos {2, 3, 3, 3, 5, 7} es:",
+              "options": [
+                  "3",
+                  "2",
+                  "7",
+                  "No existe"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 7,
+              "question": "¿Qué es la moda?",
+              "options": [
+                  "El dato que se repite con mayor frecuencia",
+                  "El valor central ordenando los datos",
+                  "El promedio de los datos",
+                  "La suma de todos los datos"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 8,
+              "question": "¿Qué es la mediana?",
+              "options": [
+                  "El valor central después de ordenar los datos",
+                  "El dato más frecuente",
+                  "El promedio aritmético",
+                  "La diferencia entre máximo y mínimo"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 9,
+              "question": "El rango de los datos {4, 9, 3, 15} es:",
+              "options": [
+                  "12",
+                  "7",
+                  "6",
+                  "15"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 10,
+              "question": "La probabilidad de obtener cara al lanzar una moneda es:",
+              "options": [
+                  "1/2",
+                  "1",
+                  "1/4",
+                  "2/1"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 11,
+              "question": "La probabilidad de obtener un 6 al lanzar un dado es:",
+              "options": [
+                  "1/6",
+                  "1/2",
+                  "1/3",
+                  "6/6"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 12,
+              "question": "La probabilidad de sacar una carta roja de una baraja de 52 cartas (26 rojas) es:",
+              "options": [
+                  "1/2",
+                  "1/4",
+                  "1/52",
+                  "26/1"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 13,
+              "question": "El número de combinaciones C(4, 2) es:",
+              "options": [
+                  "6",
+                  "12",
+                  "4",
+                  "8"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 14,
+              "question": "El número de permutaciones P(3, 2) es:",
+              "options": [
+                  "6",
+                  "3",
+                  "9",
+                  "5"
+              ],
+              "correct": 0
+          },
+          {
+              "id": 15,
+              "question": "En una gráfica de barras, la altura de cada barra representa:",
+              "options": [
+                  "La frecuencia del dato",
+                  "El promedio de los datos",
+                  "La mediana",
+                  "El porcentaje acumulado"
+              ],
+              "correct": 0
           }
       ]
   },
@@ -6348,1845 +8192,6 @@ const LENGUAJE_DATA = {
                   "Energía cinética",
                   "Energía potencial",
                   "Energía térmica"
-              ],
-              "correct": 0
-          }
-      ]
-  },
-    "matematica":   {
-      "u1": [
-          {
-              "id": 1,
-              "question": "¿En qué base numérica se basa el sistema de numeración maya?",
-              "options": [
-                  "Base 20 (vigesimal)",
-                  "Base 10 (decimal)",
-                  "Base 60 (sexagesimal)",
-                  "Base 5 (quinario)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "¿Qué símbolos utilizaban los mayas para representar los números?",
-              "options": [
-                  "Puntos, rayas y concha",
-                  "Círculos y cruces",
-                  "Dígitos arábigos",
-                  "Letras y palos"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "¿Qué valor tiene un punto en la numeración maya?",
-              "options": [
-                  "1",
-                  "5",
-                  "10",
-                  "20"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "¿Qué valor tiene una raya en la numeración maya?",
-              "options": [
-                  "5",
-                  "1",
-                  "10",
-                  "20"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "¿Qué símbolo representaba el cero en la numeración maya?",
-              "options": [
-                  "La concha",
-                  "Un punto",
-                  "Una raya",
-                  "Una cruz"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "En la escritura maya, los números se acomodan de manera:",
-              "options": [
-                  "Vertical, de abajo hacia arriba",
-                  "Horizontal, de izquierda a derecha",
-                  "Vertical, de arriba hacia abajo",
-                  "En forma circular"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "En el sistema vigesimal maya, cada posición superior vale:",
-              "options": [
-                  "20 veces la posición anterior",
-                  "10 veces la posición anterior",
-                  "100 veces la posición anterior",
-                  "Lo mismo que la anterior"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "¿Cómo se representa el número 7 en numeración maya?",
-              "options": [
-                  "Una raya y dos puntos",
-                  "Dos rayas y un punto",
-                  "Siete puntos",
-                  "Una concha y dos puntos"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "¿Cómo se representa el número 13 en numeración maya?",
-              "options": [
-                  "Dos rayas y tres puntos",
-                  "Una raya y ocho puntos",
-                  "Tres rayas y un punto",
-                  "Una concha y tres puntos"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "¿Cuántos días tenía el año civil maya (Haab)?",
-              "options": [
-                  "365",
-                  "360",
-                  "260",
-                  "400"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "¿Qué ciclo del calendario maya duraba 260 días?",
-              "options": [
-                  "Tzolk'in (calendario sagrado)",
-                  "Haab (año civil)",
-                  "Tun",
-                  "Katún"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "¿Cuántos kines (días) equivalen a un tun?",
-              "options": [
-                  "360",
-                  "365",
-                  "20",
-                  "400"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "¿Cuántos tuns equivalen a un katún?",
-              "options": [
-                  "20",
-                  "10",
-                  "100",
-                  "5"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "Un número maya con 2 puntos en el primer nivel y 1 punto en el segundo nivel (sin concha de cero) equivale a:",
-              "options": [
-                  "22",
-                  "21",
-                  "3",
-                  "40"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "Si un número maya tiene 3 rayas en el primer nivel, su valor es:",
-              "options": [
-                  "15",
-                  "3",
-                  "30",
-                  "20"
-              ],
-              "correct": 0
-          }
-      ],
-      "u2": [
-          {
-              "id": 1,
-              "question": "¿Qué es una proposición en lógica matemática?",
-              "options": [
-                  "Un enunciado que puede ser verdadero o falso",
-                  "Una pregunta sin respuesta",
-                  "Una expresión con variables",
-                  "Un pensamiento subjetivo"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "¿Cuál de las siguientes es una proposición simple?",
-              "options": [
-                  "Guatemala está en Centroamérica.",
-                  "Si llueve, entonces hace frío.",
-                  "Estudia y aprobarás.",
-                  "¿Qué hora es?"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "¿Cuál de las siguientes NO es una proposición?",
-              "options": [
-                  "¿Qué hora es?",
-                  "El agua hierve a 100 °C.",
-                  "2 + 2 = 4.",
-                  "Hoy es lunes."
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "¿Cuál es el símbolo del conectivo lógico 'y' (conjunción)?",
-              "options": [
-                  "∧",
-                  "∨",
-                  "→",
-                  "¬"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "¿Cuál es el símbolo del conectivo lógico 'o' (disyunción)?",
-              "options": [
-                  "∨",
-                  "∧",
-                  "→",
-                  "↔"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "La conjunción p ∧ q es verdadera únicamente cuando:",
-              "options": [
-                  "Ambas proposiciones son verdaderas",
-                  "Al menos una es verdadera",
-                  "Ambas son falsas",
-                  "Solo p es verdadera"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "La disyunción p ∨ q es falsa únicamente cuando:",
-              "options": [
-                  "Ambas proposiciones son falsas",
-                  "Ambas son verdaderas",
-                  "Solo p es verdadera",
-                  "Solo q es verdadera"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "El condicional p → q es falso únicamente cuando:",
-              "options": [
-                  "p es verdadera y q es falsa",
-                  "p es falsa y q es verdadera",
-                  "Ambas son verdaderas",
-                  "Ambas son falsas"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "El bicondicional p ↔ q es verdadero cuando:",
-              "options": [
-                  "Ambas tienen el mismo valor de verdad",
-                  "Una es verdadera y la otra falsa",
-                  "p es verdadera",
-                  "q es falsa"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "Si p es verdadera, la negación ¬p es:",
-              "options": [
-                  "Falsa",
-                  "Verdadera",
-                  "Indefinida",
-                  "Depende de otra variable"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "Con p = verdadera y q = verdadera, el valor de p ∧ q es:",
-              "options": [
-                  "Verdadero",
-                  "Falso",
-                  "Indefinido",
-                  "No se puede determinar"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "¿Qué es una tautología?",
-              "options": [
-                  "Una proposición compuesta que siempre es verdadera",
-                  "Una proposición que siempre es falsa",
-                  "Una proposición sin conectivos",
-                  "Una proposición con variables libres"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "¿Qué es una contradicción?",
-              "options": [
-                  "Una proposición que siempre es falsa",
-                  "Una proposición que siempre es verdadera",
-                  "Una proposición con dos negaciones",
-                  "Un enunciado sin valor de verdad"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "¿Qué es una contingencia?",
-              "options": [
-                  "Una proposición que es verdadera o falsa según los valores de las variables",
-                  "Una proposición siempre verdadera",
-                  "Una proposición siempre falsa",
-                  "Una proposición sin conectivos lógicos"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "Según la Ley de De Morgan, ¬(p ∧ q) es equivalente a:",
-              "options": [
-                  "¬p ∨ ¬q",
-                  "¬p ∧ ¬q",
-                  "p ∨ q",
-                  "¬(p ∨ q)"
-              ],
-              "correct": 0
-          }
-      ],
-      "u3": [
-          {
-              "id": 1,
-              "question": "¿Cuáles son los números naturales (N)?",
-              "options": [
-                  "{1, 2, 3, 4, ...}",
-                  "{0, 1, 2, 3, ...}",
-                  "{... -2, -1, 0, 1, 2, ...}",
-                  "{0, 1, 2, 3, ...} incluyendo fracciones"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "Los números enteros (Z) incluyen:",
-              "options": [
-                  "Negativos, cero y positivos",
-                  "Solo positivos",
-                  "Solo naturales",
-                  "Fracciones y decimales"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "¿Cuál de los siguientes es un número racional?",
-              "options": [
-                  "1/2",
-                  "√2",
-                  "π",
-                  "√3"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "¿Cuál de los siguientes es un número irracional?",
-              "options": [
-                  "√2",
-                  "0.75",
-                  "1/3",
-                  "-4"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "¿Cuál de los siguientes NO es un número real?",
-              "options": [
-                  "√(-4)",
-                  "-4",
-                  "0.5",
-                  "√2"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "Jerarquía de operaciones: el resultado de 2 + 3 × 4 es:",
-              "options": [
-                  "14",
-                  "20",
-                  "24",
-                  "9"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "El resultado de 12 ÷ 4 × 3 es:",
-              "options": [
-                  "9",
-                  "1",
-                  "3",
-                  "12"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "El resultado de 2³ + 1 es:",
-              "options": [
-                  "9",
-                  "7",
-                  "8",
-                  "6"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "El resultado de (2 + 3) × 4 es:",
-              "options": [
-                  "20",
-                  "14",
-                  "24",
-                  "16"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "El número decimal 0.5 expresado como fracción es:",
-              "options": [
-                  "1/2",
-                  "5/10",
-                  "2/5",
-                  "1/5"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "El número decimal 0.75 expresado como fracción irreductible es:",
-              "options": [
-                  "3/4",
-                  "7/5",
-                  "75/100",
-                  "4/3"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "En la sucesión aritmética 2, 5, 8, 11, ... el siguiente término es:",
-              "options": [
-                  "14",
-                  "12",
-                  "15",
-                  "13"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "En la sucesión aritmética 3, 7, 11, 15, ... el 5.º término es:",
-              "options": [
-                  "19",
-                  "18",
-                  "23",
-                  "21"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "En la sucesión geométrica 2, 6, 18, 54, ... el siguiente término es:",
-              "options": [
-                  "162",
-                  "108",
-                  "72",
-                  "60"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "Jerarquía de operaciones: el resultado de 3 × 2² + 1 es:",
-              "options": [
-                  "13",
-                  "37",
-                  "25",
-                  "15"
-              ],
-              "correct": 0
-          }
-      ],
-      "u4": [
-          {
-              "id": 1,
-              "question": "¿Qué es una razón?",
-              "options": [
-                  "La comparación entre dos cantidades mediante un cociente",
-                  "El resultado de una suma",
-                  "La diferencia entre dos números",
-                  "Un porcentaje siempre mayor a 100"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "Si 3 cajas cuestan Q18, ¿cuánto cuestan 5 cajas?",
-              "options": [
-                  "Q30",
-                  "Q25",
-                  "Q27",
-                  "Q33"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "¿Cuánto es el 25% de 200?",
-              "options": [
-                  "50",
-                  "25",
-                  "75",
-                  "40"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "Una camisa cuesta Q150 y tiene un descuento del 20%. ¿Cuál es el precio final?",
-              "options": [
-                  "Q120",
-                  "Q130",
-                  "Q110",
-                  "Q100"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "¿Cuál es el interés simple de Q1000 a 5% anual durante 2 años?",
-              "options": [
-                  "Q100",
-                  "Q50",
-                  "Q200",
-                  "Q25"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "En una variación directa, si y = 6 cuando x = 2 (y = kx), ¿cuánto vale y cuando x = 5?",
-              "options": [
-                  "15",
-                  "12",
-                  "10",
-                  "20"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "En una variación inversa, si y = 6 cuando x = 2 (y = k/x), ¿cuánto vale y cuando x = 4?",
-              "options": [
-                  "3",
-                  "12",
-                  "6",
-                  "24"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "¿Cuántos metros son 2.5 kilómetros?",
-              "options": [
-                  "2500 m",
-                  "250 m",
-                  "25 m",
-                  "25000 m"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "Si 1 pulgada equivale a 2.54 cm, ¿cuántos centímetros son 10 pulgadas?",
-              "options": [
-                  "25.4 cm",
-                  "10 cm",
-                  "254 cm",
-                  "2.54 cm"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "En la proporción 2/5 = x/20, el valor de x es:",
-              "options": [
-                  "8",
-                  "10",
-                  "5",
-                  "50"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "¿Qué porcentaje representa 30 de 120?",
-              "options": [
-                  "25%",
-                  "30%",
-                  "20%",
-                  "40%"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "Un producto cuesta Q80 y le aplican un aumento del 15%. ¿Cuál es el nuevo precio?",
-              "options": [
-                  "Q92",
-                  "Q95",
-                  "Q96",
-                  "Q90"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "Si 4 trabajadores tardan 6 días en una obra, ¿cuántos días tardarán 8 trabajadores (variación inversa)?",
-              "options": [
-                  "3 días",
-                  "12 días",
-                  "2 días",
-                  "6 días"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "¿Cuántos mililitros hay en 1 litro?",
-              "options": [
-                  "1000 ml",
-                  "100 ml",
-                  "10 ml",
-                  "10000 ml"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "Aproximadamente, ¿cuántas libras equivalen a 1 kilogramo?",
-              "options": [
-                  "2.2 lb",
-                  "1.5 lb",
-                  "3.5 lb",
-                  "5 lb"
-              ],
-              "correct": 0
-          }
-      ],
-      "u5": [
-          {
-              "id": 1,
-              "question": "¿Qué es un polinomio?",
-              "options": [
-                  "La suma de términos con variables y exponentes enteros no negativos",
-                  "Un número con decimales",
-                  "Cualquier expresión con raíces",
-                  "Una igualdad entre expresiones"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "¿Cuál es el grado del polinomio 3x² + 5x - 7?",
-              "options": [
-                  "2",
-                  "1",
-                  "3",
-                  "0"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "¿Cuál de los siguientes términos es semejante a 5x²?",
-              "options": [
-                  "-3x²",
-                  "5x",
-                  "5x³",
-                  "2x²y"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "El resultado de (2x + 3) + (4x + 5) es:",
-              "options": [
-                  "6x + 8",
-                  "6x + 15",
-                  "8x + 8",
-                  "6x² + 8"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "El resultado de (5x² + 2x) - (2x² + x) es:",
-              "options": [
-                  "3x² + x",
-                  "3x² + 3x",
-                  "7x² + x",
-                  "3x² - x"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "El resultado de 2x · 3x² es:",
-              "options": [
-                  "6x³",
-                  "6x²",
-                  "5x³",
-                  "6x"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "El producto notable (a + b)² es igual a:",
-              "options": [
-                  "a² + 2ab + b²",
-                  "a² + b²",
-                  "a² - 2ab + b²",
-                  "a² + ab + b²"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "El producto notable (a - b)² es igual a:",
-              "options": [
-                  "a² - 2ab + b²",
-                  "a² - b²",
-                  "a² + 2ab + b²",
-                  "a² - ab + b²"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "El producto notable (a + b)(a - b) es igual a:",
-              "options": [
-                  "a² - b²",
-                  "a² + b²",
-                  "a² - 2ab + b²",
-                  "a² + 2ab + b²"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "¿Qué es un monomio?",
-              "options": [
-                  "Una expresión algebraica de un solo término",
-                  "Una expresión de dos términos",
-                  "Un polinomio de grado dos",
-                  "Un número irracional"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "El desarrollo del Binomio de Newton (x + y)² es:",
-              "options": [
-                  "x² + 2xy + y²",
-                  "x² + y²",
-                  "x² - 2xy + y²",
-                  "x³ + 3x²y + 3xy² + y³"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "En el Triángulo de Pascal, la fila del desarrollo de (a + b)² es:",
-              "options": [
-                  "1 2 1",
-                  "1 1",
-                  "1 3 3 1",
-                  "1 2 3 1"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "En el Triángulo de Pascal, la fila de coeficientes de (a + b)³ es:",
-              "options": [
-                  "1 3 3 1",
-                  "1 2 1",
-                  "1 4 6 4 1",
-                  "1 1 1"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "El valor numérico de 2x² + 1 cuando x = 3 es:",
-              "options": [
-                  "19",
-                  "13",
-                  "37",
-                  "17"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "¿Cuál es el grado del monomio 4x⁵?",
-              "options": [
-                  "5",
-                  "4",
-                  "1",
-                  "20"
-              ],
-              "correct": 0
-          }
-      ],
-      "u6": [
-          {
-              "id": 1,
-              "question": "La solución de 2x + 3 = 11 es:",
-              "options": [
-                  "x = 4",
-                  "x = 7",
-                  "x = 3",
-                  "x = 5"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "La solución de 5x = 20 es:",
-              "options": [
-                  "x = 4",
-                  "x = 15",
-                  "x = 25",
-                  "x = 100"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "La solución de 3x - 6 = 9 es:",
-              "options": [
-                  "x = 5",
-                  "x = 1",
-                  "x = 9",
-                  "x = 3"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "Las soluciones de x² - 9 = 0 son:",
-              "options": [
-                  "x = 3 y x = -3",
-                  "x = 3 solamente",
-                  "x = 9 y x = -9",
-                  "x = 0 y x = 9"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "Las soluciones de x² - 5x + 6 = 0 son:",
-              "options": [
-                  "x = 2 y x = 3",
-                  "x = 1 y x = 6",
-                  "x = -2 y x = -3",
-                  "x = 5 y x = 6"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "Despejando r en la fórmula I = C·r·t se obtiene:",
-              "options": [
-                  "r = I/(C·t)",
-                  "r = C·I·t",
-                  "r = I·C·t",
-                  "r = (C·t)/I"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "La solución de la inecuación 2x > 6 es:",
-              "options": [
-                  "x > 3",
-                  "x < 3",
-                  "x ≥ 3",
-                  "x = 3"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "La solución de la inecuación x - 4 ≤ 1 es:",
-              "options": [
-                  "x ≤ 5",
-                  "x < 5",
-                  "x ≥ 5",
-                  "x = 5"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "En la recta numérica, la inecuación x > 2 se representa con:",
-              "options": [
-                  "Semirrecta abierta hacia la derecha",
-                  "Semirrecta cerrada hacia la derecha",
-                  "Semirrecta abierta hacia la izquierda",
-                  "Un punto en el 2"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "El intervalo [1, 5] incluye:",
-              "options": [
-                  "Los números del 1 al 5, incluidos 1 y 5",
-                  "Los números del 1 al 5, sin incluir 1 ni 5",
-                  "Solo el 1 y el 5",
-                  "Los números mayores a 5"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "El intervalo (2, 7) representa:",
-              "options": [
-                  "Los números entre 2 y 7 sin incluirlos",
-                  "Los números entre 2 y 7 incluidos",
-                  "Solo 2 y 7",
-                  "Los números menores a 2"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "Las soluciones de x² - 4 = 0 son:",
-              "options": [
-                  "x = 2 y x = -2",
-                  "x = 2 solamente",
-                  "x = 4 y x = -4",
-                  "x = 0 y x = 2"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "Las soluciones de x² + 2x - 8 = 0 son:",
-              "options": [
-                  "x = 2 y x = -4",
-                  "x = -2 y x = 4",
-                  "x = 8 y x = -1",
-                  "x = 1 y x = -8"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "¿Es x = 3 solución de la ecuación 2x + 1 = 7?",
-              "options": [
-                  "Sí",
-                  "No",
-                  "Solo si x es positivo",
-                  "No se puede determinar"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "El planteamiento 'el doble de un número más 5 es 13' se expresa y resuelve como:",
-              "options": [
-                  "2x + 5 = 13; x = 4",
-                  "x + 5 = 13; x = 8",
-                  "2x = 13; x = 6.5",
-                  "2(x + 5) = 13; x = 1.5"
-              ],
-              "correct": 0
-          }
-      ],
-      "u7": [
-          {
-              "id": 1,
-              "question": "La factorización de 6x + 12 por factor común es:",
-              "options": [
-                  "6(x + 2)",
-                  "2(3x + 6)",
-                  "6(x + 12)",
-                  "3(2x + 4)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "La factorización de 4x² + 8x por factor común es:",
-              "options": [
-                  "4x(x + 2)",
-                  "4x(x + 8)",
-                  "2x(2x + 4)",
-                  "4(x² + 2x)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "El factor común de 15x² y 20x es:",
-              "options": [
-                  "5x",
-                  "5x²",
-                  "15x",
-                  "3x"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "La factorización de x² - 9 es:",
-              "options": [
-                  "(x + 3)(x - 3)",
-                  "(x - 3)²",
-                  "(x + 3)²",
-                  "(x - 9)(x + 1)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "La factorización de 4x² - 25 es:",
-              "options": [
-                  "(2x + 5)(2x - 5)",
-                  "(4x + 5)(x - 5)",
-                  "(2x - 5)²",
-                  "(2x + 5)²"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "La factorización de x² - 16 es:",
-              "options": [
-                  "(x + 4)(x - 4)",
-                  "(x - 4)²",
-                  "(x + 4)²",
-                  "(x + 2)(x - 8)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "La factorización de x² + 6x + 9 es:",
-              "options": [
-                  "(x + 3)²",
-                  "(x - 3)²",
-                  "(x + 6)(x + 1)",
-                  "(x + 3)(x - 3)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "La factorización de x² + 5x + 6 es:",
-              "options": [
-                  "(x + 2)(x + 3)",
-                  "(x + 1)(x + 6)",
-                  "(x + 5)(x + 1)",
-                  "(x - 2)(x - 3)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "La factorización de x² - 4x - 12 es:",
-              "options": [
-                  "(x - 6)(x + 2)",
-                  "(x - 4)(x + 3)",
-                  "(x + 6)(x - 2)",
-                  "(x - 3)(x + 4)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "La factorización de 2x² + 5x + 2 es:",
-              "options": [
-                  "(2x + 1)(x + 2)",
-                  "(2x + 2)(x + 1)",
-                  "(x + 1)(2x + 3)",
-                  "(2x - 1)(x - 2)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "La factorización de x³ + 8 es:",
-              "options": [
-                  "(x + 2)(x² - 2x + 4)",
-                  "(x + 2)³",
-                  "(x + 2)(x² + 2x + 4)",
-                  "(x - 2)(x² + 2x + 4)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "La factorización de x³ - 27 es:",
-              "options": [
-                  "(x - 3)(x² + 3x + 9)",
-                  "(x - 3)³",
-                  "(x + 3)(x² - 3x + 9)",
-                  "(x - 27)(x + 1)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "La factorización por agrupación de ax + ay + bx + by es:",
-              "options": [
-                  "(a + b)(x + y)",
-                  "(a + x)(b + y)",
-                  "(a + b)(x - y)",
-                  "x(a + b) + y(a - b)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "Al simplificar la fracción algebraica (x² - 4)/(x - 2) se obtiene:",
-              "options": [
-                  "x + 2",
-                  "x - 2",
-                  "x² + 4",
-                  "x + 4"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "Al simplificar la fracción algebraica (x² + 5x + 6)/(x + 2) se obtiene:",
-              "options": [
-                  "x + 3",
-                  "x + 2",
-                  "x + 6",
-                  "x² + 3"
-              ],
-              "correct": 0
-          }
-      ],
-      "u8": [
-          {
-              "id": 1,
-              "question": "¿Qué es el dominio de una función?",
-              "options": [
-                  "El conjunto de valores de entrada (x) para los que está definida",
-                  "El conjunto de valores de salida (y)",
-                  "La gráfica de la función",
-                  "La pendiente de la recta"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "¿Qué es el rango de una función?",
-              "options": [
-                  "El conjunto de valores de salida (y) que toma la función",
-                  "El conjunto de valores de entrada",
-                  "El punto de corte con el eje x",
-                  "La variable independiente"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "En la función y = 2x + 1, la variable independiente es:",
-              "options": [
-                  "x",
-                  "y",
-                  "2",
-                  "1"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "En la función y = 2x + 1, la variable dependiente es:",
-              "options": [
-                  "y",
-                  "x",
-                  "2",
-                  "1"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "La gráfica de la función lineal y = 2x + 1 es:",
-              "options": [
-                  "Una línea recta",
-                  "Una parábola",
-                  "Una circunferencia",
-                  "Una hipérbola"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "La gráfica de la función cuadrática y = x² es:",
-              "options": [
-                  "Una parábola",
-                  "Una línea recta",
-                  "Un círculo",
-                  "Una línea quebrada"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "Si f(x) = 3x - 2, el valor de f(2) es:",
-              "options": [
-                  "4",
-                  "6",
-                  "3",
-                  "8"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "Si f(x) = x², el valor de f(-3) es:",
-              "options": [
-                  "9",
-                  "-9",
-                  "6",
-                  "-6"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "El dominio de f(x) = 1/x es:",
-              "options": [
-                  "Todos los reales excepto 0",
-                  "Todos los reales",
-                  "Solo los positivos",
-                  "Solo los negativos"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "La pendiente de la recta y = 3x + 5 es:",
-              "options": [
-                  "3",
-                  "5",
-                  "-3",
-                  "1"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "La intersección con el eje y de y = 3x + 5 es:",
-              "options": [
-                  "(0, 5)",
-                  "(5, 0)",
-                  "(0, 3)",
-                  "(3, 0)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "¿Es y = x² una función?",
-              "options": [
-                  "Sí, para cada x hay un solo valor de y",
-                  "No, porque es una parábola",
-                  "Solo si x es positiva",
-                  "No, porque la variable está al cuadrado"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "El vértice de la parábola y = x² es:",
-              "options": [
-                  "(0, 0)",
-                  "(1, 1)",
-                  "(0, 1)",
-                  "(1, 0)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "El vértice de la parábola y = x² + 3 es:",
-              "options": [
-                  "(0, 3)",
-                  "(3, 0)",
-                  "(0, 0)",
-                  "(3, 3)"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "La función constante y = 4 tiene por gráfica:",
-              "options": [
-                  "Una recta horizontal en y = 4",
-                  "Una recta vertical en x = 4",
-                  "Una parábola",
-                  "Una recta con pendiente 4"
-              ],
-              "correct": 0
-          }
-      ],
-      "u9": [
-          {
-              "id": 1,
-              "question": "¿Qué es un punto en geometría?",
-              "options": [
-                  "Tiene posición pero no dimensión",
-                  "Tiene largo y ancho",
-                  "Es una sucesión infinita de puntos",
-                  "Es una superficie plana"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "¿Qué es una recta?",
-              "options": [
-                  "Una sucesión infinita de puntos en una sola dirección",
-                  "Un segmento con dos extremos",
-                  "Un conjunto de puntos con ancho",
-                  "Una figura cerrada"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "¿Qué es un ángulo?",
-              "options": [
-                  "La figura formada por dos rayos con un origen común",
-                  "La distancia entre dos puntos",
-                  "La unión de tres segmentos",
-                  "Un arco de circunferencia"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "Un ángulo de 90° se clasifica como:",
-              "options": [
-                  "Recto",
-                  "Agudo",
-                  "Obtuso",
-                  "Llano"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "Un ángulo de 45° se clasifica como:",
-              "options": [
-                  "Agudo",
-                  "Recto",
-                  "Obtuso",
-                  "Llano"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "Un ángulo de 120° se clasifica como:",
-              "options": [
-                  "Obtuso",
-                  "Agudo",
-                  "Recto",
-                  "Llano"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "Un ángulo de 180° se clasifica como:",
-              "options": [
-                  "Llano",
-                  "Recto",
-                  "Agudo",
-                  "Obtuso"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "El perímetro de un cuadrado de lado 5 es:",
-              "options": [
-                  "20",
-                  "25",
-                  "10",
-                  "15"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "El área de un cuadrado de lado 5 es:",
-              "options": [
-                  "25",
-                  "20",
-                  "10",
-                  "50"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "El área de un rectángulo de 4 × 7 es:",
-              "options": [
-                  "28",
-                  "22",
-                  "14",
-                  "32"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "El perímetro de un rectángulo de 4 × 7 es:",
-              "options": [
-                  "22",
-                  "28",
-                  "14",
-                  "11"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "El área de un triángulo de base 6 y altura 4 es:",
-              "options": [
-                  "12",
-                  "24",
-                  "10",
-                  "48"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "El área de un círculo de radio 2 es:",
-              "options": [
-                  "4π",
-                  "2π",
-                  "8π",
-                  "π²"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "El volumen de un cubo de arista 3 es:",
-              "options": [
-                  "27",
-                  "9",
-                  "18",
-                  "6"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "La suma de los ángulos internos de un triángulo es:",
-              "options": [
-                  "180°",
-                  "90°",
-                  "360°",
-                  "270°"
-              ],
-              "correct": 0
-          }
-      ],
-      "u10": [
-          {
-              "id": 1,
-              "question": "El Teorema de Pitágoras establece que:",
-              "options": [
-                  "c² = a² + b² (con c la hipotenusa)",
-                  "a² = b² + c²",
-                  "c = a + b",
-                  "c² = a² - b²"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "En un triángulo rectángulo con catetos 3 y 4, la hipotenusa mide:",
-              "options": [
-                  "5",
-                  "7",
-                  "12",
-                  "25"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "En un triángulo rectángulo con catetos 6 y 8, la hipotenusa mide:",
-              "options": [
-                  "10",
-                  "14",
-                  "48",
-                  "2"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "Si la hipotenusa mide 13 y un cateto 5, el otro cateto mide:",
-              "options": [
-                  "12",
-                  "8",
-                  "18",
-                  "24"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "Dos triángulos son congruentes cuando:",
-              "options": [
-                  "Tienen la misma forma y el mismo tamaño",
-                  "Solo tienen los mismos ángulos",
-                  "Solo tienen los mismos lados proporcionales",
-                  "Sus ángulos suman 180°"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "Dos triángulos son semejantes cuando:",
-              "options": [
-                  "Tienen los mismos ángulos y sus lados son proporcionales",
-                  "Tienen exactamente el mismo tamaño",
-                  "Están dibujados en el mismo plano",
-                  "Sus lados son iguales"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "La razón trigonométrica seno de un ángulo se define como:",
-              "options": [
-                  "Cateto opuesto entre hipotenusa",
-                  "Cateto adyacente entre hipotenusa",
-                  "Cateto opuesto entre adyacente",
-                  "Hipotenusa entre cateto opuesto"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "La razón trigonométrica coseno de un ángulo se define como:",
-              "options": [
-                  "Cateto adyacente entre hipotenusa",
-                  "Cateto opuesto entre hipotenusa",
-                  "Cateto opuesto entre adyacente",
-                  "Hipotenusa entre cateto adyacente"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "La razón trigonométrica tangente de un ángulo se define como:",
-              "options": [
-                  "Cateto opuesto entre cateto adyacente",
-                  "Cateto adyacente entre hipotenusa",
-                  "Cateto opuesto entre hipotenusa",
-                  "Hipotenusa entre cateto adyacente"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "El valor de sen 30° es:",
-              "options": [
-                  "1/2",
-                  "√3/2",
-                  "1",
-                  "0"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "El valor de cos 60° es:",
-              "options": [
-                  "1/2",
-                  "√3/2",
-                  "1",
-                  "√2/2"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "El valor de tan 45° es:",
-              "options": [
-                  "1",
-                  "1/2",
-                  "√3",
-                  "0"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "La Ley de Senos se expresa como:",
-              "options": [
-                  "a/sen A = b/sen B = c/sen C",
-                  "a² = b² + c²",
-                  "a/sen B = b/sen A",
-                  "sen A/a = sen B/b + c"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "La Ley de Cosenos establece que c² es igual a:",
-              "options": [
-                  "a² + b² - 2ab·cos C",
-                  "a² + b² + 2ab·cos C",
-                  "a² - b²",
-                  "a² + b²"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "En un triángulo rectángulo, el valor de sen 90° es:",
-              "options": [
-                  "1",
-                  "0",
-                  "1/2",
-                  "√2/2"
-              ],
-              "correct": 0
-          }
-      ],
-      "u11": [
-          {
-              "id": 1,
-              "question": "¿Qué es la media aritmética?",
-              "options": [
-                  "La suma de los datos dividida entre el número de datos",
-                  "El dato que más se repite",
-                  "El valor central de los datos ordenados",
-                  "La diferencia entre el mayor y el menor"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 2,
-              "question": "La media de los datos {2, 4, 6, 8} es:",
-              "options": [
-                  "5",
-                  "6",
-                  "4",
-                  "20"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 3,
-              "question": "La media de los datos {5, 5, 5, 5} es:",
-              "options": [
-                  "5",
-                  "20",
-                  "4",
-                  "1"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 4,
-              "question": "La mediana de los datos {3, 5, 9, 12, 15} es:",
-              "options": [
-                  "9",
-                  "5",
-                  "12",
-                  "8"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 5,
-              "question": "La mediana de los datos {4, 8, 10, 14} es:",
-              "options": [
-                  "9",
-                  "10",
-                  "8",
-                  "11"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 6,
-              "question": "La moda de los datos {2, 3, 3, 3, 5, 7} es:",
-              "options": [
-                  "3",
-                  "2",
-                  "7",
-                  "No existe"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 7,
-              "question": "¿Qué es la moda?",
-              "options": [
-                  "El dato que se repite con mayor frecuencia",
-                  "El valor central ordenando los datos",
-                  "El promedio de los datos",
-                  "La suma de todos los datos"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 8,
-              "question": "¿Qué es la mediana?",
-              "options": [
-                  "El valor central después de ordenar los datos",
-                  "El dato más frecuente",
-                  "El promedio aritmético",
-                  "La diferencia entre máximo y mínimo"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 9,
-              "question": "El rango de los datos {4, 9, 3, 15} es:",
-              "options": [
-                  "12",
-                  "7",
-                  "6",
-                  "15"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 10,
-              "question": "La probabilidad de obtener cara al lanzar una moneda es:",
-              "options": [
-                  "1/2",
-                  "1",
-                  "1/4",
-                  "2/1"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 11,
-              "question": "La probabilidad de obtener un 6 al lanzar un dado es:",
-              "options": [
-                  "1/6",
-                  "1/2",
-                  "1/3",
-                  "6/6"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 12,
-              "question": "La probabilidad de sacar una carta roja de una baraja de 52 cartas (26 rojas) es:",
-              "options": [
-                  "1/2",
-                  "1/4",
-                  "1/52",
-                  "26/1"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 13,
-              "question": "El número de combinaciones C(4, 2) es:",
-              "options": [
-                  "6",
-                  "12",
-                  "4",
-                  "8"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 14,
-              "question": "El número de permutaciones P(3, 2) es:",
-              "options": [
-                  "6",
-                  "3",
-                  "9",
-                  "5"
-              ],
-              "correct": 0
-          },
-          {
-              "id": 15,
-              "question": "En una gráfica de barras, la altura de cada barra representa:",
-              "options": [
-                  "La frecuencia del dato",
-                  "El promedio de los datos",
-                  "La mediana",
-                  "El porcentaje acumulado"
               ],
               "correct": 0
           }
