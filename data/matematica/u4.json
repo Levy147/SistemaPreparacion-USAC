@@ -1,0 +1,172 @@
+{
+  "unit": "4",
+  "name": "Razones y Proporciones",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué es una razón?",
+      "options": [
+        "La comparación entre dos cantidades mediante un cociente",
+        "El resultado de una suma",
+        "La diferencia entre dos números",
+        "Un porcentaje siempre mayor a 100"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "Si 3 cajas cuestan Q18, ¿cuánto cuestan 5 cajas?",
+      "options": [
+        "Q30",
+        "Q25",
+        "Q27",
+        "Q33"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Cuánto es el 25% de 200?",
+      "options": [
+        "50",
+        "25",
+        "75",
+        "40"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "Una camisa cuesta Q150 y tiene un descuento del 20%. ¿Cuál es el precio final?",
+      "options": [
+        "Q120",
+        "Q130",
+        "Q110",
+        "Q100"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál es el interés simple de Q1000 a 5% anual durante 2 años?",
+      "options": [
+        "Q100",
+        "Q50",
+        "Q200",
+        "Q25"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "En una variación directa, si y = 6 cuando x = 2 (y = kx), ¿cuánto vale y cuando x = 5?",
+      "options": [
+        "15",
+        "12",
+        "10",
+        "20"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "En una variación inversa, si y = 6 cuando x = 2 (y = k/x), ¿cuánto vale y cuando x = 4?",
+      "options": [
+        "3",
+        "12",
+        "6",
+        "24"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Cuántos metros son 2.5 kilómetros?",
+      "options": [
+        "2500 m",
+        "250 m",
+        "25 m",
+        "25000 m"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "Si 1 pulgada equivale a 2.54 cm, ¿cuántos centímetros son 10 pulgadas?",
+      "options": [
+        "25.4 cm",
+        "10 cm",
+        "254 cm",
+        "2.54 cm"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "En la proporción 2/5 = x/20, el valor de x es:",
+      "options": [
+        "8",
+        "10",
+        "5",
+        "50"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "¿Qué porcentaje representa 30 de 120?",
+      "options": [
+        "25%",
+        "30%",
+        "20%",
+        "40%"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "Un producto cuesta Q80 y le aplican un aumento del 15%. ¿Cuál es el nuevo precio?",
+      "options": [
+        "Q92",
+        "Q95",
+        "Q96",
+        "Q90"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "Si 4 trabajadores tardan 6 días en una obra, ¿cuántos días tardarán 8 trabajadores (variación inversa)?",
+      "options": [
+        "3 días",
+        "12 días",
+        "2 días",
+        "6 días"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Cuántos mililitros hay en 1 litro?",
+      "options": [
+        "1000 ml",
+        "100 ml",
+        "10 ml",
+        "10000 ml"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "Aproximadamente, ¿cuántas libras equivalen a 1 kilogramo?",
+      "options": [
+        "2.2 lb",
+        "1.5 lb",
+        "3.5 lb",
+        "5 lb"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

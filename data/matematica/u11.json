@@ -1,0 +1,172 @@
+{
+  "unit": "11",
+  "name": "Estadística",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué es la media aritmética?",
+      "options": [
+        "La suma de los datos dividida entre el número de datos",
+        "El dato que más se repite",
+        "El valor central de los datos ordenados",
+        "La diferencia entre el mayor y el menor"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "La media de los datos {2, 4, 6, 8} es:",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "20"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "La media de los datos {5, 5, 5, 5} es:",
+      "options": [
+        "5",
+        "20",
+        "4",
+        "1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "La mediana de los datos {3, 5, 9, 12, 15} es:",
+      "options": [
+        "9",
+        "5",
+        "12",
+        "8"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "La mediana de los datos {4, 8, 10, 14} es:",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "11"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "La moda de los datos {2, 3, 3, 3, 5, 7} es:",
+      "options": [
+        "3",
+        "2",
+        "7",
+        "No existe"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "¿Qué es la moda?",
+      "options": [
+        "El dato que se repite con mayor frecuencia",
+        "El valor central ordenando los datos",
+        "El promedio de los datos",
+        "La suma de todos los datos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Qué es la mediana?",
+      "options": [
+        "El valor central después de ordenar los datos",
+        "El dato más frecuente",
+        "El promedio aritmético",
+        "La diferencia entre máximo y mínimo"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "El rango de los datos {4, 9, 3, 15} es:",
+      "options": [
+        "12",
+        "7",
+        "6",
+        "15"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "La probabilidad de obtener cara al lanzar una moneda es:",
+      "options": [
+        "1/2",
+        "1",
+        "1/4",
+        "2/1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "La probabilidad de obtener un 6 al lanzar un dado es:",
+      "options": [
+        "1/6",
+        "1/2",
+        "1/3",
+        "6/6"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "La probabilidad de sacar una carta roja de una baraja de 52 cartas (26 rojas) es:",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/52",
+        "26/1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "El número de combinaciones C(4, 2) es:",
+      "options": [
+        "6",
+        "12",
+        "4",
+        "8"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "El número de permutaciones P(3, 2) es:",
+      "options": [
+        "6",
+        "3",
+        "9",
+        "5"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "En una gráfica de barras, la altura de cada barra representa:",
+      "options": [
+        "La frecuencia del dato",
+        "El promedio de los datos",
+        "La mediana",
+        "El porcentaje acumulado"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

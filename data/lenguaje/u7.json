@@ -1,0 +1,314 @@
+{
+  "unit": "7",
+  "name": "Examen Final (Simulación)",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿En qué consiste la característica de la adecuación para que un discurso sea comprendido eficazmente por los receptores?",
+      "options": [
+        "El uso de rimas.",
+        "El tono de la voz.",
+        "La especificidad del texto.",
+        "El ajuste al público."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 2,
+      "question": "Dos amigos conversan fluidamente a través de una videollamada; ambos se escuchan mutuamente y asienten con la cabeza demostrando que están de acuerdo. Para que la comunicación sea bidireccional y efectiva en esta charla, ¿cuáles de los siguientes elementos de la comunicación están presentes? (1. Emisor y receptor interactivos. 2. Canal auditivo y visual. 3. Retroalimentación).",
+      "options": [
+        "1, 2 y 3",
+        "2 y 3",
+        "1 y 3",
+        "1 y 2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál de las siguientes expresiones es la única que presenta vicio de dicción?",
+      "options": [
+        "Vimos a su perro en la carretera.",
+        "Compré una blusa de color azul.",
+        "Su padre fue al médico el jueves.",
+        "La casa de María es muy grande."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "¿Cómo se define el concepto general de signo en la semiótica?",
+      "options": [
+        "Es cualquier objeto que representa una realidad distinta.",
+        "Es un aviso que busca modificar una conducta.",
+        "Es la interpretación subjetiva de un fenómeno natural.",
+        "Es una imagen que guarda relación física directa."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "¿A qué se refiere la característica de arbitrariedad del signo lingüístico?",
+      "options": [
+        "Al orden secuencial de los sonidos del habla.",
+        "A la evolución de los términos en el tiempo.",
+        "Al vínculo inmotivado entre significado y significante.",
+        "A la libertad del hablante para crear palabras."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "question": "Durante una entrevista de trabajo, un candidato mueve nerviosamente las manos, evita el contacto visual con el reclutador y transpira, aunque sus respuestas habladas son correctas. ¿Qué tipo de comunicación está transmitiendo a través de sus gestos y postura? (1. Comunicación no verbal. 2. Comunicación kinésica. 3. Comunicación lingüística).",
+      "options": [
+        "2 y 3",
+        "1, 2 y 3",
+        "1 y 3",
+        "1 y 2"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 7,
+      "question": "¿Qué término emplea lenguaje connotativo para referirse a una persona que es sumamente ágil o veloz?",
+      "options": [
+        "Rayo",
+        "Rápido",
+        "Raudo",
+        "Hábil"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "En la oración: El profesor dijo que la respuesta correcta era la hipótesis no se sostiene y continuó con la explicación. ¿después de cuáles palabras hace falta colocar dos puntos y abrir comillas?",
+      "options": [
+        "Correcta y era",
+        "Dijo y que",
+        "Respuesta y correcta",
+        "Era y la"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "question": "¿Qué criterio normativo regula principalmente el empleo de letras mayúsculas en español?",
+      "options": [
+        "La posición sintáctica que ocupa cada palabra dentro del párrafo.",
+        "La función identificadora o distintiva que cumplen determinadas expresiones.",
+        "La clasificación morfológica de todas las palabras utilizadas en un texto.",
+        "La intención subjetiva que el autor desea transmitir al lector."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál de las siguientes oraciones lleva correctamente la conjunción a en el espacio en blanco?",
+      "options": [
+        "La secretaria ___ redactado el informe solicitado por la dirección.",
+        "Los aspirantes ingresaron temprano ___ las instalaciones universitarias.",
+        "El supervisor ___ revisado cuidadosamente todos los expedientes archivados.",
+        "La institución ___ desarrollado nuevos programas de formación profesional."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "question": "¿En cuál de las siguientes opciones aparecen solo palabras graves?",
+      "options": [
+        "Césped, volumen, escritorio",
+        "Sofá, mantel, pared",
+        "Camión, azúcar, cárcel",
+        "Brújula, imágenes, teléfono"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Cuál de las siguientes opciones es la única en que todas las palabras están correctamente escritas?",
+      "options": [
+        "Hazmerreir, descenso, ayuno, exhaltación",
+        "Almohada, membresia, atomo, contiguo",
+        "Inversión, asenso, escasez, admiración",
+        "Hallazgo, zanahoria, decisión, adyacente"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 13,
+      "question": "En la oración: La pesada vajilla de porcelana se guardó cuidadosamente en el armario. ¿Qué clase de sustantivo es la palabra subrayada?",
+      "options": [
+        "Sustantivo común, concreto, contable y colectivo",
+        "Sustantivo común, abstracto, contable e individual",
+        "Sustantivo común, concreto, no contable e individual",
+        "Sustantivo común, abstracto, no contable y colectivo"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Cuál de las siguientes opciones contiene un término cuya formación corresponde al proceso de parasíntesis por la unión de un lexema compuesto y un sufijo?",
+      "options": [
+        "Ropavejero",
+        "Pararrayos",
+        "Aguafiestas",
+        "Cumpleañero"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "¿En cuál de las siguientes oraciones la preposición en significa dentro de?",
+      "options": [
+        "Ella derramó el café caliente en la mesa de madera.",
+        "Ella vio una pequeña mancha de grasa en la alfombra.",
+        "Ella apoyó los codos cansados en el mostrador gris.",
+        "Ella vertió el agua purificada en la jarra de cristal."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 16,
+      "question": "¿Cómo se llama el elemento obligatorio del predicado que acompaña a los verbos ser o estar?",
+      "options": [
+        "Atributo",
+        "Complemento circunstancial",
+        "Objeto indirecto",
+        "Modificador directo"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 17,
+      "question": "En las expresiones que aparecen como opciones de respuesta, ¿en cuál de ellas se hace un mal uso del adverbio de lugar?",
+      "options": [
+        "Pon los libros pesados bien arriba por favor.",
+        "Pon los libros pesados encima de la mesa gris.",
+        "Pon los libros pesados arriba de la mesa gris.",
+        "Pon los libros pesados allá arriba en el mueble."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "question": "En las formas idénticas \"la\" o \"las\", ¿cómo se reconoce el artículo del pronombre?",
+      "options": [
+        "El artículo es una palabra invariable y el pronombre cambia siempre.",
+        "El artículo va en el predicado y el pronombre se ubica en el sujeto.",
+        "El artículo acompaña al sustantivo y el pronombre acompaña al verbo.",
+        "El artículo expresa género y el pronombre indica siempre el tiempo."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "question": "En la oración; \"Dijo que vendría\". ¿Qué clase de palabra es \"que\"?",
+      "options": [
+        "Un adjetivo de tipo calificativo.",
+        "Una preposición de enlace.",
+        "Un pronombre personal átono.",
+        "Una conjunción subordinante."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 20,
+      "question": "Desde el punto de vista conceptual, ¿cómo se construyen las palabras derivadas?",
+      "options": [
+        "Se añade un morfema de género a una palabra compuesta.",
+        "Se aplican dos prefijos de sentidos contrarios sobre la raíz.",
+        "Se agrega un afijo a una raíz para modificar su sentido.",
+        "Se une una raíz a otra idéntica mediante un infijo de enlace."
+      ],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "question": "¿A qué se refiere específicamente el concepto de ambiente al análisis de un texto narrativo?",
+      "options": [
+        "Al orden cronológico de todos los eventos.",
+        "Al lugar físico donde se ubica la intriga.",
+        "Al estrato socioeconómico de los protagonistas.",
+        "A la atmósfera psicológica y emocional del texto."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "question": "¿Cuál es la definición de la claridad como propiedad de la redacción?",
+      "options": [
+        "La propiedad sintáctica que vigila la coincidencia de los accidentes.",
+        "La propiedad semántica que unifica el significado sobre un mismo tema.",
+        "La cualidad que consiste en expresar las ideas de forma directa y natural.",
+        "La cualidad que hace que un escrito sea inmediatamente comprensible."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 23,
+      "question": "¿Cómo se define conceptualmente a la cualidad que diferencia a una síntesis de un resumen?",
+      "options": [
+        "Subjetividad crítica",
+        "Estilo propio",
+        "Copia textual",
+        "Redacción literal"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 24,
+      "question": "Las oraciones que aparecen en forma desordenada a continuación forman parte de un párrafo de un ensayo académico: [Se presentan 5 oraciones sobre ambigüedad terminológica y mapeo de procesos]. De las siguientes opciones, ¿cuál es la secuencia u orden lógico correcto en que se deben colocar estas oraciones?",
+      "options": [
+        "3-2-5-1-4",
+        "5-1-2-3-4",
+        "3-1-5-2-4",
+        "3-5-1-2-4"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 25,
+      "question": "¿Qué clase de ficha es la siguiente? [Se presenta un fragmento textual de \"Cien años de soledad\" y luego un \"Resumen\" del mismo].",
+      "options": [
+        "Hemerográfica",
+        "De paráfrasis",
+        "Mixta",
+        "Bibliográfica"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 26,
+      "question": "¿Qué elemento diferencia a un mapa mental de un mapa conceptual?",
+      "options": [
+        "La presencia de llaves o corchetes para agrupar temas.",
+        "La inclusión obligatoria de fechas y periodos de tiempo.",
+        "El uso de filas horizontales para contrastar variables.",
+        "La organización radial de ideas mediante ramas e imágenes."
+      ],
+      "correct": 3
+    },
+    {
+      "id": 27,
+      "question": "¿Por qué la coherencia es importante en un párrafo?",
+      "options": [
+        "Porque permite que las oraciones giren en torno a un mismo tema.",
+        "Porque convierte el texto en un índice de capítulos.",
+        "Porque evita que el párrafo tenga solo una idea principal.",
+        "Porque permite que las frases aborden temas distintos."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 28,
+      "question": "En el enunciado: Los arqueólogos encontraron vasijas perfectamente conservadas en el ala norte de la excavación; ___, decidieron detener temporalmente la maquinaria pesada para evitar cualquier daño a las piezas recién descubiertas. ¿Cuál es la expresión correcta que se debe colocar en el espacio en blanco?",
+      "options": [
+        "por el contrario",
+        "por lo tanto",
+        "en conclusión",
+        "por ejemplo"
+      ],
+      "correct": 1
+    }
+  ]
+}

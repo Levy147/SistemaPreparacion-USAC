@@ -1,0 +1,172 @@
+{
+  "unit": "10",
+  "name": "Resolución de Triángulos",
+  "questions": [
+    {
+      "id": 1,
+      "question": "El Teorema de Pitágoras establece que:",
+      "options": [
+        "c² = a² + b² (con c la hipotenusa)",
+        "a² = b² + c²",
+        "c = a + b",
+        "c² = a² - b²"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "En un triángulo rectángulo con catetos 3 y 4, la hipotenusa mide:",
+      "options": [
+        "5",
+        "7",
+        "12",
+        "25"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "En un triángulo rectángulo con catetos 6 y 8, la hipotenusa mide:",
+      "options": [
+        "10",
+        "14",
+        "48",
+        "2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "Si la hipotenusa mide 13 y un cateto 5, el otro cateto mide:",
+      "options": [
+        "12",
+        "8",
+        "18",
+        "24"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Dos triángulos son congruentes cuando:",
+      "options": [
+        "Tienen la misma forma y el mismo tamaño",
+        "Solo tienen los mismos ángulos",
+        "Solo tienen los mismos lados proporcionales",
+        "Sus ángulos suman 180°"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "Dos triángulos son semejantes cuando:",
+      "options": [
+        "Tienen los mismos ángulos y sus lados son proporcionales",
+        "Tienen exactamente el mismo tamaño",
+        "Están dibujados en el mismo plano",
+        "Sus lados son iguales"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "La razón trigonométrica seno de un ángulo se define como:",
+      "options": [
+        "Cateto opuesto entre hipotenusa",
+        "Cateto adyacente entre hipotenusa",
+        "Cateto opuesto entre adyacente",
+        "Hipotenusa entre cateto opuesto"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "La razón trigonométrica coseno de un ángulo se define como:",
+      "options": [
+        "Cateto adyacente entre hipotenusa",
+        "Cateto opuesto entre hipotenusa",
+        "Cateto opuesto entre adyacente",
+        "Hipotenusa entre cateto adyacente"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "La razón trigonométrica tangente de un ángulo se define como:",
+      "options": [
+        "Cateto opuesto entre cateto adyacente",
+        "Cateto adyacente entre hipotenusa",
+        "Cateto opuesto entre hipotenusa",
+        "Hipotenusa entre cateto adyacente"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "El valor de sen 30° es:",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1",
+        "0"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "El valor de cos 60° es:",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1",
+        "√2/2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "El valor de tan 45° es:",
+      "options": [
+        "1",
+        "1/2",
+        "√3",
+        "0"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "La Ley de Senos se expresa como:",
+      "options": [
+        "a/sen A = b/sen B = c/sen C",
+        "a² = b² + c²",
+        "a/sen B = b/sen A",
+        "sen A/a = sen B/b + c"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "La Ley de Cosenos establece que c² es igual a:",
+      "options": [
+        "a² + b² - 2ab·cos C",
+        "a² + b² + 2ab·cos C",
+        "a² - b²",
+        "a² + b²"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "En un triángulo rectángulo, el valor de sen 90° es:",
+      "options": [
+        "1",
+        "0",
+        "1/2",
+        "√2/2"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

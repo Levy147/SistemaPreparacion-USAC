@@ -16,13 +16,23 @@
     {
       "id": 2,
       "question": "¿Cuál es la unidad de medida del trabajo?",
-      "options": ["Watt", "Newton", "Julio", "Kilogramo"],
+      "options": [
+        "Watt",
+        "Newton",
+        "Julio",
+        "Kilogramo"
+      ],
       "correct": 2
     },
     {
       "id": 3,
       "question": "Un objeto de 10 kg se eleva 5 metros. ¿Cuánto trabajo realiza la gravedad? (g = 10 m/s²)",
-      "options": ["-500 J", "500 J", "50 J", "2 J"],
+      "options": [
+        "-500 J",
+        "500 J",
+        "50 J",
+        "2 J"
+      ],
       "correct": 0
     },
     {
@@ -39,13 +49,23 @@
     {
       "id": 5,
       "question": "¿Cuál es la fórmula de la energía cinética?",
-      "options": ["Ec = mv", "Ec = ½mv²", "Ec = mgh", "Ec = Fd"],
+      "options": [
+        "Ec = mv",
+        "Ec = ½mv²",
+        "Ec = mgh",
+        "Ec = Fd"
+      ],
       "correct": 1
     },
     {
       "id": 6,
       "question": "Un objeto de 2 kg se mueve a 3 m/s. ¿Cuál es su energía cinética?",
-      "options": ["3 J", "6 J", "9 J", "12 J"],
+      "options": [
+        "3 J",
+        "6 J",
+        "9 J",
+        "12 J"
+      ],
       "correct": 2
     },
     {
@@ -62,7 +82,12 @@
     {
       "id": 8,
       "question": "Un objeto de 5 kg está a 10 m de altura. ¿Cuál es su energía potencial? (g = 10 m/s²)",
-      "options": ["50 J", "100 J", "250 J", "500 J"],
+      "options": [
+        "50 J",
+        "100 J",
+        "250 J",
+        "500 J"
+      ],
       "correct": 3
     },
     {
@@ -90,31 +115,56 @@
     {
       "id": 11,
       "question": "¿Cuál es la unidad de medida de la potencia?",
-      "options": ["Julio", "Newton", "Watt", "Kilogramo"],
+      "options": [
+        "Julio",
+        "Newton",
+        "Watt",
+        "Kilogramo"
+      ],
       "correct": 2
     },
     {
       "id": 12,
       "question": "Un motor realiza 1000 J de trabajo en 5 segundos. ¿Cuál es su potencia?",
-      "options": ["50 W", "100 W", "200 W", "5000 W"],
+      "options": [
+        "50 W",
+        "100 W",
+        "200 W",
+        "5000 W"
+      ],
       "correct": 2
     },
     {
       "id": 13,
       "question": "¿Qué fórmula relaciona trabajo, fuerza y desplazamiento?",
-      "options": ["T = F/d", "T = F × d", "T = F + d", "T = F - d"],
+      "options": [
+        "T = F/d",
+        "T = F × d",
+        "T = F + d",
+        "T = F - d"
+      ],
       "correct": 1
     },
     {
       "id": 14,
       "question": "Un objeto cae desde 20 m. ¿Cuál es su energía potencial en la parte superior? (m = 3 kg, g = 10 m/s²)",
-      "options": ["30 J", "60 J", "300 J", "600 J"],
+      "options": [
+        "30 J",
+        "60 J",
+        "300 J",
+        "600 J"
+      ],
       "correct": 2
     },
     {
       "id": 15,
       "question": "Si un objeto se duplica su velocidad, ¿cuánto cambia su energía cinética?",
-      "options": ["Se duplica", "Se cuadruplica", "Se triplica", "No cambia"],
+      "options": [
+        "Se duplica",
+        "Se cuadruplica",
+        "Se triplica",
+        "No cambia"
+      ],
       "correct": 1
     },
     {
@@ -131,31 +181,56 @@
     {
       "id": 17,
       "question": "Un objeto de 4 kg se mueve a 5 m/s. ¿Cuál es su energía cinética?",
-      "options": ["10 J", "20 J", "50 J", "100 J"],
+      "options": [
+        "10 J",
+        "20 J",
+        "50 J",
+        "100 J"
+      ],
       "correct": 2
     },
     {
       "id": 18,
       "question": "¿Qué sucede con la energía potencial cuando un objeto sube?",
-      "options": ["Disminuye", "Permanece igual", "Aumenta", "Se hace cero"],
+      "options": [
+        "Disminuye",
+        "Permanece igual",
+        "Aumenta",
+        "Se hace cero"
+      ],
       "correct": 2
     },
     {
       "id": 19,
       "question": "Un objeto de 2 kg se eleva 8 metros. ¿Cuánto trabajo realiza una fuerza vertical igual a su peso? (g = 10 m/s²)",
-      "options": ["16 J", "80 J", "160 J", "200 J"],
+      "options": [
+        "16 J",
+        "80 J",
+        "160 J",
+        "200 J"
+      ],
       "correct": 2
     },
     {
       "id": 20,
       "question": "La unidad Julio (J) equivale a:",
-      "options": ["1 N × 1 m", "1 kg × 1 m/s²", "1 W × 1 s", "Ambas A y C"],
+      "options": [
+        "1 N × 1 m",
+        "1 kg × 1 m/s²",
+        "1 W × 1 s",
+        "Ambas A y C"
+      ],
       "correct": 3
     },
     {
       "id": 21,
       "question": "Un objeto de 5 kg está en el suelo y se eleva a 3 metros. Su energía potencial final es: (g = 10 m/s²)",
-      "options": ["15 J", "30 J", "50 J", "150 J"],
+      "options": [
+        "15 J",
+        "30 J",
+        "50 J",
+        "150 J"
+      ],
       "correct": 3
     },
     {
@@ -172,19 +247,34 @@
     {
       "id": 23,
       "question": "Un motor de 200 W realiza trabajo durante 10 s. ¿Cuánto trabajo realiza?",
-      "options": ["20 J", "200 J", "2000 J", "20000 J"],
+      "options": [
+        "20 J",
+        "200 J",
+        "2000 J",
+        "20000 J"
+      ],
       "correct": 2
     },
     {
       "id": 24,
       "question": "¿Qué sucede con la energía cinética cuando un objeto sube verticalmente?",
-      "options": ["Aumenta", "Permanece igual", "Disminuye", "Se hace cero"],
+      "options": [
+        "Aumenta",
+        "Permanece igual",
+        "Disminuye",
+        "Se hace cero"
+      ],
       "correct": 2
     },
     {
       "id": 25,
       "question": "Un objeto de 10 kg se mueve a 4 m/s. ¿Cuál es su energía cinética?",
-      "options": ["20 J", "40 J", "80 J", "160 J"],
+      "options": [
+        "20 J",
+        "40 J",
+        "80 J",
+        "160 J"
+      ],
       "correct": 2
     },
     {
@@ -201,19 +291,34 @@
     {
       "id": 27,
       "question": "Un objeto de 6 kg está a 5 m de altura. ¿Cuál es su energía potencial? (g = 10 m/s²)",
-      "options": ["30 J", "60 J", "300 J", "600 J"],
+      "options": [
+        "30 J",
+        "60 J",
+        "300 J",
+        "600 J"
+      ],
       "correct": 2
     },
     {
       "id": 28,
       "question": "Si un objeto cae desde una altura, ¿qué tipo de energía se transforma en cinética?",
-      "options": ["Cinética en potencial", "Potencial en cinética", "Térmica en cinética", "Eléctrica en cinética"],
+      "options": [
+        "Cinética en potencial",
+        "Potencial en cinética",
+        "Térmica en cinética",
+        "Eléctrica en cinética"
+      ],
       "correct": 1
     },
     {
       "id": 29,
       "question": "Un motor realiza 500 J de trabajo en 10 s. ¿Cuál es su potencia?",
-      "options": ["5 W", "50 W", "500 W", "5000 W"],
+      "options": [
+        "5 W",
+        "50 W",
+        "500 W",
+        "5000 W"
+      ],
       "correct": 1
     },
     {
@@ -226,6 +331,28 @@
         "Trabajo y potencia"
       ],
       "correct": 2
+    },
+    {
+      "question": "Para mover una caja de masa 4 por la misma distancia horizontal y con la misma aceleración que una caja de masa 3, el trabajo realizado es:",
+      "options": [
+        "4/3 veces mayor (33.3% más)",
+        "3/4 veces menor (25% menos)",
+        "Igual",
+        "El doble"
+      ],
+      "correct": 0,
+      "id": 31
+    },
+    {
+      "question": "¿Cuál es la magnitud del trabajo realizado al empujar horizontalmente un objeto 12.5 m con una fuerza de 10.5 N?",
+      "options": [
+        "131.25 J",
+        "1.19 J",
+        "23 J",
+        "1312.5 J"
+      ],
+      "correct": 0,
+      "id": 32
     }
   ],
   "exercises": [
@@ -233,28 +360,48 @@
       "id": 1,
       "type": "fill",
       "question": "Un objeto de 5 kg se mueve a 6 m/s. Su energía cinética es Ec = ½(5)(6²) = _____.",
-      "options": ["15 J", "30 J", "60 J", "90 J"],
+      "options": [
+        "15 J",
+        "30 J",
+        "60 J",
+        "90 J"
+      ],
       "correct": 3
     },
     {
       "id": 2,
       "type": "fill",
       "question": "Un objeto de 8 kg está a 12 m de altura. Su energía potencial es Ep = 8 × 10 × 12 = _____.",
-      "options": ["80 J", "120 J", "480 J", "960 J"],
+      "options": [
+        "80 J",
+        "120 J",
+        "480 J",
+        "960 J"
+      ],
       "correct": 3
     },
     {
       "id": 3,
       "type": "fill",
       "question": "Se aplica una fuerza de 20 N a lo largo de 5 m. El trabajo realizado es T = _____.",
-      "options": ["4 J", "25 J", "100 J", "400 J"],
+      "options": [
+        "4 J",
+        "25 J",
+        "100 J",
+        "400 J"
+      ],
       "correct": 2
     },
     {
       "id": 4,
       "type": "fill",
       "question": "Un motor de 150 W trabaja durante 8 s. El trabajo realizado es _____.",
-      "options": ["18.75 J", "150 J", "1200 J", "9600 J"],
+      "options": [
+        "18.75 J",
+        "150 J",
+        "1200 J",
+        "9600 J"
+      ],
       "correct": 2
     },
     {
@@ -291,43 +438,96 @@
         "Igualar con la energía en el punto final",
         "Resolver para la incógnita"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 10,
       "type": "order",
       "question": "Ordena de menor a mayor energía cinética (misma masa):",
-      "items": ["v = 2 m/s", "v = 4 m/s", "v = 6 m/s"],
-      "correct": [0, 1, 2]
+      "items": [
+        "v = 2 m/s",
+        "v = 4 m/s",
+        "v = 6 m/s"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 11,
       "type": "match",
       "question": "Empareja cada tipo de energía con su fórmula:",
-      "left": ["Energía cinética", "Energía potencial gravitacional", "Trabajo", "Potencia"],
-      "right": ["½mv²", "mgh", "F × d", "T / t"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "Energía cinética",
+        "Energía potencial gravitacional",
+        "Trabajo",
+        "Potencia"
+      ],
+      "right": [
+        "½mv²",
+        "mgh",
+        "F × d",
+        "T / t"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 12,
       "type": "match",
       "question": "Empareja cada unidad con la magnitud que mide:",
-      "left": ["Julio", "Watt", "Newton", "Kilogramo"],
-      "right": ["Trabajo/ Energía", "Potencia", "Fuerza", "Masa"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "Julio",
+        "Watt",
+        "Newton",
+        "Kilogramo"
+      ],
+      "right": [
+        "Trabajo/ Energía",
+        "Potencia",
+        "Fuerza",
+        "Masa"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 13,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para la energía cinética?",
-      "options": ["Ec = mv²", "Ec = ½mv²", "Ec = mgh", "Ec = 2mv"],
+      "options": [
+        "Ec = mv²",
+        "Ec = ½mv²",
+        "Ec = mgh",
+        "Ec = 2mv"
+      ],
       "correct": 1
     },
     {
       "id": 14,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para la energía potencial gravitacional?",
-      "options": ["Ep = ½mv²", "Ep = mg/h", "Ep = mgh", "Ep = m + gh"],
+      "options": [
+        "Ep = ½mv²",
+        "Ep = mg/h",
+        "Ep = mgh",
+        "Ep = m + gh"
+      ],
       "correct": 2
     },
     {
@@ -340,15 +540,28 @@
       "id": 16,
       "type": "fill",
       "question": "Un objeto de 3 kg se deja caer desde 10 m. Su energía potencial en la parte superior es _____.",
-      "options": ["30 J", "100 J", "300 J", "3000 J"],
+      "options": [
+        "30 J",
+        "100 J",
+        "300 J",
+        "3000 J"
+      ],
       "correct": 2
     },
     {
       "id": 17,
       "type": "order",
       "question": "Ordena de menor a mayor potencia (mismo trabajo):",
-      "items": ["t = 10 s", "t = 5 s", "t = 2 s"],
-      "correct": [0, 1, 2]
+      "items": [
+        "t = 10 s",
+        "t = 5 s",
+        "t = 2 s"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 18,
@@ -366,13 +579,23 @@
         "Cinética",
         "Potencial elástica"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 19,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para la potencia?",
-      "options": ["P = T × t", "P = T / t", "P = T + t", "P = T - t"],
+      "options": [
+        "P = T × t",
+        "P = T / t",
+        "P = T + t",
+        "P = T - t"
+      ],
       "correct": 1
     },
     {
@@ -385,30 +608,63 @@
       "id": 21,
       "type": "fill",
       "question": "Se aplica una fuerza de 15 N a lo largo de 8 m. El trabajo es T = 15 × 8 = _____.",
-      "options": ["7 J", "23 J", "120 J", "150 J"],
+      "options": [
+        "7 J",
+        "23 J",
+        "120 J",
+        "150 J"
+      ],
       "correct": 2
     },
     {
       "id": 22,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para hallar el trabajo cuando la fuerza es perpendicular al desplazamiento?",
-      "options": ["T = F × d", "T = 0", "T = F / d", "T = F + d"],
+      "options": [
+        "T = F × d",
+        "T = 0",
+        "T = F / d",
+        "T = F + d"
+      ],
       "correct": 1
     },
     {
       "id": 23,
       "type": "order",
       "question": "Ordena de menor a mayor energía potencial (misma masa):",
-      "items": ["h = 2 m", "h = 5 m", "h = 10 m"],
-      "correct": [0, 1, 2]
+      "items": [
+        "h = 2 m",
+        "h = 5 m",
+        "h = 10 m"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 24,
       "type": "match",
       "question": "Empareja cada velocidad con su energía cinética (m = 2 kg):",
-      "left": ["1 m/s", "2 m/s", "3 m/s", "4 m/s"],
-      "right": ["1 J", "4 J", "9 J", "16 J"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "1 m/s",
+        "2 m/s",
+        "3 m/s",
+        "4 m/s"
+      ],
+      "right": [
+        "1 J",
+        "4 J",
+        "9 J",
+        "16 J"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 25,
@@ -420,30 +676,63 @@
       "id": 26,
       "type": "fill",
       "question": "Un objeto de 4 kg está a 6 m de altura. Su energía potencial es _____.",
-      "options": ["24 J", "60 J", "240 J", "2400 J"],
+      "options": [
+        "24 J",
+        "60 J",
+        "240 J",
+        "2400 J"
+      ],
       "correct": 2
     },
     {
       "id": 27,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para hallar el trabajo realizado por la gravedad al caer un objeto?",
-      "options": ["T = -mgh", "T = mgh", "T = ½mv²", "T = F/d"],
+      "options": [
+        "T = -mgh",
+        "T = mgh",
+        "T = ½mv²",
+        "T = F/d"
+      ],
       "correct": 1
     },
     {
       "id": 28,
       "type": "order",
       "question": "Ordena de menor a mayor trabajo (misma fuerza):",
-      "items": ["d = 2 m", "d = 5 m", "d = 10 m"],
-      "correct": [0, 1, 2]
+      "items": [
+        "d = 2 m",
+        "d = 5 m",
+        "d = 10 m"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 29,
       "type": "match",
       "question": "Empareja cada masa con su peso (g = 10 m/s²):",
-      "left": ["1 kg", "3 kg", "5 kg", "10 kg"],
-      "right": ["10 N", "30 N", "50 N", "100 N"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "1 kg",
+        "3 kg",
+        "5 kg",
+        "10 kg"
+      ],
+      "right": [
+        "10 N",
+        "30 N",
+        "50 N",
+        "100 N"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 30,

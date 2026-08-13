@@ -1,0 +1,172 @@
+{
+  "unit": "9",
+  "name": "Elementos Básicos de Geometría",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué es un punto en geometría?",
+      "options": [
+        "Tiene posición pero no dimensión",
+        "Tiene largo y ancho",
+        "Es una sucesión infinita de puntos",
+        "Es una superficie plana"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Qué es una recta?",
+      "options": [
+        "Una sucesión infinita de puntos en una sola dirección",
+        "Un segmento con dos extremos",
+        "Un conjunto de puntos con ancho",
+        "Una figura cerrada"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Qué es un ángulo?",
+      "options": [
+        "La figura formada por dos rayos con un origen común",
+        "La distancia entre dos puntos",
+        "La unión de tres segmentos",
+        "Un arco de circunferencia"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "Un ángulo de 90° se clasifica como:",
+      "options": [
+        "Recto",
+        "Agudo",
+        "Obtuso",
+        "Llano"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Un ángulo de 45° se clasifica como:",
+      "options": [
+        "Agudo",
+        "Recto",
+        "Obtuso",
+        "Llano"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "Un ángulo de 120° se clasifica como:",
+      "options": [
+        "Obtuso",
+        "Agudo",
+        "Recto",
+        "Llano"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "Un ángulo de 180° se clasifica como:",
+      "options": [
+        "Llano",
+        "Recto",
+        "Agudo",
+        "Obtuso"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "El perímetro de un cuadrado de lado 5 es:",
+      "options": [
+        "20",
+        "25",
+        "10",
+        "15"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "El área de un cuadrado de lado 5 es:",
+      "options": [
+        "25",
+        "20",
+        "10",
+        "50"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "El área de un rectángulo de 4 × 7 es:",
+      "options": [
+        "28",
+        "22",
+        "14",
+        "32"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "El perímetro de un rectángulo de 4 × 7 es:",
+      "options": [
+        "22",
+        "28",
+        "14",
+        "11"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "El área de un triángulo de base 6 y altura 4 es:",
+      "options": [
+        "12",
+        "24",
+        "10",
+        "48"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "El área de un círculo de radio 2 es:",
+      "options": [
+        "4π",
+        "2π",
+        "8π",
+        "π²"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "El volumen de un cubo de arista 3 es:",
+      "options": [
+        "27",
+        "9",
+        "18",
+        "6"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "La suma de los ángulos internos de un triángulo es:",
+      "options": [
+        "180°",
+        "90°",
+        "360°",
+        "270°"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

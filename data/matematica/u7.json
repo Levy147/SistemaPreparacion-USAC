@@ -1,0 +1,172 @@
+{
+  "unit": "7",
+  "name": "Factorización",
+  "questions": [
+    {
+      "id": 1,
+      "question": "La factorización de 6x + 12 por factor común es:",
+      "options": [
+        "6(x + 2)",
+        "2(3x + 6)",
+        "6(x + 12)",
+        "3(2x + 4)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "La factorización de 4x² + 8x por factor común es:",
+      "options": [
+        "4x(x + 2)",
+        "4x(x + 8)",
+        "2x(2x + 4)",
+        "4(x² + 2x)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "El factor común de 15x² y 20x es:",
+      "options": [
+        "5x",
+        "5x²",
+        "15x",
+        "3x"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "La factorización de x² - 9 es:",
+      "options": [
+        "(x + 3)(x - 3)",
+        "(x - 3)²",
+        "(x + 3)²",
+        "(x - 9)(x + 1)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "La factorización de 4x² - 25 es:",
+      "options": [
+        "(2x + 5)(2x - 5)",
+        "(4x + 5)(x - 5)",
+        "(2x - 5)²",
+        "(2x + 5)²"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "La factorización de x² - 16 es:",
+      "options": [
+        "(x + 4)(x - 4)",
+        "(x - 4)²",
+        "(x + 4)²",
+        "(x + 2)(x - 8)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "La factorización de x² + 6x + 9 es:",
+      "options": [
+        "(x + 3)²",
+        "(x - 3)²",
+        "(x + 6)(x + 1)",
+        "(x + 3)(x - 3)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "La factorización de x² + 5x + 6 es:",
+      "options": [
+        "(x + 2)(x + 3)",
+        "(x + 1)(x + 6)",
+        "(x + 5)(x + 1)",
+        "(x - 2)(x - 3)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "La factorización de x² - 4x - 12 es:",
+      "options": [
+        "(x - 6)(x + 2)",
+        "(x - 4)(x + 3)",
+        "(x + 6)(x - 2)",
+        "(x - 3)(x + 4)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "La factorización de 2x² + 5x + 2 es:",
+      "options": [
+        "(2x + 1)(x + 2)",
+        "(2x + 2)(x + 1)",
+        "(x + 1)(2x + 3)",
+        "(2x - 1)(x - 2)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "La factorización de x³ + 8 es:",
+      "options": [
+        "(x + 2)(x² - 2x + 4)",
+        "(x + 2)³",
+        "(x + 2)(x² + 2x + 4)",
+        "(x - 2)(x² + 2x + 4)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "La factorización de x³ - 27 es:",
+      "options": [
+        "(x - 3)(x² + 3x + 9)",
+        "(x - 3)³",
+        "(x + 3)(x² - 3x + 9)",
+        "(x - 27)(x + 1)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "La factorización por agrupación de ax + ay + bx + by es:",
+      "options": [
+        "(a + b)(x + y)",
+        "(a + x)(b + y)",
+        "(a + b)(x - y)",
+        "x(a + b) + y(a - b)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "Al simplificar la fracción algebraica (x² - 4)/(x - 2) se obtiene:",
+      "options": [
+        "x + 2",
+        "x - 2",
+        "x² + 4",
+        "x + 4"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "Al simplificar la fracción algebraica (x² + 5x + 6)/(x + 2) se obtiene:",
+      "options": [
+        "x + 3",
+        "x + 2",
+        "x + 6",
+        "x² + 3"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

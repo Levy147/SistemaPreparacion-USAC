@@ -1,0 +1,172 @@
+{
+  "unit": "6",
+  "name": "Ecuaciones e Inecuaciones",
+  "questions": [
+    {
+      "id": 1,
+      "question": "La solución de 2x + 3 = 11 es:",
+      "options": [
+        "x = 4",
+        "x = 7",
+        "x = 3",
+        "x = 5"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "La solución de 5x = 20 es:",
+      "options": [
+        "x = 4",
+        "x = 15",
+        "x = 25",
+        "x = 100"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "La solución de 3x - 6 = 9 es:",
+      "options": [
+        "x = 5",
+        "x = 1",
+        "x = 9",
+        "x = 3"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "Las soluciones de x² - 9 = 0 son:",
+      "options": [
+        "x = 3 y x = -3",
+        "x = 3 solamente",
+        "x = 9 y x = -9",
+        "x = 0 y x = 9"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Las soluciones de x² - 5x + 6 = 0 son:",
+      "options": [
+        "x = 2 y x = 3",
+        "x = 1 y x = 6",
+        "x = -2 y x = -3",
+        "x = 5 y x = 6"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "Despejando r en la fórmula I = C·r·t se obtiene:",
+      "options": [
+        "r = I/(C·t)",
+        "r = C·I·t",
+        "r = I·C·t",
+        "r = (C·t)/I"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "La solución de la inecuación 2x > 6 es:",
+      "options": [
+        "x > 3",
+        "x < 3",
+        "x ≥ 3",
+        "x = 3"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "La solución de la inecuación x - 4 ≤ 1 es:",
+      "options": [
+        "x ≤ 5",
+        "x < 5",
+        "x ≥ 5",
+        "x = 5"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "En la recta numérica, la inecuación x > 2 se representa con:",
+      "options": [
+        "Semirrecta abierta hacia la derecha",
+        "Semirrecta cerrada hacia la derecha",
+        "Semirrecta abierta hacia la izquierda",
+        "Un punto en el 2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "El intervalo [1, 5] incluye:",
+      "options": [
+        "Los números del 1 al 5, incluidos 1 y 5",
+        "Los números del 1 al 5, sin incluir 1 ni 5",
+        "Solo el 1 y el 5",
+        "Los números mayores a 5"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "El intervalo (2, 7) representa:",
+      "options": [
+        "Los números entre 2 y 7 sin incluirlos",
+        "Los números entre 2 y 7 incluidos",
+        "Solo 2 y 7",
+        "Los números menores a 2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "Las soluciones de x² - 4 = 0 son:",
+      "options": [
+        "x = 2 y x = -2",
+        "x = 2 solamente",
+        "x = 4 y x = -4",
+        "x = 0 y x = 2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "Las soluciones de x² + 2x - 8 = 0 son:",
+      "options": [
+        "x = 2 y x = -4",
+        "x = -2 y x = 4",
+        "x = 8 y x = -1",
+        "x = 1 y x = -8"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Es x = 3 solución de la ecuación 2x + 1 = 7?",
+      "options": [
+        "Sí",
+        "No",
+        "Solo si x es positivo",
+        "No se puede determinar"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "El planteamiento 'el doble de un número más 5 es 13' se expresa y resuelve como:",
+      "options": [
+        "2x + 5 = 13; x = 4",
+        "x + 5 = 13; x = 8",
+        "2x = 13; x = 6.5",
+        "2(x + 5) = 13; x = 1.5"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

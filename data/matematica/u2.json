@@ -1,0 +1,172 @@
+{
+  "unit": "2",
+  "name": "Lógica Matemática",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué es una proposición en lógica matemática?",
+      "options": [
+        "Un enunciado que puede ser verdadero o falso",
+        "Una pregunta sin respuesta",
+        "Una expresión con variables",
+        "Un pensamiento subjetivo"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál de las siguientes es una proposición simple?",
+      "options": [
+        "Guatemala está en Centroamérica.",
+        "Si llueve, entonces hace frío.",
+        "Estudia y aprobarás.",
+        "¿Qué hora es?"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál de las siguientes NO es una proposición?",
+      "options": [
+        "¿Qué hora es?",
+        "El agua hierve a 100 °C.",
+        "2 + 2 = 4.",
+        "Hoy es lunes."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es el símbolo del conectivo lógico 'y' (conjunción)?",
+      "options": [
+        "∧",
+        "∨",
+        "→",
+        "¬"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál es el símbolo del conectivo lógico 'o' (disyunción)?",
+      "options": [
+        "∨",
+        "∧",
+        "→",
+        "↔"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "La conjunción p ∧ q es verdadera únicamente cuando:",
+      "options": [
+        "Ambas proposiciones son verdaderas",
+        "Al menos una es verdadera",
+        "Ambas son falsas",
+        "Solo p es verdadera"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "La disyunción p ∨ q es falsa únicamente cuando:",
+      "options": [
+        "Ambas proposiciones son falsas",
+        "Ambas son verdaderas",
+        "Solo p es verdadera",
+        "Solo q es verdadera"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "El condicional p → q es falso únicamente cuando:",
+      "options": [
+        "p es verdadera y q es falsa",
+        "p es falsa y q es verdadera",
+        "Ambas son verdaderas",
+        "Ambas son falsas"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "El bicondicional p ↔ q es verdadero cuando:",
+      "options": [
+        "Ambas tienen el mismo valor de verdad",
+        "Una es verdadera y la otra falsa",
+        "p es verdadera",
+        "q es falsa"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "Si p es verdadera, la negación ¬p es:",
+      "options": [
+        "Falsa",
+        "Verdadera",
+        "Indefinida",
+        "Depende de otra variable"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "Con p = verdadera y q = verdadera, el valor de p ∧ q es:",
+      "options": [
+        "Verdadero",
+        "Falso",
+        "Indefinido",
+        "No se puede determinar"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Qué es una tautología?",
+      "options": [
+        "Una proposición compuesta que siempre es verdadera",
+        "Una proposición que siempre es falsa",
+        "Una proposición sin conectivos",
+        "Una proposición con variables libres"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "¿Qué es una contradicción?",
+      "options": [
+        "Una proposición que siempre es falsa",
+        "Una proposición que siempre es verdadera",
+        "Una proposición con dos negaciones",
+        "Un enunciado sin valor de verdad"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Qué es una contingencia?",
+      "options": [
+        "Una proposición que es verdadera o falsa según los valores de las variables",
+        "Una proposición siempre verdadera",
+        "Una proposición siempre falsa",
+        "Una proposición sin conectivos lógicos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "Según la Ley de De Morgan, ¬(p ∧ q) es equivalente a:",
+      "options": [
+        "¬p ∨ ¬q",
+        "¬p ∧ ¬q",
+        "p ∨ q",
+        "¬(p ∨ q)"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

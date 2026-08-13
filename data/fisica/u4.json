@@ -5,25 +5,45 @@
     {
       "id": 1,
       "question": "¿Qué tipo de movimiento realiza un proyectil lanzado horizontalmente?",
-      "options": ["MRU", "MUA", "Movimiento parabólico", "Movimiento circular"],
+      "options": [
+        "MRU",
+        "MUA",
+        "Movimiento parabólico",
+        "Movimiento circular"
+      ],
       "correct": 2
     },
     {
       "id": 2,
       "question": "En el movimiento parabólico, ¿cómo es la aceleración en el eje horizontal?",
-      "options": ["g = 10 m/s²", "g = -10 m/s²", "Cero", "Variable"],
+      "options": [
+        "g = 10 m/s²",
+        "g = -10 m/s²",
+        "Cero",
+        "Variable"
+      ],
       "correct": 2
     },
     {
       "id": 3,
       "question": "Un proyectil se lanza horizontalmente a 20 m/s desde una altura. ¿Cuál es su velocidad horizontal después de 3 segundos?",
-      "options": ["10 m/s", "20 m/s", "30 m/s", "50 m/s"],
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "30 m/s",
+        "50 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 4,
       "question": "En el movimiento circular uniforme, ¿cómo es la velocidad?",
-      "options": ["Variable en magnitud", "Constante en magnitud y dirección", "Constante en magnitud, variable en dirección", "Siempre cero"],
+      "options": [
+        "Variable en magnitud",
+        "Constante en magnitud y dirección",
+        "Constante en magnitud, variable en dirección",
+        "Siempre cero"
+      ],
       "correct": 2
     },
     {
@@ -40,139 +60,254 @@
     {
       "id": 6,
       "question": "Un proyectil se lanza a 45° con velocidad 20 m/s. ¿Cuál es su componente horizontal?",
-      "options": ["10 m/s", "14.14 m/s", "20 m/s", "40 m/s"],
+      "options": [
+        "10 m/s",
+        "14.14 m/s",
+        "20 m/s",
+        "40 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 7,
       "question": "En el MCU, el periodo T es el tiempo que tarda el objeto en completar:",
-      "options": ["Media vuelta", "Una vuelta completa", "Un cuarto de vuelta", "Dos vueltas"],
+      "options": [
+        "Media vuelta",
+        "Una vuelta completa",
+        "Un cuarto de vuelta",
+        "Dos vueltas"
+      ],
       "correct": 1
     },
     {
       "id": 8,
       "question": "Un proyectil se lanza horizontalmente a 15 m/s desde 20 m de altura. ¿Cuál es su velocidad vertical al impactar? (g = 10 m/s²)",
-      "options": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
+      "options": [
+        "10 m/s",
+        "15 m/s",
+        "20 m/s",
+        "25 m/s"
+      ],
       "correct": 2
     },
     {
       "id": 9,
       "question": "¿Qué tipo de aceleración tiene un objeto en movimiento circular uniforme?",
-      "options": ["Nula", "Constante en magnitud y dirección", "Constante en magnitud, variable en dirección", "Variable en magnitud y dirección"],
+      "options": [
+        "Nula",
+        "Constante en magnitud y dirección",
+        "Constante en magnitud, variable en dirección",
+        "Variable en magnitud y dirección"
+      ],
       "correct": 2
     },
     {
       "id": 10,
       "question": "Un proyectil se lanza a 30° con 10 m/s. Su componente vertical es:",
-      "options": ["5 m/s", "8.66 m/s", "10 m/s", "17.32 m/s"],
+      "options": [
+        "5 m/s",
+        "8.66 m/s",
+        "10 m/s",
+        "17.32 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 11,
       "question": "La velocidad de un proyectil en su punto más alto es:",
-      "options": ["Cero", "Igual a la velocidad inicial", "Solo la componente horizontal", "Solo la componente vertical"],
+      "options": [
+        "Cero",
+        "Igual a la velocidad inicial",
+        "Solo la componente horizontal",
+        "Solo la componente vertical"
+      ],
       "correct": 2
     },
     {
       "id": 12,
       "question": "¿Qué fórmula relaciona la velocidad lineal con la angular en MCU?",
-      "options": ["v = r × ω", "v = r / ω", "v = ω / r", "v = r + ω"],
+      "options": [
+        "v = r × ω",
+        "v = r / ω",
+        "v = ω / r",
+        "v = r + ω"
+      ],
       "correct": 0
     },
     {
       "id": 13,
       "question": "Un proyectil se lanza horizontalmente a 25 m/s. ¿Cuál es su velocidad horizontal a los 4 s?",
-      "options": ["10 m/s", "25 m/s", "40 m/s", "65 m/s"],
+      "options": [
+        "10 m/s",
+        "25 m/s",
+        "40 m/s",
+        "65 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 14,
       "question": "En el MCU, la aceleración centrípeta apunta:",
-      "options": ["Hacia afuera del centro", "Hacia el centro", "Tangencialmente", "En dirección opuesta al movimiento"],
+      "options": [
+        "Hacia afuera del centro",
+        "Hacia el centro",
+        "Tangencialmente",
+        "En dirección opuesta al movimiento"
+      ],
       "correct": 1
     },
     {
       "id": 15,
       "question": "¿Qué sucede con la componente horizontal de un proyectil si no hay resistencia del aire?",
-      "options": ["Aumenta", "Disminuye", "Permanece constante", "Se hace cero"],
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Permanece constante",
+        "Se hace cero"
+      ],
       "correct": 2
     },
     {
       "id": 16,
       "question": "Un proyectil se lanza a 60° con 30 m/s. ¿Cuál es su componente horizontal?",
-      "options": ["15 m/s", "25.98 m/s", "30 m/s", "51.96 m/s"],
+      "options": [
+        "15 m/s",
+        "25.98 m/s",
+        "30 m/s",
+        "51.96 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 17,
       "question": "El periodo de un objeto en MCU con radio 2 m y velocidad 10 m/s es:",
-      "options": ["0.628 s", "1.257 s", "2 s", "20 s"],
+      "options": [
+        "0.628 s",
+        "1.257 s",
+        "2 s",
+        "20 s"
+      ],
       "correct": 1
     },
     {
       "id": 18,
       "question": "Un proyectil se lanza horizontalmente. ¿Cuál es su aceleración vertical?",
-      "options": ["0 m/s²", "5 m/s²", "10 m/s²", "Variable"],
+      "options": [
+        "0 m/s²",
+        "5 m/s²",
+        "10 m/s²",
+        "Variable"
+      ],
       "correct": 2
     },
     {
       "id": 19,
       "question": "La frecuencia en MCU se define como:",
-      "options": ["El número de vueltas por unidad de tiempo", "El tiempo de una vuelta", "La distancia recorrida", "La velocidad angular"],
+      "options": [
+        "El número de vueltas por unidad de tiempo",
+        "El tiempo de una vuelta",
+        "La distancia recorrida",
+        "La velocidad angular"
+      ],
       "correct": 0
     },
     {
       "id": 20,
       "question": "Un proyectil se lanza a 45° con 20√2 m/s. Su componente vertical es:",
-      "options": ["10 m/s", "20 m/s", "28.28 m/s", "40 m/s"],
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "28.28 m/s",
+        "40 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 21,
       "question": "¿Qué relación hay entre frecuencia y periodo?",
-      "options": ["f = T", "f = 1/T", "f = T²", "f = 2T"],
+      "options": [
+        "f = T",
+        "f = 1/T",
+        "f = T²",
+        "f = 2T"
+      ],
       "correct": 1
     },
     {
       "id": 22,
       "question": "Un objeto en MCU recorre una circunferencia de radio 5 m. Si da una vuelta en 2 s, su velocidad lineal es:",
-      "options": ["5 m/s", "10 m/s", "15.7 m/s", "31.4 m/s"],
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "15.7 m/s",
+        "31.4 m/s"
+      ],
       "correct": 2
     },
     {
       "id": 23,
       "question": "En el movimiento parabólico, la trayectoria del proyectil es:",
-      "options": ["Una línea recta", "Un círculo", "Una parábola", "Una elipse"],
+      "options": [
+        "Una línea recta",
+        "Un círculo",
+        "Una parábola",
+        "Una elipse"
+      ],
       "correct": 2
     },
     {
       "id": 24,
       "question": "Un proyectil se lanza a 30° con 40 m/s. Su componente vertical es:",
-      "options": ["20 m/s", "34.64 m/s", "40 m/s", "69.28 m/s"],
+      "options": [
+        "20 m/s",
+        "34.64 m/s",
+        "40 m/s",
+        "69.28 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 25,
       "question": "En el MCU, si el radio aumenta y la velocidad se mantiene constante, el periodo:",
-      "options": ["Disminuye", "Permanece igual", "Aumenta", "Se hace cero"],
+      "options": [
+        "Disminuye",
+        "Permanece igual",
+        "Aumenta",
+        "Se hace cero"
+      ],
       "correct": 2
     },
     {
       "id": 26,
       "question": "Un proyectil se lanza horizontalmente a 10 m/s desde 45 m de altura. ¿Cuánto tiempo tarda en llegar al suelo? (g = 10 m/s²)",
-      "options": ["2 s", "3 s", "4.5 s", "9 s"],
+      "options": [
+        "2 s",
+        "3 s",
+        "4.5 s",
+        "9 s"
+      ],
       "correct": 1
     },
     {
       "id": 27,
       "question": "La velocidad angular ω se mide en:",
-      "options": ["m/s", "rad/s", "rev/s", "rad"],
+      "options": [
+        "m/s",
+        "rad/s",
+        "rev/s",
+        "rad"
+      ],
       "correct": 1
     },
     {
       "id": 28,
       "question": "Un proyectil se lanza a 60° con 20 m/s. Su componente horizontal es:",
-      "options": ["10 m/s", "17.32 m/s", "20 m/s", "34.64 m/s"],
+      "options": [
+        "10 m/s",
+        "17.32 m/s",
+        "20 m/s",
+        "34.64 m/s"
+      ],
       "correct": 1
     },
     {
@@ -189,8 +324,24 @@
     {
       "id": 30,
       "question": "Un objeto en MCU con ω = 5 rad/s y r = 3 m tiene velocidad lineal:",
-      "options": ["0.6 m/s", "1.67 m/s", "5 m/s", "15 m/s"],
+      "options": [
+        "0.6 m/s",
+        "1.67 m/s",
+        "5 m/s",
+        "15 m/s"
+      ],
       "correct": 3
+    },
+    {
+      "question": "Un proyectil se lanza con v₀ = 28 m/s y recorre x = 23 m en t = 2 s. ¿Cuál es la expresión para calcular su ángulo de lanzamiento?",
+      "options": [
+        "cos⁻¹(23/(28·2))",
+        "sen⁻¹(23/(28·2))",
+        "tan⁻¹(23/(28·2))",
+        "cos⁻¹(28·2/23)"
+      ],
+      "correct": 0,
+      "id": 31
     }
   ],
   "exercises": [
@@ -198,28 +349,48 @@
       "id": 1,
       "type": "fill",
       "question": "Un proyectil se lanza a 45° con 20 m/s. Su componente horizontal es Vx = 20 × cos(45°) = _____.",
-      "options": ["10 m/s", "14.14 m/s", "20 m/s", "28.28 m/s"],
+      "options": [
+        "10 m/s",
+        "14.14 m/s",
+        "20 m/s",
+        "28.28 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 2,
       "type": "fill",
       "question": "Un proyectil se lanza a 30° con 10 m/s. Su componente vertical es Vy = 10 × sen(30°) = _____.",
-      "options": ["5 m/s", "8.66 m/s", "10 m/s", "17.32 m/s"],
+      "options": [
+        "5 m/s",
+        "8.66 m/s",
+        "10 m/s",
+        "17.32 m/s"
+      ],
       "correct": 0
     },
     {
       "id": 3,
       "type": "fill",
       "question": "Un objeto en MCU con r = 4 m y ω = 3 rad/s tiene velocidad lineal v = _____.",
-      "options": ["0.75 m/s", "1.33 m/s", "7 m/s", "12 m/s"],
+      "options": [
+        "0.75 m/s",
+        "1.33 m/s",
+        "7 m/s",
+        "12 m/s"
+      ],
       "correct": 3
     },
     {
       "id": 4,
       "type": "fill",
       "question": "Un objeto en MCU completa una vuelta en 4 s. Su frecuencia es f = _____.",
-      "options": ["0.25 Hz", "0.5 Hz", "2 Hz", "4 Hz"],
+      "options": [
+        "0.25 Hz",
+        "0.5 Hz",
+        "2 Hz",
+        "4 Hz"
+      ],
       "correct": 0
     },
     {
@@ -256,14 +427,27 @@
         "Analizar el movimiento vertical por separado",
         "Combinar los resultados para hallar la trayectoria"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 10,
       "type": "order",
       "question": "Ordena de menor a mayor alcance horizontal (mismo ángulo, distintas velocidades):",
-      "items": ["v₀ = 10 m/s", "v₀ = 15 m/s", "v₀ = 20 m/s"],
-      "correct": [0, 1, 2]
+      "items": [
+        "v₀ = 10 m/s",
+        "v₀ = 15 m/s",
+        "v₀ = 20 m/s"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 11,
@@ -281,7 +465,12 @@
         "Cero",
         "g = 10 m/s²"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 12,
@@ -299,20 +488,35 @@
         "Frecuencia",
         "Aceleración centrípeta"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 13,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para la componente horizontal de un proyectil?",
-      "options": ["Vx = v₀ × sen(θ)", "Vx = v₀ × cos(θ)", "Vx = v₀ × tan(θ)", "Vx = v₀ / cos(θ)"],
+      "options": [
+        "Vx = v₀ × sen(θ)",
+        "Vx = v₀ × cos(θ)",
+        "Vx = v₀ × tan(θ)",
+        "Vx = v₀ / cos(θ)"
+      ],
       "correct": 1
     },
     {
       "id": 14,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para la aceleración centrípeta?",
-      "options": ["ac = v × r", "ac = v² / r", "ac = r / v²", "ac = v / r²"],
+      "options": [
+        "ac = v × r",
+        "ac = v² / r",
+        "ac = r / v²",
+        "ac = v / r²"
+      ],
       "correct": 1
     },
     {
@@ -325,29 +529,62 @@
       "id": 16,
       "type": "fill",
       "question": "Un proyectil se lanza a 60° con 20 m/s. La componente vertical es Vy = 20 × sen(60°) = _____.",
-      "options": ["10 m/s", "17.32 m/s", "20 m/s", "34.64 m/s"],
+      "options": [
+        "10 m/s",
+        "17.32 m/s",
+        "20 m/s",
+        "34.64 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 17,
       "type": "order",
       "question": "Ordena de menor a mayor velocidad lineal en MCU (mismo radio):",
-      "items": ["ω = 2 rad/s", "ω = 5 rad/s", "ω = 10 rad/s"],
-      "correct": [0, 1, 2]
+      "items": [
+        "ω = 2 rad/s",
+        "ω = 5 rad/s",
+        "ω = 10 rad/s"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 18,
       "type": "match",
       "question": "Empareja cada ángulo de lanzamiento con su componente vertical relativa:",
-      "left": ["30°", "45°", "60°", "90°"],
-      "right": ["v₀/2", "v₀√2/2", "v₀√3/2", "v₀"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "right": [
+        "v₀/2",
+        "v₀√2/2",
+        "v₀√3/2",
+        "v₀"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 19,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para el periodo en MCU?",
-      "options": ["T = 2πr × v", "T = 2πr / v", "T = 2πv / r", "T = r / 2πv"],
+      "options": [
+        "T = 2πr × v",
+        "T = 2πr / v",
+        "T = 2πv / r",
+        "T = r / 2πv"
+      ],
       "correct": 1
     },
     {
@@ -360,22 +597,40 @@
       "id": 21,
       "type": "fill",
       "question": "Un objeto en MCU con r = 2 m y T = 4 s tiene velocidad lineal v = _____.",
-      "options": ["π m/s", "2π m/s", "4π m/s", "8π m/s"],
+      "options": [
+        "π m/s",
+        "2π m/s",
+        "4π m/s",
+        "8π m/s"
+      ],
       "correct": 0
     },
     {
       "id": 22,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para la frecuencia en MCU?",
-      "options": ["f = T", "f = 1/T", "f = T²", "f = 2π/T"],
+      "options": [
+        "f = T",
+        "f = 1/T",
+        "f = T²",
+        "f = 2π/T"
+      ],
       "correct": 1
     },
     {
       "id": 23,
       "type": "order",
       "question": "Ordena de mayor a menor alcance horizontal (mismo v₀, distintos ángulos):",
-      "items": ["30°", "45°", "60°"],
-      "correct": [1, 0, 2]
+      "items": [
+        "30°",
+        "45°",
+        "60°"
+      ],
+      "correct": [
+        1,
+        0,
+        2
+      ]
     },
     {
       "id": 24,
@@ -393,7 +648,12 @@
         "MCU",
         "MCU"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 25,
@@ -405,22 +665,40 @@
       "id": 26,
       "type": "fill",
       "question": "Un proyectil se lanza a 45° con 20 m/s. La componente horizontal es Vx = _____.",
-      "options": ["10 m/s", "14.14 m/s", "20 m/s", "28.28 m/s"],
+      "options": [
+        "10 m/s",
+        "14.14 m/s",
+        "20 m/s",
+        "28.28 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 27,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para la velocidad angular?",
-      "options": ["ω = v × r", "ω = v / r", "ω = r / v", "ω = v² / r"],
+      "options": [
+        "ω = v × r",
+        "ω = v / r",
+        "ω = r / v",
+        "ω = v² / r"
+      ],
       "correct": 1
     },
     {
       "id": 28,
       "type": "order",
       "question": "Ordena de menor a mayor aceleración centrípeta (misma velocidad):",
-      "items": ["r = 10 m", "r = 5 m", "r = 2 m"],
-      "correct": [0, 1, 2]
+      "items": [
+        "r = 10 m",
+        "r = 5 m",
+        "r = 2 m"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 29,
@@ -438,7 +716,12 @@
         "ac = v² / r",
         "v = rω"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 30,

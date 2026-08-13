@@ -1,0 +1,46 @@
+[
+ {
+  "unit": "1",
+  "name": "Matemática Maya"
+ },
+ {
+  "unit": "2",
+  "name": "Lógica Matemática"
+ },
+ {
+  "unit": "3",
+  "name": "Conjuntos Numéricos"
+ },
+ {
+  "unit": "4",
+  "name": "Razones y Proporciones"
+ },
+ {
+  "unit": "5",
+  "name": "Terminología Algebraica"
+ },
+ {
+  "unit": "6",
+  "name": "Ecuaciones e Inecuaciones"
+ },
+ {
+  "unit": "7",
+  "name": "Factorización"
+ },
+ {
+  "unit": "8",
+  "name": "Funciones"
+ },
+ {
+  "unit": "9",
+  "name": "Elementos Básicos de Geometría"
+ },
+ {
+  "unit": "10",
+  "name": "Resolución de Triángulos"
+ },
+ {
+  "unit": "11",
+  "name": "Estadística"
+ }
+]

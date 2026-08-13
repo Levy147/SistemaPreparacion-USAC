@@ -1,0 +1,172 @@
+{
+  "unit": "1",
+  "name": "Matemática Maya",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿En qué base numérica se basa el sistema de numeración maya?",
+      "options": [
+        "Base 20 (vigesimal)",
+        "Base 10 (decimal)",
+        "Base 60 (sexagesimal)",
+        "Base 5 (quinario)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Qué símbolos utilizaban los mayas para representar los números?",
+      "options": [
+        "Puntos, rayas y concha",
+        "Círculos y cruces",
+        "Dígitos arábigos",
+        "Letras y palos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Qué valor tiene un punto en la numeración maya?",
+      "options": [
+        "1",
+        "5",
+        "10",
+        "20"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "¿Qué valor tiene una raya en la numeración maya?",
+      "options": [
+        "5",
+        "1",
+        "10",
+        "20"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Qué símbolo representaba el cero en la numeración maya?",
+      "options": [
+        "La concha",
+        "Un punto",
+        "Una raya",
+        "Una cruz"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "En la escritura maya, los números se acomodan de manera:",
+      "options": [
+        "Vertical, de abajo hacia arriba",
+        "Horizontal, de izquierda a derecha",
+        "Vertical, de arriba hacia abajo",
+        "En forma circular"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "En el sistema vigesimal maya, cada posición superior vale:",
+      "options": [
+        "20 veces la posición anterior",
+        "10 veces la posición anterior",
+        "100 veces la posición anterior",
+        "Lo mismo que la anterior"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Cómo se representa el número 7 en numeración maya?",
+      "options": [
+        "Una raya y dos puntos",
+        "Dos rayas y un punto",
+        "Siete puntos",
+        "Una concha y dos puntos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "¿Cómo se representa el número 13 en numeración maya?",
+      "options": [
+        "Dos rayas y tres puntos",
+        "Una raya y ocho puntos",
+        "Tres rayas y un punto",
+        "Una concha y tres puntos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "¿Cuántos días tenía el año civil maya (Haab)?",
+      "options": [
+        "365",
+        "360",
+        "260",
+        "400"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "¿Qué ciclo del calendario maya duraba 260 días?",
+      "options": [
+        "Tzolk'in (calendario sagrado)",
+        "Haab (año civil)",
+        "Tun",
+        "Katún"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Cuántos kines (días) equivalen a un tun?",
+      "options": [
+        "360",
+        "365",
+        "20",
+        "400"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "¿Cuántos tuns equivalen a un katún?",
+      "options": [
+        "20",
+        "10",
+        "100",
+        "5"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "Un número maya con 2 puntos en el primer nivel y 1 punto en el segundo nivel (sin concha de cero) equivale a:",
+      "options": [
+        "22",
+        "21",
+        "3",
+        "40"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "Si un número maya tiene 3 rayas en el primer nivel, su valor es:",
+      "options": [
+        "15",
+        "3",
+        "30",
+        "20"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

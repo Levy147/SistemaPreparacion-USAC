@@ -1,0 +1,172 @@
+{
+  "unit": "3",
+  "name": "Conjuntos Numéricos",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuáles son los números naturales (N)?",
+      "options": [
+        "{1, 2, 3, 4, ...}",
+        "{0, 1, 2, 3, ...}",
+        "{... -2, -1, 0, 1, 2, ...}",
+        "{0, 1, 2, 3, ...} incluyendo fracciones"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "Los números enteros (Z) incluyen:",
+      "options": [
+        "Negativos, cero y positivos",
+        "Solo positivos",
+        "Solo naturales",
+        "Fracciones y decimales"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál de los siguientes es un número racional?",
+      "options": [
+        "1/2",
+        "√2",
+        "π",
+        "√3"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál de los siguientes es un número irracional?",
+      "options": [
+        "√2",
+        "0.75",
+        "1/3",
+        "-4"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál de los siguientes NO es un número real?",
+      "options": [
+        "√(-4)",
+        "-4",
+        "0.5",
+        "√2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "Jerarquía de operaciones: el resultado de 2 + 3 × 4 es:",
+      "options": [
+        "14",
+        "20",
+        "24",
+        "9"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "El resultado de 12 ÷ 4 × 3 es:",
+      "options": [
+        "9",
+        "1",
+        "3",
+        "12"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "El resultado de 2³ + 1 es:",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "6"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "El resultado de (2 + 3) × 4 es:",
+      "options": [
+        "20",
+        "14",
+        "24",
+        "16"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "El número decimal 0.5 expresado como fracción es:",
+      "options": [
+        "1/2",
+        "5/10",
+        "2/5",
+        "1/5"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "El número decimal 0.75 expresado como fracción irreductible es:",
+      "options": [
+        "3/4",
+        "7/5",
+        "75/100",
+        "4/3"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "En la sucesión aritmética 2, 5, 8, 11, ... el siguiente término es:",
+      "options": [
+        "14",
+        "12",
+        "15",
+        "13"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "En la sucesión aritmética 3, 7, 11, 15, ... el 5.º término es:",
+      "options": [
+        "19",
+        "18",
+        "23",
+        "21"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "En la sucesión geométrica 2, 6, 18, 54, ... el siguiente término es:",
+      "options": [
+        "162",
+        "108",
+        "72",
+        "60"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "Jerarquía de operaciones: el resultado de 3 × 2² + 1 es:",
+      "options": [
+        "13",
+        "37",
+        "25",
+        "15"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

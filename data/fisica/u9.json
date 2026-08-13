@@ -27,25 +27,45 @@
     {
       "id": 3,
       "question": "En un choque inelástico, ¿qué se conserva?",
-      "options": ["Solo la energía cinética", "Solo la cantidad de movimiento", "Ambas", "Ninguna"],
+      "options": [
+        "Solo la energía cinética",
+        "Solo la cantidad de movimiento",
+        "Ambas",
+        "Ninguna"
+      ],
       "correct": 1
     },
     {
       "id": 4,
       "question": "Dos objetos de igual masa chocan frontalmente. El objeto 1 se mueve a 10 m/s y el 2 está en reposo. En un choque elástico, ¿cuál es la velocidad del objeto 1 después del choque?",
-      "options": ["10 m/s", "5 m/s", "0 m/s", "-10 m/s"],
+      "options": [
+        "10 m/s",
+        "5 m/s",
+        "0 m/s",
+        "-10 m/s"
+      ],
       "correct": 2
     },
     {
       "id": 5,
       "question": "¿Qué tipo de choque es más común en la vida real?",
-      "options": ["Perfectamente elástico", "Elástico", "Inelástico", "Ninguno"],
+      "options": [
+        "Perfectamente elástico",
+        "Elástico",
+        "Inelástico",
+        "Ninguno"
+      ],
       "correct": 2
     },
     {
       "id": 6,
       "question": "Un objeto de 2 kg se mueve a 5 m/s y choca con un objeto de 3 kg en reposo. En un choque perfectamente inelástico, ¿cuál es la velocidad final conjunta?",
-      "options": ["1 m/s", "2 m/s", "2.5 m/s", "5 m/s"],
+      "options": [
+        "1 m/s",
+        "2 m/s",
+        "2.5 m/s",
+        "5 m/s"
+      ],
       "correct": 1
     },
     {
@@ -73,73 +93,133 @@
     {
       "id": 9,
       "question": "Un auto de 1000 kg se mueve a 20 m/s y choca con un auto de 2000 kg en reposo. En un choque perfectamente inelástico, ¿cuál es la velocidad final?",
-      "options": ["6.67 m/s", "10 m/s", "13.33 m/s", "20 m/s"],
+      "options": [
+        "6.67 m/s",
+        "10 m/s",
+        "13.33 m/s",
+        "20 m/s"
+      ],
       "correct": 0
     },
     {
       "id": 10,
       "question": "¿Qué tipo de choque tiene el coeficiente de restitución e = 1?",
-      "options": ["Perfectamente inelástico", "Inelástico", "Elástico", "Ninguno"],
+      "options": [
+        "Perfectamente inelástico",
+        "Inelástico",
+        "Elástico",
+        "Ninguno"
+      ],
       "correct": 2
     },
     {
       "id": 11,
       "question": "¿Qué tipo de choque tiene el coeficiente de restitución e = 0?",
-      "options": ["Perfectamente inelástico", "Inelástico", "Elástico", "Ninguno"],
+      "options": [
+        "Perfectamente inelástico",
+        "Inelástico",
+        "Elástico",
+        "Ninguno"
+      ],
       "correct": 0
     },
     {
       "id": 12,
       "question": "Un objeto de 5 kg se mueve a 8 m/s y choca con un objeto de 5 kg en reposo. En un choque elástico, ¿cuál es la velocidad del segundo objeto después del choque?",
-      "options": ["0 m/s", "4 m/s", "8 m/s", "16 m/s"],
+      "options": [
+        "0 m/s",
+        "4 m/s",
+        "8 m/s",
+        "16 m/s"
+      ],
       "correct": 2
     },
     {
       "id": 13,
       "question": "En un choque perfectamente inelástico, la energía cinética final es:",
-      "options": ["Mayor que la inicial", "Igual a la inicial", "Menor que la inicial", "Siempre cero"],
+      "options": [
+        "Mayor que la inicial",
+        "Igual a la inicial",
+        "Menor que la inicial",
+        "Siempre cero"
+      ],
       "correct": 2
     },
     {
       "id": 14,
       "question": "Dos objetos de 3 kg y 6 kg chocan frontalmente. El de 3 kg se mueve a 12 m/s y el de 6 kg está en reposo. En un choque perfectamente inelástico, ¿cuál es la velocidad final?",
-      "options": ["2 m/s", "4 m/s", "6 m/s", "12 m/s"],
+      "options": [
+        "2 m/s",
+        "4 m/s",
+        "6 m/s",
+        "12 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 15,
       "question": "¿Qué tipo de choque es el rebote de una pelota de goma contra el piso?",
-      "options": ["Perfectamente inelástico", "Inelástico", "Aproximadamente elástico", "Ninguno"],
+      "options": [
+        "Perfectamente inelástico",
+        "Inelástico",
+        "Aproximadamente elástico",
+        "Ninguno"
+      ],
       "correct": 2
     },
     {
       "id": 16,
       "question": "Un objeto de 4 kg se mueve a 10 m/s y choca con un objeto de 6 kg en reposo. En un choque perfectamente inelástico, ¿cuál es la velocidad final?",
-      "options": ["2.5 m/s", "4 m/s", "6 m/s", "10 m/s"],
+      "options": [
+        "2.5 m/s",
+        "4 m/s",
+        "6 m/s",
+        "10 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 17,
       "question": "En un choque elástico, la energía cinética total:",
-      "options": ["Aumenta", "Disminuye", "Permanece constante", "Se hace cero"],
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Permanece constante",
+        "Se hace cero"
+      ],
       "correct": 2
     },
     {
       "id": 18,
       "question": "¿Qué tipo de choque es el de una bola de billar con otra?",
-      "options": ["Perfectamente inelástico", "Inelástico", "Aproximadamente elástico", "Ninguno"],
+      "options": [
+        "Perfectamente inelástico",
+        "Inelástico",
+        "Aproximadamente elástico",
+        "Ninguno"
+      ],
       "correct": 2
     },
     {
       "id": 19,
       "question": "Un objeto de 1 kg se mueve a 20 m/s y choca con un objeto de 4 kg en reposo. En un choque perfectamente inelástico, ¿cuál es la velocidad final?",
-      "options": ["2 m/s", "4 m/s", "5 m/s", "20 m/s"],
+      "options": [
+        "2 m/s",
+        "4 m/s",
+        "5 m/s",
+        "20 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 20,
       "question": "¿Qué fórmula se usa para la conservación de la cantidad de movimiento en choques?",
-      "options": ["m₁v₁ + m₂v₂ = 0", "m₁v₁ + m₂v₂ = (m₁ + m₂)v'", "v₁ + v₂ = v₁' + v₂'", "m₁v₁ = m₂v₂"],
+      "options": [
+        "m₁v₁ + m₂v₂ = 0",
+        "m₁v₁ + m₂v₂ = (m₁ + m₂)v'",
+        "v₁ + v₂ = v₁' + v₂'",
+        "m₁v₁ = m₂v₂"
+      ],
       "correct": 1
     },
     {
@@ -156,25 +236,45 @@
     {
       "id": 22,
       "question": "¿Qué tipo de choque es el de un auto que chocan contra una barrera y se deforman?",
-      "options": ["Elástico", "Inelástico", "Perfectamente elástico", "Ninguno"],
+      "options": [
+        "Elástico",
+        "Inelástico",
+        "Perfectamente elástico",
+        "Ninguno"
+      ],
       "correct": 1
     },
     {
       "id": 23,
       "question": "Dos objetos de igual masa chocan. El primero se mueve a 15 m/s y el segundo está en reposo. En un choque elástico, ¿cuál es la velocidad del segundo después del choque?",
-      "options": ["0 m/s", "7.5 m/s", "15 m/s", "30 m/s"],
+      "options": [
+        "0 m/s",
+        "7.5 m/s",
+        "15 m/s",
+        "30 m/s"
+      ],
       "correct": 2
     },
     {
       "id": 24,
       "question": "En un choque perfectamente inelástico, ¿qué se conserva?",
-      "options": ["Solo la energía cinética", "Solo la cantidad de movimiento", "Ambas", "Ninguna"],
+      "options": [
+        "Solo la energía cinética",
+        "Solo la cantidad de movimiento",
+        "Ambas",
+        "Ninguna"
+      ],
       "correct": 1
     },
     {
       "id": 25,
       "question": "Un objeto de 2 kg se mueve a 6 m/s y choca con un objeto de 3 kg en reposo. En un choque perfectamente inelástico, ¿cuál es la velocidad final?",
-      "options": ["1.2 m/s", "2.4 m/s", "3.6 m/s", "6 m/s"],
+      "options": [
+        "1.2 m/s",
+        "2.4 m/s",
+        "3.6 m/s",
+        "6 m/s"
+      ],
       "correct": 1
     },
     {
@@ -191,26 +291,57 @@
     {
       "id": 27,
       "question": "En un choque inelástico, la energía cinética perdida se transforma en:",
-      "options": ["Más energía cinética", "Calor, sonido y deformación", "Potencial gravitacional", "Nada, se conserva"],
+      "options": [
+        "Más energía cinética",
+        "Calor, sonido y deformación",
+        "Potencial gravitacional",
+        "Nada, se conserva"
+      ],
       "correct": 1
     },
     {
       "id": 28,
       "question": "Un objeto de 3 kg se mueve a 10 m/s y choca con un objeto de 6 kg en reposo. En un choque perfectamente inelástico, ¿cuál es la velocidad final?",
-      "options": ["1.67 m/s", "3.33 m/s", "5 m/s", "10 m/s"],
+      "options": [
+        "1.67 m/s",
+        "3.33 m/s",
+        "5 m/s",
+        "10 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 29,
       "question": "¿Qué tipo de choque tiene el mayor pérdida de energía cinética?",
-      "options": ["Elástico", "Inelástico", "Perfectamente inelástico", "Todos pierden igual"],
+      "options": [
+        "Elástico",
+        "Inelástico",
+        "Perfectamente inelástico",
+        "Todos pierden igual"
+      ],
       "correct": 2
     },
     {
       "id": 30,
       "question": "Un objeto de 5 kg se mueve a 4 m/s y choca con un objeto de 5 kg en reposo. En un choque elástico, ¿cuál es la velocidad del primer objeto después del choque?",
-      "options": ["0 m/s", "2 m/s", "4 m/s", "8 m/s"],
+      "options": [
+        "0 m/s",
+        "2 m/s",
+        "4 m/s",
+        "8 m/s"
+      ],
       "correct": 0
+    },
+    {
+      "question": "Un auto de 1900 kg que viaja a 7 m/s choca de forma inelástica contra un auto detenido de 8000 kg. ¿Cuál es la velocidad del conjunto tras el choque?",
+      "options": [
+        "1.34 m/s",
+        "1.72 m/s",
+        "7 m/s",
+        "0.27 m/s"
+      ],
+      "correct": 0,
+      "id": 31
     }
   ],
   "exercises": [
@@ -218,28 +349,48 @@
       "id": 1,
       "type": "fill",
       "question": "Un objeto de 3 kg se mueve a 10 m/s y choca con otro de 7 kg en reposo (choque perfectamente inelástico). La velocidad final es v' = (3 × 10) / (3 + 7) = _____.",
-      "options": ["1 m/s", "3 m/s", "5 m/s", "10 m/s"],
+      "options": [
+        "1 m/s",
+        "3 m/s",
+        "5 m/s",
+        "10 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 2,
       "type": "fill",
       "question": "Dos objetos de 2 kg y 3 kg se mueven a 8 m/s y 4 m/s respectivamente (mismo sentido). En un choque perfectamente inelástico, la velocidad final es _____.",
-      "options": ["4.8 m/s", "5.6 m/s", "6 m/s", "12 m/s"],
+      "options": [
+        "4.8 m/s",
+        "5.6 m/s",
+        "6 m/s",
+        "12 m/s"
+      ],
       "correct": 1
     },
     {
       "id": 3,
       "type": "fill",
       "question": "Un objeto de 5 kg se mueve a 12 m/s y choca con otro de 5 kg en reposo (choque elástico). La velocidad del segundo objeto después del choque es _____.",
-      "options": ["0 m/s", "6 m/s", "12 m/s", "24 m/s"],
+      "options": [
+        "0 m/s",
+        "6 m/s",
+        "12 m/s",
+        "24 m/s"
+      ],
       "correct": 2
     },
     {
       "id": 4,
       "type": "fill",
       "question": "Un objeto de 4 kg se mueve a 15 m/s y choca con otro de 6 kg en reposo (choque perfectamente inelástico). La velocidad final es _____.",
-      "options": ["4 m/s", "6 m/s", "9 m/s", "15 m/s"],
+      "options": [
+        "4 m/s",
+        "6 m/s",
+        "9 m/s",
+        "15 m/s"
+      ],
       "correct": 1
     },
     {
@@ -270,8 +421,16 @@
       "id": 9,
       "type": "order",
       "question": "Ordena los tipos de choque de mayor a menor pérdida de energía cinética:",
-      "items": ["Elástico", "Inelástico", "Perfectamente inelástico"],
-      "correct": [0, 1, 2]
+      "items": [
+        "Elástico",
+        "Inelástico",
+        "Perfectamente inelástico"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 10,
@@ -283,7 +442,12 @@
         "Factorizar la velocidad final",
         "Resolver para v'"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 11,
@@ -299,28 +463,54 @@
         "Se pierde energía cinética pero no se unen",
         "Los objetos se unen después del choque"
       ],
-      "correct": [0, 1, 2]
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 12,
       "type": "match",
       "question": "Empareja cada coeficiente de restitución con el tipo de choque:",
-      "left": ["e = 1", "0 < e < 1", "e = 0"],
-      "right": ["Elástico", "Inelástico", "Perfectamente inelástico"],
-      "correct": [0, 1, 2]
+      "left": [
+        "e = 1",
+        "0 < e < 1",
+        "e = 0"
+      ],
+      "right": [
+        "Elástico",
+        "Inelástico",
+        "Perfectamente inelástico"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 13,
       "type": "correct",
       "question": "¿Cuál es la fórmula para la velocidad final en un choque perfectamente inelástico con un objeto en reposo?",
-      "options": ["v' = m₁v₁ / m₂", "v' = m₁v₁ / (m₁ + m₂)", "v' = (m₁ + m₂) / m₁v₁", "v' = m₁v₁ × m₂"],
+      "options": [
+        "v' = m₁v₁ / m₂",
+        "v' = m₁v₁ / (m₁ + m₂)",
+        "v' = (m₁ + m₂) / m₁v₁",
+        "v' = m₁v₁ × m₂"
+      ],
       "correct": 1
     },
     {
       "id": 14,
       "type": "correct",
       "question": "¿Cuál es la fórmula del coeficiente de restitución?",
-      "options": ["e = (v₂' - v₁') / (v₁ - v₂)", "e = (v₁ - v₂) / (v₂' - v₁')", "e = v₁' / v₁", "e = v₂ / v₂'"],
+      "options": [
+        "e = (v₂' - v₁') / (v₁ - v₂)",
+        "e = (v₁ - v₂) / (v₂' - v₁')",
+        "e = v₁' / v₁",
+        "e = v₂ / v₂'"
+      ],
       "correct": 0
     },
     {
@@ -333,15 +523,28 @@
       "id": 16,
       "type": "fill",
       "question": "Un objeto de 6 kg se mueve a 8 m/s y choca con otro de 2 kg en reposo (choque perfectamente inelástico). La velocidad final es _____.",
-      "options": ["2 m/s", "4 m/s", "6 m/s", "8 m/s"],
+      "options": [
+        "2 m/s",
+        "4 m/s",
+        "6 m/s",
+        "8 m/s"
+      ],
       "correct": 2
     },
     {
       "id": 17,
       "type": "order",
       "question": "Ordena de menor a mayor velocidad final en choque perfectamente inelástico (mismo m₁v₁):",
-      "items": ["m₂ = 10 kg", "m₂ = 5 kg", "m₂ = 2 kg"],
-      "correct": [0, 1, 2]
+      "items": [
+        "m₂ = 10 kg",
+        "m₂ = 5 kg",
+        "m₂ = 2 kg"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 18,
@@ -359,13 +562,23 @@
         "Aproximadamente elástico",
         "Perfectamente inelástico"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 19,
       "type": "correct",
       "question": "¿Qué se conserva SIEMPRE en cualquier tipo de choque?",
-      "options": ["La energía cinética", "La cantidad de movimiento", "Ambas", "Ninguna"],
+      "options": [
+        "La energía cinética",
+        "La cantidad de movimiento",
+        "Ambas",
+        "Ninguna"
+      ],
       "correct": 1
     },
     {
@@ -378,7 +591,12 @@
       "id": 21,
       "type": "fill",
       "question": "Un objeto de 8 kg se mueve a 5 m/s y choca con otro de 4 kg en reposo (choque perfectamente inelástico). La velocidad final es _____.",
-      "options": ["1.67 m/s", "2.5 m/s", "3.33 m/s", "5 m/s"],
+      "options": [
+        "1.67 m/s",
+        "2.5 m/s",
+        "3.33 m/s",
+        "5 m/s"
+      ],
       "correct": 2
     },
     {
@@ -397,16 +615,39 @@
       "id": 23,
       "type": "order",
       "question": "Ordena de menor a mayor pérdida de energía cinética en choque perfectamente inelástico (mismo m₁v₁):",
-      "items": ["m₂ grande", "m₂ mediano", "m₂ pequeño"],
-      "correct": [2, 1, 0]
+      "items": [
+        "m₂ grande",
+        "m₂ mediano",
+        "m₂ pequeño"
+      ],
+      "correct": [
+        2,
+        1,
+        0
+      ]
     },
     {
       "id": 24,
       "type": "match",
       "question": "Empareja cada masas con la velocidad final en choque perfectamente inelástico (v₁ = 12 m/s, m₂ en reposo):",
-      "left": ["m₁ = 2 kg, m₂ = 4 kg", "m₁ = 3 kg, m₂ = 3 kg", "m₁ = 4 kg, m₂ = 2 kg", "m₁ = 1 kg, m₂ = 5 kg"],
-      "right": ["4 m/s", "6 m/s", "8 m/s", "2 m/s"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "m₁ = 2 kg, m₂ = 4 kg",
+        "m₁ = 3 kg, m₂ = 3 kg",
+        "m₁ = 4 kg, m₂ = 2 kg",
+        "m₁ = 1 kg, m₂ = 5 kg"
+      ],
+      "right": [
+        "4 m/s",
+        "6 m/s",
+        "8 m/s",
+        "2 m/s"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 25,
@@ -418,22 +659,40 @@
       "id": 26,
       "type": "fill",
       "question": "Un objeto de 10 kg se mueve a 6 m/s y choca con otro de 5 kg en reposo (choque perfectamente inelástico). La velocidad final es _____.",
-      "options": ["2 m/s", "3 m/s", "4 m/s", "6 m/s"],
+      "options": [
+        "2 m/s",
+        "3 m/s",
+        "4 m/s",
+        "6 m/s"
+      ],
       "correct": 2
     },
     {
       "id": 27,
       "type": "correct",
       "question": "¿Qué tipo de choque tiene coeficiente de restitución igual a cero?",
-      "options": ["Elástico", "Inelástico", "Perfectamente inelástico", "Ninguno"],
+      "options": [
+        "Elástico",
+        "Inelástico",
+        "Perfectamente inelástico",
+        "Ninguno"
+      ],
       "correct": 2
     },
     {
       "id": 28,
       "type": "order",
       "question": "Ordena de menor a mayor velocidad final en choque perfectamente inelástico (mismo m₂):",
-      "items": ["m₁ = 2 kg", "m₁ = 5 kg", "m₁ = 10 kg"],
-      "correct": [0, 1, 2]
+      "items": [
+        "m₁ = 2 kg",
+        "m₁ = 5 kg",
+        "m₁ = 10 kg"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 29,
@@ -449,7 +708,11 @@
         "Solo conservación de cantidad de movimiento",
         "Solo conservación de cantidad de movimiento"
       ],
-      "correct": [0, 1, 2]
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 30,

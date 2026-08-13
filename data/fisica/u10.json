@@ -1,0 +1,18 @@
+{
+  "unit": "10",
+  "name": "Conceptos Generales",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cómo se llama la energía generada por el flujo de electrones?",
+      "options": [
+        "Energía eléctrica",
+        "Energía cinética",
+        "Energía potencial",
+        "Energía térmica"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

@@ -1,0 +1,172 @@
+{
+  "unit": "8",
+  "name": "Funciones",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué es el dominio de una función?",
+      "options": [
+        "El conjunto de valores de entrada (x) para los que está definida",
+        "El conjunto de valores de salida (y)",
+        "La gráfica de la función",
+        "La pendiente de la recta"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Qué es el rango de una función?",
+      "options": [
+        "El conjunto de valores de salida (y) que toma la función",
+        "El conjunto de valores de entrada",
+        "El punto de corte con el eje x",
+        "La variable independiente"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "En la función y = 2x + 1, la variable independiente es:",
+      "options": [
+        "x",
+        "y",
+        "2",
+        "1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "En la función y = 2x + 1, la variable dependiente es:",
+      "options": [
+        "y",
+        "x",
+        "2",
+        "1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "La gráfica de la función lineal y = 2x + 1 es:",
+      "options": [
+        "Una línea recta",
+        "Una parábola",
+        "Una circunferencia",
+        "Una hipérbola"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "La gráfica de la función cuadrática y = x² es:",
+      "options": [
+        "Una parábola",
+        "Una línea recta",
+        "Un círculo",
+        "Una línea quebrada"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "Si f(x) = 3x - 2, el valor de f(2) es:",
+      "options": [
+        "4",
+        "6",
+        "3",
+        "8"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "Si f(x) = x², el valor de f(-3) es:",
+      "options": [
+        "9",
+        "-9",
+        "6",
+        "-6"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "El dominio de f(x) = 1/x es:",
+      "options": [
+        "Todos los reales excepto 0",
+        "Todos los reales",
+        "Solo los positivos",
+        "Solo los negativos"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "La pendiente de la recta y = 3x + 5 es:",
+      "options": [
+        "3",
+        "5",
+        "-3",
+        "1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "question": "La intersección con el eje y de y = 3x + 5 es:",
+      "options": [
+        "(0, 5)",
+        "(5, 0)",
+        "(0, 3)",
+        "(3, 0)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Es y = x² una función?",
+      "options": [
+        "Sí, para cada x hay un solo valor de y",
+        "No, porque es una parábola",
+        "Solo si x es positiva",
+        "No, porque la variable está al cuadrado"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "question": "El vértice de la parábola y = x² es:",
+      "options": [
+        "(0, 0)",
+        "(1, 1)",
+        "(0, 1)",
+        "(1, 0)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "question": "El vértice de la parábola y = x² + 3 es:",
+      "options": [
+        "(0, 3)",
+        "(3, 0)",
+        "(0, 0)",
+        "(3, 3)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "question": "La función constante y = 4 tiene por gráfica:",
+      "options": [
+        "Una recta horizontal en y = 4",
+        "Una recta vertical en x = 4",
+        "Una parábola",
+        "Una recta con pendiente 4"
+      ],
+      "correct": 0
+    }
+  ],
+  "exercises": []
+}

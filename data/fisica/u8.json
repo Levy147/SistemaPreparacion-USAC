@@ -16,13 +16,23 @@
     {
       "id": 2,
       "question": "¿Cuál es la unidad de medida de la cantidad de movimiento?",
-      "options": ["kg", "N", "kg·m/s", "J"],
+      "options": [
+        "kg",
+        "N",
+        "kg·m/s",
+        "J"
+      ],
       "correct": 2
     },
     {
       "id": 3,
       "question": "Un objeto de 5 kg se mueve a 10 m/s. ¿Cuál es su cantidad de movimiento?",
-      "options": ["0.5 kg·m/s", "2 kg·m/s", "50 kg·m/s", "500 kg·m/s"],
+      "options": [
+        "0.5 kg·m/s",
+        "2 kg·m/s",
+        "50 kg·m/s",
+        "500 kg·m/s"
+      ],
       "correct": 2
     },
     {
@@ -50,7 +60,12 @@
     {
       "id": 6,
       "question": "Un objeto de 10 kg se mueve a 5 m/s y se detiene en 2 segundos. ¿Cuál es el impulso?",
-      "options": ["10 N·s", "25 N·s", "50 N·s", "100 N·s"],
+      "options": [
+        "10 N·s",
+        "25 N·s",
+        "50 N·s",
+        "100 N·s"
+      ],
       "correct": 2
     },
     {
@@ -67,19 +82,34 @@
     {
       "id": 8,
       "question": "Un objeto de 3 kg se mueve a 20 m/s. ¿Cuál es su cantidad de movimiento?",
-      "options": ["6 kg·m/s", "17 kg·m/s", "23 kg·m/s", "60 kg·m/s"],
+      "options": [
+        "6 kg·m/s",
+        "17 kg·m/s",
+        "23 kg·m/s",
+        "60 kg·m/s"
+      ],
       "correct": 3
     },
     {
       "id": 9,
       "question": "¿Qué sucede con la cantidad de movimiento total en un choque si no hay fuerzas externas?",
-      "options": ["Aumenta", "Disminuye", "Permanece constante", "Se hace cero"],
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Permanece constante",
+        "Se hace cero"
+      ],
       "correct": 2
     },
     {
       "id": 10,
       "question": "Un objeto de 8 kg tiene una cantidad de movimiento de 40 kg·m/s. ¿Cuál es su velocidad?",
-      "options": ["2 m/s", "5 m/s", "8 m/s", "320 m/s"],
+      "options": [
+        "2 m/s",
+        "5 m/s",
+        "8 m/s",
+        "320 m/s"
+      ],
       "correct": 1
     },
     {
@@ -96,37 +126,67 @@
     {
       "id": 12,
       "question": "Una fuerza de 20 N actúa durante 3 segundos. ¿Cuál es el impulso?",
-      "options": ["6.67 N·s", "17 N·s", "23 N·s", "60 N·s"],
+      "options": [
+        "6.67 N·s",
+        "17 N·s",
+        "23 N·s",
+        "60 N·s"
+      ],
       "correct": 3
     },
     {
       "id": 13,
       "question": "Un objeto de 4 kg cambia su velocidad de 10 m/s a 0 m/s. ¿Cuál es el cambio de cantidad de movimiento?",
-      "options": ["40 kg·m/s", "20 kg·m/s", "10 kg·m/s", "0 kg·m/s"],
+      "options": [
+        "40 kg·m/s",
+        "20 kg·m/s",
+        "10 kg·m/s",
+        "0 kg·m/s"
+      ],
       "correct": 0
     },
     {
       "id": 14,
       "question": "¿Qué tipo de fuerzas son las que actúan durante un choque?",
-      "options": ["Fuerzas constantes", "Fuerzas de corto tiempo y gran magnitud", "Fuerzas gravitacionales", "Fuerzas elásticas"],
+      "options": [
+        "Fuerzas constantes",
+        "Fuerzas de corto tiempo y gran magnitud",
+        "Fuerzas gravitacionales",
+        "Fuerzas elásticas"
+      ],
       "correct": 1
     },
     {
       "id": 15,
       "question": "Un objeto de 6 kg se mueve a 8 m/s. ¿Cuál es su cantidad de movimiento?",
-      "options": ["14 kg·m/s", "48 kg·m/s", "75 kg·m/s", "384 kg·m/s"],
+      "options": [
+        "14 kg·m/s",
+        "48 kg·m/s",
+        "75 kg·m/s",
+        "384 kg·m/s"
+      ],
       "correct": 1
     },
     {
       "id": 16,
       "question": "Si un objeto duplica su velocidad, ¿cuánto cambia su cantidad de movimiento?",
-      "options": ["Se duplica", "Se cuadruplica", "No cambia", "Se reduce a la mitad"],
+      "options": [
+        "Se duplica",
+        "Se cuadruplica",
+        "No cambia",
+        "Se reduce a la mitad"
+      ],
       "correct": 0
     },
     {
       "id": 17,
       "question": "Un objeto de 10 kg recibe un impulso de 50 N·s. ¿Cuál es su cambio de velocidad?",
-      "options": ["0.2 m/s", "5 m/s", "50 m/s", "500 m/s"],
+      "options": [
+        "0.2 m/s",
+        "5 m/s",
+        "50 m/s",
+        "500 m/s"
+      ],
       "correct": 1
     },
     {
@@ -143,61 +203,111 @@
     {
       "id": 19,
       "question": "Un objeto de 2 kg se mueve a 15 m/s. ¿Cuál es su cantidad de movimiento?",
-      "options": ["7.5 kg·m/s", "30 kg·m/s", "300 kg·m/s", "450 kg·m/s"],
+      "options": [
+        "7.5 kg·m/s",
+        "30 kg·m/s",
+        "300 kg·m/s",
+        "450 kg·m/s"
+      ],
       "correct": 1
     },
     {
       "id": 20,
       "question": "El impulso se mide en:",
-      "options": ["kg", "N", "N·s", "J"],
+      "options": [
+        "kg",
+        "N",
+        "N·s",
+        "J"
+      ],
       "correct": 2
     },
     {
       "id": 21,
       "question": "Un objeto de 12 kg cambia su cantidad de movimiento de 60 kg·m/s a 20 kg·m/s. ¿Cuál es el impulso recibido?",
-      "options": ["40 N·s", "80 N·s", "60 N·s", "20 N·s"],
+      "options": [
+        "40 N·s",
+        "80 N·s",
+        "60 N·s",
+        "20 N·s"
+      ],
       "correct": 0
     },
     {
       "id": 22,
       "question": "¿Qué sucede con la cantidad de movimiento de un objeto cuando se le aplica una fuerza neta?",
-      "options": ["Permanece igual", "Aumenta o disminuye según la dirección de la fuerza", "Siempre aumenta", "Siempre disminuye"],
+      "options": [
+        "Permanece igual",
+        "Aumenta o disminuye según la dirección de la fuerza",
+        "Siempre aumenta",
+        "Siempre disminuye"
+      ],
       "correct": 1
     },
     {
       "id": 23,
       "question": "Un objeto de 5 kg se mueve a 12 m/s. ¿Cuál es su cantidad de movimiento?",
-      "options": ["2.4 kg·m/s", "7 kg·m/s", "60 kg·m/s", "720 kg·m/s"],
+      "options": [
+        "2.4 kg·m/s",
+        "7 kg·m/s",
+        "60 kg·m/s",
+        "720 kg·m/s"
+      ],
       "correct": 2
     },
     {
       "id": 24,
       "question": "¿Qué fórmula relaciona impulso, fuerza y tiempo?",
-      "options": ["I = F/t", "I = F × t", "I = F + t", "I = F - t"],
+      "options": [
+        "I = F/t",
+        "I = F × t",
+        "I = F + t",
+        "I = F - t"
+      ],
       "correct": 1
     },
     {
       "id": 25,
       "question": "Un objeto de 8 kg tiene una cantidad de movimiento de 32 kg·m/s. ¿Cuál es su velocidad?",
-      "options": ["4 m/s", "8 m/s", "24 m/s", "256 m/s"],
+      "options": [
+        "4 m/s",
+        "8 m/s",
+        "24 m/s",
+        "256 m/s"
+      ],
       "correct": 0
     },
     {
       "id": 26,
       "question": "¿Qué relación hay entre la fuerza y el cambio de cantidad de movimiento?",
-      "options": ["F = Δp / Δt", "F = p × t", "F = p / t", "F = p + t"],
+      "options": [
+        "F = Δp / Δt",
+        "F = p × t",
+        "F = p / t",
+        "F = p + t"
+      ],
       "correct": 0
     },
     {
       "id": 27,
       "question": "Un objeto de 3 kg se mueve a 25 m/s. ¿Cuál es su cantidad de movimiento?",
-      "options": ["8.33 kg·m/s", "22 kg·m/s", "75 kg·m/s", "750 kg·m/s"],
+      "options": [
+        "8.33 kg·m/s",
+        "22 kg·m/s",
+        "75 kg·m/s",
+        "750 kg·m/s"
+      ],
       "correct": 2
     },
     {
       "id": 28,
       "question": "Un objeto de 10 kg recibe un impulso de 30 N·s. ¿Cuál es su cambio de cantidad de movimiento?",
-      "options": ["3 kg·m/s", "10 kg·m/s", "30 kg·m/s", "300 kg·m/s"],
+      "options": [
+        "3 kg·m/s",
+        "10 kg·m/s",
+        "30 kg·m/s",
+        "300 kg·m/s"
+      ],
       "correct": 2
     },
     {
@@ -214,8 +324,24 @@
     {
       "id": 30,
       "question": "Un objeto de 7 kg se mueve a 6 m/s. ¿Cuál es su cantidad de movimiento?",
-      "options": ["13 kg·m/s", "42 kg·m/s", "420 kg·m/s", "252 kg·m/s"],
+      "options": [
+        "13 kg·m/s",
+        "42 kg·m/s",
+        "420 kg·m/s",
+        "252 kg·m/s"
+      ],
       "correct": 1
+    },
+    {
+      "question": "¿Qué rapidez necesita un corredor de 73 kg para tener una cantidad de movimiento de 750 kg·m/s?",
+      "options": [
+        "10.27 m/s",
+        "10.75 m/s",
+        "5.13 m/s",
+        "73 m/s"
+      ],
+      "correct": 0,
+      "id": 31
     }
   ],
   "exercises": [
@@ -223,28 +349,48 @@
       "id": 1,
       "type": "fill",
       "question": "Un objeto de 4 kg se mueve a 8 m/s. Su cantidad de movimiento es p = 4 × 8 = _____.",
-      "options": ["4 kg·m/s", "12 kg·m/s", "32 kg·m/s", "256 kg·m/s"],
+      "options": [
+        "4 kg·m/s",
+        "12 kg·m/s",
+        "32 kg·m/s",
+        "256 kg·m/s"
+      ],
       "correct": 2
     },
     {
       "id": 2,
       "type": "fill",
       "question": "Una fuerza de 25 N actúa durante 4 s. El impulso es I = 25 × 4 = _____.",
-      "options": ["6.25 N·s", "21 N·s", "29 N·s", "100 N·s"],
+      "options": [
+        "6.25 N·s",
+        "21 N·s",
+        "29 N·s",
+        "100 N·s"
+      ],
       "correct": 3
     },
     {
       "id": 3,
       "type": "fill",
       "question": "Un objeto de 10 kg cambia su velocidad de 12 m/s a 0. El cambio de cantidad de movimiento es _____.",
-      "options": ["120 kg·m/s", "60 kg·m/s", "10 kg·m/s", "0 kg·m/s"],
+      "options": [
+        "120 kg·m/s",
+        "60 kg·m/s",
+        "10 kg·m/s",
+        "0 kg·m/s"
+      ],
       "correct": 0
     },
     {
       "id": 4,
       "type": "fill",
       "question": "Un objeto de 6 kg tiene p = 30 kg·m/s. Su velocidad es v = _____.",
-      "options": ["5 m/s", "6 m/s", "24 m/s", "180 m/s"],
+      "options": [
+        "5 m/s",
+        "6 m/s",
+        "24 m/s",
+        "180 m/s"
+      ],
       "correct": 0
     },
     {
@@ -281,43 +427,96 @@
         "Escribir la ecuación de conservación",
         "Resolver para la incógnita"
       ],
-      "correct": [0, 1, 2, 3]
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 10,
       "type": "order",
       "question": "Ordena de menor a mayor cantidad de movimiento (misma masa):",
-      "items": ["v = 2 m/s", "v = 5 m/s", "v = 10 m/s"],
-      "correct": [0, 1, 2]
+      "items": [
+        "v = 2 m/s",
+        "v = 5 m/s",
+        "v = 10 m/s"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 11,
       "type": "match",
       "question": "Empareja cada concepto con su fórmula:",
-      "left": ["Cantidad de movimiento", "Impulso", "Segunda Ley (impulso)", "Velocidad"],
-      "right": ["p = mv", "I = Ft", "F = Δp/Δt", "v = p/m"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "Cantidad de movimiento",
+        "Impulso",
+        "Segunda Ley (impulso)",
+        "Velocidad"
+      ],
+      "right": [
+        "p = mv",
+        "I = Ft",
+        "F = Δp/Δt",
+        "v = p/m"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 12,
       "type": "match",
       "question": "Empareja cada unidad con la magnitud que mide:",
-      "left": ["kg·m/s", "N·s", "kg·m²/s", "N"],
-      "right": ["Cantidad de movimiento", "Impulso", "Momento angular", "Fuerza"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "kg·m/s",
+        "N·s",
+        "kg·m²/s",
+        "N"
+      ],
+      "right": [
+        "Cantidad de movimiento",
+        "Impulso",
+        "Momento angular",
+        "Fuerza"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 13,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para la cantidad de movimiento?",
-      "options": ["p = m/v", "p = mv", "p = v/m", "p = m + v"],
+      "options": [
+        "p = m/v",
+        "p = mv",
+        "p = v/m",
+        "p = m + v"
+      ],
       "correct": 1
     },
     {
       "id": 14,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para el impulso?",
-      "options": ["I = F/t", "I = Ft", "I = F + t", "I = F - t"],
+      "options": [
+        "I = F/t",
+        "I = Ft",
+        "I = F + t",
+        "I = F - t"
+      ],
       "correct": 1
     },
     {
@@ -330,29 +529,62 @@
       "id": 16,
       "type": "fill",
       "question": "Un objeto de 5 kg se mueve a 14 m/s. Su cantidad de movimiento es _____.",
-      "options": ["9 kg·m/s", "19 kg·m/s", "70 kg·m/s", "980 kg·m/s"],
+      "options": [
+        "9 kg·m/s",
+        "19 kg·m/s",
+        "70 kg·m/s",
+        "980 kg·m/s"
+      ],
       "correct": 2
     },
     {
       "id": 17,
       "type": "order",
       "question": "Ordena de menor a mayor impulso (misma fuerza):",
-      "items": ["t = 1 s", "t = 3 s", "t = 5 s"],
-      "correct": [0, 1, 2]
+      "items": [
+        "t = 1 s",
+        "t = 3 s",
+        "t = 5 s"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 18,
       "type": "match",
       "question": "Empareja cada cantidad de movimiento con su velocidad (m = 4 kg):",
-      "left": ["8 kg·m/s", "20 kg·m/s", "40 kg·m/s", "80 kg·m/s"],
-      "right": ["2 m/s", "5 m/s", "10 m/s", "20 m/s"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "8 kg·m/s",
+        "20 kg·m/s",
+        "40 kg·m/s",
+        "80 kg·m/s"
+      ],
+      "right": [
+        "2 m/s",
+        "5 m/s",
+        "10 m/s",
+        "20 m/s"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 19,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para hallar la fuerza a partir del cambio de cantidad de movimiento?",
-      "options": ["F = p × Δt", "F = Δp / Δt", "F = Δt / Δp", "F = p + Δt"],
+      "options": [
+        "F = p × Δt",
+        "F = Δp / Δt",
+        "F = Δt / Δp",
+        "F = p + Δt"
+      ],
       "correct": 1
     },
     {
@@ -365,30 +597,63 @@
       "id": 21,
       "type": "fill",
       "question": "Una fuerza de 30 N actúa durante 6 s. El impulso es _____.",
-      "options": ["5 N·s", "24 N·s", "36 N·s", "180 N·s"],
+      "options": [
+        "5 N·s",
+        "24 N·s",
+        "36 N·s",
+        "180 N·s"
+      ],
       "correct": 3
     },
     {
       "id": 22,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para hallar el cambio de velocidad a partir del impulso?",
-      "options": ["Δv = I × m", "Δv = I / m", "Δv = m / I", "Δv = I + m"],
+      "options": [
+        "Δv = I × m",
+        "Δv = I / m",
+        "Δv = m / I",
+        "Δv = I + m"
+      ],
       "correct": 1
     },
     {
       "id": 23,
       "type": "order",
       "question": "Ordena de menor a mayor cantidad de movimiento (misma velocidad):",
-      "items": ["m = 2 kg", "m = 5 kg", "m = 10 kg"],
-      "correct": [0, 1, 2]
+      "items": [
+        "m = 2 kg",
+        "m = 5 kg",
+        "m = 10 kg"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 24,
       "type": "match",
       "question": "Empareja cada fuerza con su impulso (t = 3 s):",
-      "left": ["10 N", "20 N", "30 N", "40 N"],
-      "right": ["30 N·s", "60 N·s", "90 N·s", "120 N·s"],
-      "correct": [0, 1, 2, 3]
+      "left": [
+        "10 N",
+        "20 N",
+        "30 N",
+        "40 N"
+      ],
+      "right": [
+        "30 N·s",
+        "60 N·s",
+        "90 N·s",
+        "120 N·s"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 25,
@@ -400,22 +665,40 @@
       "id": 26,
       "type": "fill",
       "question": "Un objeto de 8 kg se mueve a 7 m/s. Su cantidad de movimiento es _____.",
-      "options": ["15 kg·m/s", "56 kg·m/s", "448 kg·m/s", "87.5 kg·m/s"],
+      "options": [
+        "15 kg·m/s",
+        "56 kg·m/s",
+        "448 kg·m/s",
+        "87.5 kg·m/s"
+      ],
       "correct": 1
     },
     {
       "id": 27,
       "type": "correct",
       "question": "¿Cuál es la fórmula correcta para hallar la velocidad a partir de la cantidad de movimiento?",
-      "options": ["v = p × m", "v = p / m", "v = m / p", "v = p + m"],
+      "options": [
+        "v = p × m",
+        "v = p / m",
+        "v = m / p",
+        "v = p + m"
+      ],
       "correct": 1
     },
     {
       "id": 28,
       "type": "order",
       "question": "Ordena de menor a mayor cambio de velocidad (mismo impulso):",
-      "items": ["m = 10 kg", "m = 5 kg", "m = 2 kg"],
-      "correct": [0, 1, 2]
+      "items": [
+        "m = 10 kg",
+        "m = 5 kg",
+        "m = 2 kg"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": 29,
@@ -427,8 +710,18 @@
         "m = 3 kg, v = 8 m/s",
         "m = 4 kg, v = 6 m/s"
       ],
-      "right": ["20 kg·m/s", "20 kg·m/s", "24 kg·m/s", "24 kg·m/s"],
-      "correct": [0, 1, 2, 3]
+      "right": [
+        "20 kg·m/s",
+        "20 kg·m/s",
+        "24 kg·m/s",
+        "24 kg·m/s"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": 30,
