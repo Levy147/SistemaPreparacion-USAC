@@ -1,0 +1,1 @@
+﻿const fs=require('fs');const p='C:/Users/val/Desktop/proyectospersonales/SistemaPreparacion-USAC/js/data.js';let s=fs.readFileSync(p,'utf8');const i=s.indexOf('especifica');console.log(s.substr(i,220));
