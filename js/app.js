@@ -130,6 +130,8 @@ const App = (function() {
                 iconSvg = '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4l16 16M4 20L20 4"/><path d="M4 12h16"/></svg>';
             } else if (key === 'computacion') {
                 iconSvg = '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>';
+            } else if (key === 'reposicion') {
+                iconSvg = '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>';
             }
 
             card.innerHTML = `
@@ -556,6 +558,57 @@ const App = (function() {
             btn.addEventListener('click', () => selectOption(index));
             els.quizOptions.appendChild(btn);
         });
+    }
+
+
+    function renderInputQuestion(question) {
+        const wrap = document.createElement('div');
+        wrap.className = 'input-answer-wrap';
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.className = 'input-answer';
+        input.placeholder = 'Escriba la respuesta (número). Use punto decimal si aplica.';
+        input.id = 'reposicion-answer-input';
+        const btn = document.createElement('button');
+        btn.className = 'btn btn-primary btn-large';
+        btn.textContent = 'Verificar respuesta';
+        btn.style.marginTop = '12px';
+        btn.addEventListener('click', () => submitInputAnswer(question));
+        wrap.appendChild(input);
+        wrap.appendChild(btn);
+        els.quizOptions.appendChild(wrap);
+    }
+
+    function submitInputAnswer(question){
+        const q = state.quiz;
+        if(q.answered) return;
+        const input = document.getElementById('reposicion-answer-input');
+        if(!input) return;
+        const val = input.value.trim().replace(',', '.');
+        q.answered = true;
+        const num = parseFloat(val);
+        const correctNum = parseFloat(question.correct);
+        let isCorrect = false;
+        if(!isNaN(num) && !isNaN(correctNum)){
+            isCorrect = Math.abs(num - correctNum) <= 0.001;
+        } else {
+            isCorrect = val === String(question.correct);
+        }
+        if(isCorrect) q.correctCount++;
+        input.disabled = true;
+        const btns = els.quizOptions.querySelectorAll('button');
+        btns.forEach(b=>b.disabled=true);
+        let extraText = 'Respuesta correcta (a 3 decimales): ' + (typeof question.correct === 'number' ? question.correct.toFixed(3) : question.correct) + '.';
+        if(question.explanation){
+            extraText += '<br><br><strong>' + (question.explanation.title||'Procedimiento') + '</strong><br>';
+            if(question.explanation.theory) extraText += '<em>' + question.explanation.theory + '</em><br><br>';
+            if(Array.isArray(question.explanation.steps)){
+                question.explanation.steps.forEach((st,i)=>{ extraText += (i+1) + '. ' + st + '<br>'; });
+                extraText += '<br>';
+            }
+            if(question.explanation.final) extraText += '<strong>Respuesta final: ' + question.explanation.final + '</strong>';
+        }
+        showFeedback(isCorrect, extraText);
     }
 
     function renderTfQuestion(question) {

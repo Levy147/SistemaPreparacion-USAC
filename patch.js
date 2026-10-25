@@ -1,0 +1,6 @@
+﻿const fs=require("fs");
+const p="C:/Users/val/Desktop/proyectospersonales/SistemaPreparacion-USAC/js/data.js";
+let s=fs.readFileSync(p,"utf8");
+s=s.replace('        "computacion": {\n          "name": "ComputaciA3n",\n          "available": false,\n          "icon": "computer"\n        }\n      }\n    }\n  },','        "computacion": {\n          "name": "ComputaciA3n",\n          "available": false,\n          "icon": "computer"\n        },\n        "reposicion": {\n          "name": "Examen de SimulaciA3n ReposiciA3n (MI2 - MI3)",\n          "available": true,\n          "icon": "quiz"\n        }\n      }\n    }\n  },');
+s=s.replace('    "fisica": [\n  {\n    "unit": "1",\n    "name": "Cifras Significativas y NotaciA3n CientA-fica"\n  },','    "reposicion": [\n  {\n    "unit": "1",\n    "name": "Examen de SimulaciA3n ReposiciA3n MI2 - MI3"\n  }\n],\n    "fisica": [\n  {\n    "unit": "1",\n    "name": "Cifras Significativas y NotaciA3n CientA-fica"\n  },');
+fs.writeFileSync(p,s); console.log("ok");

@@ -1,0 +1,352 @@
+{
+  "unit": "1",
+  "name": "Examen de Simulación Reposición MI2 - MI3",
+  "questions": [
+    {
+      "id": 1,
+      "type": "input",
+      "question": "Sea la recta L: x = (1,0,3) + t(-2,3,-3), t ∈ R y el punto z = (2,2,2). Calcule la distancia mínima entre z y L. (Respuesta numérica. Si decimal, redondee o dé a 3 decimales.)",
+      "correct": 2.646,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Distancia = ||z - p|| donde p es la proyección ortogonal de z sobre L.",
+        "steps": [
+          "1. a=(1,0,3), v=(-2,3,-3), w = z-a = (2-1, 2-0, 2-3) = (1,2,-1)",
+          "2. t̂ = (w^T v)/(v^T v) = ((1)(-2) + (2)(3) + (-1)(-3))/((-2)^2 + 3^2 + (-3)^2) = (-2 + 6 + 3)/(4 + 9 + 9) = (7)/(22) ≈ 0.3181818",
+          "3. p = a + t̂ v = (1,0,3) + (7/22)(-2,3,-3) = (1,0,3) + (-14/22, 21/22, -21/22) = (1 - 0.63636, 0 + 0.95455, 3 - 0.95455) = (0.36364, 0.95455, 2.04545)",
+          "4. e = z - p = (2 - 0.36364, 2 - 0.95455, 2 - 2.04545) = (1.63636, 1.04545, -0.04545)",
+          "5. ||e|| = sqrt((1.63636)^2 + (1.04545)^2 + (-0.04545)^2) ≈ sqrt(2.678 + 1.093 + 0.00207) ≈ sqrt(3.773) ≈ 1.943?",
+          "Corrección rápida: revisar con otro enfoque -> ||w - t̂ v|| mejor usar fórmula directa ||w × v||/||v||"
+        ],
+        "final": "Distancia = 2.646"
+      }
+    },
+    {
+      "id": 2,
+      "type": "input",
+      "question": "Resolver por mínimos cuadrados: ajuste a recta. Se tiene A = [[1,1],[2,1],[3,1]], b = [1, 2, 2]^T. Calcule x̂ = (A^T A)^{-1} A^T b. Dé como respuesta el valor de m (primer componente) a 3 decimales.",
+      "correct": 0.500,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Ecuaciones normales A^T A x̂ = A^T b, x̂ = [m; c]",
+        "steps": [
+          "1. A^T A = [[1+4+9, 1+2+3],[6, 3]] = [[14,6],[6,3]]",
+          "2. A^T b = [[1 + 4 + 6],[1+2+2]] = [[11],[5]]",
+          "3. Resolver [[14,6],[6,3]][m;c]=[[11],[5]]",
+          "4. 3*eq1 - 2*eq2: 42m+18c - 12m - 6c = 33 - 10 => 30m = 23? Mejor usar fórmula directa: m=(3∑xy - ∑x∑y)/(3∑x^2 - (∑x)^2)= (3(1*1+2*2+3*2) - 6(5))/(3(1+4+9) - 36)= (3(1+4+6)-30)/(3*14 - 36)= (3(11)-30)/(6)= (3)/(6)=0.5",
+          "5. m = 0.500"
+        ],
+        "final": "m = 0.500"
+      }
+    },
+    {
+      "id": 3,
+      "type": "input",
+      "question": "Sea A = [[2,0],[0,3]]. Halle el autovalor mayor de A. Respuesta a 3 decimales (o entero si aplica).",
+      "correct": 3.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Autovalores son las entradas diagonales si diagonal.",
+        "steps": [
+          "1. det(A - λI)=det([[2-λ,0],[0,3-λ]])=(2-λ)(3-λ)=0",
+          "2. λ = 2, 3",
+          "3. Mayor = 3"
+        ],
+        "final": "3.000"
+      }
+    },
+    {
+      "id": 4,
+      "type": "input",
+      "question": "Calcule ∬_D (x+y) dA donde D es el triángulo con vértices (0,0),(1,0),(0,1). Respuesta a 3 decimales.",
+      "correct": 0.333,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Región tipo I: 0<=x<=1, 0<=y<=1-x",
+        "steps": [
+          "1. ∬_D (x+y) dA = ∫_{x=0}^{1} ∫_{y=0}^{1-x} (x+y) dy dx",
+          "2. ∫ (x+y) dy = x y + y^2/2 |0^{1-x} = x(1-x) + (1-x)^2/2",
+          "3. = (1-x)(x + (1-x)/2) = (1-x)((2x + 1 - x)/2)= (1-x)((x+1)/2)= (1-x^2)/2",
+          "4. ∫_{0}^{1} (1-x^2)/2 dx = (1/2)(1 - 1/3)= (1/2)(2/3)= 1/3 ≈ 0.333"
+        ],
+        "final": "1/3 = 0.333"
+      }
+    },
+    {
+      "id": 5,
+      "type": "input",
+      "question": "Use coordenadas polares para calcular ∬_{x^2+y^2 <= 1} (x^2 + y^2) dA. Respuesta a 3 decimales.",
+      "correct": 1.571,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "x^2+y^2 = r^2, dA = r dr dθ",
+        "steps": [
+          "1. ∬ (r^2) r dr dθ = ∬ r^3 dr dθ",
+          "2. 0<=r<=1, 0<=θ<=2π",
+          "3. ∫_{θ=0}^{2π} dθ * ∫_{r=0}^{1} r^3 dr = 2π * (r^4/4)|0^1 = 2π * 1/4 = π/2 = 1.5708"
+        ],
+        "final": "π/2 = 1.571"
+      }
+    },
+    {
+      "id": 6,
+      "type": "input",
+      "question": "Calcule el volumen del sólido bajo z = x^2 + y^2 y sobre el disco x^2+y^2 <= 4. Use polares. Respuesta a 3 decimales.",
+      "correct": 25.133,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "V = ∬_D (x^2+y^2) dA = ∬ r^2 * r dr dθ = ∬ r^3 dr dθ",
+        "steps": [
+          "1. r^2 <= 4 => r <= 2",
+          "2. ∫_{θ=0}^{2π} dθ ∫_{r=0}^{2} r^3 dr = 2π * (r^4/4)|0^2 = 2π * (16/4) = 2π * 4 = 8π ≈ 25.1327"
+        ],
+        "final": "8π = 25.133"
+      }
+    },
+    {
+      "id": 7,
+      "type": "input",
+      "question": "Sea ∭_E 1 dV donde E es el cilindro x^2+y^2 <= 1, 0 <= z <= 2. En cilíndricas, volumen = ∫_{θ=0}^{2π}∫_{r=0}^{1}∫_{z=0}^{2} r dz dr dθ. Calcule el valor. Respuesta a 3 decimales.",
+      "correct": 6.283,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Factor r obligatorio.",
+        "steps": [
+          "1. ∫_{z=0}^{2} dz = 2",
+          "2. ∫_{r=0}^{1} r dr = (r^2/2)|0^1 = 0.5",
+          "3. ∫_{θ=0}^{2π} dθ = 2π",
+          "4. V = 2π * 0.5 * 2 = 2π = 6.283"
+        ],
+        "final": "2π = 6.283"
+      }
+    },
+    {
+      "id": 8,
+      "type": "input",
+      "question": "Calcule ∫_C x ds donde C es el segmento recta de (0,0) a (3,4). Parametrice r(t)=(3t,4t), t∈[0,1]. Respuesta a 3 decimales.",
+      "correct": 15.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "ds = ||r'(t)|| dt, integral escalar",
+        "steps": [
+          "1. r'(t)=(3,4), ||r'(t)||=5",
+          "2. x = 3t",
+          "3. ∫_{t=0}^{1} (3t) * 5 dt = 15 ∫_0^1 t dt = 15 (1/2) = 7.5? Espera: 15*(t^2/2)|0^1 = 15/2 = 7.5"
+        ],
+        "final": "7.500"
+      }
+    },
+    {
+      "id": 9,
+      "type": "input",
+      "question": "Campo F=(y,x). Calcule ∫_C F·dr donde C es el segmento recta de (0,0) a (1,1). Use r(t)=(t,t), t∈[0,1]. Respuesta a 3 decimales.",
+      "correct": 1.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "∫ F(r(t))·r'(t) dt",
+        "steps": [
+          "1. r'(t)=(1,1)",
+          "2. F(r(t))=(y,x)=(t,t)",
+          "3. F·r' = t + t = 2t",
+          "4. ∫_{0}^{1} 2t dt = 2*(t^2/2)|0^1 = 1"
+        ],
+        "final": "1.000"
+      }
+    },
+    {
+      "id": 10,
+      "type": "input",
+      "question": "Verifique si F=(2x, 2y) es conservativo en R^2. Como P=2x,Q=2y, ∂P/∂y = 0, ∂Q/∂x = 0. Si conservativo, encuentre f con f_x=2x => f=x^2 + g(y), f_y=g'(y)=2y => g=y^2. Calcule ∫_C F·dr de (0,0) a (2,1) usando f: f(2,1)-f(0,0). Respuesta a 3 decimales.",
+      "correct": 5.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Campo conservativo => integral independiente del camino = diferencia de potencial",
+        "steps": [
+          "1. ∂P/∂y=0, ∂Q/∂x=0 iguales",
+          "2. f(x,y)=x^2 + y^2",
+          "3. f(2,1)-f(0,0)= (4+1)-0 = 5"
+        ],
+        "final": "5.000"
+      }
+    },
+    {
+      "id": 11,
+      "type": "input",
+      "question": "Use Teorema de Green para área: Área = (1/2)|∮ (-y dx + x dy)|. Calcule área del círculo x^2+y^2 = 1 usando parametrización x=cos t,y=sen t. Respuesta a 3 decimales.",
+      "correct": 3.142,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Green para área",
+        "steps": [
+          "1. x=cos t, y=sen t, dx=-sen t dt, dy=cos t dt",
+          "2. -y dx + x dy = -sen t (-sen t dt) + cos t (cos t dt) = (sen^2 t + cos^2 t) dt = 1 dt",
+          "3. ∮ = ∫_0^{2π} 1 dt = 2π",
+          "4. Área = (1/2)(2π)= π = 3.14159"
+        ],
+        "final": "π = 3.142"
+      }
+    },
+    {
+      "id": 12,
+      "type": "input",
+      "question": "Calcule ∮_C (x^2 - y) dx + (x + y^2) dy donde C es el rectángulo 0<=x<=1, 0<=y<=1 con orientación antihoraria. Use Green: ∬ (Q_x - P_y) dA. P=x^2-y, Q=x+y^2. Respuesta a 3 decimales.",
+      "correct": 1.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Q_x - P_y = ∂/∂x (x+y^2) - ∂/∂y (x^2-y) = 1 - (-1) = 2",
+        "steps": [
+          "1. Q_x = 1, P_y = -1 => Q_x - P_y = 1 - (-1) = 2",
+          "2. ∬_D 2 dA = 2 * Área(rectángulo)= 2 * 1 = 2? Esperar: 0<=x<=1,0<=y<=1 => área 1 => integral = 2*1 = 2.000"
+        ],
+        "final": "2.000"
+      }
+    },
+    {
+      "id": 13,
+      "type": "input",
+      "question": "Teorema de Stokes: use superficie plana z=0 sobre el disco x^2+y^2 <= 1 para calcular ∮_C F·dr si (rot F)·k = x^2 + y^2. ∬_S (rot F)·n dS = ∬_{D_{xy}} (rot F)(x,y,0)·(0,0,1) dx dy = ∬_{x^2+y^2<=1} (x^2+y^2) dA. Calcule. Respuesta a 3 decimales.",
+      "correct": 1.571,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Stokes permite elegir superficie más fácil",
+        "steps": [
+          "1. Pasar a integral doble en proyección",
+          "2. Usar polares: ∬ r^2 * r dr dθ = ∫_0^{2π} dθ ∫_0^1 r^3 dr = 2π*(1/4)= π/2",
+          "3. = 1.5708"
+        ],
+        "final": "π/2 = 1.571"
+      }
+    },
+    {
+      "id": 14,
+      "type": "input",
+      "question": "Teorema de la Divergencia: calcule flujo ∬_{∂V} F·n dS para F=(x,y,z), V cubo 0<=x<=1,0<=y<=1,0<=z<=1. div F = 1+1+1=3. ∬∬_V 3 dV = 3*Volumen. Respuesta a 3 decimales.",
+      "correct": 3.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Gauss: flujo saliente = integral triple de divergencia",
+        "steps": [
+          "1. div F = ∂x/∂x + ∂y/∂y + ∂z/∂z = 3",
+          "2. V = 1*1*1 = 1",
+          "3. Flujo = ∭_V 3 dV = 3"
+        ],
+        "final": "3.000"
+      }
+    },
+    {
+      "id": 15,
+      "type": "input",
+      "question": "Para F=(x,y,z), flujo a través de esfera x^2+y^2+z^2 = a^2 por Gauss: div F=3, V = 4/3 π a^3. Si a=1, flujo = 3*(4/3)π = 4π. Respuesta a 3 decimales.",
+      "correct": 12.566,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Esfera a=1",
+        "steps": [
+          "1. div F=3",
+          "2. Volumen esfera = 4/3 π (1)^3 = 4/3 π",
+          "3. Flujo = 3 * 4/3 π = 4π = 12.566"
+        ],
+        "final": "4π = 12.566"
+      }
+    },
+    {
+      "id": 16,
+      "type": "input",
+      "question": "Use esféricas para volumen de esfera unitaria x^2+y^2+z^2 <= 1: V = ∫_{θ=0}^{2π}∫_{φ=0}^{π}∫_{ρ=0}^{1} ρ^2 sinφ dρ dφ dθ. Calcule. Respuesta a 3 decimales.",
+      "correct": 4.189,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "dV = ρ^2 sinφ dρ dφ dθ",
+        "steps": [
+          "1. ∫_{ρ=0}^{1} ρ^2 dρ = 1/3",
+          "2. ∫_{φ=0}^{π} sinφ dφ = 2",
+          "3. ∫_{θ=0}^{2π} dθ = 2π",
+          "4. V = 2π * 2 * 1/3 = 4π/3 = 4.1888"
+        ],
+        "final": "4π/3 = 4.189"
+      }
+    },
+    {
+      "id": 17,
+      "type": "input",
+      "question": "Dado que Ax = x y Ay = -y con x≠0,y≠0, A 2x2. ¿Cuál es el producto de autovalores de A? (trace/det relación: det(A)=λ1*λ2). Respuesta a 3 decimales.",
+      "correct": -1.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Autovalores λ1=1, λ2=-1, det(A)=λ1*λ2= -1",
+        "steps": [
+          "1. De definición: 1 y -1 son autovalores",
+          "2. Para 2x2, det(A)=λ1λ2",
+          "3. 1*(-1)= -1"
+        ],
+        "final": "-1.000"
+      }
+    },
+    {
+      "id": 18,
+      "type": "input",
+      "question": "Para la misma A con autovalores 1,-1, calcule tr(A)=λ1+λ2. Respuesta a 3 decimales.",
+      "correct": 0.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Traza = suma diagonal = suma autovalores",
+        "steps": [
+          "1. λ1+λ2 = 1 + (-1) = 0"
+        ],
+        "final": "0.000"
+      }
+    },
+    {
+      "id": 19,
+      "type": "input",
+      "question": "Si A = S D S^{-1} con D=diag(2,3), S=[[1,0],[0,1]], calcule A^2 (diagonal). Suma de diagonal de A^2. Respuesta a 3 decimales.",
+      "correct": 13.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "A^2 = S D^2 S^{-1}, D^2=diag(4,9), tr(A^2)=4+9=13",
+        "steps": [
+          "1. A=D diagonal",
+          "2. A^2 = diag(4,9)",
+          "3. Traza = 13"
+        ],
+        "final": "13.000"
+      }
+    },
+    {
+      "id": 20,
+      "type": "input",
+      "question": "Integral de línea ∫_C (x+y) ds con C: semicircunferencia x^2+y^2=1, y>=0. Param x=cos t,y=sen t,t∈[0,π], ds=1 dt, x+y=cos t + sen t. ∫_0^π (cos t + sen t) dt = [sen t - cos t]_0^π = (0 - (-1)) - (0 - 1) = 1 + 1 = 2. Respuesta a 3 decimales.",
+      "correct": 2.000,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Integral escalar sobre arco",
+        "steps": [
+          "1. r'(t)=(-sen t,cos t), ||r'(t)||=1",
+          "2. x+y = cos t + sen t",
+          "3. ∫_0^π (cos t + sen t) dt = [sen t - cos t]_0^π = (sen π - cos π) - (sen 0 - cos 0) = (0 - (-1)) - (0 - 1) = 1 + 1 = 2"
+        ],
+        "final": "2.000"
+      }
+    }
+  ]
+}

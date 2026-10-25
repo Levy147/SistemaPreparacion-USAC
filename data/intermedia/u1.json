@@ -1,0 +1,225 @@
+{
+  "unit": "1",
+  "name": "MI2 - Rectas, Planos y Proyecciones Ortogonales",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Dado el punto a = (1,0,3) y b = (-1,3,0), la ecuación vectorial de la recta que pasa por a y b es:",
+      "options": [
+        "x = (1,0,3) + t(-2,3,-3), t ∈ R",
+        "x = (-1,3,0) + t(2,-3,3), t ∈ R",
+        "x = (1,0,3) + t(1,3,3), t ∈ R",
+        "x = (-2,3,-3) + t(1,0,3), t ∈ R"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "Vector director v = b - a = (-1-1, 3-0, 0-3) = (-2, 3, -3). Tomando punto base a = (1,0,3): x = a + t v.",
+        "steps": [
+          "1. v = b - a = (-1-1, 3-0, 0-3) = (-2, 3, -3)",
+          "2. Ecuación vectorial: (x,y,z) = (1,0,3) + t(-2,3,-3), t ∈ ℝ"
+        ],
+        "answer": "A) x = (1,0,3) + t(-2,3,-3), t ∈ R"
+      }
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "La proyección ortogonal de un vector z sobre la recta L: x = a + t v (v ≠ 0) es p = a + t̂ v donde:",
+      "options": [
+        "t̂ = (v^T (z-a)) / (v^T v)",
+        "t̂ = ((z-a)^T v) / ||v||",
+        "t̂ = v^T z",
+        "t̂ = (z^T z)/(v^T a)"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "Buscamos p-a = t v paralelo a v tal que (z-p) ⊥ v. (z-a - t v)^T v = 0 => t (v^T v)= (z-a)^T v.",
+        "steps": [
+          "1. Sea p-a = t v ⊥ (z-p) => (z - a - t v)^T v = 0",
+          "2. Despejar t: t (v^T v) = (z-a)^T v",
+          "3. t̂ = ((z-a)^T v)/(v^T v)"
+        ],
+        "answer": "A) t̂ = (v^T (z-a)) / (v^T v)"
+      }
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "Si p es la proyección ortogonal de z sobre la recta L = span{v}, el vector e = z - p cumple:",
+      "options": [
+        "e ∈ L^⊥ (perpendicular a todo vector de L)",
+        "e ∈ L",
+        "e es paralelo a v",
+        "e = p"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "Por construcción, el vector error es ortogonal al subespacio sobre el cual proyectamos.",
+        "steps": [
+          "1. p ∈ L",
+          "2. e = z - p ⊥ L",
+          "3. ∴ e ∈ L^⊥"
+        ],
+        "answer": "A) e ∈ L^⊥ (perpendicular a todo vector de L)"
+      }
+    },
+    {
+      "id": 4,
+      "type": "mc",
+      "question": "Para hallar el punto de una recta x = a + t v más cercano a z, se minimiza ||z - (a + t v)||. La solución es:",
+      "options": [
+        "Proyección ortogonal de (z-a) sobre v",
+        "Cualquier punto de la recta",
+        "El vector v normalizado",
+        "La intersección con el origen"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "Equivalentemente proyectar el vector w = z-a sobre span{v}.",
+        "steps": [
+          "1. f(t)=|| (z-a) - t v ||^2",
+          "2. Derivar/ortogonalizar: ((z-a)-t̂ v)^T v = 0",
+          "3. p = a + t̂ v con t̂ = ((z-a)^T v)/(v^T v)"
+        ],
+        "answer": "A) Proyección ortogonal de (z-a) sobre v"
+      }
+    },
+    {
+      "id": 5,
+      "type": "mc",
+      "question": "La distancia mínima entre un punto z y la recta x = a + t v es:",
+      "options": [
+        "||z - p|| donde p es la proyección de z sobre la recta",
+        "||v||",
+        "||a||",
+        "t̂"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "La distancia es la norma del vector perpendicular entre z y el punto p de la recta más cercano.",
+        "steps": [
+          "1. Hallar p = proyección ortogonal de z sobre la recta",
+          "2. e = z - p",
+          "3. d = ||e|| = sqrt(e^T e)"
+        ],
+        "answer": "A) ||z - p|| donde p es la proyección de z sobre la recta"
+      }
+    },
+    {
+      "id": 6,
+      "type": "mc",
+      "question": "Una recta que pasa por el origen L = span{v} SIEMPRE es un subespacio vectorial porque:",
+      "options": [
+        "Contiene al vector cero, es cerrada bajo suma y bajo multiplicación por escalar",
+        "Solo contiene vectores con norma 1",
+        "Siempre es perpendicular a algún plano",
+        "Tiene exactamente un vector"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "Todo subespacio debe cumplir: 0 ∈ S, si u,w ∈ S => u+w ∈ S, si u ∈ S, α∈R => αu ∈ S.",
+        "steps": [
+          "1. 0 = 0·v ∈ L",
+          "2. (α v) + (β v) = (α+β)v ∈ L",
+          "3. α (β v) = (αβ)v ∈ L"
+        ],
+        "answer": "A) Contiene al vector cero, es cerrada bajo suma y bajo multiplicación por escalar"
+      }
+    },
+    {
+      "id": 7,
+      "type": "mc",
+      "question": "Una recta que NO pasa por el origen (x = a + t v, a ≠ 0) NO es un subespacio porque:",
+      "options": [
+        "No contiene al vector cero (en general)",
+        "Siempre tiene dimensión 2",
+        "Sus vectores no se pueden sumar",
+        "Es un plano"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "Condición necesaria: todo subespacio contiene al vector cero.",
+        "steps": [
+          "1. ¿Existe t con a + t v = 0?",
+          "2. Si a no es múltiplo escalar de v, no hay solución",
+          "3. Por tanto no es subespacio"
+        ],
+        "answer": "A) No contiene al vector cero (en general)"
+      }
+    },
+    {
+      "id": 8,
+      "type": "mc",
+      "question": "Para pasar de ecuaciones paramétricas de una recta en R^3 a ecuaciones cartesianas (implícitas), el método general es:",
+      "options": [
+        "Eliminar el parámetro t igualando las tres componentes y obteniendo relaciones lineales independientes",
+        "Sumar todas las componentes",
+        "Calcular el determinante",
+        "Hacer cambio a coordenadas polares"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "Igualamos x-x0 = t v1, etc. Despejamos t (si v_i != 0) e igualamos para obtener dos ecuaciones lineales con 3 incógnitas.",
+        "steps": [
+          "1. x = x0 + t v1, y = y0 + t v2, z = z0 + t v3",
+          "2. Eliminar t: (x-x0)/v1 = (y-y0)/v2 = (z-z0)/v3",
+          "3. Tomar dos igualdades independientes"
+        ],
+        "answer": "A) Eliminar el parámetro t igualando las tres componentes y obteniendo relaciones lineales independientes"
+      }
+    },
+    {
+      "id": 9,
+      "type": "mc",
+      "question": "El vector normal a un plano se obtiene como:",
+      "options": [
+        "Producto cruz de dos vectores directores linealmente independientes del plano",
+        "Suma de dos puntos",
+        "Producto punto de dos vectores",
+        "Promedio de los vectores directores"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "n = v1 × v2 es perpendicular a todo vector del plano.",
+        "steps": [
+          "1. Tomar punto P0 en el plano y vectores v1,v2 LI en el plano",
+          "2. n = v1 × v2",
+          "3. Ecuación: n · ((x,y,z)-P0)=0"
+        ],
+        "answer": "A) Producto cruz de dos vectores directores linealmente independientes del plano"
+      }
+    },
+    {
+      "id": 10,
+      "type": "mc",
+      "question": "Dado plano con ecuación n1(x-x0)+n2(y-y0)+n3(z-z0)=0, el vector (n1,n2,n3) es:",
+      "options": [
+        "Normal al plano",
+        "Tangente al plano",
+        "Director de una recta en el plano",
+        "Paralelo al plano"
+      ],
+      "correct": 0,
+      "explanation": {
+        "title": "Explicación",
+        "theory": "Por definición, el vector normal es perpendicular a cualquier vector contenido en el plano.",
+        "steps": [
+          "1. Sea X-P0 vector en el plano => (X-P0) ∈ plano",
+          "2. n · (X-P0)=0 => n ⊥ plano",
+          "3. n=(n1,n2,n3)"
+        ],
+        "answer": "A) Normal al plano"
+      }
+    }
+  ]
+}
