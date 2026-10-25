@@ -1,0 +1,176 @@
+{
+  "unit": "1",
+  "name": "MI2 - Rectas, Planos y Proyecciones Ortogonales",
+  "questions": [
+    {
+      "id": 1,
+      "type": "input",
+      "question": "Dado a=(1,0,3), b=(-1,3,0), calcule ||b-a||. Respuesta a 3 decimales.",
+      "correct": 4.359,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "4.359"
+      }
+    },
+    {
+      "id": 2,
+      "type": "input",
+      "question": "Vector director v=b-a para a=(1,0,3), b=(-1,3,0). Calcule v1+v2+v3. Respuesta a 3 decimales.",
+      "correct": -2.0,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "-2.000"
+      }
+    },
+    {
+      "id": 3,
+      "type": "input",
+      "question": "Sea recta L: x=(1,0,3)+t(-2,3,-3), z=(2,2,2). Calcule t̂=(w^T v)/(v^T v) con w=z-a. Respuesta a 3 decimales.",
+      "correct": 0.318,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "0.318"
+      }
+    },
+    {
+      "id": 4,
+      "type": "input",
+      "question": "Con t̂ anterior calcule la componente x de p = a + t̂ v. Respuesta a 3 decimales.",
+      "correct": 0.364,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "0.364"
+      }
+    },
+    {
+      "id": 5,
+      "type": "input",
+      "question": "Calcule ||z-p|| para el mismo ejercicio. Respuesta a 3 decimales.",
+      "correct": 1.944,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "1.944"
+      }
+    },
+    {
+      "id": 6,
+      "type": "input",
+      "question": "Distancia entre (1,1,1) y el plano x+y+z=3. Respuesta a 3 decimales.",
+      "correct": 0.0,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "0.000"
+      }
+    },
+    {
+      "id": 7,
+      "type": "input",
+      "question": "Distancia entre (0,0,0) y el plano x+y+z=1. Respuesta a 3 decimales.",
+      "correct": 0.577,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "0.577"
+      }
+    },
+    {
+      "id": 8,
+      "type": "input",
+      "question": "Sea recta por origen con v=(1,2,2), z=(3,0,0). t̂=(z^T v)/(v^T v). Respuesta a 3 decimales.",
+      "correct": 0.333,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "0.333"
+      }
+    },
+    {
+      "id": 9,
+      "type": "input",
+      "question": "Con v=(1,2,2), ||v||. Respuesta a 3 decimales.",
+      "correct": 3.0,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "3.000"
+      }
+    },
+    {
+      "id": 10,
+      "type": "input",
+      "question": "Proyección escalar de z=(3,0,0) sobre v=(1,2,2). Respuesta a 3 decimales.",
+      "correct": 1.0,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "Rectas, planos y proyecciones ortogonales",
+        "steps": [
+          "1) Identificar datos",
+          "2) Aplicar fórmula correspondiente",
+          "3) Calcular y redondear a 3 decimales"
+        ],
+        "final": "1.000"
+      }
+    }
+  ]
+}

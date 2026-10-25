@@ -1,0 +1,12 @@
+[
+  {"unit": "1", "name": "MI2 - Rectas, Planos y Proyecciones Ortogonales"},
+  {"unit": "2", "name": "MI2 - Cuatro Subespacios Fundamentales"},
+  {"unit": "3", "name": "MI2 - Complementos Ortogonales y Bases"},
+  {"unit": "4", "name": "MI2 - Mínimos Cuadrados y Ajuste"},
+  {"unit": "5", "name": "MI2 - Ortogonalidad, Gram-Schmidt, Q y Proyecciones"},
+  {"unit": "6", "name": "MI2 - Determinantes"},
+  {"unit": "7", "name": "MI2 - Autovalores y Autovectores"},
+  {"unit": "8", "name": "MI2 - Diagonalización A = S D S^{-1}"},
+  {"unit": "9", "name": "MI2 - Matrices Simétricas y A = Q D Q^T"},
+  {"unit": "10", "name": "MI2 - Repaso Mixto Estilo Reposición"}
+]

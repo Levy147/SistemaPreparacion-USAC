@@ -1,0 +1,176 @@
+{
+  "unit": "1",
+  "name": "MI3 - Integrales Dobles y Cambio de Orden",
+  "questions": [
+    {
+      "id": 1,
+      "type": "input",
+      "question": "∬_{D} 1 dA donde D es el cuadrado 0<=x<=1,0<=y<=1. Respuesta a 3 decimales.",
+      "correct": 1.0,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "1.000"
+      }
+    },
+    {
+      "id": 2,
+      "type": "input",
+      "question": "∬_{x^2+y^2<=1} 1 dA (área círculo unitario). Respuesta a 3 decimales.",
+      "correct": 3.142,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "3.142"
+      }
+    },
+    {
+      "id": 3,
+      "type": "input",
+      "question": "∬_{x^2+y^2<=4} r dr dθ con límites 0<=r<=2,0<=θ<=2π da: ∫_0^{2π}dθ ∫_0^2 r dr. Calcule. Respuesta a 3 decimales.",
+      "correct": 12.566,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "12.566"
+      }
+    },
+    {
+      "id": 4,
+      "type": "input",
+      "question": "V bajo z=x^2+y^2 sobre x^2+y^2<=1: ∬ (x^2+y^2)dA = ∫_0^{2π}dθ ∫_0^1 r^3 dr. Respuesta a 3 decimales.",
+      "correct": 1.571,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "1.571"
+      }
+    },
+    {
+      "id": 5,
+      "type": "input",
+      "question": "∭_{cilindro x^2+y^2<=1,0<=z<=1} 1 dV en cilíndricas con factor r: ∫_0^{2π}dθ ∫_0^1 r dr ∫_0^1 dz. Respuesta a 3 decimales.",
+      "correct": 3.142,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "3.142"
+      }
+    },
+    {
+      "id": 6,
+      "type": "input",
+      "question": "Volumen esfera unitaria por esféricas: 4π/3. Respuesta a 3 decimales.",
+      "correct": 4.189,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "4.189"
+      }
+    },
+    {
+      "id": 7,
+      "type": "input",
+      "question": "∫_C ds con C semicircunferencia unitaria y>=0, longitud π. Respuesta a 3 decimales.",
+      "correct": 3.142,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "3.142"
+      }
+    },
+    {
+      "id": 8,
+      "type": "input",
+      "question": "Para F=(y,x), ∮_C F·dr sobre círculo unitario antihorario. Use Green Q_x-P_y=1-1=0. Respuesta a 3 decimales.",
+      "correct": 0.0,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "0.000"
+      }
+    },
+    {
+      "id": 9,
+      "type": "input",
+      "question": "Área círculo unitario por Green: (1/2)∮(-y dx+x dy)=π. Respuesta a 3 decimales.",
+      "correct": 3.142,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "3.142"
+      }
+    },
+    {
+      "id": 10,
+      "type": "input",
+      "question": "Flujo F=(x,y,z) a través de esfera unitaria por Gauss: 4π. Respuesta a 3 decimales.",
+      "correct": 12.566,
+      "answerType": "decimal",
+      "explanation": {
+        "title": "Procedimiento detallado",
+        "theory": "MI3 repaso clave",
+        "steps": [
+          "1) Identificar coordenadas/teorema",
+          "2) Aplicar fórmula",
+          "3) Integrar/cálculo directo"
+        ],
+        "final": "12.566"
+      }
+    }
+  ]
+}
