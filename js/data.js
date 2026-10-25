@@ -40,6 +40,30 @@ const LENGUAJE_DATA = {
     }
   },
   units: {
+"mi2_reposicion": [
+  {"unit": "1", "name": "MI2 - Rectas, Planos y Proyecciones Ortogonales"},
+  {"unit": "2", "name": "MI2 - Cuatro Subespacios Fundamentales"},
+  {"unit": "3", "name": "MI2 - Complementos Ortogonales y Bases"},
+  {"unit": "4", "name": "MI2 - Mínimos Cuadrados y Ajuste"},
+  {"unit": "5", "name": "MI2 - Ortogonalidad, Gram-Schmidt, Q y Proyecciones"},
+  {"unit": "6", "name": "MI2 - Determinantes"},
+  {"unit": "7", "name": "MI2 - Autovalores y Autovectores"},
+  {"unit": "8", "name": "MI2 - Diagonalización A = S D S^{-1}"},
+  {"unit": "9", "name": "MI2 - Matrices Simétricas y A = Q D Q^T"},
+  {"unit": "10", "name": "MI2 - Repaso Mixto Estilo Reposición"}
+],
+"mi3_reposicion": [
+  {"unit": "1", "name": "MI3 - Integrales Dobles y Cambio de Orden"},
+  {"unit": "2", "name": "MI3 - Integrales Dobles en Coordenadas Polares"},
+  {"unit": "3", "name": "MI3 - Integrales Triples"},
+  {"unit": "4", "name": "MI3 - Integrales Triples en Coordenadas Cilíndricas"},
+  {"unit": "5", "name": "MI3 - Integrales Triples en Coordenadas Esféricas"},
+  {"unit": "6", "name": "MI3 - Integrales de Línea Escalares y Vectoriales"},
+  {"unit": "7", "name": "MI3 - Campos Conservativos, Potencial e Independencia de Camino"},
+  {"unit": "8", "name": "MI3 - Teorema de Green y Cálculo de Área"},
+  {"unit": "9", "name": "MI3 - Teorema de Stokes"},
+  {"unit": "10", "name": "MI3 - Teorema de la Divergencia (Gauss) y Repaso Mixto"}
+],
     "lenguaje": [
   {
     "unit": "1",
